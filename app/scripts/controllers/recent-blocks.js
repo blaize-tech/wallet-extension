@@ -5,12 +5,9 @@ const log = require('loglevel')
 const pify = require('pify')
 const {
   TESTNET,
-  RINKEBY,
-  KOVAN,
   MAINNET,
-  GOERLI,
 } = require('./network/enums')
-const INFURA_PROVIDER_TYPES = [TESTNET, RINKEBY, KOVAN, MAINNET, GOERLI]
+const INFURA_PROVIDER_TYPES = [TESTNET, MAINNET]
 
 
 class RecentBlocksController {

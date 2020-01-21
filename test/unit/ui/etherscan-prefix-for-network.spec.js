@@ -15,16 +15,4 @@ describe('Etherscan Network Prefix', () => {
     assert.equal(etherscanNetworkPrefix(3), 'testnet.')
   })
 
-  it('returns rinkeby as prefix for networkId of 4', () => {
-    assert.equal(etherscanNetworkPrefix(4), 'rinkeby.')
-  })
-
-  it('returs kovan as prefix for networkId of 42', () => {
-    assert.equal(etherscanNetworkPrefix(42), 'kovan.')
-  })
-
-  it('returs goerli as prefix for networkId of 5', () => {
-    assert.equal(etherscanNetworkPrefix(5), 'goerli.')
-  })
-
 })

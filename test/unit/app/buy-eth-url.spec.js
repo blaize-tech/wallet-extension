@@ -10,12 +10,6 @@ describe('buy-eth-url', function () {
   const testnet = {
     network: '3',
   }
-  const rinkeby = {
-    network: '4',
-  }
-  const kovan = {
-    network: '42',
-  }
 
   it('returns coinbase url with amount and address for network 1', function () {
     const wyreUrl = getBuyEthUrl(mainnet)
@@ -27,16 +21,6 @@ describe('buy-eth-url', function () {
   it('returns metamask testnet faucet for network 3', function () {
     const testnetUrl = getBuyEthUrl(testnet)
     assert.equal(testnetUrl, 'https://faucet.metamask.io/')
-  })
-
-  it('returns rinkeby dapp for network 4', function () {
-    const rinkebyUrl = getBuyEthUrl(rinkeby)
-    assert.equal(rinkebyUrl, 'https://www.rinkeby.io/')
-  })
-
-  it('returns kovan github test faucet for network 42', function () {
-    const kovanUrl = getBuyEthUrl(kovan)
-    assert.equal(kovanUrl, 'https://github.com/kovan-testnet/faucet')
   })
 
 })

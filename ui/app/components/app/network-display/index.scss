@@ -18,18 +18,6 @@
     &--testnet {
       background-color: lighten($crimson, 45%);
     }
-
-    &--kovan {
-      background-color: lighten($purple, 65%);
-    }
-
-    &--rinkeby {
-      background-color: lighten($tulip-tree, 35%);
-    }
-
-    &--goerli {
-      background-color: lighten($dodger-blue, 35%);
-    }
   }
 
   &__name {
@@ -48,18 +36,6 @@
 
     &--testnet {
       background-color: $crimson;
-    }
-
-    &--kovan {
-      background-color: $purple;
-    }
-
-    &--rinkeby {
-      background-color: $tulip-tree;
-    }
-
-    &--goerli {
-      background-color: $dodger-blue;
     }
   }
 }

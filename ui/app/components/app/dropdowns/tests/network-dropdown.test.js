@@ -69,32 +69,8 @@ describe('Network Dropdown', () => {
       assert.equal(wrapper.find(NetworkDropdownIcon).at(0).prop('backgroundColor'), '#29B6AF') // Main Ethereum Network Teal
     })
 
-    it('checks background color for second NetworkDropdownIcon', () => {
-      assert.equal(wrapper.find(NetworkDropdownIcon).at(1).prop('backgroundColor'), '#ff4a8d') // Testnet Red
-    })
-
-    it('checks background color for third NetworkDropdownIcon', () => {
-      assert.equal(wrapper.find(NetworkDropdownIcon).at(2).prop('backgroundColor'), '#7057ff') // Kovan Purple
-    })
-
     it('checks background color for fourth NetworkDropdownIcon', () => {
       assert.equal(wrapper.find(NetworkDropdownIcon).at(3).prop('backgroundColor'), '#f6c343') // Rinkeby Yellow
-    })
-
-    it('checks background color for fifth NetworkDropdownIcon', () => {
-      assert.equal(wrapper.find(NetworkDropdownIcon).at(4).prop('backgroundColor'), '#3099f2') // Goerli Blue
-    })
-
-    it('checks background color for sixth NetworkDropdownIcon', () => {
-      assert.equal(wrapper.find(NetworkDropdownIcon).at(5).prop('innerBorder'), '1px solid #9b9b9b')
-    })
-
-    it('checks dropdown for frequestRPCList from  state ', () => {
-      assert.equal(wrapper.find(DropdownMenuItem).at(6).text(), '✓http://localhost:7545')
-    })
-
-    it('checks background color for seventh NetworkDropdownIcon', () => {
-      assert.equal(wrapper.find(NetworkDropdownIcon).at(6).prop('innerBorder'), '1px solid #9b9b9b')
     })
 
   })

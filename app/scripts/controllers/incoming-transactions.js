@@ -7,20 +7,11 @@ import fetchWithTimeout from '../lib/fetch-with-timeout'
 const {
   MAINNET_CODE,
   TESTNET_CODE,
-  RINKEBY_CODE,
-  KOVAN_CODE,
-  GOERLI_CODE,
   TESTNET,
-  RINKEBY,
-  KOVAN,
-  GOERLI,
   MAINNET,
 } = require('./network/enums')
 const networkTypeToIdMap = {
   [TESTNET]: String(TESTNET_CODE),
-  [RINKEBY]: String(RINKEBY_CODE),
-  [KOVAN]: String(KOVAN_CODE),
-  [GOERLI]: String(GOERLI_CODE),
   [MAINNET]: String(MAINNET_CODE),
 }
 const fetch = fetchWithTimeout({
@@ -53,9 +44,6 @@ class IncomingTransactionsController {
       incomingTransactions: {},
       incomingTxLastFetchedBlocksByNetwork: {
         [TESTNET]: null,
-        [RINKEBY]: null,
-        [KOVAN]: null,
-        [GOERLI]: null,
         [MAINNET]: null,
       },
     }, opts.initState)
@@ -182,7 +170,7 @@ class IncomingTransactionsController {
   async _fetchTxs (address, fromBlock, networkType) {
     let etherscanSubdomain = 'api'
     const currentNetworkID = networkTypeToIdMap[networkType]
-    const supportedNetworkTypes = [TESTNET, RINKEBY, KOVAN, GOERLI, MAINNET]
+    const supportedNetworkTypes = [TESTNET, MAINNET]
 
     if (supportedNetworkTypes.indexOf(networkType) === -1) {
       return {}

@@ -17,12 +17,10 @@ const networks = { networkList: {} }
 const {
   TESTNET,
   RINKEBY,
-  KOVAN,
   MAINNET,
   LOCALHOST,
-  GOERLI,
 } = require('./enums')
-const INFURA_PROVIDER_TYPES = [TESTNET, RINKEBY, KOVAN, MAINNET, GOERLI]
+const INFURA_PROVIDER_TYPES = [TESTNET, MAINNET]
 
 const env = process.env.METAMASK_ENV
 const METAMASK_DEBUG = process.env.METAMASK_DEBUG
