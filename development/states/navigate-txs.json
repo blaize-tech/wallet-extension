@@ -226,11 +226,8 @@
     "conversionDate": 1538859376,
     "shapeShiftTxList": [],
     "infuraNetworkStatus": {
-      "kovan": "ok",
       "mainnet": "ok",
-      "rinkeby": "ok",
-      "testnet": "ok",
-      "goerli": "ok"
+      "testnet": "ok"
     }
   },
   "appState": {

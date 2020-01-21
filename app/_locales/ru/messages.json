@@ -95,8 +95,8 @@
   "connectingToMainnet": {
     "message": "Соединение с основной сетью Ethereum"
   },
-  "connectingToRopsten": {
-    "message": "Соединение с тестовой сетью Ropsten"
+  "connectingToTestnet": {
+    "message": "Соединение с тестовой сетью Testnet"
   },
   "connectingToRinkeby": {
     "message": "Соединение с тестовой сетью Rinkeby"
@@ -430,7 +430,7 @@
     "message": "Тестовая сеть Rinkeby"
   },
   "testnet": {
-    "message": "Тестовая сеть Ropsten"
+    "message": "Тестовая сеть Testnet"
   },
   "save": {
     "message": "Сохранить"

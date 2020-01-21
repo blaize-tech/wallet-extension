@@ -261,8 +261,8 @@
   "connectingToMainnet": {
     "message": "Łączenie z główną siecią Ethereum"
   },
-  "connectingToRopsten": {
-    "message": "Łączenie z siecią testową Ropsten"
+  "connectingToTestnet": {
+    "message": "Łączenie z siecią testową Testnet"
   },
   "connectingToRinkeby": {
     "message": "Łączenie z siecią testową Rinkeby"
@@ -989,7 +989,7 @@
     "message": "Sieć testowa Rinkeby"
   },
   "testnet": {
-    "message": "Sieć testowa Ropsten"
+    "message": "Sieć testowa Testnet"
   },
   "goerli": {
     "message": "Sieć testowa Goerli"

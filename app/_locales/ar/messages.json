@@ -265,7 +265,7 @@
     "message": "جارِ الاتصال بشبكة إيثيريوم الرئيسية"
   },
   "connectingToTestnet": {
-    "message": "جارِ الاتصال بشبكة اختبار Ropsten "
+    "message": "جارِ الاتصال بشبكة اختبار Testnet "
   },
   "connectingToRinkeby": {
     "message": "جارِ الاتصال بشبكة اختبار Rinkeby "
@@ -991,7 +991,7 @@
     "message": "شبكة اختبارات Rinkeby"
   },
   "testnet": {
-    "message": "شبكة اختبار Ropsten"
+    "message": "شبكة اختبار Testnet"
   },
   "goerli": {
     "message": "شبكة اختبار Goerli "

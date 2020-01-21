@@ -261,8 +261,8 @@
   "connectingToMainnet": {
     "message": "Connectant a Xarxa Principal Ethereum"
   },
-  "connectingToRopsten": {
-    "message": "Connectant a la xarxa de test Ropsten"
+  "connectingToTestnet": {
+    "message": "Connectant a la xarxa de test Testnet"
   },
   "connectingToRinkeby": {
     "message": "Connectant a la Xarxa de Prova Rinkeby"
@@ -976,7 +976,7 @@
     "message": "Xarxa del test Rinkeby"
   },
   "testnet": {
-    "message": "Xarxa de Prova Ropsten"
+    "message": "Xarxa de Prova Testnet"
   },
   "goerli": {
     "message": "Xarxa de test Goerli"

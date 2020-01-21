@@ -102,7 +102,7 @@ describe('wallet1 is migrated successfully', () => {
         assert.equal(twelfthResult.data.config.provider.type, 'testnet', 'network is originally testnet.')
         return migration13.migrate(twelfthResult)
       }).then((thirteenthResult) => {
-        assert.equal(thirteenthResult.data.config.provider.type, 'ropsten', 'network has been changed to ropsten.')
+        assert.equal(thirteenthResult.data.config.provider.type, 'testnet', 'network has been changed to testnet.')
       })
   })
 })

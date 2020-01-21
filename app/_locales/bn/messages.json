@@ -264,7 +264,7 @@
   "connectingToMainnet": {
     "message": "মুখ্য Ethereum নেটওয়ার্কের সাথে সংযোগ করছে"
   },
-  "connectingToRopsten": {
+  "connectingToTestnet": {
     "message": "রপস্টেন টেস্ট নেটওয়ার্কের সাথে সংযোগ করছে"
   },
   "connectingToRinkeby": {

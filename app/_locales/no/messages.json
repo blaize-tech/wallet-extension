@@ -261,8 +261,8 @@
   "connectingToMainnet": {
     "message": "Forbinder med hoved-Ethereumnettverk "
   },
-  "connectingToRopsten": {
-    "message": "Kobler til Ropsten testnettverk"
+  "connectingToTestnet": {
+    "message": "Kobler til Testnet testnettverk"
   },
   "connectingToRinkeby": {
     "message": "Kobler til Rinkeby Test Network "

@@ -303,14 +303,6 @@ NetworkDropdown.prototype.getNetworkName = function () {
     name = this.context.t('mainnet')
   } else if (providerName === 'testnet') {
     name = this.context.t('testnet')
-  } else if (providerName === 'kovan') {
-    name = this.context.t('kovan')
-  } else if (providerName === 'rinkeby') {
-    name = this.context.t('rinkeby')
-  } else if (providerName === 'localhost') {
-    name = this.context.t('localhost')
-  } else if (providerName === 'goerli') {
-    name = this.context.t('goerli')
   } else {
     name = provider.nickname || this.context.t('unknownNetwork')
   }

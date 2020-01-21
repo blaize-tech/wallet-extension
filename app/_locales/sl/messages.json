@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "Povezovanje na glavno omrežje"
   },
-  "connectingToRopsten": {
-    "message": "Povezovanje na testno omrežje Ropsten"
+  "connectingToTestnet": {
+    "message": "Povezovanje na testno omrežje Testnet"
   },
   "connectingToRinkeby": {
     "message": "Povezovanje na testno omrežje Rinkeby"
@@ -980,7 +980,7 @@
     "message": "Testno omrežje Rinkeby"
   },
   "testnet": {
-    "message": "Testno omrežje Ropsten"
+    "message": "Testno omrežje Testnet"
   },
   "goerli": {
     "message": "Testno omrežje Goerli"

@@ -44,18 +44,6 @@ function createNetworkAndChainIdMiddleware ({ network }) {
       netId = '3'
       chainId = '0x03'
       break
-    case 'rinkeby':
-      netId = '4'
-      chainId = '0x04'
-      break
-    case 'kovan':
-      netId = '42'
-      chainId = '0x2a'
-      break
-    case 'goerli':
-      netId = '5'
-      chainId = '0x05'
-      break
     default:
       throw new Error(`createInfuraClient - unknown network "${network}"`)
   }

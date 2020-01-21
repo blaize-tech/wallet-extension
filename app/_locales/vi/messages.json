@@ -319,7 +319,7 @@
     "message": "Mạng thử nghiệm Rinkeby"
   },
   "testnet": {
-    "message": "Mạng thử nghiệm Ropsten"
+    "message": "Mạng thử nghiệm Testnet"
   },
   "save": {
     "message": "Lưu"

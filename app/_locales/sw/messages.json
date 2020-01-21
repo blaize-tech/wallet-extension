@@ -258,8 +258,8 @@
   "connectingToMainnet": {
     "message": "Inaunganisha kwenye Mtandao Mkuu wa Ethereum"
   },
-  "connectingToRopsten": {
-    "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Ropsten"
+  "connectingToTestnet": {
+    "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Testnet"
   },
   "connectingToRinkeby": {
     "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Rinkeby"
@@ -976,7 +976,7 @@
     "message": "Mtandao wa Majaribio wa Rinkeby"
   },
   "testnet": {
-    "message": "Mtandao wa Majaribio wa Ropsten"
+    "message": "Mtandao wa Majaribio wa Testnet"
   },
   "goerli": {
     "message": "Mtandao wa Majaribio wa Goerli"

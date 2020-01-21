@@ -260,7 +260,7 @@ rollback to 3.10.0 due to bug
 
 ## 3.9.1 2017-7-19
 
-- No longer automatically request 1 ropsten ether for the first account in a new vault.
+- No longer automatically request 1 testnet ether for the first account in a new vault.
 - Now redirects from known malicious sites faster.
 - Added a link to our new support page to the help screen.
 - Fixed bug where a new transaction would be shown over the current transaction, creating a possible timing attack against user confirmation.
@@ -516,7 +516,7 @@ rollback to 3.10.0 due to bug
 ## 2.14.1 2016-12-20
 
 - Update Coinbase info. and increase the buy amount to $15
-- Fixed ropsten transaction links
+- Fixed testnet transaction links
 - Temporarily disable extension reload detection causing infinite reload bug.
 - Implemented basic checking for valid RPC URIs.
 
@@ -536,15 +536,15 @@ rollback to 3.10.0 due to bug
 
 - Improve gas calculation logic.
 - Default to Dapp-specified gas limits for transactions.
-- Ropsten networks now properly point to the faucet when attempting to buy ether.
-- Ropsten transactions now link to etherscan correctly.
+- Testnet networks now properly point to the faucet when attempting to buy ether.
+- Testnet transactions now link to etherscan correctly.
 
 ## 2.13.9 2016-11-21
 
-- Add support for the new, default Ropsten Test Network.
+- Add support for the new, default Testnet Test Network.
 - Fix bug that would cause MetaMask to occasionally lose its StreamProvider connection and drop requests.
 - Fix bug that would cause the Custom RPC menu item to not appear when Localhost 8545 was selected.
-- Point ropsten faucet button to actual faucet.
+- Point testnet faucet button to actual faucet.
 - Phase out ethereumjs-util from our encryptor module.
 
 ## 2.13.8 2016-11-16

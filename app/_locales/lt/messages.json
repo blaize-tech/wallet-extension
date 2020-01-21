@@ -998,7 +998,7 @@
     "message": "„Rinkeby“ bandomasis tinklas"
   },
   "testnet": {
-    "message": "„Ropsten“ bandomasis tinklas"
+    "message": "„Testnet“ bandomasis tinklas"
   },
   "goerli": {
     "message": "„Goerli“ bandomasis tinklas"

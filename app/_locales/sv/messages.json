@@ -258,8 +258,8 @@
   "connectingToMainnet": {
     "message": "Koppla till Ethereums huvudnätverk"
   },
-  "connectingToRopsten": {
-    "message": "Ansluter till Ropsten Test Network"
+  "connectingToTestnet": {
+    "message": "Ansluter till Testnet Test Network"
   },
   "connectingToRinkeby": {
     "message": "Ansluter till Rinkeby Test Network"
@@ -982,7 +982,7 @@
     "message": "Rinkeby testnätverk"
   },
   "testnet": {
-    "message": "Ropsten testnätverk"
+    "message": "Testnet testnätverk"
   },
   "goerli": {
     "message": "Goerli testnätverk"

@@ -969,7 +969,7 @@
     "message": "Rangkaian Ujian Rinkeby"
   },
   "testnet": {
-    "message": "Rangkaian Ujian Ropsten"
+    "message": "Rangkaian Ujian Testnet"
   },
   "goerli": {
     "message": "Rangkaian Ujian Goerli"

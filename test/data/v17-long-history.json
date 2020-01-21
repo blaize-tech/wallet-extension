@@ -52,10 +52,7 @@
     "InfuraController": {
       "infuraNetworkStatus": {
         "mainnet": "degraded",
-        "testnet": "ok",
-        "kovan": "ok",
-        "rinkeby": "ok",
-        "goerli": "ok"
+        "testnet": "ok"
       }
     },
     "BlacklistController": {

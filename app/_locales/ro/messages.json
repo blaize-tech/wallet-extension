@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "Se conectează la rețeaua Ethereum principală"
   },
-  "connectingToRopsten": {
-    "message": "Se conectează la rețeaua de test Ropsten"
+  "connectingToTestnet": {
+    "message": "Se conectează la rețeaua de test Testnet"
   },
   "connectingToRinkeby": {
     "message": "Se conectează la Rețeaua de test Rinkeby"
@@ -985,7 +985,7 @@
     "message": "Rețea test Rinkeby"
   },
   "testnet": {
-    "message": "Rețea de testare Ropsten"
+    "message": "Rețea de testare Testnet"
   },
   "goerli": {
     "message": "Rețea de test Goerli"

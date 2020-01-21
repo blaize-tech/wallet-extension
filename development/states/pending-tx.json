@@ -701,10 +701,7 @@
     "conversionDate": 1512615622,
     "infuraNetworkStatus": {
       "mainnet": "ok",
-      "testnet": "ok",
-      "kovan": "ok",
-      "rinkeby": "ok",
-      "goerli": "ok"
+      "testnet": "ok"
     },
     "shapeShiftTxList": []
   },

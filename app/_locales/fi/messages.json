@@ -261,8 +261,8 @@
   "connectingToMainnet": {
     "message": "Yhdistetään Ethereumin pääverkkoon"
   },
-  "connectingToRopsten": {
-    "message": "Yhdistetään Ropstenin koeverkkoon"
+  "connectingToTestnet": {
+    "message": "Yhdistetään Testnetin koeverkkoon"
   },
   "connectingToRinkeby": {
     "message": "Yhdistetään Rinkebyn koeverkkoon"
@@ -995,7 +995,7 @@
     "message": "Rinkebyn koeverkko"
   },
   "testnet": {
-    "message": "Ropstenin koeverkko"
+    "message": "Testnetin koeverkko"
   },
   "goerli": {
     "message": "Goerli-testiverkko"

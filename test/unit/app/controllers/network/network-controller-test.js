@@ -81,7 +81,7 @@ describe('Network utils', () => {
         input: 42,
         expected: 'Kovan',
       }, {
-        input: 'ropsten',
+        input: 'testnet',
         expected: 'Testnet',
       }, {
         input: 'rinkeby',

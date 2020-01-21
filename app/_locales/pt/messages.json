@@ -394,7 +394,7 @@
     "message": "Rede de Teste Rinkeby"
   },
   "testnet": {
-    "message": "Rede de Teste Ropsten"
+    "message": "Rede de Teste Testnet"
   },
   "save": {
     "message": "Guardar"
