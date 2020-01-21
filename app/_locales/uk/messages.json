@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "З'єднуємось з Головною мережею Ethereum"
   },
-  "connectingToRopsten": {
-    "message": "Під'єднуємось до Тестової мережі Ropsten"
+  "connectingToTestnet": {
+    "message": "Під'єднуємось до Тестової мережі Testnet"
   },
   "connectingToRinkeby": {
     "message": "Під'єднуємось до тестової мережі Rinkeby"
@@ -997,8 +997,8 @@
   "rinkeby": {
     "message": "Тестова мережа Rinkeby"
   },
-  "ropsten": {
-    "message": "Тестова мережа Ropsten"
+  "testnet": {
+    "message": "Тестова мережа Testnet"
   },
   "goerli": {
     "message": "Тестова мережа Goerli "

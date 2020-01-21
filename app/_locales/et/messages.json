@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "Ühenduse loomine peamise Etherumi võrguga"
   },
-  "connectingToRopsten": {
-    "message": "Ühendamine Ropsteni testvõrguga"
+  "connectingToTestnet": {
+    "message": "Ühendamine Testneti testvõrguga"
   },
   "connectingToRinkeby": {
     "message": "Ühendamine Rinkeby testvõrguga"
@@ -987,8 +987,8 @@
   "rinkeby": {
     "message": "Rinkeby katsevõrk"
   },
-  "ropsten": {
-    "message": "Ropsteni testvõrk"
+  "testnet": {
+    "message": "Testneti testvõrk"
   },
   "goerli": {
     "message": "Goerli testvõrk"

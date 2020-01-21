@@ -243,8 +243,8 @@
   "connectingToMainnet": {
     "message": "Connessione alla Rete Ethereum Principale"
   },
-  "connectingToRopsten": {
-    "message": "Connessione alla Rete di test Ropsten"
+  "connectingToTestnet": {
+    "message": "Connessione alla Rete di test Testnet"
   },
   "connectingToRinkeby": {
     "message": "Connessione alla Rete di test Rinkeby"
@@ -960,8 +960,8 @@
   "rinkeby": {
     "message": "Rete di test Rinkeby"
   },
-  "ropsten": {
-    "message": "Rete di test Ropsten"
+  "testnet": {
+    "message": "Rete di test Testnet"
   },
   "goerli": {
     "message": "Rete di test Goerli"

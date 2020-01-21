@@ -264,7 +264,7 @@
   "connectingToMainnet": {
     "message": "मुख्य Ethereum नेटवर्क से कनेक्ट हो रहा है"
   },
-  "connectingToRopsten": {
+  "connectingToTestnet": {
     "message": "रोपस्टेन टेस्ट नेटवर्क से कनेक्ट करना"
   },
   "connectingToRinkeby": {
@@ -994,7 +994,7 @@
   "rinkeby": {
     "message": "\nरिंकीबी टेस्ट नेटवर्क"
   },
-  "ropsten": {
+  "testnet": {
     "message": "रोपस्टेन टेस्ट नेटवर्क"
   },
   "goerli": {

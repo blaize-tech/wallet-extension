@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "در حال اتصال به شبکه اصلی ایتریم"
   },
-  "connectingToRopsten": {
-    "message": "در حال اتصال به شبکه آزمایشی Ropsten"
+  "connectingToTestnet": {
+    "message": "در حال اتصال به شبکه آزمایشی Testnet"
   },
   "connectingToRinkeby": {
     "message": "در حال اتصال به شبکه آزمایشی Rinkeby"
@@ -997,8 +997,8 @@
   "rinkeby": {
     "message": "شبکه آزمایشی Rinkeby"
   },
-  "ropsten": {
-    "message": "شبکه آزمایشی Ropsten"
+  "testnet": {
+    "message": "شبکه آزمایشی Testnet"
   },
   "goerli": {
     "message": "شبکه آزمایشی Goerli"

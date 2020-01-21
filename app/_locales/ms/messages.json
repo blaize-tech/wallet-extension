@@ -261,8 +261,8 @@
   "connectingToMainnet": {
     "message": "Menyambung kepada Rangkaian Ethereum Utama"
   },
-  "connectingToRopsten": {
-    "message": "Menyambungkan kepada Rangkaian Ujian Ropsten"
+  "connectingToTestnet": {
+    "message": "Menyambungkan kepada Rangkaian Ujian Testnet"
   },
   "connectingToRinkeby": {
     "message": "Menyambung kepada Rangkaian Ujian Rinkeby"
@@ -968,7 +968,7 @@
   "rinkeby": {
     "message": "Rangkaian Ujian Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Rangkaian Ujian Ropsten"
   },
   "goerli": {

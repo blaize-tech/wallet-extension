@@ -997,7 +997,7 @@
   "rinkeby": {
     "message": "রিঙ্কেবি টেস্ট নেটওয়ার্ক"
   },
-  "ropsten": {
+  "testnet": {
     "message": "রোপস্টেন টেস্ট নেটওয়ার্ক"
   },
   "goerli": {

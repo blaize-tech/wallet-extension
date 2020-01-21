@@ -994,7 +994,7 @@
   "rinkeby": {
     "message": "Rinkebyn koeverkko"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Ropstenin koeverkko"
   },
   "goerli": {

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import {
   MAINNET_CODE,
-  ROPSTEN_CODE,
+  TESTNET_CODE,
   RINKEBY_CODE,
   KOVAN_CODE,
   GOERLI_CODE,
@@ -11,7 +11,7 @@ import {
 
 const networkToClassHash = {
   [MAINNET_CODE]: 'mainnet',
-  [ROPSTEN_CODE]: 'ropsten',
+  [TESTNET_CODE]: 'testnet',
   [RINKEBY_CODE]: 'rinkeby',
   [GOERLI_CODE]: 'goerli',
   [KOVAN_CODE]: 'kovan',

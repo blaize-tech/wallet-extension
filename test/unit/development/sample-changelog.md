@@ -432,7 +432,7 @@ rollback to 3.10.0 due to bug
 ## 3.5.0 2017-3-27
 
 - Add better error messages for when a transaction fails on approval
-- Allow sending to ENS names in send form on Ropsten.
+- Allow sending to ENS names in send form on Testnet.
 - Added an address book functionality that remembers the last 15 unique addresses sent to.
 - Can now change network to custom RPC URL from lock screen.
 - Removed support for old, lightwallet based vault. Users who have not opened app in over a month will need to recover with their seed phrase. This will allow Firefox support sooner.

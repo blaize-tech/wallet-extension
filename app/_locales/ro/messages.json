@@ -984,7 +984,7 @@
   "rinkeby": {
     "message": "Rețea test Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Rețea de testare Ropsten"
   },
   "goerli": {

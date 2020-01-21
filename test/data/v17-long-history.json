@@ -6,8 +6,8 @@
     "config": {},
     "NetworkController": {
       "provider": {
-        "type": "ropsten",
-        "rpcTarget": "https://ropsten.infura.io/metamask"
+        "type": "testnet",
+        "rpcTarget": "https://testnet.infura.io/metamask"
       },
       "network": "3"
     },
@@ -52,7 +52,7 @@
     "InfuraController": {
       "infuraNetworkStatus": {
         "mainnet": "degraded",
-        "ropsten": "ok",
+        "testnet": "ok",
         "kovan": "ok",
         "rinkeby": "ok",
         "goerli": "ok"

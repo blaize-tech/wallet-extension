@@ -70,7 +70,7 @@ describe('Network Dropdown', () => {
     })
 
     it('checks background color for second NetworkDropdownIcon', () => {
-      assert.equal(wrapper.find(NetworkDropdownIcon).at(1).prop('backgroundColor'), '#ff4a8d') // Ropsten Red
+      assert.equal(wrapper.find(NetworkDropdownIcon).at(1).prop('backgroundColor'), '#ff4a8d') // Testnet Red
     })
 
     it('checks background color for third NetworkDropdownIcon', () => {

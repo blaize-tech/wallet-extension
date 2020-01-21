@@ -261,8 +261,8 @@
   "connectingToMainnet": {
     "message": "Σύνδεση στο Κύριο Δίκτυο Ethereum"
   },
-  "connectingToRopsten": {
-    "message": "Σύνδεση με το Δίκτυο Δοκιμών Ropsten"
+  "connectingToTestnet": {
+    "message": "Σύνδεση με το Δίκτυο Δοκιμών Testnet"
   },
   "connectingToRinkeby": {
     "message": "Σύνδεση στο Δίκτυο Δοκιμών Rinkeby"
@@ -994,8 +994,8 @@
   "rinkeby": {
     "message": "Δοκιμαστικό Δίκτυο Rinkeby"
   },
-  "ropsten": {
-    "message": "Δίκτυο Δοκιμών Ropsten"
+  "testnet": {
+    "message": "Δίκτυο Δοκιμών Testnet"
   },
   "goerli": {
     "message": "Δοκιμαστικό Δίκτυο Goerli"

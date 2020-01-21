@@ -38,9 +38,9 @@ Network.prototype.render = function () {
   if (providerName === 'mainnet') {
     hoverText = context.t('mainnet')
     iconName = 'ethereum-network'
-  } else if (providerName === 'ropsten') {
-    hoverText = context.t('ropsten')
-    iconName = 'ropsten-test-network'
+  } else if (providerName === 'testnet') {
+    hoverText = context.t('testnet')
+    iconName = 'testnet-test-network'
   } else if (providerName === 'kovan') {
     hoverText = context.t('kovan')
     iconName = 'kovan-test-network'
@@ -60,7 +60,7 @@ Network.prototype.render = function () {
       className: classnames({
         'network-component--disabled': this.props.disabled,
         'ethereum-network': providerName === 'mainnet',
-        'ropsten-test-network': providerName === 'ropsten',
+        'testnet-test-network': providerName === 'testnet',
         'kovan-test-network': providerName === 'kovan',
         'rinkeby-test-network': providerName === 'rinkeby',
         'goerli-test-network': providerName === 'goerli',
@@ -84,14 +84,14 @@ Network.prototype.render = function () {
               h('.network-name', context.t('mainnet')),
               h('.network-indicator__down-arrow'),
             ])
-          case 'ropsten-test-network':
+          case 'testnet-test-network':
             return h('.network-indicator', [
               h(NetworkDropdownIcon, {
                 backgroundColor: '#e91550', // $crimson
                 nonSelectBackgroundColor: '#ec2c50',
                 loading: networkNumber === 'loading',
               }),
-              h('.network-name', context.t('ropsten')),
+              h('.network-name', context.t('testnet')),
               h('.network-indicator__down-arrow'),
             ])
           case 'kovan-test-network':

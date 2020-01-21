@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "ከዋናው የ Ethereum አውታረ መረብ ጋር መገናኘት"
   },
-  "connectingToRopsten": {
-    "message": "ከ Ropsten የሙከራ አውታረ መረብ ጋር በመገናኘት ላይ"
+  "connectingToTestnet": {
+    "message": "ከ Testnet የሙከራ አውታረ መረብ ጋር በመገናኘት ላይ"
   },
   "connectingToRinkeby": {
     "message": "ከ Rinkeby የሙከራ አውታረ መረብ ጋር በመገናኘት ላይ"
@@ -994,8 +994,8 @@
   "rinkeby": {
     "message": "Rinkeby የሙከራ አውታረ መረብ"
   },
-  "ropsten": {
-    "message": "Ropsten የሙከራ አውታረ መረብ "
+  "testnet": {
+    "message": "Testnet የሙከራ አውታረ መረብ "
   },
   "goerli": {
     "message": "የ Goerli የሙከራ አውታረ መረብ"

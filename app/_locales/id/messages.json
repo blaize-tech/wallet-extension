@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "Menghubungkan ke Jaringan Ethereum Utama"
   },
-  "connectingToRopsten": {
-    "message": "Menghubungkan ke Jaringan Uji Coba Ropsten "
+  "connectingToTestnet": {
+    "message": "Menghubungkan ke Jaringan Uji Coba Testnet "
   },
   "connectingToRinkeby": {
     "message": "Menghubungkan ke Jaringan Uji Coba Rinkeby  "
@@ -975,8 +975,8 @@
   "rinkeby": {
     "message": "Jaringan Uji Rinkeby"
   },
-  "ropsten": {
-    "message": "Jaringan Tes Ropsten"
+  "testnet": {
+    "message": "Jaringan Tes Testnet"
   },
   "goerli": {
     "message": "Jaringan Uji Goerli"

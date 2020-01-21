@@ -229,7 +229,7 @@
       "kovan": "ok",
       "mainnet": "ok",
       "rinkeby": "ok",
-      "ropsten": "ok",
+      "testnet": "ok",
       "goerli": "ok"
     }
   },

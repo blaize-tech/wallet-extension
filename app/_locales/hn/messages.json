@@ -396,7 +396,7 @@
   "rinkeby": {
     "message": "रिचीव टेस्ट नेटवर्क"
   },
-  "ropsten": {
+  "testnet": {
     "message": "रॉप्स्टेन टेस्ट नेटवर्क"
   },
   "save": {

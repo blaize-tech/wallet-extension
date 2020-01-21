@@ -221,8 +221,8 @@
   "connectingToMainnet": {
     "message": "Conectando a la red principal de Ethereum (Main Net)"
   },
-  "connectingToRopsten": {
-    "message": "Conectando a la red de test Ropsten"
+  "connectingToTestnet": {
+    "message": "Conectando a la red de test Testnet"
   },
   "connectingToRinkeby": {
     "message": "Conectando a la red de test Rinkeby"
@@ -813,8 +813,8 @@
   "rinkeby": {
     "message": "Red privada Rinkeby"
   },
-  "ropsten": {
-    "message": "Red privada Ropsten"
+  "testnet": {
+    "message": "Red privada Testnet"
   },
   "save": {
     "message": "Guardar"

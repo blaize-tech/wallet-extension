@@ -280,8 +280,8 @@ class Routes extends Component {
 
     if (providerName === 'mainnet') {
       name = this.context.t('connectingToMainnet')
-    } else if (providerName === 'ropsten') {
-      name = this.context.t('connectingToRopsten')
+    } else if (providerName === 'testnet') {
+      name = this.context.t('connectingToTestnet')
     } else if (providerName === 'kovan') {
       name = this.context.t('connectingToKovan')
     } else if (providerName === 'rinkeby') {
@@ -305,8 +305,8 @@ class Routes extends Component {
 
     if (providerName === 'mainnet') {
       name = this.context.t('mainnet')
-    } else if (providerName === 'ropsten') {
-      name = this.context.t('ropsten')
+    } else if (providerName === 'testnet') {
+      name = this.context.t('testnet')
     } else if (providerName === 'kovan') {
       name = this.context.t('kovan')
     } else if (providerName === 'rinkeby') {

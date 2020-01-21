@@ -110,7 +110,7 @@
   "connectingToMainnet": {
     "message": "เชื่อมต่อกับเครือข่าย Ethereum หลัก"
   },
-  "connectingToRopsten": {
+  "connectingToTestnet": {
     "message": "เชื่อมต่อกับเครือข่ายทดสอบ Ropsten"
   },
   "continueToWyre": {
@@ -501,7 +501,7 @@
   "rinkeby": {
     "message": "เครือข่ายทดสอบ Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "เครือข่ายทดสอบ Ropsten"
   },
   "save": {

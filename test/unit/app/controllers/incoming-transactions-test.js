@@ -6,7 +6,7 @@ const IncomingTransactionsController = proxyquire('../../../../app/scripts/contr
 })
 
 const {
-  ROPSTEN,
+  TESTNET,
   RINKEBY,
   KOVAN,
   GOERLI,
@@ -17,7 +17,7 @@ describe('IncomingTransactionsController', () => {
   const EMPTY_INIT_STATE = {
     incomingTransactions: {},
     incomingTxLastFetchedBlocksByNetwork: {
-      [ROPSTEN]: null,
+      [TESTNET]: null,
       [RINKEBY]: null,
       [KOVAN]: null,
       [GOERLI]: null,
@@ -30,7 +30,7 @@ describe('IncomingTransactionsController', () => {
       '0x123456': { id: 777 },
     },
     incomingTxLastFetchedBlocksByNetwork: {
-      [ROPSTEN]: 1,
+      [TESTNET]: 1,
       [RINKEBY]: 2,
       [KOVAN]: 3,
       [GOERLI]: 5,
@@ -43,7 +43,7 @@ describe('IncomingTransactionsController', () => {
       '0x123456': { id: 777 },
     },
     incomingTxLastFetchedBlocksByNetwork: {
-      [ROPSTEN]: 1,
+      [TESTNET]: 1,
       [RINKEBY]: 2,
       [KOVAN]: 3,
       [GOERLI]: 5,
@@ -244,7 +244,7 @@ describe('IncomingTransactionsController', () => {
           '0x123456': { id: 777 },
         },
         currentBlocksByNetwork: {
-          [ROPSTEN]: 1,
+          [TESTNET]: 1,
           [RINKEBY]: 2,
           [KOVAN]: 3,
           [GOERLI]: 5,
@@ -264,7 +264,7 @@ describe('IncomingTransactionsController', () => {
         '0x123456': { id: 777, hash: '0x123456' },
       },
       currentBlocksByNetwork: {
-        [ROPSTEN]: 1,
+        [TESTNET]: 1,
         [RINKEBY]: 2,
         [KOVAN]: 3,
         [GOERLI]: 5,
@@ -354,10 +354,10 @@ describe('IncomingTransactionsController', () => {
         initState: NON_EMPTY_INIT_STATE,
       })
 
-      await incomingTransactionsController._fetchTxs('0xfakeaddress', '789', ROPSTEN)
+      await incomingTransactionsController._fetchTxs('0xfakeaddress', '789', TESTNET)
 
       assert(mockFetch.calledOnce)
-      assert.equal(mockFetch.getCall(0).args[0], `https://api-${ROPSTEN}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1&startBlock=789`)
+      assert.equal(mockFetch.getCall(0).args[0], `https://api-${TESTNET}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1&startBlock=789`)
     })
 
     it('should call fetch with the expected url when passed an address, block number and MAINNET', async () => {
@@ -382,10 +382,10 @@ describe('IncomingTransactionsController', () => {
         initState: NON_EMPTY_INIT_STATE,
       })
 
-      await incomingTransactionsController._fetchTxs('0xfakeaddress', null, ROPSTEN)
+      await incomingTransactionsController._fetchTxs('0xfakeaddress', null, TESTNET)
 
       assert(mockFetch.calledOnce)
-      assert.equal(mockFetch.getCall(0).args[0], `https://api-${ROPSTEN}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1`)
+      assert.equal(mockFetch.getCall(0).args[0], `https://api-${TESTNET}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1`)
     })
 
     it('should not fetch and return an empty object when passed an unsported network', async () => {
@@ -410,7 +410,7 @@ describe('IncomingTransactionsController', () => {
         initState: NON_EMPTY_INIT_STATE,
       })
 
-      const result = await incomingTransactionsController._fetchTxs('0xfakeaddress', '789', ROPSTEN)
+      const result = await incomingTransactionsController._fetchTxs('0xfakeaddress', '789', TESTNET)
 
       assert(mockFetch.calledOnce)
       assert.deepEqual(result, {

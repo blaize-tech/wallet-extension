@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "Forbinder til dit Primære Ethereum Netværk"
   },
-  "connectingToRopsten": {
-    "message": "Forbinder til Ropsten-testnetværk"
+  "connectingToTestnet": {
+    "message": "Forbinder til Testnet-testnetværk"
   },
   "connectingToRinkeby": {
     "message": "Forbinder til Rinkeby-testnetværk"
@@ -975,8 +975,8 @@
   "rinkeby": {
     "message": "Rinkeby-testnetværk"
   },
-  "ropsten": {
-    "message": "Ropsten Test-netværk"
+  "testnet": {
+    "message": "Testnet Test-netværk"
   },
   "goerli": {
     "message": "Goerli-testnetværk"

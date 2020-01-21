@@ -981,7 +981,7 @@
   "rinkeby": {
     "message": "Rinkeby testnätverk"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Ropsten testnätverk"
   },
   "goerli": {

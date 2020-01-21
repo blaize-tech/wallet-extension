@@ -40,7 +40,7 @@ function createNetworkAndChainIdMiddleware ({ network }) {
       netId = '1'
       chainId = '0x01'
       break
-    case 'ropsten':
+    case 'testnet':
       netId = '3'
       chainId = '0x03'
       break

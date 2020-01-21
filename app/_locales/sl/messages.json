@@ -979,7 +979,7 @@
   "rinkeby": {
     "message": "Testno omrežje Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Testno omrežje Ropsten"
   },
   "goerli": {

@@ -993,7 +993,7 @@
   "rinkeby": {
     "message": "Тестова мрежа на Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Тестова мрежа Ropsten"
   },
   "goerli": {

@@ -462,8 +462,8 @@
   "rinkeby": {
     "message": "Rinkebyテストネットワーク"
   },
-  "ropsten": {
-    "message": "Ropstenテストネットワーク"
+  "testnet": {
+    "message": "Testnetテストネットワーク"
   },
   "save": {
     "message": "保存"

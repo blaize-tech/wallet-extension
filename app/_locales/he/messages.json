@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "מתחבר לרשת אתריום הראשית"
   },
-  "connectingToRopsten": {
-    "message": "מתחבר אל רשת בדיקה Ropsten "
+  "connectingToTestnet": {
+    "message": "מתחבר אל רשת בדיקה Testnet "
   },
   "connectingToRinkeby": {
     "message": "מתחבר ל- Rinkeby Test Network  "

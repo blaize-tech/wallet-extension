@@ -975,7 +975,7 @@
   "rinkeby": {
     "message": "Mtandao wa Majaribio wa Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Mtandao wa Majaribio wa Ropsten"
   },
   "goerli": {

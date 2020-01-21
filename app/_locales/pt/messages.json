@@ -393,7 +393,7 @@
   "rinkeby": {
     "message": "Rede de Teste Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Rede de Teste Ropsten"
   },
   "save": {

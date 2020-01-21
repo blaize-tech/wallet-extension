@@ -429,7 +429,7 @@
   "rinkeby": {
     "message": "Тестовая сеть Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Тестовая сеть Ropsten"
   },
   "save": {

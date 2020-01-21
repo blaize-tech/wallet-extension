@@ -261,8 +261,8 @@
   "connectingToMainnet": {
     "message": "이더리움 메인넷 접속 중"
   },
-  "connectingToRopsten": {
-    "message": "Ropsten 테스트넷 접속 중"
+  "connectingToTestnet": {
+    "message": "Testnet 테스트넷 접속 중"
   },
   "connectingToRinkeby": {
     "message": "Rinkeby 테스트넷 접속 중"
@@ -988,8 +988,8 @@
   "rinkeby": {
     "message": "Rinkeby 테스트넷"
   },
-  "ropsten": {
-    "message": "Ropsten 테스트넷"
+  "testnet": {
+    "message": "Testnet 테스트넷"
   },
   "goerli": {
     "message": "Goerli 테스트 네트워크"

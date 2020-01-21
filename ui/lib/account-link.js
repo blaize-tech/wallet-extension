@@ -12,8 +12,8 @@ module.exports = function (address, network, rpcPrefs) {
     case 2: // morden test net
       link = `https://morden.etherscan.io/address/${address}`
       break
-    case 3: // ropsten test net
-      link = `https://ropsten.etherscan.io/address/${address}`
+    case 3: // testnet test net
+      link = `https://testnet.etherscan.io/address/${address}`
       break
     case 4: // rinkeby test net
       link = `https://rinkeby.etherscan.io/address/${address}`

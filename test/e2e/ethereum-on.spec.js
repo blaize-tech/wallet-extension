@@ -144,8 +144,8 @@ describe('MetaMask', function () {
       await networkDropdown.click()
       await delay(regularDelayMs)
 
-      const ropstenButton = await findElement(driver, By.xpath(`//span[contains(text(), 'Ropsten')]`))
-      await ropstenButton.click()
+      const testnetButton = await findElement(driver, By.xpath(`//span[contains(text(), 'Testnet')]`))
+      await testnetButton.click()
       await delay(largeDelayMs)
     })
 

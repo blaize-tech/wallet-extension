@@ -975,7 +975,7 @@
   "rinkeby": {
     "message": "Xarxa del test Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Xarxa de Prova Ropsten"
   },
   "goerli": {

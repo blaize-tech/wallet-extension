@@ -95,8 +95,8 @@
   "connectingToMainnet": {
     "message": "Main Ethereum Ağına bağlanıyor"
   },
-  "connectingToRopsten": {
-    "message": "Ropsten Test Ağına bağlanıyor"
+  "connectingToTestnet": {
+    "message": "Testnet Test Ağına bağlanıyor"
   },
   "connectingToRinkeby": {
     "message": "Rinkeby Test Ağına bağlanıyor"
@@ -431,8 +431,8 @@
   "rinkeby": {
     "message": "Rinkeby Test Ağı"
   },
-  "ropsten": {
-    "message": "Ropsten Test Ağı"
+  "testnet": {
+    "message": "Testnet Test Ağı"
   },
   "save": {
     "message": "Kaydet"

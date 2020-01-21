@@ -963,7 +963,7 @@
   "rinkeby": {
     "message": "Rinkeby Testnetzwerk"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Ropsten Testnetzwerk"
   },
   "goerli": {

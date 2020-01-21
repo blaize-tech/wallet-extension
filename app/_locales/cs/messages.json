@@ -92,8 +92,8 @@
   "connectingToMainnet": {
     "message": "Připojuji se k Main Ethereum Network"
   },
-  "connectingToRopsten": {
-    "message": "Připojuji se k Ropsten Test Network"
+  "connectingToTestnet": {
+    "message": "Připojuji se k Testnet Test Network"
   },
   "connectingToRinkeby": {
     "message": "Připojuji se k Rinkeby Test Network"

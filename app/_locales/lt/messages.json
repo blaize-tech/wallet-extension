@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "Jungiamasi prie pagrindinio „Ethereum“ tinklo"
   },
-  "connectingToRopsten": {
-    "message": "Jungiamasi prie „Ropsten“ bandomojo tinklo"
+  "connectingToTestnet": {
+    "message": "Jungiamasi prie „Testnet“ bandomojo tinklo"
   },
   "connectingToRinkeby": {
     "message": "Jungiamasi prie „Rinkeby“ bandomojo tinklo"
@@ -997,7 +997,7 @@
   "rinkeby": {
     "message": "„Rinkeby“ bandomasis tinklas"
   },
-  "ropsten": {
+  "testnet": {
     "message": "„Ropsten“ bandomasis tinklas"
   },
   "goerli": {

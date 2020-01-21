@@ -264,7 +264,7 @@
   "connectingToMainnet": {
     "message": "جارِ الاتصال بشبكة إيثيريوم الرئيسية"
   },
-  "connectingToRopsten": {
+  "connectingToTestnet": {
     "message": "جارِ الاتصال بشبكة اختبار Ropsten "
   },
   "connectingToRinkeby": {
@@ -990,7 +990,7 @@
   "rinkeby": {
     "message": "شبكة اختبارات Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "شبكة اختبار Ropsten"
   },
   "goerli": {

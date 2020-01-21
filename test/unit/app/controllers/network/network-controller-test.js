@@ -73,7 +73,7 @@ describe('Network utils', () => {
     const tests = [
       {
         input: 3,
-        expected: 'Ropsten',
+        expected: 'Testnet',
       }, {
         input: 4,
         expected: 'Rinkeby',
@@ -82,7 +82,7 @@ describe('Network utils', () => {
         expected: 'Kovan',
       }, {
         input: 'ropsten',
-        expected: 'Ropsten',
+        expected: 'Testnet',
       }, {
         input: 'rinkeby',
         expected: 'Rinkeby',

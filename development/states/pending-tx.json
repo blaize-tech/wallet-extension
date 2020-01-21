@@ -701,7 +701,7 @@
     "conversionDate": 1512615622,
     "infuraNetworkStatus": {
       "mainnet": "ok",
-      "ropsten": "ok",
+      "testnet": "ok",
       "kovan": "ok",
       "rinkeby": "ok",
       "goerli": "ok"

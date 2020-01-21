@@ -258,8 +258,8 @@
   "connectingToMainnet": {
     "message": "Conectando à rede principal Etherum"
   },
-  "connectingToRopsten": {
-    "message": "Conectando à Rede de Testes Ropsten"
+  "connectingToTestnet": {
+    "message": "Conectando à Rede de Testes Testnet"
   },
   "connectingToRinkeby": {
     "message": "Conectando-se à rede de teste Rinkeby"
@@ -982,8 +982,8 @@
   "rinkeby": {
     "message": "Rede de Testes Rinkeby"
   },
-  "ropsten": {
-    "message": "Rede de Testes Ropsten"
+  "testnet": {
+    "message": "Rede de Testes Testnet"
   },
   "goerli": {
     "message": "Rede de teste Goerli"

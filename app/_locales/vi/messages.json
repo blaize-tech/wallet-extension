@@ -318,7 +318,7 @@
   "rinkeby": {
     "message": "Mạng thử nghiệm Rinkeby"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Mạng thử nghiệm Ropsten"
   },
   "save": {

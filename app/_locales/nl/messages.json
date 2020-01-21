@@ -383,8 +383,8 @@
   "rinkeby": {
     "message": "Rinkeby testnetwerk"
   },
-  "ropsten": {
-    "message": "Ropsten testnetwerk"
+  "testnet": {
+    "message": "Testnet testnetwerk"
   },
   "save": {
     "message": "Opslaan"

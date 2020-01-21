@@ -140,8 +140,8 @@
   "connectingToMainnet": {
     "message": "Konekte ak Prensipal Ethereum Rezo a"
   },
-  "connectingToRopsten": {
-    "message": "Konekte ak Ropsten Tès Rezo a"
+  "connectingToTestnet": {
+    "message": "Konekte ak Testnet Tès Rezo a"
   },
   "connectingToRinkeby": {
     "message": "Konekte nan Rinkeby Tès Rezo a"
@@ -633,8 +633,8 @@
   "rinkeby": {
     "message": "Rinkeby Tès Rezo"
   },
-  "ropsten": {
-    "message": "Ropsten Tès Rezo"
+  "testnet": {
+    "message": "Testnet Tès Rezo"
   },
   "save": {
     "message": "Sove"

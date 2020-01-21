@@ -988,7 +988,7 @@
   "rinkeby": {
     "message": "Rinkeby test mreža"
   },
-  "ropsten": {
+  "testnet": {
     "message": "Test mreža Ropsten"
   },
   "goerli": {

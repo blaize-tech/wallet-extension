@@ -237,8 +237,8 @@
   "connectingToMainnet": {
     "message": "Kumokonekta sa Main Ethereum Network"
   },
-  "connectingToRopsten": {
-    "message": "Kumokonekta sa Ropsten Test Network"
+  "connectingToTestnet": {
+    "message": "Kumokonekta sa Testnet Test Network"
   },
   "connectingToRinkeby": {
     "message": "Kumokonekta sa Rinkeby Test Network"

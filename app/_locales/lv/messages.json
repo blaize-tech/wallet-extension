@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "Savienojas ar galveno Ethereum tīklu"
   },
-  "connectingToRopsten": {
-    "message": "Pieslēdzas Ropsten testa tīklam"
+  "connectingToTestnet": {
+    "message": "Pieslēdzas Testnet testa tīklam"
   },
   "connectingToRinkeby": {
     "message": "Pieslēdzas Rinkeby testa tīklam"
@@ -993,8 +993,8 @@
   "rinkeby": {
     "message": "Rinkeby testa tīkls"
   },
-  "ropsten": {
-    "message": "Ropsten testa tīkls"
+  "testnet": {
+    "message": "Testnet testa tīkls"
   },
   "goerli": {
     "message": "Goerli testa tīkls"
