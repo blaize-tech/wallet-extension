@@ -17,7 +17,7 @@ describe('tx confirmation screen', function () {
         name: 'confTx',
       },
     },
-    metamask: {
+    affilcoin: {
       unapprovedTxs: {
         [txId]: {
           id: txId,

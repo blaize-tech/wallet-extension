@@ -236,7 +236,7 @@ class IncomingTransactionsController {
     return {
       blockNumber: txMeta.blockNumber,
       id: createId(),
-      metamaskNetworkId: currentNetworkID,
+      affilcoinNetworkId: currentNetworkID,
       status,
       time,
       txParams: {

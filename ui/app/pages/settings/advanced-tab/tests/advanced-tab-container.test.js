@@ -5,7 +5,7 @@ const defaultState = {
   appState: {
     warning: null,
   },
-  metamask: {
+  affilcoin: {
     featureFlags: {
       sendHexData: false,
       advancedInlineGas: false,

@@ -8,8 +8,8 @@ const standardNetworkId = {
   '3': TESTNET_CHAIN_ID,
 }
 
-function selectChainId (metamaskState) {
-  const { network, provider: { chainId } } = metamaskState
+function selectChainId (affilcoinState) {
+  const { network, provider: { chainId } } = affilcoinState
   return standardNetworkId[network] || `0x${parseInt(chainId, 10).toString(16)}`
 }
 

@@ -7,7 +7,7 @@ import { setMkrMigrationReminderTimestamp } from '../../../store/actions'
 
 const mapStateToProps = (state) => {
   const {
-    metamask: {
+    affilcoin: {
       mkrMigrationReminderTimestamp,
     },
   } = state

@@ -21,9 +21,9 @@ module.exports = connect(mapStateToProps)(ShiftListItem)
 
 function mapStateToProps (state) {
   return {
-    selectedAddress: state.metamask.selectedAddress,
-    conversionRate: state.metamask.conversionRate,
-    currentCurrency: state.metamask.currentCurrency,
+    selectedAddress: state.affilcoin.selectedAddress,
+    conversionRate: state.affilcoin.conversionRate,
+    currentCurrency: state.affilcoin.currentCurrency,
   }
 }
 

@@ -6,7 +6,7 @@ const EthQuery = require('eth-query')
 const JsonRpcEngine = require('json-rpc-engine')
 const providerFromEngine = require('eth-json-rpc-middleware/providerFromEngine')
 const log = require('loglevel')
-const createMetamaskMiddleware = require('./createMetamaskMiddleware')
+const createMetamaskMiddleware = require('./createAffilcoinMiddleware')
 const createInfuraClient = require('./createInfuraClient')
 const createJsonRpcClient = require('./createJsonRpcClient')
 const createLocalhostClient = require('./createLocalhostClient')
@@ -22,13 +22,13 @@ const {
 } = require('./enums')
 const INFURA_PROVIDER_TYPES = [TESTNET, MAINNET]
 
-const env = process.env.METAMASK_ENV
-const METAMASK_DEBUG = process.env.METAMASK_DEBUG
+const env = process.env.AFFILCOIN_ENV
+const AFFILCOIN_DEBUG = process.env.AFFILCOIN_DEBUG
 
 let defaultProviderConfigType
 if (process.env.IN_TEST === 'true') {
   defaultProviderConfigType = LOCALHOST
-} else if (METAMASK_DEBUG || env === 'test') {
+} else if (AFFILCOIN_DEBUG || env === 'test') {
   defaultProviderConfigType = RINKEBY
 } else {
   defaultProviderConfigType = MAINNET
@@ -226,9 +226,9 @@ module.exports = class NetworkController extends EventEmitter {
   }
 
   _setNetworkClient ({ networkMiddleware, blockTracker }) {
-    const metamaskMiddleware = createMetamaskMiddleware(this._baseProviderParams)
+    const affilcoinMiddleware = createMetamaskMiddleware(this._baseProviderParams)
     const engine = new JsonRpcEngine()
-    engine.push(metamaskMiddleware)
+    engine.push(affilcoinMiddleware)
     engine.push(networkMiddleware)
     const provider = providerFromEngine(engine)
     this._setProviderAndBlockTracker({ provider, blockTracker })

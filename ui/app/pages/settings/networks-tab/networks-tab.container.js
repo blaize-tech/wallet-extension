@@ -17,7 +17,7 @@ const mapStateToProps = state => {
   const {
     frequentRpcListDetail,
     provider,
-  } = state.metamask
+  } = state.affilcoin
   const {
     networksTabSelectedRpcUrl,
     networksTabIsInAddMode,

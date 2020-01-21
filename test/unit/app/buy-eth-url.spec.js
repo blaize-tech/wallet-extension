@@ -18,9 +18,9 @@ describe('buy-eth-url', function () {
 
   })
 
-  it('returns metamask testnet faucet for network 3', function () {
+  it('returns affilcoin testnet faucet for network 3', function () {
     const testnetUrl = getBuyEthUrl(testnet)
-    assert.equal(testnetUrl, 'https://faucet.metamask.io/')
+    assert.equal(testnetUrl, 'https://faucet.affilcoin.io/')
   })
 
 })

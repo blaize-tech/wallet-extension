@@ -16,7 +16,7 @@ describe('# Network Controller', function () {
 
     nock('https://testnet.infura.io')
       .persist()
-      .post('/metamask')
+      .post('/affilcoin')
       .reply(200)
 
     networkController = new NetworkController()

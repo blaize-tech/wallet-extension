@@ -18,7 +18,7 @@ const Dnode = require('dnode')
 const Eth = require('ethjs')
 const EthQuery = require('eth-query')
 const urlUtil = require('url')
-const launchMetaMaskUi = require('../../ui')
+const launchAffilcoinUi = require('../../ui')
 const StreamProvider = require('web3-stream-provider')
 const {setupMultiplex} = require('./lib/stream-utils.js')
 const log = require('loglevel')
@@ -39,14 +39,14 @@ async function start () {
     const state = window.getCleanAppState()
     // remove unnecessary data
     delete state.localeMessages
-    delete state.metamask.recentBlocks
+    delete state.affilcoin.recentBlocks
     // return state to be added to request
     return state
   }
 
   // identify window type (popup, notification)
   const windowType = getEnvironmentType(window.location.href)
-  global.METAMASK_UI_TYPE = windowType
+  global.AFFILCOIN_UI_TYPE = windowType
   closePopupIfOpen(windowType)
 
   // setup stream to background
@@ -64,7 +64,7 @@ async function start () {
   }
 
   function displayCriticalError (container, err) {
-    container.innerHTML = '<div class="critical-error">The MetaMask app failed to load: please open and close MetaMask again to restart.</div>'
+    container.innerHTML = '<div class="critical-error">The Affilcoin app failed to load: please open and close Affilcoin again to restart.</div>'
     container.style.height = '80px'
     log.error(err.stack)
     throw err
@@ -78,7 +78,7 @@ async function start () {
       }
 
       const state = store.getState()
-      const { metamask: { completedOnboarding } = {} } = state
+      const { affilcoin: { completedOnboarding } = {} } = state
 
       if (!completedOnboarding && windowType !== ENVIRONMENT_TYPE_FULLSCREEN) {
         global.platform.openExtensionInBrowser()
@@ -113,7 +113,7 @@ function initializeUi (activeTab, container, connectionStream, cb) {
       return cb(err)
     }
 
-    launchMetaMaskUi({
+    launchAffilcoinUi({
       activeTab,
       container,
       backgroundConnection,

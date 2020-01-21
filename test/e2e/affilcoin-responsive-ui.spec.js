@@ -14,7 +14,7 @@ const {
 } = require('./helpers')
 const enLocaleMessages = require('../../app/_locales/en/messages.json')
 
-describe('MetaMask', function () {
+describe('Affilcoin', function () {
   let driver
 
   const testSeedPhrase = 'phrase upgrade clock rough situate wedding elder clever doctor stamp excess tent'
@@ -186,7 +186,7 @@ describe('MetaMask', function () {
     })
   })
 
-  describe('Send ETH from inside MetaMask', () => {
+  describe('Send ETH from inside Affilcoin', () => {
     it('starts to send a transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()

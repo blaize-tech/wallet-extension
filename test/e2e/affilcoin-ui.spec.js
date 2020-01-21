@@ -19,7 +19,7 @@ const {
 } = require('./helpers')
 const enLocaleMessages = require('../../app/_locales/en/messages.json')
 
-describe('MetaMask', function () {
+describe('Affilcoin', function () {
   let driver
   let tokenAddress
 
@@ -233,7 +233,7 @@ describe('MetaMask', function () {
     })
   })
 
-  describe('Send ETH from inside MetaMask using default gas', () => {
+  describe('Send ETH from inside Affilcoin using default gas', () => {
     it('starts a send transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
@@ -299,7 +299,7 @@ describe('MetaMask', function () {
     })
   })
 
-  describe('Send ETH from inside MetaMask using fast gas option', () => {
+  describe('Send ETH from inside Affilcoin using fast gas option', () => {
     it('starts a send transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
@@ -342,7 +342,7 @@ describe('MetaMask', function () {
     })
   })
 
-  describe('Send ETH from inside MetaMask using advanced gas modal', () => {
+  describe('Send ETH from inside Affilcoin using advanced gas modal', () => {
     it('starts a send transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
@@ -426,8 +426,8 @@ describe('MetaMask', function () {
       extension = windowHandles[0]
       await closeAllWindowHandlesExcept(driver, [extension])
 
-      const metamaskHomeButton = await findElement(driver, By.css('.app-header__logo-container'))
-      await metamaskHomeButton.click()
+      const affilcoinHomeButton = await findElement(driver, By.css('.app-header__logo-container'))
+      await affilcoinHomeButton.click()
 
       await delay(largeDelayMs)
     })
@@ -440,7 +440,7 @@ describe('MetaMask', function () {
       windowHandles = await driver.getAllWindowHandles()
 
       extension = windowHandles[0]
-      popup = await switchToWindowWithTitle(driver, 'MetaMask Notification', windowHandles)
+      popup = await switchToWindowWithTitle(driver, 'Affilcoin Notification', windowHandles)
       dapp = windowHandles.find(handle => handle !== extension && handle !== popup)
 
       await delay(regularDelayMs)
@@ -457,7 +457,7 @@ describe('MetaMask', function () {
       await delay(2000)
 
       windowHandles = await driver.getAllWindowHandles()
-      await switchToWindowWithTitle(driver, 'MetaMask Notification', windowHandles)
+      await switchToWindowWithTitle(driver, 'Affilcoin Notification', windowHandles)
       await delay(regularDelayMs)
 
       await assertElementNotPresent(webdriver, driver, By.xpath(`//li[contains(text(), 'Data')]`))
@@ -931,7 +931,7 @@ describe('MetaMask', function () {
     })
   })
 
-  describe('Send token from inside MetaMask', () => {
+  describe('Send token from inside Affilcoin', () => {
     let gasModal
     it('starts to send a transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))

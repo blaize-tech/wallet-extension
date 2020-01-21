@@ -300,7 +300,7 @@ class MobileSyncPage extends Component {
   renderRevealSeedContent () {
 
     const qrImage = qrCode(0, 'M')
-    qrImage.addData(`metamask-sync:${this.state.channelName}|@|${this.state.cipherKey}`)
+    qrImage.addData(`affilcoin-sync:${this.state.channelName}|@|${this.state.cipherKey}`)
     qrImage.make()
 
     const { t } = this.context
@@ -404,7 +404,7 @@ const mapDispatchToProps = dispatch => {
 
 const mapStateToProps = state => {
   const {
-    metamask: { selectedAddress },
+    affilcoin: { selectedAddress },
   } = state
 
   return {

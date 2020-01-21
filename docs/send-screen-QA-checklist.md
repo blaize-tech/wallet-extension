@@ -12,7 +12,7 @@ Additional features or functionality on the send screen should include an update
     - [ ] have sub title "Only send ETH to an Ethereum address."
     - [ ] return user to main screen when top right X is clicked
   - [ ] **From row** _It should:_
-    - [ ] show the currently selected account by default 
+    - [ ] show the currently selected account by default
     - [ ] show a dropdown with all of the users accounts
     - [ ] contain the following info for each account: identicon, account name, balance in ETH, balance in current currency
     - [ ] change the account selected in the dropdown (but not the app-wide selected account) when one in the dropdown is clicked
@@ -88,7 +88,7 @@ Additional features or functionality on the send screen should include an update
 ## Specific cases to test
  - [ ] Send eth to a hex address
  - [ ] Send eth to an ENS address
- - [ ] Donate to the faucet at https://faucet.metamask.io/ and edit the transaction before confirming
+ - [ ] Donate to the faucet at https://faucet.affilcoin.io/ and edit the transaction before confirming
  - [ ] Send a token that is available on the 'Add Token' screen search to a hex address
  - [ ] Create a custom token at https://tokenfactory.surge.sh/ and send it to a hex address
  - [ ] Send a token to an ENS address

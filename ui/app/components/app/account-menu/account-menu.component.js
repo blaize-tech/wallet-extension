@@ -29,7 +29,7 @@ export default class AccountMenu extends PureComponent {
     identities: PropTypes.object,
     isAccountMenuOpen: PropTypes.bool,
     keyrings: PropTypes.array,
-    lockMetamask: PropTypes.func,
+    lockAffilcoin: PropTypes.func,
     selectedAddress: PropTypes.string,
     showAccountDetail: PropTypes.func,
     showRemoveAccountConfirmationModal: PropTypes.func,
@@ -204,7 +204,7 @@ export default class AccountMenu extends PureComponent {
     const {
       isAccountMenuOpen,
       toggleAccountMenu,
-      lockMetamask,
+      lockAffilcoin,
       history,
     } = this.props
     const { metricsEvent } = this.context
@@ -220,7 +220,7 @@ export default class AccountMenu extends PureComponent {
           <button
             className="account-menu__logout-button"
             onClick={() => {
-              lockMetamask()
+              lockAffilcoin()
               history.push(DEFAULT_ROUTE)
             }}
           >

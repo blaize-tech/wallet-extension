@@ -3,7 +3,7 @@ const PropTypes = require('prop-types')
 const h = require('react-hyperscript')
 const connect = require('react-redux').connect
 const actions = require('../../../store/actions')
-const { getMetaMaskAccounts } = require('../../../selectors/selectors')
+const { getAffilcoinAccounts } = require('../../../selectors/selectors')
 const ConnectScreen = require('./connect-screen')
 const AccountList = require('./account-list')
 const { DEFAULT_ROUTE } = require('../../../helpers/constants/routes')
@@ -235,9 +235,9 @@ ConnectHardwareForm.propTypes = {
 
 const mapStateToProps = state => {
   const {
-    metamask: { network, selectedAddress, identities = {} },
+    affilcoin: { network, selectedAddress, identities = {} },
   } = state
-  const accounts = getMetaMaskAccounts(state)
+  const accounts = getAffilcoinAccounts(state)
   const numberOfExistingAccounts = Object.keys(identities).length
   const {
     appState: { defaultHdPaths },
