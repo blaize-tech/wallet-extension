@@ -2,9 +2,9 @@ const mergeMiddleware = require('json-rpc-engine/src/mergeMiddleware')
 const createScaffoldMiddleware = require('json-rpc-engine/src/createScaffoldMiddleware')
 const createWalletSubprovider = require('eth-json-rpc-middleware/wallet')
 const { createPendingNonceMiddleware, createPendingTxMiddleware } = require('./middleware/pending')
-module.exports = createMetamaskMiddleware
+module.exports = createAffilcoinMiddleware
 
-function createMetamaskMiddleware ({
+function createAffilcoinMiddleware ({
   version,
   getAccounts,
   processTransaction,
@@ -16,11 +16,11 @@ function createMetamaskMiddleware ({
   getPendingNonce,
   getPendingTransactionByHash,
 }) {
-  const metamaskMiddleware = mergeMiddleware([
+  const affilcoinMiddleware = mergeMiddleware([
     createScaffoldMiddleware({
       // staticSubprovider
       eth_syncing: false,
-      web3_clientVersion: `MetaMask/v${version}`,
+      web3_clientVersion: `Affilcoin/v${version}`,
     }),
     createWalletSubprovider({
       getAccounts,
@@ -34,5 +34,5 @@ function createMetamaskMiddleware ({
     createPendingNonceMiddleware({ getPendingNonce }),
     createPendingTxMiddleware({ getPendingTransactionByHash }),
   ])
-  return metamaskMiddleware
+  return affilcoinMiddleware
 }

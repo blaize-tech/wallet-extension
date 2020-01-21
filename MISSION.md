@@ -1,4 +1,4 @@
-# MetaMask Philosophy
+# Affilcoin Philosophy
 
 ## Mission
 

@@ -34,7 +34,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -66,7 +66,7 @@
     "message": "Použít Blockies Identicon"
   },
   "builtInCalifornia": {
-    "message": "MetaMask je navržen a vytvořen v Kalifornii."
+    "message": "Affilcoin je navržen a vytvořen v Kalifornii."
   },
   "buyCoinSwitch": {
     "message": "Nákup na CoinSwitch"
@@ -248,7 +248,7 @@
     "message": "Import účtu"
   },
   "importAccountMsg": {
-    "message": "Importované účty nebudou spojeny s vaší původní MetaMaskovou klíčovou frází. Zjistěte více o importovaných účtech "
+    "message": "Importované účty nebudou spojeny s vaší původní Affilcoinovou klíčovou frází. Zjistěte více o importovaných účtech "
   },
   "imported": {
     "message": "Importováno",
@@ -310,8 +310,8 @@
   "message": {
     "message": "Zpráva"
   },
-  "metamaskDescription": {
-    "message": "MetaMask je bezpečný osobní trezor pro Ethereum."
+  "affilcoinDescription": {
+    "message": "Affilcoin je bezpečný osobní trezor pro Ethereum."
   },
   "myAccounts": {
     "message": "Moje účty"
@@ -320,7 +320,7 @@
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needEtherInWallet": {
-    "message": "Potřebujete Ether v peněžence, abyste mohli pomocí MetaMasku interagovat s decentralizovanými aplikacemi."
+    "message": "Potřebujete Ether v peněžence, abyste mohli pomocí Affilcoinu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
     "message": "Musíte zvolit soubor k importu.",
@@ -548,7 +548,7 @@
     "message": "Klíčová fráze peněženky"
   },
   "welcome": {
-    "message": "Vítejte v MetaMask"
+    "message": "Vítejte v Affilcoin"
   },
   "yourSigRequested": {
     "message": "Je vyžadován váš podpis"

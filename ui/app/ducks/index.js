@@ -5,14 +5,14 @@ const copyToClipboard = require('copy-to-clipboard')
 //
 // Sub-Reducers take in the complete state and return their sub-state
 //
-const reduceMetamask = require('./metamask/metamask')
+const reduceAffilcoin = require('./affilcoin/affilcoin')
 const reduceLocale = require('./locale/locale')
 const reduceSend = require('./send/send.duck').default
 import reduceApp from './app/app'
 import reduceConfirmTransaction from './confirm-transaction/confirm-transaction.duck'
 import reduceGas from './gas/gas.duck'
 
-window.METAMASK_CACHED_LOG_STATE = null
+window.AFFILCOIN_CACHED_LOG_STATE = null
 
 module.exports = rootReducer
 
@@ -25,10 +25,10 @@ function rootReducer (state, action) {
   }
 
   //
-  // MetaMask
+  // Affilcoin
   //
 
-  state.metamask = reduceMetamask(state, action)
+  state.affilcoin = reduceAffilcoin(state, action)
 
   //
   // AppState
@@ -52,12 +52,12 @@ function rootReducer (state, action) {
 
   state.gas = reduceGas(state, action)
 
-  window.METAMASK_CACHED_LOG_STATE = state
+  window.AFFILCOIN_CACHED_LOG_STATE = state
   return state
 }
 
 window.getCleanAppState = function () {
-  const state = clone(window.METAMASK_CACHED_LOG_STATE)
+  const state = clone(window.AFFILCOIN_CACHED_LOG_STATE)
   // append additional information
   state.version = global.platform.getVersion()
   state.browser = window.navigator.userAgent

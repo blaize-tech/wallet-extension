@@ -14,7 +14,7 @@ module.exports = createInfuraClient
 function createInfuraClient ({ network, onRequest }) {
   const infuraMiddleware = mergeMiddleware([
     createRequestHookMiddleware(onRequest),
-    createInfuraMiddleware({ network, maxAttempts: 5, source: 'metamask' }),
+    createInfuraMiddleware({ network, maxAttempts: 5, source: 'affilcoin' }),
   ])
   const infuraProvider = providerFromMiddleware(infuraMiddleware)
   const blockTracker = new BlockTracker({ provider: infuraProvider })

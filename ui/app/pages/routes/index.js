@@ -85,7 +85,7 @@ class Routes extends Component {
 
     this.props.history.listen((locationObj, action) => {
       if (action === 'PUSH') {
-        const url = `&url=${encodeURIComponent('http://www.metamask.io/metametrics' + locationObj.pathname)}`
+        const url = `&url=${encodeURIComponent('http://www.affilcoin.io/metametrics' + locationObj.pathname)}`
         this.context.metricsEvent({}, {
           currentPath: '',
           pathname: locationObj.pathname,
@@ -157,11 +157,11 @@ class Routes extends Component {
       return true
     }
 
-    if (window.METAMASK_UI_TYPE === ENVIRONMENT_TYPE_NOTIFICATION) {
+    if (window.AFFILCOIN_UI_TYPE === ENVIRONMENT_TYPE_NOTIFICATION) {
       return true
     }
 
-    if (window.METAMASK_UI_TYPE === ENVIRONMENT_TYPE_POPUP) {
+    if (window.AFFILCOIN_UI_TYPE === ENVIRONMENT_TYPE_POPUP) {
       return this.onConfirmPage() || this.hasProviderRequests()
     }
   }
@@ -257,7 +257,7 @@ class Routes extends Component {
     )
   }
 
-  toggleMetamaskActive () {
+  toggleAffilcoinActive () {
     if (!this.props.isUnlocked) {
       // currently inactive: redirect to password box
       var passwordBox = document.querySelector('input[type=password]')
@@ -265,7 +265,7 @@ class Routes extends Component {
       passwordBox.focus()
     } else {
       // currently active: deactivate
-      this.props.lockMetaMask()
+      this.props.lockAffilcoin()
     }
   }
 
@@ -341,7 +341,7 @@ Routes.propTypes = {
   setLastActiveTime: PropTypes.func,
   history: PropTypes.object,
   location: PropTypes.object,
-  lockMetaMask: PropTypes.func,
+  lockAffilcoin: PropTypes.func,
   submittedPendingTransactions: PropTypes.array,
   isMouseUser: PropTypes.bool,
   setMouseUserState: PropTypes.func,
@@ -351,7 +351,7 @@ Routes.propTypes = {
 }
 
 function mapStateToProps (state) {
-  const { appState, metamask } = state
+  const { appState, affilcoin } = state
   const {
     sidebar,
     alertOpen,
@@ -367,26 +367,26 @@ function mapStateToProps (state) {
     sidebar,
     alertOpen,
     alertMessage,
-    textDirection: state.metamask.textDirection,
+    textDirection: state.affilcoin.textDirection,
     isLoading,
     loadingMessage,
-    isUnlocked: state.metamask.isUnlocked,
+    isUnlocked: state.affilcoin.isUnlocked,
     currentView: state.appState.currentView,
     submittedPendingTransactions: submittedPendingTransactionsSelector(state),
-    network: state.metamask.network,
-    provider: state.metamask.provider,
-    frequentRpcListDetail: state.metamask.frequentRpcListDetail || [],
-    currentCurrency: state.metamask.currentCurrency,
+    network: state.affilcoin.network,
+    provider: state.affilcoin.provider,
+    frequentRpcListDetail: state.affilcoin.frequentRpcListDetail || [],
+    currentCurrency: state.affilcoin.currentCurrency,
     isMouseUser: state.appState.isMouseUser,
     providerId: getNetworkIdentifier(state),
     autoLogoutTimeLimit,
-    providerRequests: metamask.providerRequests,
+    providerRequests: affilcoin.providerRequests,
   }
 }
 
 function mapDispatchToProps (dispatch) {
   return {
-    lockMetaMask: () => dispatch(actions.lockMetamask(false)),
+    lockAffilcoin: () => dispatch(actions.lockAffilcoin(false)),
     hideSidebar: () => dispatch(actions.hideSidebar()),
     setCurrentCurrencyToUSD: () => dispatch(actions.setCurrentCurrency('usd')),
     setMouseUserState: (isMouseUser) => dispatch(actions.setMouseUserState(isMouseUser)),

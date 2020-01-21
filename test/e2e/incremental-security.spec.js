@@ -16,7 +16,7 @@ const {
 } = require('./helpers')
 const enLocaleMessages = require('../../app/_locales/en/messages.json')
 
-describe('MetaMask', function () {
+describe('Affilcoin', function () {
   let driver
   let publicAddress
 
@@ -133,7 +133,7 @@ describe('MetaMask', function () {
       await driver.wait(until.elementTextMatches(txStatus, /Success/), 15000)
     })
 
-    it('switches back to MetaMask', async () => {
+    it('switches back to Affilcoin', async () => {
       await driver.switchTo().window(extension)
     })
 

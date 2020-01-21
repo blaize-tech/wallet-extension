@@ -16,7 +16,7 @@ import { getEnvironmentType } from '../../../../app/scripts/lib/util'
 import { ENVIRONMENT_TYPE_POPUP } from '../../../../app/scripts/lib/enums'
 
 const mapStateToProps = state => {
-  const { metamask, appState } = state
+  const { affilcoin, appState } = state
   const {
     suggestedTokens,
     providerRequests,
@@ -26,7 +26,7 @@ const mapStateToProps = state => {
     threeBoxSynced,
     showRestorePrompt,
     selectedAddress,
-  } = metamask
+  } = affilcoin
   const accountBalance = getCurrentEthBalance(state)
   const { forgottenPassword, threeBoxLastUpdated } = appState
 

@@ -7,7 +7,7 @@ import Identicon from '../identicon.component'
 
 describe('Identicon', () => {
   const state = {
-    metamask: {
+    affilcoin: {
       useBlockie: false,
     },
   }

@@ -8,11 +8,11 @@ const {
 const inDevelopment = process.env.NODE_ENV === 'development'
 
 const METAMETRICS_TRACKING_URL = inDevelopment
-  ? 'http://www.metamask.io/metametrics'
-  : 'http://www.metamask.io/metametrics-prod'
+  ? 'http://www.affilcoin.io/metametrics'
+  : 'http://www.affilcoin.io/metametrics-prod'
 
 function backEndMetaMetricsEvent (metaMaskState, eventData) {
-  const stateEventData = getMetaMetricState({ metamask: metaMaskState })
+  const stateEventData = getMetaMetricState({ affilcoin: metaMaskState })
 
   if (stateEventData.participateInMetaMetrics) {
     sendMetaMetricsEvent({

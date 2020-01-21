@@ -63,9 +63,9 @@ describe('Transaction Controller', function () {
   describe('#getUnapprovedTxCount', function () {
     it('should return the number of unapproved txs', function () {
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 2, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 3, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 1, status: 'unapproved', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 2, status: 'unapproved', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 3, status: 'unapproved', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
       ])
       const unapprovedTxCount = txController.getUnapprovedTxCount()
       assert.equal(unapprovedTxCount, 3, 'should be 3')
@@ -75,9 +75,9 @@ describe('Transaction Controller', function () {
   describe('#getPendingTxCount', function () {
     it('should return the number of pending txs', function () {
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 2, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 3, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 1, status: 'submitted', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 2, status: 'submitted', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 3, status: 'submitted', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
       ])
       const pendingTxCount = txController.getPendingTxCount()
       assert.equal(pendingTxCount, 3, 'should be 3')
@@ -93,15 +93,15 @@ describe('Transaction Controller', function () {
         'to': '0xc684832530fcbddae4b4230a47e991ddcec2831d',
       }
       txController.txStateManager._saveTxList([
-        {id: 0, status: 'confirmed', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 1, status: 'confirmed', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 2, status: 'confirmed', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 3, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 4, status: 'rejected', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 5, status: 'approved', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 6, status: 'signed', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 7, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
-        {id: 8, status: 'failed', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 0, status: 'confirmed', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 1, status: 'confirmed', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 2, status: 'confirmed', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 3, status: 'unapproved', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 4, status: 'rejected', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 5, status: 'approved', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 6, status: 'signed', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 7, status: 'submitted', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
+        {id: 8, status: 'failed', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
       ])
     })
 
@@ -121,7 +121,7 @@ describe('Transaction Controller', function () {
       txMeta = {
         status: 'unapproved',
         id: 1,
-        metamaskNetworkId: currentNetworkId,
+        affilcoinNetworkId: currentNetworkId,
         txParams,
         history: [{}],
       }
@@ -162,7 +162,7 @@ describe('Transaction Controller', function () {
 
       txController.newUnapprovedTransaction(txParams)
         .catch((err) => {
-          if (err.message === 'MetaMask Tx Signature: User denied transaction signature.') done()
+          if (err.message === 'Affilcoin Tx Signature: User denied transaction signature.') done()
           else done(err)
         })
     })
@@ -185,7 +185,7 @@ describe('Transaction Controller', function () {
         .then((txMeta) => {
           assert(('id' in txMeta), 'should have a id')
           assert(('time' in txMeta), 'should have a time stamp')
-          assert(('metamaskNetworkId' in txMeta), 'should have a metamaskNetworkId')
+          assert(('affilcoinNetworkId' in txMeta), 'should have a affilcoinNetworkId')
           assert(('txParams' in txMeta), 'should have a txParams')
           assert(('history' in txMeta), 'should have a history')
 
@@ -239,7 +239,7 @@ describe('Transaction Controller', function () {
       txController.networkStore = new ObservableStore('loading')
       txController.addUnapprovedTransaction({ from: selectedAddress, to: '0x0d1d4e623D10F9FBA5Db95830F7d3839406C6AF2' })
         .catch((err) => {
-          if (err.message === 'MetaMask is having trouble connecting to the network') done()
+          if (err.message === 'Affilcoin is having trouble connecting to the network') done()
           else done(err)
         })
     })
@@ -270,7 +270,7 @@ describe('Transaction Controller', function () {
       const txMeta = {
         id: '1',
         status: 'unapproved',
-        metamaskNetworkId: currentNetworkId,
+        affilcoinNetworkId: currentNetworkId,
         txParams: {},
       }
 
@@ -301,7 +301,7 @@ describe('Transaction Controller', function () {
       txMeta = {
         id: '1',
         status: 'unapproved',
-        metamaskNetworkId: currentNetworkId,
+        affilcoinNetworkId: currentNetworkId,
         txParams: {
           nonce: originalValue,
           gas: originalValue,
@@ -343,7 +343,7 @@ describe('Transaction Controller', function () {
 
   describe('#sign replay-protected tx', function () {
     it('prepares a tx with the chainId set', function (done) {
-      txController.addTx({ id: '1', status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {} }, noop)
+      txController.addTx({ id: '1', status: 'unapproved', affilcoinNetworkId: currentNetworkId, txParams: {} }, noop)
       txController.signTransaction('1').then((rawTx) => {
         const ethTx = new EthTx(ethUtil.toBuffer(rawTx))
         assert.equal(ethTx.getChainId(), currentNetworkId)
@@ -365,7 +365,7 @@ describe('Transaction Controller', function () {
           gas: '0x7b0d',
           nonce: '0x4b',
         },
-        metamaskNetworkId: currentNetworkId,
+        affilcoinNetworkId: currentNetworkId,
       }
     })
     it('should update and approve transactions', async () => {
@@ -387,13 +387,13 @@ describe('Transaction Controller', function () {
   describe('#cancelTransaction', function () {
     beforeEach(function () {
       txController.txStateManager._saveTxList([
-        { id: 0, status: 'unapproved', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 1, status: 'rejected', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 2, status: 'approved', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 3, status: 'signed', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 4, status: 'submitted', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 5, status: 'confirmed', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
-        { id: 6, status: 'failed', txParams: {}, metamaskNetworkId: currentNetworkId, history: [{}] },
+        { id: 0, status: 'unapproved', txParams: {}, affilcoinNetworkId: currentNetworkId, history: [{}] },
+        { id: 1, status: 'rejected', txParams: {}, affilcoinNetworkId: currentNetworkId, history: [{}] },
+        { id: 2, status: 'approved', txParams: {}, affilcoinNetworkId: currentNetworkId, history: [{}] },
+        { id: 3, status: 'signed', txParams: {}, affilcoinNetworkId: currentNetworkId, history: [{}] },
+        { id: 4, status: 'submitted', txParams: {}, affilcoinNetworkId: currentNetworkId, history: [{}] },
+        { id: 5, status: 'confirmed', txParams: {}, affilcoinNetworkId: currentNetworkId, history: [{}] },
+        { id: 6, status: 'failed', txParams: {}, affilcoinNetworkId: currentNetworkId, history: [{}] },
       ])
     })
 
@@ -429,7 +429,7 @@ describe('Transaction Controller', function () {
         gasPrice: '0xa',
       }
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
+        { id: 1, status: 'submitted', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
       ])
 
       expectedTxParams = Object.assign({}, txParams, { gasPrice: '0xb'})
@@ -483,7 +483,7 @@ describe('Transaction Controller', function () {
         id: 1,
         status: 'unapproved',
         txParams: {},
-        metamaskNetworkId: currentNetworkId,
+        affilcoinNetworkId: currentNetworkId,
       }
       providerResultStub.eth_sendRawTransaction = hash
     })
@@ -518,7 +518,7 @@ describe('Transaction Controller', function () {
         data: '0x0',
       }
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams, history: [{}] },
+        { id: 1, status: 'submitted', affilcoinNetworkId: currentNetworkId, txParams, history: [{}] },
       ])
       txController.retryTransaction(1)
         .then((txMeta) => {
@@ -537,13 +537,13 @@ describe('Transaction Controller', function () {
   describe('#_markNonceDuplicatesDropped', function () {
     it('should mark all nonce duplicates as dropped without marking the confirmed transaction as dropped', function () {
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'confirmed', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 2, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 3, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 4, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 5, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 6, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
-        { id: 7, status: 'submitted', metamaskNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 1, status: 'confirmed', affilcoinNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 2, status: 'submitted', affilcoinNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 3, status: 'submitted', affilcoinNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 4, status: 'submitted', affilcoinNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 5, status: 'submitted', affilcoinNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 6, status: 'submitted', affilcoinNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
+        { id: 7, status: 'submitted', affilcoinNetworkId: currentNetworkId, history: [{}], txParams: { nonce: '0x01' } },
       ])
       txController._markNonceDuplicatesDropped(1)
       const confirmedTx = txController.txStateManager.getTx(1)
@@ -667,13 +667,13 @@ describe('Transaction Controller', function () {
   describe('#getPendingTransactions', function () {
     beforeEach(function () {
       txController.txStateManager._saveTxList([
-        { id: 1, status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: {} },
-        { id: 2, status: 'rejected', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 3, status: 'approved', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 4, status: 'signed', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 5, status: 'submitted', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 6, status: 'confirmed', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
-        { id: 7, status: 'failed', metamaskNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 1, status: 'unapproved', affilcoinNetworkId: currentNetworkId, txParams: {} },
+        { id: 2, status: 'rejected', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 3, status: 'approved', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 4, status: 'signed', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 5, status: 'submitted', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 6, status: 'confirmed', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
+        { id: 7, status: 'failed', affilcoinNetworkId: currentNetworkId, txParams: {}, history: [{}] },
       ])
     })
     it('should show only submitted and approved transactions as pending transasction', function () {

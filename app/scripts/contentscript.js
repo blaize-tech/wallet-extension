@@ -18,7 +18,7 @@ const inpageBundle = inpageContent + inpageSuffix
 //
 // But for now that is only Firefox
 // If we create a FireFox-only code path using that API,
-// MetaMask will be much faster loading and performant on Firefox.
+// Affilcoin will be much faster loading and performant on Firefox.
 
 if (shouldInjectWeb3()) {
   injectScript(inpageBundle)
@@ -39,7 +39,7 @@ function injectScript (content) {
     container.insertBefore(scriptTag, container.children[0])
     container.removeChild(scriptTag)
   } catch (e) {
-    console.error('MetaMask script injection failed', e)
+    console.error('Affilcoin script injection failed', e)
   }
 }
 
@@ -77,13 +77,13 @@ async function setupStreams () {
     pageMux,
     pageStream,
     pageMux,
-    (err) => logStreamDisconnectWarning('MetaMask Inpage Multiplex', err)
+    (err) => logStreamDisconnectWarning('Affilcoin Inpage Multiplex', err)
   )
   pump(
     extensionMux,
     extensionStream,
     extensionMux,
-    (err) => logStreamDisconnectWarning('MetaMask Background Multiplex', err)
+    (err) => logStreamDisconnectWarning('Affilcoin Background Multiplex', err)
   )
 
   // forward communication across inpage-background for these channels only
@@ -108,7 +108,7 @@ function forwardTrafficBetweenMuxers (channelName, muxA, muxB) {
     channelA,
     channelB,
     channelA,
-    (err) => logStreamDisconnectWarning(`MetaMask muxed traffic for channel "${channelName}" failed.`, err)
+    (err) => logStreamDisconnectWarning(`Affilcoin muxed traffic for channel "${channelName}" failed.`, err)
   )
 }
 
@@ -150,7 +150,7 @@ function getSiteMetadata () {
  * @param {Error} err Stream connection error
  */
 function logStreamDisconnectWarning (remoteLabel, err) {
-  let warningMsg = `MetamaskContentscript - lost connection to ${remoteLabel}`
+  let warningMsg = `AffilcoinContentscript - lost connection to ${remoteLabel}`
   if (err) warningMsg += '\n' + err.stack
   console.warn(warningMsg)
 }
@@ -249,7 +249,7 @@ function blacklistedDomainCheck () {
  * Redirects the current page to a phishing information page
  */
 function redirectToPhishingWarning () {
-  console.log('MetaMask - routing to Phishing Warning component')
+  console.log('Affilcoin - routing to Phishing Warning component')
   const extensionURL = extension.runtime.getURL('phishing.html')
   window.location.href = `${extensionURL}#${querystring.stringify({
     hostname: window.location.hostname,

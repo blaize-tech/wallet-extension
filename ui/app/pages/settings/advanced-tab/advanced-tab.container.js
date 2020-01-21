@@ -16,7 +16,7 @@ import {
 import {preferencesSelector} from '../../../selectors/selectors'
 
 export const mapStateToProps = state => {
-  const { appState: { warning }, metamask } = state
+  const { appState: { warning }, affilcoin } = state
   const {
     featureFlags: {
       sendHexData,
@@ -25,7 +25,7 @@ export const mapStateToProps = state => {
     threeBoxSyncingAllowed,
     threeBoxDisabled,
     useNonceField,
-  } = metamask
+  } = affilcoin
   const { showFiatInTestnets, autoLogoutTimeLimit } = preferencesSelector(state)
 
   return {

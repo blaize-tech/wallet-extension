@@ -1,10 +1,10 @@
 {
-  "metamask": {
+  "affilcoin": {
     "completedOnboarding": true,
     "isInitialized": true,
     "isUnlocked": true,
     "featureFlags": {"betaUI": true},
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://rawtestrpc.affilcoin.io/",
     "identities": {
       "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825": {
         "address": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -81,7 +81,7 @@
           {
             "id": 4068311466147836,
             "loadingDefaults": true,
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "status": "unapproved",
             "time": 1522378334455,
             "txParams": {
@@ -198,7 +198,7 @@
         ],
         "id": 4068311466147836,
         "loadingDefaults": false,
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "nonceDetails": {
           "local": {
             "details": {
@@ -238,7 +238,7 @@
         "id": 2315363930841933,
         "time": 1522378572149,
         "status": "approved",
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "loadingDefaults": false,
         "txParams": {
           "from": "0x5b1cbd5636d484bf1cb6927a9425db9e7dc73ce4",
@@ -253,7 +253,7 @@
             "id": 2315363930841933,
             "time": 1522378572149,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "loadingDefaults": true,
             "txParams": {
               "from": "0x5b1cbd5636d484bf1cb6927a9425db9e7dc73ce4",
@@ -316,7 +316,7 @@
           {
             "id": 2079438776801906,
             "loadingDefaults": true,
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "status": "unapproved",
             "time": 1522346270251,
             "txParams": {
@@ -476,7 +476,7 @@
         ],
         "id": 2079438776801906,
         "loadingDefaults": false,
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "nonceDetails": {
           "local": {
             "details": {
@@ -524,7 +524,7 @@
           {
             "id": 2079438776801906,
             "loadingDefaults": true,
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "status": "unapproved",
             "time": 1522346270251,
             "txParams": {
@@ -684,7 +684,7 @@
         ],
         "id": 2079438776801906,
         "loadingDefaults": false,
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "nonceDetails": {
           "local": {
             "details": {
@@ -726,7 +726,7 @@
         "id": 4087002078467524,
         "time": 1522379587999,
         "status": "submitted",
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "loadingDefaults": false,
         "txParams": {
           "from": "0x5b1cbd5636d484bf1cb6927a9425db9e7dc73ce4",
@@ -742,7 +742,7 @@
             "id": 4087002078467524,
             "time": 1522379587999,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "loadingDefaults": true,
             "txParams": {
               "from": "0x5b1cbd5636d484bf1cb6927a9425db9e7dc73ce4",
@@ -905,7 +905,7 @@
         "id": 2699829174766090,
         "time": 1522381785750,
         "status": "unapproved",
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "loadingDefaults": false,
         "txParams": {
           "from": "0x5b1cbd5636d484bf1cb6927a9425db9e7dc73ce4",
@@ -919,7 +919,7 @@
             "id": 2699829174766090,
             "time": 1522381785750,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "loadingDefaults": true,
             "txParams": {
               "from": "0x5b1cbd5636d484bf1cb6927a9425db9e7dc73ce4",
@@ -962,7 +962,7 @@
         "id": 2699829174766090,
         "time": 1522381785750,
         "status": "unapproved",
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "loadingDefaults": false,
         "txParams": {
           "from": "0x5b1cbd5636d484bf1cb6927a9425db9e7dc73ce4",
@@ -976,7 +976,7 @@
             "id": 2699829174766090,
             "time": 1522381785750,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "loadingDefaults": true,
             "txParams": {
               "from": "0x5b1cbd5636d484bf1cb6927a9425db9e7dc73ce4",
