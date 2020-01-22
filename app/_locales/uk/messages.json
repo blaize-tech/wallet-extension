@@ -178,10 +178,10 @@
     "message": "Affilcoin розроблено й створено в Каліфорнії."
   },
   "buyWithWyre": {
-    "message": "Купити ETH через Wyre"
+    "message": "Купити AC через Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre дає змогу використовувати кредитну картку для внесення валюти ETH безпосередньо у свій гаманець Affilcoin."
+    "message": "Wyre дає змогу використовувати кредитну картку для внесення валюти AC безпосередньо у свій гаманець Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Купувати на CoinSwitch"
@@ -635,7 +635,7 @@
     "message": "Відома контрактна адреса."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Не є мережею ETH, налаштуйте нижній регістр"
+    "message": "Не є мережею AC, налаштуйте нижній регістр"
   },
   "invalidInput": {
     "message": "Неприпустимий ввід."
@@ -749,7 +749,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Не можливо наділсати від'ємну кількість ETH."
+    "message": "Не можливо наділсати від'ємну кількість AC."
   },
   "networkName": {
     "message": "Ім’я мережі"
@@ -886,7 +886,7 @@
     "message": "Первісна валюта"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Оберіть \"рідна\", щоб пріоритезувати показ сум у рідних валютах мережі (напр.ETH). \nОберіть \"фіатна\", щоб пріоритезувати показ сум у ваших обраних фіатних валютах."
+    "message": "Оберіть \"рідна\", щоб пріоритезувати показ сум у рідних валютах мережі (напр.AC). \nОберіть \"фіатна\", щоб пріоритезувати показ сум у ваших обраних фіатних валютах."
   },
   "privacyMsg": {
     "message": "Політика конфіденційності"
@@ -1070,7 +1070,7 @@
     "message": "Надіслати суму"
   },
   "sendETH": {
-    "message": "Надіслати ETH"
+    "message": "Надіслати AC"
   },
   "sendTokens": {
     "message": "Надіслати токени"
@@ -1238,7 +1238,7 @@
     "message": "Кому"
   },
   "toETHviaShapeShift": {
-    "message": "$1 в ETH через ShapeShift",
+    "message": "$1 в AC через ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

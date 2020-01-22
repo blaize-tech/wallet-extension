@@ -178,10 +178,10 @@
     "message": "Affilcoin on projekteeritud ja loodud Californias."
   },
   "buyWithWyre": {
-    "message": "Ostke ETH-d Wyre'iga"
+    "message": "Ostke AC-d Wyre'iga"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre võimaldab kasutada krediitkaarti, et teha ETH sissemakse otse Affilcoini kontole."
+    "message": "Wyre võimaldab kasutada krediitkaarti, et teha AC sissemakse otse Affilcoini kontole."
   },
   "buyCoinSwitch": {
     "message": "Osta CoinSwitchil"
@@ -631,7 +631,7 @@
     "message": "Teadaolev lepinguaadress."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Kehtetu ETH-võrk, kasutage väiketähti"
+    "message": "Kehtetu AC-võrk, kasutage väiketähti"
   },
   "invalidInput": {
     "message": "Vigane sisend."
@@ -876,7 +876,7 @@
     "message": "Põhivaluuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Valige omavääring, et prioriseerida vääringu kuvamist ahela omavääringus (nt ETH). Valige Fiat, et prioriseerida vääringu kuvamist valitud fiat-vääringus."
+    "message": "Valige omavääring, et prioriseerida vääringu kuvamist ahela omavääringus (nt AC). Valige Fiat, et prioriseerida vääringu kuvamist valitud fiat-vääringus."
   },
   "privacyMsg": {
     "message": "privaatsuspoliitika"
@@ -1060,7 +1060,7 @@
     "message": "Saatke kogus"
   },
   "sendETH": {
-    "message": "Saada ETH"
+    "message": "Saada AC"
   },
   "sendTokens": {
     "message": "Saada lube"
@@ -1228,7 +1228,7 @@
     "message": "Saaja"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ETH-le ShapeShifti kaudu",
+    "message": "$1 AC-le ShapeShifti kaudu",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

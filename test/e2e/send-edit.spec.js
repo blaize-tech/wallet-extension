@@ -95,7 +95,7 @@ describe('Using Affilcoin with an existing account', function () {
     })
   })
 
-  describe('Send ETH from inside Affilcoin', () => {
+  describe('Send AC from inside Affilcoin', () => {
     it('starts a send transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
@@ -225,7 +225,7 @@ describe('Using Affilcoin with an existing account', function () {
 
       const txValues = await findElements(driver, By.css('.transaction-list-item__amount--primary'))
       assert.equal(txValues.length, 1)
-      assert.ok(/-2.2\s*ETH/.test(await txValues[0].getText()))
+      assert.ok(/-2.2\s*AC/.test(await txValues[0].getText()))
     })
   })
 })

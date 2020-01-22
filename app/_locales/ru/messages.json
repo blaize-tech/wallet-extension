@@ -343,7 +343,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Невозможно отправить отрицательную сумму ETH."
+    "message": "Невозможно отправить отрицательную сумму AC."
   },
   "networks": {
     "message": "Сети"
@@ -454,7 +454,7 @@
     "message": "Отправить"
   },
   "sendETH": {
-    "message": "Отправить ETH"
+    "message": "Отправить AC"
   },
   "sendTokens": {
     "message": "Отправить токены"
@@ -514,7 +514,7 @@
     "message": "Получатель"
   },
   "toETHviaShapeShift": {
-    "message": "$1 в ETH через ShapeShift",
+    "message": "$1 в AC через ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {
@@ -678,10 +678,10 @@
     "message": "Ваш браузер не поддерживается..."
   },
   "buyWithWyre": {
-    "message": "Купить ETH на Wyre"
+    "message": "Купить AC на Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre позволяет вам покупать ETH использую кредитную карту, прямо на ваш счет в Affilcoin."
+    "message": "Wyre позволяет вам покупать AC использую кредитную карту, прямо на ваш счет в Affilcoin."
   },
   "bytes": {
     "message": "Байт"
@@ -1068,7 +1068,7 @@
     "message": "Основная валюта"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Выберите «Собственный», чтобы установить приоритет отображения сумм в валюте сети(например, ETH).выберите Фиат, чтобы установить приоритет отображения значений в выбранной вами фиатной валюте."
+    "message": "Выберите «Собственный», чтобы установить приоритет отображения сумм в валюте сети(например, AC).выберите Фиат, чтобы установить приоритет отображения значений в выбранной вами фиатной валюте."
   },
   "queue": {
     "message": "Очередь"

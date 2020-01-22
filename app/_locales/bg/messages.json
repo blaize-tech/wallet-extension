@@ -178,10 +178,10 @@
     "message": "Affilcoin е проектиран и създаден в Калифорния."
   },
   "buyWithWyre": {
-    "message": "Купете ETH с Wyre"
+    "message": "Купете AC с Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ви позволява да използвате кредитна карта, за да депозирате ETH право във вашата Affilcoin сметка."
+    "message": "Wyre ви позволява да използвате кредитна карта, за да депозирате AC право във вашата Affilcoin сметка."
   },
   "buyCoinSwitch": {
     "message": "Купете на CoinSwitch"
@@ -631,7 +631,7 @@
     "message": "Известен адрес на договора."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Не е ETH мрежа, задаване на малки букви"
+    "message": "Не е AC мрежа, задаване на малки букви"
   },
   "invalidInput": {
     "message": "Невалидно въвеждане."
@@ -745,7 +745,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Не може да изпраща отрицателни суми от ETH."
+    "message": "Не може да изпраща отрицателни суми от AC."
   },
   "networkName": {
     "message": "Име на мрежата"
@@ -882,7 +882,7 @@
     "message": "Основна валута"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Изберете местна, за да приоритизирате показването на стойности в основната валута на веригата (например ETH). Изберете Fiat, за да поставите приоритет на показването на стойности в избраната от вас fiat валута."
+    "message": "Изберете местна, за да приоритизирате показването на стойности в основната валута на веригата (например AC). Изберете Fiat, за да поставите приоритет на показването на стойности в избраната от вас fiat валута."
   },
   "privacyMsg": {
     "message": "Политика за поверителност"
@@ -1066,7 +1066,7 @@
     "message": "Изпратете сумата"
   },
   "sendETH": {
-    "message": "Изпрати ETH"
+    "message": "Изпрати AC"
   },
   "sendTokens": {
     "message": "Изпращане на жетони"
@@ -1234,7 +1234,7 @@
     "message": "На"
   },
   "toETHviaShapeShift": {
-    "message": "$1 до ETH чрез ShapeShift",
+    "message": "$1 до AC чрез ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

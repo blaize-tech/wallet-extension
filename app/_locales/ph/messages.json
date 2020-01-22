@@ -307,7 +307,7 @@
     "message": "I-submit"
   },
   "toETHviaShapeShift": {
-    "message": "$1 sa ETH sa pamamagitan ng ShapeShift",
+    "message": "$1 sa AC sa pamamagitan ng ShapeShift",
     "description": "Pupunan ng system ang deposit type sa simula ng mensahe"
   },
   "total": {

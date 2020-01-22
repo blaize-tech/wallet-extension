@@ -181,7 +181,7 @@
     "message": "قم بشراء عملة إيثير بواسطة Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "يتيح لك Wyre استخدام بطاقة ائتمان لإيداع ETH مباشرة في حساب Affilcoin الخاص بك."
+    "message": "يتيح لك Wyre استخدام بطاقة ائتمان لإيداع AC مباشرة في حساب Affilcoin الخاص بك."
   },
   "buyCoinSwitch": {
     "message": "قم بالشراء على CoinSwitch"
@@ -631,7 +631,7 @@
     "message": "عنوان العقد المعروف."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "لا تجعلها شبكة ETH، قم بتعيين الأحرف صغيرة"
+    "message": "لا تجعلها شبكة AC، قم بتعيين الأحرف صغيرة"
   },
   "invalidInput": {
     "message": "مدخل غير صحيح."
@@ -742,7 +742,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "لا يمكن إرسال مبالغ سلبية من ETH."
+    "message": "لا يمكن إرسال مبالغ سلبية من AC."
   },
   "networkName": {
     "message": "اسم الشبكة"
@@ -879,7 +879,7 @@
     "message": "العملة الأساسية"
   },
   "primaryCurrencySettingDescription": {
-    "message": "حدد خيار \"المحلية\" لتحديد أولويات عرض القيم بالعملة المحلية للسلسلة (مثلاً ETH). حدد Fiat لتحديد أولويات عرض القيم بعملات fiat المحددة الخاصة بك."
+    "message": "حدد خيار \"المحلية\" لتحديد أولويات عرض القيم بالعملة المحلية للسلسلة (مثلاً AC). حدد Fiat لتحديد أولويات عرض القيم بعملات fiat المحددة الخاصة بك."
   },
   "privacyMsg": {
     "message": "سياسة الخصوصية"
@@ -1231,7 +1231,7 @@
     "message": "إلى"
   },
   "toETHviaShapeShift": {
-    "message": "تحويل $1 إلى ETH عبر ShapeShift",
+    "message": "تحويل $1 إلى AC عبر ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

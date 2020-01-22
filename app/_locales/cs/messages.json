@@ -327,7 +327,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nelze odeslat zápornou částku ETH."
+    "message": "Nelze odeslat zápornou částku AC."
   },
   "networks": {
     "message": "Sítě"
@@ -438,7 +438,7 @@
     "message": "Odeslat"
   },
   "sendETH": {
-    "message": "Odeslat ETH"
+    "message": "Odeslat AC"
   },
   "sendTokens": {
     "message": "Odeslat tokeny"
@@ -498,7 +498,7 @@
     "message": "Komu"
   },
   "toETHviaShapeShift": {
-    "message": "$1 na ETH přes ShapeShift",
+    "message": "$1 na AC přes ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

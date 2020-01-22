@@ -98,7 +98,7 @@ describe('Affilcoin', function () {
 
       it('balance renders', async () => {
         const balance = await findElement(driver, By.css('.balance-display .token-amount'))
-        await driver.wait(until.elementTextMatches(balance, /25\s*ETH/))
+        await driver.wait(until.elementTextMatches(balance, /25\s*AC/))
         await delay(regularDelayMs)
       })
     })
@@ -221,7 +221,7 @@ describe('Affilcoin', function () {
 
       it('balance renders', async () => {
         const balance = await findElement(driver2, By.css('.balance-display .token-amount'))
-        await driver2.wait(until.elementTextMatches(balance, /25\s*ETH/))
+        await driver2.wait(until.elementTextMatches(balance, /25\s*AC/))
         await delay(regularDelayMs)
       })
     })

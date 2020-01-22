@@ -307,7 +307,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Não é possível enviar valores negativos de ETH."
+    "message": "Não é possível enviar valores negativos de AC."
   },
   "networks": {
     "message": "Redes"
@@ -418,7 +418,7 @@
     "message": "Enviar"
   },
   "sendETH": {
-    "message": "Enviar ETH"
+    "message": "Enviar AC"
   },
   "sendTokens": {
     "message": "Enviar Tokens"
@@ -466,7 +466,7 @@
     "message": "Para"
   },
   "toETHviaShapeShift": {
-    "message": "$1 para ETH via ShapeShift",
+    "message": "$1 para AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

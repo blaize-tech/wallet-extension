@@ -421,7 +421,7 @@
     "message": "भेजें"
   },
   "sendETH": {
-    "message": "भेजें ETH"
+    "message": "भेजें AC"
   },
   "sendTokens": {
     "message": "भेजें टोकन"
@@ -466,7 +466,7 @@
     "message": "के लिए"
   },
   "toETHviaShapeShift": {
-    "message": "शैपशैफ्ट द्वारा $1 से ETH में जमा",
+    "message": "शैपशैफ्ट द्वारा $1 से AC में जमा",
     "description": "संदेश की शुरुआत में जमा प्रकार भर जाएगा"
   },
   "tokenAlreadyAdded": {

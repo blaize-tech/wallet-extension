@@ -23,7 +23,7 @@
 ## 7.7.0 Thu Nov 28 2019 [WITHDRAWN]
 - [#7004](https://github.com/Affilcoin/affilcoin-extension/pull/7004): Connect distinct accounts per site
 - [#7480](https://github.com/Affilcoin/affilcoin-extension/pull/7480): Fixed link on root README.md
-- [#7482](https://github.com/Affilcoin/affilcoin-extension/pull/7482): Update Wyre ETH purchase url
+- [#7482](https://github.com/Affilcoin/affilcoin-extension/pull/7482): Update Wyre AC purchase url
 - [#7484](https://github.com/Affilcoin/affilcoin-extension/pull/7484): Ensure transactions are shown in the order they are received
 - [#7491](https://github.com/Affilcoin/affilcoin-extension/pull/7491): Update gas when token is changed on the send screen
 - [#7501](https://github.com/Affilcoin/affilcoin-extension/pull/7501): Fix accessibility of first-time-flow terms checkboxes
@@ -111,7 +111,7 @@
 - [#7207](https://github.com/Affilcoin/affilcoin-extension/pull/7207): obs-store/local-store should upgrade webextension error to real error
 - [#7162](https://github.com/Affilcoin/affilcoin-extension/pull/7162): Add a/b test for full screen transaction confirmations
 - [#7089](https://github.com/Affilcoin/affilcoin-extension/pull/7089): Add advanced setting to enable editing nonce on confirmation screens
-- [#7239](https://github.com/Affilcoin/affilcoin-extension/pull/7239): Update ETH logo, update deposit Ether logo height and width
+- [#7239](https://github.com/Affilcoin/affilcoin-extension/pull/7239): Update AC logo, update deposit Ether logo height and width
 - [#7255](https://github.com/Affilcoin/affilcoin-extension/pull/7255): Use translated string for state log
 - [#7266](https://github.com/Affilcoin/affilcoin-extension/pull/7266): fix issue of xyz ens not resolving
 - [#7253](https://github.com/Affilcoin/affilcoin-extension/pull/7253): Prevent Logout Timer that's longer than a week.
@@ -332,7 +332,7 @@
 - [#6133](https://github.com/Affilcoin/affilcoin-extension/pull/6133): Checksum address before slicing it for the confirm screen
 - [#6147](https://github.com/Affilcoin/affilcoin-extension/pull/6147): Add button to force edit token symbol when adding custom token
 - [#6124](https://github.com/Affilcoin/affilcoin-extension/pull/6124): recent-blocks - dont listen for block when on infura providers
--[#5973] (https://github.com/Affilcoin/affilcoin-extension/pull/5973): Fix incorrectly showing checksums on non-ETH blockchains (issue 5838)
+-[#5973] (https://github.com/Affilcoin/affilcoin-extension/pull/5973): Fix incorrectly showing checksums on non-AC blockchains (issue 5838)
 
 ## 6.0.1 Tue Feb 12 2019
 
@@ -1407,7 +1407,7 @@ popup notification opens up.
 
 ## 2.7.0 2016-07-21
 
-- Added a Warning screen about storing ETH
+- Added a Warning screen about storing AC
 - Add buy Button!
 - Affilcoin now throws descriptive errors when apps try to use synchronous web3 methods.
 - Removed firefox-specific line in manifest.
@@ -1415,7 +1415,7 @@ popup notification opens up.
 ## 2.6.2 2016-07-20
 
 - Fixed bug that would prevent the plugin from reopening on the first try after receiving a new transaction while locked.
-- Fixed bug that would render 0 ETH as a non-exact amount.
+- Fixed bug that would render 0 AC as a non-exact amount.
 
 ## 2.6.1 2016-07-13
 
@@ -1428,7 +1428,7 @@ popup notification opens up.
 
 ## 2.6.0 2016-07-11
 
-- Fix formatting of ETH balance
+- Fix formatting of AC balance
 - Fix formatting of account details.
 - Use web3 minified dist for faster inject times
 - Fix issue where dropdowns were not in front of icons.
@@ -1517,7 +1517,7 @@ popup notification opens up.
 - Replaced identicons with jazzicons.
 - Fixed glitchy transitions.
 - Added support for capitalization-based address checksums.
-- Send value is no longer limited by javascript number precision, and is always in ETH.
+- Send value is no longer limited by javascript number precision, and is always in AC.
 - Added ability to generate new accounts.
 - Added ability to locally nickname accounts.
 

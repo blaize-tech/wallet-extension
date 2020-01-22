@@ -339,7 +339,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Negatif ETH miktarları gönderilemez."
+    "message": "Negatif AC miktarları gönderilemez."
   },
   "networks": {
     "message": "Ağlar"
@@ -456,7 +456,7 @@
     "message": "Gönder"
   },
   "sendETH": {
-    "message": "ETH Gönder"
+    "message": "AC Gönder"
   },
   "sendTokens": {
     "message": "Jeton Gönder"
@@ -516,7 +516,7 @@
     "message": "Kime"
   },
   "toETHviaShapeShift": {
-    "message": "ShapeShift üstünden $1'dan ETH'e",
+    "message": "ShapeShift üstünden $1'dan AC'e",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

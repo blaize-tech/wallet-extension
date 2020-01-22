@@ -301,7 +301,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan geen negatieve hoeveelheden ETH verzenden."
+    "message": "Kan geen negatieve hoeveelheden AC verzenden."
   },
   "networks": {
     "message": "netwerken"
@@ -408,7 +408,7 @@
     "message": "Sturen"
   },
   "sendETH": {
-    "message": "Verzend ETH"
+    "message": "Verzend AC"
   },
   "sendTokens": {
     "message": "Stuur tokens"
@@ -456,7 +456,7 @@
     "message": "Naar"
   },
   "toETHviaShapeShift": {
-    "message": "$1 tot ETH via ShapeShift",
+    "message": "$1 tot AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

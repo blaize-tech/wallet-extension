@@ -23,7 +23,7 @@ describe('CurrencyInput container', () => {
           affilcoin: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
             preferences: {
               showFiatInTestnets: false,
             },
@@ -38,7 +38,7 @@ describe('CurrencyInput container', () => {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           hideFiat: false,
           maxModeOn: false,
         },
@@ -50,7 +50,7 @@ describe('CurrencyInput container', () => {
           affilcoin: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
             preferences: {
               showFiatInTestnets: false,
             },
@@ -65,7 +65,7 @@ describe('CurrencyInput container', () => {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           hideFiat: true,
           maxModeOn: false,
         },
@@ -77,7 +77,7 @@ describe('CurrencyInput container', () => {
           affilcoin: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
             preferences: {
               showFiatInTestnets: true,
             },
@@ -92,7 +92,7 @@ describe('CurrencyInput container', () => {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           hideFiat: false,
           maxModeOn: false,
         },
@@ -104,7 +104,7 @@ describe('CurrencyInput container', () => {
           affilcoin: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
             preferences: {
               showFiatInTestnets: true,
             },
@@ -119,7 +119,7 @@ describe('CurrencyInput container', () => {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           hideFiat: false,
           maxModeOn: false,
         },
@@ -140,7 +140,7 @@ describe('CurrencyInput container', () => {
           stateProps: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
           },
           dispatchProps: {},
           ownProps: {},
@@ -148,9 +148,9 @@ describe('CurrencyInput container', () => {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           // useFiat: true,
-          nativeSuffix: 'ETH',
+          nativeSuffix: 'AC',
           fiatSuffix: 'USD',
         },
       },
@@ -161,7 +161,7 @@ describe('CurrencyInput container', () => {
           stateProps: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
           },
           dispatchProps: {},
           ownProps: { useFiat: true },
@@ -169,9 +169,9 @@ describe('CurrencyInput container', () => {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           useFiat: true,
-          nativeSuffix: 'ETH',
+          nativeSuffix: 'AC',
           fiatSuffix: 'USD',
         },
       },

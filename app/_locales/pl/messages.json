@@ -178,10 +178,10 @@
     "message": "Affilcoin został zaprojektowany i stworzony w Kaliforni."
   },
   "buyWithWyre": {
-    "message": "Kup ETH poprzez Wyre"
+    "message": "Kup AC poprzez Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Dzięki Wyre możesz użyć karty kredytowej, aby wpłacić ETH bezpośrednio na swoje konto Affilcoin."
+    "message": "Dzięki Wyre możesz użyć karty kredytowej, aby wpłacić AC bezpośrednio na swoje konto Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Kup w CoinSwitch"
@@ -632,7 +632,7 @@
     "message": "Znany adres kontraktu."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "To nie jest sieć ETH, zmień na małe litery"
+    "message": "To nie jest sieć AC, zmień na małe litery"
   },
   "invalidInput": {
     "message": "Nieprawidłowe dane."
@@ -740,7 +740,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nie można wysłać ujemnych ilości ETH."
+    "message": "Nie można wysłać ujemnych ilości AC."
   },
   "networkName": {
     "message": "Nazwa sieci"
@@ -877,7 +877,7 @@
     "message": "Waluta podstawowa"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Wybierz walutę natywną, aby preferować wyświetlanie wartości w walucie natywnej łańcucha (np. ETH). Wybierz walutę fiat, aby preferować wyświetlanie wartości w wybranej przez siebie walucie fiat."
+    "message": "Wybierz walutę natywną, aby preferować wyświetlanie wartości w walucie natywnej łańcucha (np. AC). Wybierz walutę fiat, aby preferować wyświetlanie wartości w wybranej przez siebie walucie fiat."
   },
   "privacyMsg": {
     "message": "Polityka prywatności"
@@ -1061,7 +1061,7 @@
     "message": "Wyślij kwotę"
   },
   "sendETH": {
-    "message": "Wyślij ETH"
+    "message": "Wyślij AC"
   },
   "sendTokens": {
     "message": "Wyślij tokeny"
@@ -1214,7 +1214,7 @@
     "message": "Regulamin"
   },
   "testFaucet": {
-    "message": "Źródło testowego ETH"
+    "message": "Źródło testowego AC"
   },
   "thisWillCreate": {
     "message": "Utworzony zostanie nowy portfel i fraza seed"
@@ -1226,7 +1226,7 @@
     "message": "Do"
   },
   "toETHviaShapeShift": {
-    "message": "$1 na ETH przez ShapeShift",
+    "message": "$1 na AC przez ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

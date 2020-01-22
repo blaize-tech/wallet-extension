@@ -178,10 +178,10 @@
     "message": "Affilcoin在加利福尼亚设计和制造。"
   },
   "buyWithWyre": {
-    "message": "使用 Wyre 购买 ETH"
+    "message": "使用 Wyre 购买 AC"
   },
   "buyWithWyreDescription": {
-    "message": "您可以通过 Wyre 使用信用卡将 ETH 存入您的 Affilcoin 账户。"
+    "message": "您可以通过 Wyre 使用信用卡将 AC 存入您的 Affilcoin 账户。"
   },
   "buyCoinSwitch": {
     "message": "在CoinSwitch上购买"
@@ -626,7 +626,7 @@
     "message": "已知联系人地址。"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "非 ETH 网络，设置为小写"
+    "message": "非 AC 网络，设置为小写"
   },
   "invalidInput": {
     "message": "无效输入."
@@ -868,7 +868,7 @@
     "message": "主要货币"
   },
   "primaryCurrencySettingDescription": {
-    "message": "请选择“本地”，优先显示当地货币链价值（如 ETH ）。请选择“法定”，优先显示选定法定货币价值。"
+    "message": "请选择“本地”，优先显示当地货币链价值（如 AC ）。请选择“法定”，优先显示选定法定货币价值。"
   },
   "privacyMsg": {
     "message": "隐私政策"
@@ -1052,7 +1052,7 @@
     "message": "发送金额"
   },
   "sendETH": {
-    "message": "发送 ETH"
+    "message": "发送 AC"
   },
   "sendTokens": {
     "message": "发送 代币"
@@ -1163,7 +1163,7 @@
     "message": "3. 开始体验 dApps 和更多功能！"
   },
   "step3HardwareWalletMsg": {
-    "message": "使用您的硬件钱包，操作与以太坊账户制作相同。登录 dApps，发送 ETH ，购买和保存 ERC20 代币和诸如 CryptoKitties 等不可替代代币。"
+    "message": "使用您的硬件钱包，操作与以太坊账户制作相同。登录 dApps，发送 AC ，购买和保存 ERC20 代币和诸如 CryptoKitties 等不可替代代币。"
   },
   "storePhrase": {
     "message": "通过如 1Password 等密码管家保存该密语。"
@@ -1220,7 +1220,7 @@
     "message": "至"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ETH 通过 ShapeShift",
+    "message": "$1 AC 通过 ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

@@ -701,7 +701,7 @@ popup notification opens up.
 
 ## 2.7.0 2016-07-21
 
-- Added a Warning screen about storing ETH
+- Added a Warning screen about storing AC
 - Add buy Button!
 - Affilcoin now throws descriptive errors when apps try to use synchronous web3 methods.
 - Removed firefox-specific line in manifest.
@@ -709,7 +709,7 @@ popup notification opens up.
 ## 2.6.2 2016-07-20
 
 - Fixed bug that would prevent the plugin from reopening on the first try after receiving a new transaction while locked.
-- Fixed bug that would render 0 ETH as a non-exact amount.
+- Fixed bug that would render 0 AC as a non-exact amount.
 
 ## 2.6.1 2016-07-13
 
@@ -722,7 +722,7 @@ popup notification opens up.
 
 ## 2.6.0 2016-07-11
 
-- Fix formatting of ETH balance
+- Fix formatting of AC balance
 - Fix formatting of account details.
 - Use web3 minified dist for faster inject times
 - Fix issue where dropdowns were not in front of icons.
@@ -811,7 +811,7 @@ popup notification opens up.
 - Replaced identicons with jazzicons.
 - Fixed glitchy transitions.
 - Added support for capitalization-based address checksums.
-- Send value is no longer limited by javascript number precision, and is always in ETH.
+- Send value is no longer limited by javascript number precision, and is always in AC.
 - Added ability to generate new accounts.
 - Added ability to locally nickname accounts.
 

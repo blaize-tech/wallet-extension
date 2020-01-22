@@ -61,11 +61,11 @@ describe('AffilcoinController', function () {
 
     nock('https://api.infura.io')
       .get('/v1/ticker/ethusd')
-      .reply(200, '{"base": "ETH", "quote": "USD", "bid": 288.45, "ask": 288.46, "volume": 112888.17569277, "exchange": "bitfinex", "total_volume": 272175.00106721005, "num_exchanges": 8, "timestamp": 1506444677}')
+      .reply(200, '{"base": "AC", "quote": "USD", "bid": 288.45, "ask": 288.46, "volume": 112888.17569277, "exchange": "bitfinex", "total_volume": 272175.00106721005, "num_exchanges": 8, "timestamp": 1506444677}')
 
     nock('https://api.infura.io')
       .get('/v1/ticker/ethjpy')
-      .reply(200, '{"base": "ETH", "quote": "JPY", "bid": 32300.0, "ask": 32400.0, "volume": 247.4616071, "exchange": "kraken", "total_volume": 247.4616071, "num_exchanges": 1, "timestamp": 1506444676}')
+      .reply(200, '{"base": "AC", "quote": "JPY", "bid": 32300.0, "ask": 32400.0, "volume": 247.4616071, "exchange": "kraken", "total_volume": 247.4616071, "num_exchanges": 1, "timestamp": 1506444676}')
 
     nock('https://api.infura.io')
       .persist()
@@ -548,7 +548,7 @@ describe('AffilcoinController', function () {
         .reply(200, '{"status": "no_deposits", "address": "3EevLFfB4H4XMWQwYCgjLie1qCAGpd2WBc"}')
 
       depositAddress = '3EevLFfB4H4XMWQwYCgjLie1qCAGpd2WBc'
-      depositType = 'ETH'
+      depositType = 'AC'
       shapeShiftTxList = affilcoinController.shapeshiftController.state.shapeShiftTxList
     })
 

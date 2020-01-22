@@ -178,10 +178,10 @@
     "message": "Affilcoin este concepută și creată în California."
   },
   "buyWithWyre": {
-    "message": "Cumpărați ETH cu Wyre"
+    "message": "Cumpărați AC cu Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vă permite să folosiți un card de credit pentru a depune ETH direct în contul dvs. Affilcoin."
+    "message": "Wyre vă permite să folosiți un card de credit pentru a depune AC direct în contul dvs. Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Cumpărați pe CoinSwitch"
@@ -625,7 +625,7 @@
     "message": "Adresa cunoscută din contract."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nu este rețea ETH, setați pe minuscule"
+    "message": "Nu este rețea AC, setați pe minuscule"
   },
   "invalidInput": {
     "message": "Intrare nevalidă."
@@ -736,7 +736,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nu se pot trimite sume negative de ETH."
+    "message": "Nu se pot trimite sume negative de AC."
   },
   "networkName": {
     "message": "Numele rețelei"
@@ -873,7 +873,7 @@
     "message": "Moneda principală"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Selectați nativ pentru a prioritiza valorile afișate în moneda nativă a lanțului (ex. ETH). Selectați Fiat pentru a prioritiza valorile afișate în moneda selectată fiat."
+    "message": "Selectați nativ pentru a prioritiza valorile afișate în moneda nativă a lanțului (ex. AC). Selectați Fiat pentru a prioritiza valorile afișate în moneda selectată fiat."
   },
   "privacyMsg": {
     "message": "Politica de Confidențialitate"
@@ -1057,7 +1057,7 @@
     "message": "Suma trimisă"
   },
   "sendETH": {
-    "message": "Trimitere ETH"
+    "message": "Trimitere AC"
   },
   "sendTokens": {
     "message": "Trimiteți indicative"
@@ -1225,7 +1225,7 @@
     "message": "Către"
   },
   "toETHviaShapeShift": {
-    "message": "$1 în ETH prin ShapeShift",
+    "message": "$1 în AC prin ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

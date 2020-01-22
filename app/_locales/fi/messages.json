@@ -178,10 +178,10 @@
     "message": "Affilcoin on suunniteltu ja koottu Kaliforniassa."
   },
   "buyWithWyre": {
-    "message": "Osta ETH:ta Wyrella"
+    "message": "Osta AC:ta Wyrella"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre antaa sinun käyttää luottokorttia, jotta voit tallettaa ETH:ta suoraan Affilcoin-tilillesi."
+    "message": "Wyre antaa sinun käyttää luottokorttia, jotta voit tallettaa AC:ta suoraan Affilcoin-tilillesi."
   },
   "buyCoinSwitch": {
     "message": "Osta CoinSwitchissa"
@@ -632,7 +632,7 @@
     "message": "Tunnettu sopimusosoite."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ei ole ETH-verkosto; vaihda pieniin kirjaimiin"
+    "message": "Ei ole AC-verkosto; vaihda pieniin kirjaimiin"
   },
   "invalidInput": {
     "message": "Virheellinen syötetty arvo."
@@ -746,7 +746,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "ETH:ta ei voi lähettää negatiivista määrää."
+    "message": "AC:ta ei voi lähettää negatiivista määrää."
   },
   "networkName": {
     "message": "Verkon nimi"
@@ -883,7 +883,7 @@
     "message": "Ensisijainen valuutta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Valitse natiivivaihtoehto näyttääksesi arvot ensisijaisesti ketjun natiivivaluutalla (esim. ETH). Valitse oletusmääräys asettaaksesi valitsemasi oletusvaluutan ensisijaiseksi."
+    "message": "Valitse natiivivaihtoehto näyttääksesi arvot ensisijaisesti ketjun natiivivaluutalla (esim. AC). Valitse oletusmääräys asettaaksesi valitsemasi oletusvaluutan ensisijaiseksi."
   },
   "privacyMsg": {
     "message": "Tietosuojakäytäntö"
@@ -1067,7 +1067,7 @@
     "message": "Lähetä summa"
   },
   "sendETH": {
-    "message": "Lähetä ETH:iä"
+    "message": "Lähetä AC:iä"
   },
   "sendTokens": {
     "message": "Lähetä tietueita"
@@ -1235,7 +1235,7 @@
     "message": "Kohde"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ETH:hon ShapeShiftin kautta",
+    "message": "$1 AC:hon ShapeShiftin kautta",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

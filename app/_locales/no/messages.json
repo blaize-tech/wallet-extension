@@ -178,10 +178,10 @@
     "message": "Affilcoin ble bygget og designet i California."
   },
   "buyWithWyre": {
-    "message": "Kjøp ETH med Wyre"
+    "message": "Kjøp AC med Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre lar deg bruke et kredittkort for å sette inn ETH rett på Affilcoin-kontoen din."
+    "message": "Wyre lar deg bruke et kredittkort for å sette inn AC rett på Affilcoin-kontoen din."
   },
   "buyCoinSwitch": {
     "message": "Kjøp på CoinSwitch "
@@ -625,7 +625,7 @@
     "message": "Kjent kontaktadresse"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ikke ETH-nettverk, bruk små bokstaver"
+    "message": "Ikke AC-nettverk, bruk små bokstaver"
   },
   "invalidInput": {
     "message": "Ugyldig inndata "
@@ -739,7 +739,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan ikke sende negative beløp av ETH. "
+    "message": "Kan ikke sende negative beløp av AC. "
   },
   "networkName": {
     "message": "Nettverksnavn "
@@ -876,7 +876,7 @@
     "message": "Hovedvaluta "
   },
   "primaryCurrencySettingDescription": {
-    "message": "Velg nasjonal for å prioritere å vise verdier i nasjonal valuta i kjeden (f.eks. ETH). Velg Fiat for å prioritere visning av verdier i den valgte fiat-valutaen."
+    "message": "Velg nasjonal for å prioritere å vise verdier i nasjonal valuta i kjeden (f.eks. AC). Velg Fiat for å prioritere visning av verdier i den valgte fiat-valutaen."
   },
   "privacyMsg": {
     "message": "Personvernerklæring"
@@ -1210,7 +1210,7 @@
     "message": "Til "
   },
   "toETHviaShapeShift": {
-    "message": "$1 til ETH via ShapeShift",
+    "message": "$1 til AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

@@ -178,10 +178,10 @@
     "message": "A Affilcoinot Kaliforniában tervezték és hozták létre."
   },
   "buyWithWyre": {
-    "message": "Vásároljon ETH-t a Wyre-rel"
+    "message": "Vásároljon AC-t a Wyre-rel"
   },
   "buyWithWyreDescription": {
-    "message": "A Wyre segítségével egyensen a MetaMaks fiókjában tehet letétbe ETH-t."
+    "message": "A Wyre segítségével egyensen a MetaMaks fiókjában tehet letétbe AC-t."
   },
   "buyCoinSwitch": {
     "message": "Vegye meg a CoinSwitchen"
@@ -631,7 +631,7 @@
     "message": "Ismert szerződéses cím."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nem ETH hálózat, állítsa kisbetűre"
+    "message": "Nem AC hálózat, állítsa kisbetűre"
   },
   "invalidInput": {
     "message": "Érvénytelen bevitel."
@@ -742,7 +742,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nem lehet negatív mennyiségű ETH-t küldeni."
+    "message": "Nem lehet negatív mennyiségű AC-t küldeni."
   },
   "networkName": {
     "message": "Hálózat neve"
@@ -879,7 +879,7 @@
     "message": "Elsődleges pénznem"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Válaszd a helyit, hogy az értékek elsősorban a helyi pénznemben jelenjenek meg (pl. ETH). Válaszd a Fiatot, hogy az értékek elsősorban a választott fiat pénznemben jelenjenek meg."
+    "message": "Válaszd a helyit, hogy az értékek elsősorban a helyi pénznemben jelenjenek meg (pl. AC). Válaszd a Fiatot, hogy az értékek elsősorban a választott fiat pénznemben jelenjenek meg."
   },
   "privacyMsg": {
     "message": "Adatvédelmi szabályzat"
@@ -1063,7 +1063,7 @@
     "message": "Összeg küldése"
   },
   "sendETH": {
-    "message": "ETH küldése"
+    "message": "AC küldése"
   },
   "sendTokens": {
     "message": "Token küldése"
@@ -1231,7 +1231,7 @@
     "message": "Erre:"
   },
   "toETHviaShapeShift": {
-    "message": "$1 az ETH-hez a ShapeShift által",
+    "message": "$1 az AC-hez a ShapeShift által",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

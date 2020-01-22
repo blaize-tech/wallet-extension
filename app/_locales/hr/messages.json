@@ -178,10 +178,10 @@
     "message": "Affilcoin je osmišljen i izrađen u Kaliforniji."
   },
   "buyWithWyre": {
-    "message": "Kupi ETH Wyerom"
+    "message": "Kupi AC Wyerom"
   },
   "buyWithWyreDescription": {
-    "message": "Wyreom vam se omogućava korištenje kreditnom karticom za polaganje ETH-a izravno na vaš račun za Affilcoin."
+    "message": "Wyreom vam se omogućava korištenje kreditnom karticom za polaganje AC-a izravno na vaš račun za Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Kupujte na usluzi CoinSwitch"
@@ -631,7 +631,7 @@
     "message": "Poznata ugovorna adresa."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ne mreža ETH, postavite na mala slova"
+    "message": "Ne mreža AC, postavite na mala slova"
   },
   "invalidInput": {
     "message": "Nevaljani upis."
@@ -742,7 +742,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Ne mogu se slati negativne vrijednosti ETH-a."
+    "message": "Ne mogu se slati negativne vrijednosti AC-a."
   },
   "networkName": {
     "message": "Naziv mreže"
@@ -879,7 +879,7 @@
     "message": "Glavna valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Odaberite da se prvo prikazuju valute u osnovnoj valuti bloka (npr. ETH). Odaberite mogućnost Fiat za prikazivanje valuta u odabranoj valuti Fiat."
+    "message": "Odaberite da se prvo prikazuju valute u osnovnoj valuti bloka (npr. AC). Odaberite mogućnost Fiat za prikazivanje valuta u odabranoj valuti Fiat."
   },
   "privacyMsg": {
     "message": "Pravilnik o zaštiti privatnosti"
@@ -1063,7 +1063,7 @@
     "message": "Odaberi iznos"
   },
   "sendETH": {
-    "message": "Pošalji ETH"
+    "message": "Pošalji AC"
   },
   "sendTokens": {
     "message": "Pošalji tokene"
@@ -1231,7 +1231,7 @@
     "message": "Primatelj"
   },
   "toETHviaShapeShift": {
-    "message": "$1 za ETH uslugom ShapeShift",
+    "message": "$1 za AC uslugom ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

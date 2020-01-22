@@ -172,10 +172,10 @@
     "message": "Affilcoin est designé et developpé en Californie."
   },
   "buyWithWyre": {
-    "message": "Acheter ETH avec Wyre"
+    "message": "Acheter AC avec Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vous permet d'utiliser une carte de crédit pour déposer ETH directement sur votre compte Affilcoin."
+    "message": "Wyre vous permet d'utiliser une carte de crédit pour déposer AC directement sur votre compte Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Acheter sur CoinSwitch"
@@ -614,7 +614,7 @@
     "message": "Adresse contractuelle connue."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Pas de réseau ETH, régler en minuscules"
+    "message": "Pas de réseau AC, régler en minuscules"
   },
   "invalidInput": {
     "message": "Saisie non valide."
@@ -716,7 +716,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Vous ne pouvez envoyer des montants négatifs d'ETH."
+    "message": "Vous ne pouvez envoyer des montants négatifs d'AC."
   },
   "networkName": {
     "message": "Nom du réseau"
@@ -853,7 +853,7 @@
     "message": "Devise principale"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Sélectionnez « natif » pour donner la priorité à l'affichage des valeurs dans la devise native de la chaîne (par ex. ETH). Sélectionnez « fiduciaire » pour donner la priorité à l'affichage des valeurs dans la devise de votre choix."
+    "message": "Sélectionnez « natif » pour donner la priorité à l'affichage des valeurs dans la devise native de la chaîne (par ex. AC). Sélectionnez « fiduciaire » pour donner la priorité à l'affichage des valeurs dans la devise de votre choix."
   },
   "privacyMsg": {
     "message": "Politique de Confidentialité"
@@ -1037,7 +1037,7 @@
     "message": "Envoyer le montant"
   },
   "sendETH": {
-    "message": "Envoyer des ETH"
+    "message": "Envoyer des AC"
   },
   "sendTokens": {
     "message": "Envoyer des jetons"
@@ -1205,7 +1205,7 @@
     "message": "Destinataire"
   },
   "toETHviaShapeShift": {
-    "message": "$1 à ETH via ShapeShift",
+    "message": "$1 à AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

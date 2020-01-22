@@ -228,12 +228,12 @@ describe('Affilcoin', function () {
 
     it('balance renders', async () => {
       const balance = await findElement(driver, By.css('.balance-display .token-amount'))
-      await driver.wait(until.elementTextMatches(balance, /100\s*ETH/))
+      await driver.wait(until.elementTextMatches(balance, /100\s*AC/))
       await delay(regularDelayMs)
     })
   })
 
-  describe('Send ETH from inside Affilcoin using default gas', () => {
+  describe('Send AC from inside Affilcoin using default gas', () => {
     it('starts a send transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
@@ -295,11 +295,11 @@ describe('Affilcoin', function () {
       }, 10000)
 
       const txValues = await findElement(driver, By.css('.transaction-list-item__amount--primary'))
-      await driver.wait(until.elementTextMatches(txValues, /-1\s*ETH/), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-1\s*AC/), 10000)
     })
   })
 
-  describe('Send ETH from inside Affilcoin using fast gas option', () => {
+  describe('Send AC from inside Affilcoin using fast gas option', () => {
     it('starts a send transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
@@ -338,11 +338,11 @@ describe('Affilcoin', function () {
       }, 10000)
 
       const txValues = await findElement(driver, By.css('.transaction-list-item__amount--primary'))
-      await driver.wait(until.elementTextMatches(txValues, /-1\s*ETH/), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-1\s*AC/), 10000)
     })
   })
 
-  describe('Send ETH from inside Affilcoin using advanced gas modal', () => {
+  describe('Send AC from inside Affilcoin using advanced gas modal', () => {
     it('starts a send transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
@@ -391,11 +391,11 @@ describe('Affilcoin', function () {
       }, 10000)
 
       const txValues = await findElement(driver, By.css('.transaction-list-item__amount--primary'))
-      await driver.wait(until.elementTextMatches(txValues, /-1\s*ETH/), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-1\s*AC/), 10000)
     })
   })
 
-  describe('Send ETH from dapp using advanced gas controls', () => {
+  describe('Send AC from dapp using advanced gas controls', () => {
     let windowHandles
     let extension
     let popup
@@ -497,7 +497,7 @@ describe('Affilcoin', function () {
       }, 10000)
 
       txValues = await findElements(driver, By.css('.transaction-list-item__amount--primary'))
-      await driver.wait(until.elementTextMatches(txValues[0], /-3\s*ETH/), 10000)
+      await driver.wait(until.elementTextMatches(txValues[0], /-3\s*AC/), 10000)
     })
 
     it('the transaction has the expected gas price', async function () {
@@ -729,7 +729,7 @@ describe('Affilcoin', function () {
       await delay(regularDelayMs)
     })
 
-    it('calls and confirms a contract method where ETH is sent', async () => {
+    it('calls and confirms a contract method where AC is sent', async () => {
       await driver.switchTo().window(dapp)
       await delay(regularDelayMs)
 
@@ -748,7 +748,7 @@ describe('Affilcoin', function () {
 
       await findElements(driver, By.css('.transaction-list-item'))
       const [txListValue] = await findElements(driver, By.css('.transaction-list-item__amount--primary'))
-      await driver.wait(until.elementTextMatches(txListValue, /-4\s*ETH/), 10000)
+      await driver.wait(until.elementTextMatches(txListValue, /-4\s*AC/), 10000)
       await txListValue.click()
       await delay(regularDelayMs)
 
@@ -797,14 +797,14 @@ describe('Affilcoin', function () {
       }, 10000)
 
       const txValues = await findElements(driver, By.css('.transaction-list-item__amount--primary'))
-      await driver.wait(until.elementTextMatches(txValues[0], /-4\s*ETH/), 10000)
+      await driver.wait(until.elementTextMatches(txValues[0], /-4\s*AC/), 10000)
 
       // const txAccounts = await findElements(driver, By.css('.tx-list-account'))
       // const firstTxAddress = await txAccounts[0].getText()
       // assert(firstTxAddress.match(/^0x\w{8}\.{3}\w{4}$/))
     })
 
-    it('calls and confirms a contract method where ETH is received', async () => {
+    it('calls and confirms a contract method where AC is received', async () => {
       await driver.switchTo().window(dapp)
       await delay(regularDelayMs)
 
@@ -829,18 +829,18 @@ describe('Affilcoin', function () {
       }, 10000)
 
       const txValues = await findElement(driver, By.css('.transaction-list-item__amount--primary'))
-      await driver.wait(until.elementTextMatches(txValues, /-0\s*ETH/), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-0\s*AC/), 10000)
 
       await closeAllWindowHandlesExcept(driver, [extension, dapp])
       await driver.switchTo().window(extension)
     })
 
-    it('renders the correct ETH balance', async () => {
+    it('renders the correct AC balance', async () => {
       const balance = await findElement(driver, By.css('.transaction-view-balance__primary-balance'))
       await delay(regularDelayMs)
-      await driver.wait(until.elementTextMatches(balance, /^87.*\s*ETH.*$/), 10000)
+      await driver.wait(until.elementTextMatches(balance, /^87.*\s*AC.*$/), 10000)
       const tokenAmount = await balance.getText()
-      assert.ok(/^87.*\s*ETH.*$/.test(tokenAmount))
+      assert.ok(/^87.*\s*AC.*$/.test(tokenAmount))
       await delay(regularDelayMs)
     })
   })
@@ -1191,7 +1191,7 @@ describe('Affilcoin', function () {
       await driver.wait(until.stalenessOf(gasModal))
 
       const gasFeeInEth = await findElement(driver, By.css('.confirm-approve-content__transaction-details-content__secondary-fee'))
-      assert.equal(await gasFeeInEth.getText(), '0.0006 ETH')
+      assert.equal(await gasFeeInEth.getText(), '0.0006 AC')
     })
 
     it('edits the permission', async () => {

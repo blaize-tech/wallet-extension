@@ -181,12 +181,12 @@ describe('Affilcoin', function () {
 
     it('balance renders', async () => {
       const balance = await findElement(driver, By.css('.transaction-view-balance__primary-balance'))
-      await driver.wait(until.elementTextMatches(balance, /100\s*ETH/))
+      await driver.wait(until.elementTextMatches(balance, /100\s*AC/))
       await delay(regularDelayMs)
     })
   })
 
-  describe('Send ETH from inside Affilcoin', () => {
+  describe('Send AC from inside Affilcoin', () => {
     it('starts to send a transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
@@ -237,7 +237,7 @@ describe('Affilcoin', function () {
       }, 10000)
 
       const txValues = await findElement(driver, By.css('.transaction-list-item__amount--primary'))
-      await driver.wait(until.elementTextMatches(txValues, /-1\s*ETH/), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-1\s*AC/), 10000)
     })
   })
 })

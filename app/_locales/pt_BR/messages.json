@@ -175,10 +175,10 @@
     "message": "O Affilcoin foi projetado e desenvolvido na Califórnia."
   },
   "buyWithWyre": {
-    "message": "Comprar ETH com Wyre"
+    "message": "Comprar AC com Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "O Wyre permite que você utilize um cartão de crédito para depositar ETH direto na sua conta do Affilcoin."
+    "message": "O Wyre permite que você utilize um cartão de crédito para depositar AC direto na sua conta do Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Compre no CoinSwitch"
@@ -629,7 +629,7 @@
     "message": "Endereço do contrato conhecido."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Se não for rede ETH, defina para minúsculas"
+    "message": "Se não for rede AC, defina para minúsculas"
   },
   "invalidInput": {
     "message": "Entrada inválida."
@@ -734,7 +734,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Não é possível enviar quantias negativas de ETH."
+    "message": "Não é possível enviar quantias negativas de AC."
   },
   "networkName": {
     "message": "Nome da Rede"
@@ -871,7 +871,7 @@
     "message": "Moeda Principal"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Selecione \"Nativa\" para priorizar a exibição de valores na moeda nativa da cadeia (por exemplo, ETH). Selecione \"Fiat\" para priorizar a exibição de valores na moeda fiduciária selecionada."
+    "message": "Selecione \"Nativa\" para priorizar a exibição de valores na moeda nativa da cadeia (por exemplo, AC). Selecione \"Fiat\" para priorizar a exibição de valores na moeda fiduciária selecionada."
   },
   "privacyMsg": {
     "message": "Política de Privacidade"
@@ -1055,7 +1055,7 @@
     "message": "Enviar Quantia"
   },
   "sendETH": {
-    "message": "Enviar ETH"
+    "message": "Enviar AC"
   },
   "sendTokens": {
     "message": "Enviar Tokens"
@@ -1223,7 +1223,7 @@
     "message": "Para"
   },
   "toETHviaShapeShift": {
-    "message": "$1 para ETH via ShapeShift",
+    "message": "$1 para AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

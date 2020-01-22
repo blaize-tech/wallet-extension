@@ -178,10 +178,10 @@
     "message": "Affilcoin är skapat och utformat i Kalifornien."
   },
   "buyWithWyre": {
-    "message": "Köp ETH med Wyre"
+    "message": "Köp AC med Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre låter dig använda ett kreditkort för att sätta in ETH direkt på ditt Affilcoin-konto."
+    "message": "Wyre låter dig använda ett kreditkort för att sätta in AC direkt på ditt Affilcoin-konto."
   },
   "buyCoinSwitch": {
     "message": "Köp på CoinSwitch"
@@ -625,7 +625,7 @@
     "message": "Känd kontraktadress."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ej ETH-nätverk, ange med små bokstäver"
+    "message": "Ej AC-nätverk, ange med små bokstäver"
   },
   "invalidInput": {
     "message": "Ogiltigt input."
@@ -733,7 +733,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan inte skicka negativa summor av ETH."
+    "message": "Kan inte skicka negativa summor av AC."
   },
   "networkName": {
     "message": "Nätverksnamn"
@@ -870,7 +870,7 @@
     "message": "Primär valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Välj native för att prioritera visning av värden i den ursprungliga valutan i kedjan (t.ex. ETH). Välj Fiat för att prioritera visning av värden i din valda fiatvaluta."
+    "message": "Välj native för att prioritera visning av värden i den ursprungliga valutan i kedjan (t.ex. AC). Välj Fiat för att prioritera visning av värden i din valda fiatvaluta."
   },
   "privacyMsg": {
     "message": "Integritetspolicy"
@@ -1054,7 +1054,7 @@
     "message": "Skicka belopp"
   },
   "sendETH": {
-    "message": "Skicka ETH"
+    "message": "Skicka AC"
   },
   "sendTokens": {
     "message": "Skicka tokens"
@@ -1165,7 +1165,7 @@
     "message": "3. Börja använda dApps och mer!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Använd ditt hårdvarukonto som du skulle använda andra Affilcoin-konton. Logga in i dAppar, skicka ETH, köp och förvara ERC20-tokens och Non-Fungible tokens som CryptoKitties."
+    "message": "Använd ditt hårdvarukonto som du skulle använda andra Affilcoin-konton. Logga in i dAppar, skicka AC, köp och förvara ERC20-tokens och Non-Fungible tokens som CryptoKitties."
   },
   "storePhrase": {
     "message": "Lagra denna fras i en lösenordshanterare såsom 1Password."
@@ -1219,7 +1219,7 @@
     "message": "Till"
   },
   "toETHviaShapeShift": {
-    "message": "$1 till ETH via ShapeShift",
+    "message": "$1 till AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

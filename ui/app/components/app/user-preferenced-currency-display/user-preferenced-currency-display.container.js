@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import UserPreferencedCurrencyDisplay from './user-preferenced-currency-display.component'
 import { preferencesSelector, getIsMainnet } from '../../../selectors/selectors'
-import { ETH, PRIMARY, SECONDARY } from '../../../helpers/constants/common'
+import { AC, PRIMARY, SECONDARY } from '../../../helpers/constants/common'
 
 const mapStateToProps = (state) => {
   const {
@@ -36,8 +36,8 @@ const mergeProps = (stateProps, dispatchProps, ownProps) => {
 
   if (type === PRIMARY && useNativeCurrencyAsPrimaryCurrency ||
     type === SECONDARY && !useNativeCurrencyAsPrimaryCurrency) {
-    // Display ETH
-    currency = nativeCurrency || ETH
+    // Display AC
+    currency = nativeCurrency || AC
     numberOfDecimals = propsNumberOfDecimals || ethNumberOfDecimals || 6
     prefix = propsPrefix || ethPrefix
   } else if (type === SECONDARY && useNativeCurrencyAsPrimaryCurrency ||
@@ -48,7 +48,7 @@ const mergeProps = (stateProps, dispatchProps, ownProps) => {
   }
 
   if (!isMainnet && !showFiatInTestnets) {
-    currency = nativeCurrency || ETH
+    currency = nativeCurrency || AC
     numberOfDecimals = propsNumberOfDecimals || ethNumberOfDecimals || 6
     prefix = propsPrefix || ethPrefix
   }

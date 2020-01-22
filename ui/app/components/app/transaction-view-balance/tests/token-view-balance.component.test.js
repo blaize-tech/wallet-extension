@@ -24,7 +24,7 @@ describe('TransactionViewBalance Component', () => {
     historySpies.push.resetHistory()
   })
 
-  it('should render ETH balance properly', () => {
+  it('should render AC balance properly', () => {
     const wrapper = shallow(<TransactionViewBalance
       showDepositModal={propsMethodSpies.showDepositModal}
       history={historySpies}

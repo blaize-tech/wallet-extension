@@ -235,10 +235,10 @@
     "message": "Affilcoin is designed and built in California."
   },
   "buyWithWyre": {
-    "message": "Buy ETH with Wyre"
+    "message": "Buy AC with Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre lets you use a credit card to deposit ETH right in to your Affilcoin account."
+    "message": "Wyre lets you use a credit card to deposit AC right in to your Affilcoin account."
   },
   "buyCoinSwitch": {
     "message": "Buy on CoinSwitch"
@@ -716,7 +716,7 @@
     "message": "Known contract address."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Not ETH network, set to lowercase"
+    "message": "Not AC network, set to lowercase"
   },
   "invalidInput": {
     "message": "Invalid input."
@@ -833,7 +833,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Can not send negative amounts of ETH."
+    "message": "Can not send negative amounts of AC."
   },
   "networkName": {
     "message": "Network Name"
@@ -977,7 +977,7 @@
     "message": "Primary Currency"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Select native to prioritize displaying values in the native currency of the chain (e.g. ETH). Select Fiat to prioritize displaying values in your selected fiat currency."
+    "message": "Select native to prioritize displaying values in the native currency of the chain (e.g. AC). Select Fiat to prioritize displaying values in your selected fiat currency."
   },
   "privacyMsg": {
     "message": "Privacy Policy"
@@ -1168,7 +1168,7 @@
     "message": "Send Amount"
   },
   "sendETH": {
-    "message": "Send ETH"
+    "message": "Send AC"
   },
   "sendTokens": {
     "message": "Send Tokens"
@@ -1361,7 +1361,7 @@
     "message": "To:"
   },
   "toETHviaShapeShift": {
-    "message": "$1 to ETH via ShapeShift",
+    "message": "$1 to AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

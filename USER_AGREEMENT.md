@@ -6,7 +6,7 @@ _Our Terms of Use have been updated as of September 5, 2016_
 
 ## 1. Acceptance of Terms ##
 
-Affilcoin provides a platform for managing Ethereum (or "ETH") accounts, and allowing ordinary websites to interact with the Ethereum blockchain, while keeping the user in control over what transactions they approve, through our website located at[ ](http://affilcoin.io)[https://affilcoin.io/](https://affilcoin.io/) and browser plugin (the "Site") — which includes text, images, audio, code and other materials  (collectively, the “Content”) and all of the features, and services provided. The Site, and any other features, tools, materials, or other services offered from time to time by Affilcoin are referred to here as the “Service.” Please read these Terms of Use (the “Terms” or “Terms of Use”) carefully before using the Service. By using or otherwise accessing the Services, or clicking to accept or agree to these Terms where that option is made available, you (1) accept and agree to these Terms (2) consent to the collection, use, disclosure and other handling of information as described in our Privacy Policy  and (3) any additional terms, rules and conditions of participation issued by Affilcoin from time to time. If you do not agree to the Terms, then you may not access or use the Content or Services.
+Affilcoin provides a platform for managing Ethereum (or "AC") accounts, and allowing ordinary websites to interact with the Ethereum blockchain, while keeping the user in control over what transactions they approve, through our website located at[ ](http://affilcoin.io)[https://affilcoin.io/](https://affilcoin.io/) and browser plugin (the "Site") — which includes text, images, audio, code and other materials  (collectively, the “Content”) and all of the features, and services provided. The Site, and any other features, tools, materials, or other services offered from time to time by Affilcoin are referred to here as the “Service.” Please read these Terms of Use (the “Terms” or “Terms of Use”) carefully before using the Service. By using or otherwise accessing the Services, or clicking to accept or agree to these Terms where that option is made available, you (1) accept and agree to these Terms (2) consent to the collection, use, disclosure and other handling of information as described in our Privacy Policy  and (3) any additional terms, rules and conditions of participation issued by Affilcoin from time to time. If you do not agree to the Terms, then you may not access or use the Content or Services.
 
 ## 2. Modification of Terms of Use ##
 
@@ -32,11 +32,11 @@ You expressly understand and agree that your use of the Service is at your sole 
 
 ### 5.2 Sophistication and Risk of Cryptographic Systems ###
 
-By utilizing the Service or interacting with the Content or platform in any way, you represent that you understand the inherent risks associated with cryptographic systems; and warrant that you have an understanding of the usage and intricacies of native cryptographic tokens, like Ether (ETH) and Bitcoin (BTC), smart contract based tokens such as those that follow the Ethereum Token Standard (https://github.com/ethereum/EIPs/issues/20), and blockchain-based software systems.
+By utilizing the Service or interacting with the Content or platform in any way, you represent that you understand the inherent risks associated with cryptographic systems; and warrant that you have an understanding of the usage and intricacies of native cryptographic tokens, like Ether (AC) and Bitcoin (BTC), smart contract based tokens such as those that follow the Ethereum Token Standard (https://github.com/ethereum/EIPs/issues/20), and blockchain-based software systems.
 
 ### 5.3 Risk of Regulatory Actions in One or More Jurisdictions ###
 
-Affilcoin and ETH could be impacted by one or more regulatory inquiries or regulatory action, which could impede or limit the ability of Affilcoin to continue to develop, or which could impede or limit your ability to access or use the Service or Ethereum blockchain.
+Affilcoin and AC could be impacted by one or more regulatory inquiries or regulatory action, which could impede or limit the ability of Affilcoin to continue to develop, or which could impede or limit your ability to access or use the Service or Ethereum blockchain.
 
 ### 5.4 Risk of Weaknesses or Exploits in the Field of Cryptography ###
 

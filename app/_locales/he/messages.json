@@ -181,7 +181,7 @@
     "message": "רכישת את'ר עם Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre מאפשרת לך להשתמש בכרטיס אשראי כדי להפקיד ETH ישירות בחשבון ה-Affilcoin שלך."
+    "message": "Wyre מאפשרת לך להשתמש בכרטיס אשראי כדי להפקיד AC ישירות בחשבון ה-Affilcoin שלך."
   },
   "buyCoinSwitch": {
     "message": "רכישה ב-CoinSwitch"
@@ -635,7 +635,7 @@
     "message": "כתובת חוזה ידועה."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "לא רשת ETH, מוגדר במצב אותיות קטנות"
+    "message": "לא רשת AC, מוגדר במצב אותיות קטנות"
   },
   "invalidInput": {
     "message": "קלט לא תקין."
@@ -746,7 +746,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "לא ניתן לשלוח סכומים שליליים של ETH."
+    "message": "לא ניתן לשלוח סכומים שליליים של AC."
   },
   "networkName": {
     "message": "שם רשת"
@@ -883,7 +883,7 @@
     "message": "מטבע ראשי"
   },
   "primaryCurrencySettingDescription": {
-    "message": "בחר/י 'מקומי' כדי לתעדף הצגת ערכים במטבע המקומי של הצ'יין (למשל ETH). בחר/י פיאט כדי לתעדף הצגת ערכים במטבע הפיאט שבחרת."
+    "message": "בחר/י 'מקומי' כדי לתעדף הצגת ערכים במטבע המקומי של הצ'יין (למשל AC). בחר/י פיאט כדי לתעדף הצגת ערכים במטבע הפיאט שבחרת."
   },
   "privacyMsg": {
     "message": "מדיניות הפרטיות"
@@ -1064,7 +1064,7 @@
     "message": "שלח סכום"
   },
   "sendETH": {
-    "message": "שלח/י ETH"
+    "message": "שלח/י AC"
   },
   "sendTokens": {
     "message": "שלח טוקנים"
@@ -1232,7 +1232,7 @@
     "message": "אל"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ל-ETH באמצעות ShapeShift",
+    "message": "$1 ל-AC באמצעות ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

@@ -178,10 +178,10 @@
     "message": "Affilcoin dirancang dan dibangun di California."
   },
   "buyWithWyre": {
-    "message": "Membeli ETH dengan Wyre"
+    "message": "Membeli AC dengan Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre mengizinkan Anda menggunakan kartu kredit untuk mendepositkan ETH langsung ke akun  Affilcoin."
+    "message": "Wyre mengizinkan Anda menggunakan kartu kredit untuk mendepositkan AC langsung ke akun  Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Beli di CoinSwitch"
@@ -622,7 +622,7 @@
     "message": "Alamat kontrak dikenal."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Bukan jaringan ETH, tetapkan ke huruf kecil"
+    "message": "Bukan jaringan AC, tetapkan ke huruf kecil"
   },
   "invalidInput": {
     "message": "Input tidak sah."
@@ -727,7 +727,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Tidak dapat mengirim nominal negatif ETH."
+    "message": "Tidak dapat mengirim nominal negatif AC."
   },
   "networkName": {
     "message": "Nama Jaringan"
@@ -864,7 +864,7 @@
     "message": "Mata Uang Utama"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Pilih asli untuk memprioritaskan menampilkan nilai dalam mata uang asli dari rantai (cth: ETH). Pilih Fiat untuk memprioritaskan menampilkan nilai dalam mata uang fiat pilihan Anda."
+    "message": "Pilih asli untuk memprioritaskan menampilkan nilai dalam mata uang asli dari rantai (cth: AC). Pilih Fiat untuk memprioritaskan menampilkan nilai dalam mata uang fiat pilihan Anda."
   },
   "privacyMsg": {
     "message": "Kebijakan Privasi"
@@ -1048,7 +1048,7 @@
     "message": "Nominal Kirim"
   },
   "sendETH": {
-    "message": "Kirim ETH"
+    "message": "Kirim AC"
   },
   "sendTokens": {
     "message": "Kirim Token"
@@ -1216,7 +1216,7 @@
     "message": "Ke"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ke ETH via ShapeShift",
+    "message": "$1 ke AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

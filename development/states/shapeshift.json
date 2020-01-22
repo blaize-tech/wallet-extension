@@ -154,9 +154,9 @@
             "image": "https://shapeshift.io/images/coins/emercoin.png",
             "status": "available"
           },
-          "ETH": {
+          "AC": {
             "name": "Ether",
-            "symbol": "ETH",
+            "symbol": "AC",
             "image": "https://shapeshift.io/images/coins/ether.png",
             "status": "available"
           },

@@ -18,11 +18,11 @@ describe('TransactionActivityLog container', () => {
       const mockState = {
         affilcoin: {
           conversionRate: 280.45,
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
         },
       }
 
-      assert.deepEqual(mapStateToProps(mockState), { conversionRate: 280.45, nativeCurrency: 'ETH' })
+      assert.deepEqual(mapStateToProps(mockState), { conversionRate: 280.45, nativeCurrency: 'AC' })
     })
   })
 })

@@ -91,7 +91,7 @@ describe('TokenInput Component', () => {
       assert.equal(wrapper.find(CurrencyDisplay).length, 1)
     })
 
-    it('should render properly with a token value for ETH', () => {
+    it('should render properly with a token value for AC', () => {
       const mockStore = {
         affilcoin: {
           currentCurrency: 'usd',
@@ -212,7 +212,7 @@ describe('TokenInput Component', () => {
       handleBlurSpy.resetHistory()
     })
 
-    it('should call onChange and onBlur on input changes with the hex value for ETH', () => {
+    it('should call onChange and onBlur on input changes with the hex value for AC', () => {
       const mockStore = {
         affilcoin: {
           currentCurrency: 'usd',

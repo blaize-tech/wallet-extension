@@ -178,10 +178,10 @@
     "message": "Affilcoin je zasnovan in ustvarjen v Kaliforniji."
   },
   "buyWithWyre": {
-    "message": "Kupi ETH z Wyre"
+    "message": "Kupi AC z Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vam omogoča, da s kreditno kartico nakažete ETH neposredno na svoj račun Affilcoin."
+    "message": "Wyre vam omogoča, da s kreditno kartico nakažete AC neposredno na svoj račun Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Kupi na CoinSwitch"
@@ -626,7 +626,7 @@
     "message": "Znan naslov pogodbe."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ni omrežja ETH, nastavljene so male črke"
+    "message": "Ni omrežja AC, nastavljene so male črke"
   },
   "invalidInput": {
     "message": "Neveljaven vnos."
@@ -734,7 +734,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Negativnih zneskov ETH ni mogoče poslati."
+    "message": "Negativnih zneskov AC ni mogoče poslati."
   },
   "networkName": {
     "message": "Ime omrežja"
@@ -871,7 +871,7 @@
     "message": "Glavna valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Izberite Native za prikaz vrednosti v privzeti valuti verige (npr. ETH). Izberite Klasične za prikaz vrednosti v izbrani klasični valuti."
+    "message": "Izberite Native za prikaz vrednosti v privzeti valuti verige (npr. AC). Izberite Klasične za prikaz vrednosti v izbrani klasični valuti."
   },
   "privacyMsg": {
     "message": "Zasebnost"
@@ -1052,7 +1052,7 @@
     "message": "Pošlji znesek"
   },
   "sendETH": {
-    "message": "Pošlji ETH"
+    "message": "Pošlji AC"
   },
   "sendTokens": {
     "message": "Pošlji žetone"
@@ -1220,7 +1220,7 @@
     "message": "Za"
   },
   "toETHviaShapeShift": {
-    "message": "$1 v ETH prek ShapeShift",
+    "message": "$1 v AC prek ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

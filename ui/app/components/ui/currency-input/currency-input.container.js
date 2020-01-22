@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import CurrencyInput from './currency-input.component'
-import { ETH } from '../../../helpers/constants/common'
+import { AC } from '../../../helpers/constants/common'
 import { getMaxModeOn } from '../../../pages/send/send-content/send-amount-row/amount-max-button/amount-max-button.selectors'
 import {getIsMainnet, preferencesSelector} from '../../../selectors/selectors'
 
@@ -26,7 +26,7 @@ const mergeProps = (stateProps, dispatchProps, ownProps) => {
     ...stateProps,
     ...dispatchProps,
     ...ownProps,
-    nativeSuffix: nativeCurrency || ETH,
+    nativeSuffix: nativeCurrency || AC,
     fiatSuffix: currentCurrency.toUpperCase(),
   }
 }

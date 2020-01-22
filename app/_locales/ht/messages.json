@@ -460,7 +460,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Pa ka voye kantite lajan negatif ETH."
+    "message": "Pa ka voye kantite lajan negatif AC."
   },
   "networks": {
     "message": "Rezo"
@@ -540,7 +540,7 @@
     "message": "Lajan ou itilize pi plis la"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Chwazi ETH pou bay priyorite montre valè nan ETH. Chwazi Fiat priyorite montre valè nan lajan ou chwazi a."
+    "message": "Chwazi AC pou bay priyorite montre valè nan AC. Chwazi Fiat priyorite montre valè nan lajan ou chwazi a."
   },
   "privacyMsg": {
     "message": "Règleman sou enfòmasyon prive"
@@ -673,7 +673,7 @@
     "message": "Voye"
   },
   "sendETH": {
-    "message": "Voye ETH"
+    "message": "Voye AC"
   },
   "sendTokens": {
     "message": "Voye Tokens"
@@ -778,7 +778,7 @@
     "message": "Pou"
   },
   "toETHviaShapeShift": {
-    "message": "$1 pou ETH pa ShapeShift",
+    "message": "$1 pou AC pa ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

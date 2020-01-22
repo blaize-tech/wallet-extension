@@ -9,14 +9,14 @@ const storage = {
         chainId: 'fail',
         nickname: '',
         rpcTarget: 'https://api.myetherwallet.com/eth',
-        ticker: 'ETH',
+        ticker: 'AC',
         type: 'rinkeby',
       },
     },
     PreferencesController: {
       frequentRpcListDetail: [
         {chainId: 'fail', nickname: '', rpcUrl: 'http://127.0.0.1:8545', ticker: ''},
-        {chainId: '1', nickname: '', rpcUrl: 'https://api.myetherwallet.com/eth', ticker: 'ETH'},
+        {chainId: '1', nickname: '', rpcUrl: 'https://api.myetherwallet.com/eth', ticker: 'AC'},
       ],
     },
   },

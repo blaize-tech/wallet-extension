@@ -178,10 +178,10 @@
     "message": "Affilcoin در کالیفورنیا طراحی و ساخته شده است."
   },
   "buyWithWyre": {
-    "message": "ETH را توسط Wyre خریداری نمایید"
+    "message": "AC را توسط Wyre خریداری نمایید"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre به شما اجازه میدهد تا یک کردیت کارت را جهت پرداخت ETH مستقیمًا به حساب Affilcoin تان استفاده نمایید."
+    "message": "Wyre به شما اجازه میدهد تا یک کردیت کارت را جهت پرداخت AC مستقیمًا به حساب Affilcoin تان استفاده نمایید."
   },
   "buyCoinSwitch": {
     "message": "خرید بر اساس CoinSwitch "
@@ -635,7 +635,7 @@
     "message": "آدرس شناخته شده قرارداد"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "شبکه ETH نه، به حروف کوچک تنظیم کنید"
+    "message": "شبکه AC نه، به حروف کوچک تنظیم کنید"
   },
   "invalidInput": {
     "message": "ورودی نامعتبر."
@@ -749,7 +749,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "نمیتوان مبالغ منفی ETH را ارسال کرد."
+    "message": "نمیتوان مبالغ منفی AC را ارسال کرد."
   },
   "networkName": {
     "message": "نام شبکه"
@@ -886,7 +886,7 @@
     "message": "واحد پول اصلی"
   },
   "primaryCurrencySettingDescription": {
-    "message": "برای اولویت دهی نمایش قیمت ها در واحد پولی اصلی زنجیره (مثلًا ETH)، اصلی را انتخاب کنید. برای اولویت دهی نمایش قیمت ها در فیات واحد پولی شما، فیات را انتخاب کنید."
+    "message": "برای اولویت دهی نمایش قیمت ها در واحد پولی اصلی زنجیره (مثلًا AC)، اصلی را انتخاب کنید. برای اولویت دهی نمایش قیمت ها در فیات واحد پولی شما، فیات را انتخاب کنید."
   },
   "privacyMsg": {
     "message": "خط‌مشی رازداری"
@@ -1070,7 +1070,7 @@
     "message": "ارسال مبلغ"
   },
   "sendETH": {
-    "message": "ارسال ETH"
+    "message": "ارسال AC"
   },
   "sendTokens": {
     "message": "رمزیاب ها را ارسال کنید"
@@ -1238,7 +1238,7 @@
     "message": "به"
   },
   "toETHviaShapeShift": {
-    "message": "1$1 به ETH توسط ShapeShift",
+    "message": "1$1 به AC توسط ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

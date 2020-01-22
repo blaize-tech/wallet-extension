@@ -108,7 +108,7 @@
     "message": "Tùy chỉnh RPC"
   },
   "defaultNetwork": {
-    "message": "Mạng lưới mặc định dùng cho các giao dịch Affilcoin là Main Net (tiền ETH thật)."
+    "message": "Mạng lưới mặc định dùng cho các giao dịch Affilcoin là Main Net (tiền AC thật)."
   },
   "deposit": {
     "message": "Ký gửi/nạp tiền"
@@ -237,7 +237,7 @@
     "message": "Thoát"
   },
   "mainnet": {
-    "message": "Mạng Affilcoin MainNet (tiền ETH thật)"
+    "message": "Mạng Affilcoin MainNet (tiền AC thật)"
   },
   "message": {
     "message": "Tin nhắn"
@@ -352,13 +352,13 @@
     "message": "Gửi đi"
   },
   "testFaucet": {
-    "message": "Vòi nhận tiền ETH ảo để thử nghiệm"
+    "message": "Vòi nhận tiền AC ảo để thử nghiệm"
   },
   "to": {
     "message": "Đến"
   },
   "toETHviaShapeShift": {
-    "message": "$1 thành ETH qua ShapeShift",
+    "message": "$1 thành AC qua ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "total": {

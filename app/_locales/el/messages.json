@@ -178,10 +178,10 @@
     "message": "Το Affilcoin έχει σχεδιαστεί και αναπτυχθεί στην Καλιφόρνια."
   },
   "buyWithWyre": {
-    "message": "Αγοράστε ETH με το Wyre"
+    "message": "Αγοράστε AC με το Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Το Wyre σας επιτρέπει να χρησιμοποιήσετε μια πιστωτική κάρτα για να καταθέσετε ETH απευθείας στον λογαριασμό σας MetaTask."
+    "message": "Το Wyre σας επιτρέπει να χρησιμοποιήσετε μια πιστωτική κάρτα για να καταθέσετε AC απευθείας στον λογαριασμό σας MetaTask."
   },
   "buyCoinSwitch": {
     "message": "Αγοράστε στο  CoinSwitch"
@@ -632,7 +632,7 @@
     "message": "Γνωστή διεύθυνση συμβολαίου."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Δίκτυο μη ETH, ρυθμίστε σε μικρούς χαρακτήρες"
+    "message": "Δίκτυο μη AC, ρυθμίστε σε μικρούς χαρακτήρες"
   },
   "invalidInput": {
     "message": "Μη έγκυρη είσοδος."
@@ -746,7 +746,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Δεν μπορεί να γίνει αποστολή αρνητικών ποσών ETH."
+    "message": "Δεν μπορεί να γίνει αποστολή αρνητικών ποσών AC."
   },
   "networkName": {
     "message": "Ονομασία Δικτύου"
@@ -883,7 +883,7 @@
     "message": "Κύριο Νόμισμα"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Επιλέξτε ενδογενές για να δώσετε προτεραιότητα στην προβολή τιμών στο φυσικό νόμισμα της αλυσίδας (π.χ. ETH). Επιλέξτε Παραστατικό για να δώσετε προτεραιότητα στην προβολή τιμών στο επιλεγμένο παραστατικό νόμισμα."
+    "message": "Επιλέξτε ενδογενές για να δώσετε προτεραιότητα στην προβολή τιμών στο φυσικό νόμισμα της αλυσίδας (π.χ. AC). Επιλέξτε Παραστατικό για να δώσετε προτεραιότητα στην προβολή τιμών στο επιλεγμένο παραστατικό νόμισμα."
   },
   "privacyMsg": {
     "message": "Πολιτική Απορρήτου"
@@ -1067,7 +1067,7 @@
     "message": "Αποστολή Ποσού"
   },
   "sendETH": {
-    "message": "Στείλτε ETH"
+    "message": "Στείλτε AC"
   },
   "sendTokens": {
     "message": "Στείλτε Tokens"
@@ -1232,7 +1232,7 @@
     "message": "Προς"
   },
   "toETHviaShapeShift": {
-    "message": "$1 στο ETH μέσω ShapeShift",
+    "message": "$1 στο AC μέσω ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

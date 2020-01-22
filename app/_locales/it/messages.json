@@ -169,10 +169,10 @@
     "message": "Affilcoin è progettato e realizzato in California."
   },
   "buyWithWyre": {
-    "message": "Compra ETH con Wyre"
+    "message": "Compra AC con Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ti consente di usare la carta di credito per depositare ETH direttamente nel tuo account Affilcoin."
+    "message": "Wyre ti consente di usare la carta di credito per depositare AC direttamente nel tuo account Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Compra su CoinSwitch"
@@ -611,7 +611,7 @@
     "message": "Indirizzo del contratto conosciuto."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Non rete ETH, inserisci caratteri minuscoli"
+    "message": "Non rete AC, inserisci caratteri minuscoli"
   },
   "invalidInput": {
     "message": "Input non valido."
@@ -719,7 +719,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Non puoi inviare una quantità di ETH negativa."
+    "message": "Non puoi inviare una quantità di AC negativa."
   },
   "networkName": {
     "message": "Nome Rete"
@@ -849,7 +849,7 @@
     "message": "Moneta Primaria"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Seleziona ETH per privilegiare la visualizzazione dei valori nella moneta nativa della blockhain. Seleziona Fiat per privilegiare la visualizzazione dei valori nella moneta selezionata."
+    "message": "Seleziona AC per privilegiare la visualizzazione dei valori nella moneta nativa della blockhain. Seleziona Fiat per privilegiare la visualizzazione dei valori nella moneta selezionata."
   },
   "privacyMsg": {
     "message": "Politica sulla Privacy"
@@ -1033,7 +1033,7 @@
     "message": "Invia Importo"
   },
   "sendETH": {
-    "message": "Invia ETH"
+    "message": "Invia AC"
   },
   "sendTokens": {
     "message": "Invia Tokens"
@@ -1201,7 +1201,7 @@
     "message": "A"
   },
   "toETHviaShapeShift": {
-    "message": "$1 a ETH via ShapeShift",
+    "message": "$1 a AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

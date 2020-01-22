@@ -175,10 +175,10 @@
     "message": "Affilcoin imeundwa na kutengenezwa California."
   },
   "buyWithWyre": {
-    "message": "Nunua ETH kwa kutumia Wyre"
+    "message": "Nunua AC kwa kutumia Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre inakuwezesha kutumia kadi ya benki kuweka ETH moja kwa moja kwenye akaunti yako ya Affilcoin."
+    "message": "Wyre inakuwezesha kutumia kadi ya benki kuweka AC moja kwa moja kwenye akaunti yako ya Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Nunua kwenye CoinSwitch"
@@ -622,7 +622,7 @@
     "message": "Anwani za mkataba zinazofahamika."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Kwa mtandao wa ETH, weka herufi ndogo"
+    "message": "Kwa mtandao wa AC, weka herufi ndogo"
   },
   "invalidInput": {
     "message": "Maandii si sahihi."
@@ -727,7 +727,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Haiwezi kutuma viwango hasi vya ETH."
+    "message": "Haiwezi kutuma viwango hasi vya AC."
   },
   "networkName": {
     "message": "Jina la mtandao"
@@ -864,7 +864,7 @@
     "message": "Sarafu ya Msingi"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Chagua mzawa ili kuweka kipaumbele kuonyesha thamani kwenye sarafu mzawa ya mnyororo (k.m ETH). Chagua Fiat ili uwelke kipaumbale kuonyesha thamani kwenye sarafu yako ya fiat uliyoichagua."
+    "message": "Chagua mzawa ili kuweka kipaumbele kuonyesha thamani kwenye sarafu mzawa ya mnyororo (k.m AC). Chagua Fiat ili uwelke kipaumbale kuonyesha thamani kwenye sarafu yako ya fiat uliyoichagua."
   },
   "privacyMsg": {
     "message": "Sera ya Faragha"
@@ -1048,7 +1048,7 @@
     "message": "Tuma Kiasi"
   },
   "sendETH": {
-    "message": "Tuma ETH"
+    "message": "Tuma AC"
   },
   "sendTokens": {
     "message": "Tuma Vianzio"
@@ -1216,7 +1216,7 @@
     "message": "Kwenda"
   },
   "toETHviaShapeShift": {
-    "message": "$1 kwenda ETH kupitia ShapeShift",
+    "message": "$1 kwenda AC kupitia ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {

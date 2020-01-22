@@ -23,7 +23,7 @@ describe('CurrencyInput Component', () => {
     it('should render properly with a suffix', () => {
       const mockStore = {
         affilcoin: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -33,23 +33,23 @@ describe('CurrencyInput Component', () => {
       const wrapper = mount(
         <Provider store={store}>
           <CurrencyInput
-            nativeSuffix="ETH"
+            nativeSuffix="AC"
             fiatSuffix="USD"
-            nativeCurrency="ETH"
+            nativeCurrency="AC"
           />
         </Provider>
       )
 
       assert.ok(wrapper)
       assert.equal(wrapper.find('.unit-input__suffix').length, 1)
-      assert.equal(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.equal(wrapper.find('.unit-input__suffix').text(), 'AC')
       assert.equal(wrapper.find(CurrencyDisplay).length, 1)
     })
 
-    it('should render properly with an ETH value', () => {
+    it('should render properly with an AC value', () => {
       const mockStore = {
         affilcoin: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -61,8 +61,8 @@ describe('CurrencyInput Component', () => {
           <CurrencyInput
             value="de0b6b3a7640000"
             fiatSuffix="USD"
-            nativeSuffix="ETH"
-            nativeCurrency="ETH"
+            nativeSuffix="AC"
+            nativeCurrency="AC"
             currentCurrency="usd"
             conversionRate={231.06}
           />
@@ -74,7 +74,7 @@ describe('CurrencyInput Component', () => {
       assert.equal(currencyInputInstance.state.decimalValue, 1)
       assert.equal(currencyInputInstance.state.hexValue, 'de0b6b3a7640000')
       assert.equal(wrapper.find('.unit-input__suffix').length, 1)
-      assert.equal(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.equal(wrapper.find('.unit-input__suffix').text(), 'AC')
       assert.equal(wrapper.find('.unit-input__input').props().value, '1')
       assert.equal(wrapper.find('.currency-display-component').text(), '$231.06USD')
     })
@@ -82,7 +82,7 @@ describe('CurrencyInput Component', () => {
     it('should render properly with a fiat value', () => {
       const mockStore = {
         affilcoin: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -94,9 +94,9 @@ describe('CurrencyInput Component', () => {
           <CurrencyInput
             value="f602f2234d0ea"
             fiatSuffix="USD"
-            nativeSuffix="ETH"
+            nativeSuffix="AC"
             useFiat
-            nativeCurrency="ETH"
+            nativeCurrency="AC"
             currentCurrency="usd"
             conversionRate={231.06}
           />
@@ -116,7 +116,7 @@ describe('CurrencyInput Component', () => {
     it('should render properly with a native value when hideFiat is true', () => {
       const mockStore = {
         affilcoin: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -128,10 +128,10 @@ describe('CurrencyInput Component', () => {
           <CurrencyInput
             value="f602f2234d0ea"
             fiatSuffix="USD"
-            nativeSuffix="ETH"
+            nativeSuffix="AC"
             useFiat
             hideFiat
-            nativeCurrency="ETH"
+            nativeCurrency="AC"
             currentCurrency="usd"
             conversionRate={231.06}
           />
@@ -147,7 +147,7 @@ describe('CurrencyInput Component', () => {
       assert.equal(currencyInputInstance.state.decimalValue, 0.004328)
       assert.equal(currencyInputInstance.state.hexValue, 'f602f2234d0ea')
       assert.equal(wrapper.find('.unit-input__suffix').length, 1)
-      assert.equal(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.equal(wrapper.find('.unit-input__suffix').text(), 'AC')
       assert.equal(wrapper.find('.unit-input__input').props().value, '0.004328')
       assert.equal(wrapper.find('.currency-input__conversion-component').text(), 'noConversionRateAvailable_t')
     })
@@ -162,10 +162,10 @@ describe('CurrencyInput Component', () => {
       handleBlurSpy.resetHistory()
     })
 
-    it('should call onChange and onBlur on input changes with the hex value for ETH', () => {
+    it('should call onChange and onBlur on input changes with the hex value for AC', () => {
       const mockStore = {
         affilcoin: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -176,8 +176,8 @@ describe('CurrencyInput Component', () => {
           <CurrencyInput
             onChange={handleChangeSpy}
             onBlur={handleBlurSpy}
-            suffix="ETH"
-            nativeCurrency="ETH"
+            suffix="AC"
+            nativeCurrency="AC"
             currentCurrency="usd"
             conversionRate={231.06}
           />
@@ -211,7 +211,7 @@ describe('CurrencyInput Component', () => {
     it('should call onChange and onBlur on input changes with the hex value for fiat', () => {
       const mockStore = {
         affilcoin: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -223,7 +223,7 @@ describe('CurrencyInput Component', () => {
             onChange={handleChangeSpy}
             onBlur={handleBlurSpy}
             suffix="USD"
-            nativeCurrency="ETH"
+            nativeCurrency="AC"
             currentCurrency="usd"
             conversionRate={231.06}
             useFiat
@@ -258,7 +258,7 @@ describe('CurrencyInput Component', () => {
     it('should change the state and pass in a new decimalValue when props.value changes', () => {
       const mockStore = {
         affilcoin: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -270,7 +270,7 @@ describe('CurrencyInput Component', () => {
             onChange={handleChangeSpy}
             onBlur={handleBlurSpy}
             suffix="USD"
-            nativeCurrency="ETH"
+            nativeCurrency="AC"
             currentCurrency="usd"
             conversionRate={231.06}
             useFiat
@@ -294,7 +294,7 @@ describe('CurrencyInput Component', () => {
     it('should swap selected currency when swap icon is clicked', () => {
       const mockStore = {
         affilcoin: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -305,9 +305,9 @@ describe('CurrencyInput Component', () => {
           <CurrencyInput
             onChange={handleChangeSpy}
             onBlur={handleBlurSpy}
-            nativeSuffix="ETH"
+            nativeSuffix="AC"
             fiatSuffix="USD"
-            nativeCurrency="ETH"
+            nativeCurrency="AC"
             currentCurrency="usd"
             conversionRate={231.06}
           />

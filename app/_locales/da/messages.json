@@ -178,10 +178,10 @@
     "message": "Affilcoin er designet og bygget i Californien."
   },
   "buyWithWyre": {
-    "message": "Køb ETH med Wyre"
+    "message": "Køb AC med Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre lader dig bruge et kreditkort til at indbetale ETH på din Affilcoin-konto."
+    "message": "Wyre lader dig bruge et kreditkort til at indbetale AC på din Affilcoin-konto."
   },
   "buyCoinSwitch": {
     "message": "Køb på CoinSwitch"
@@ -628,7 +628,7 @@
     "message": "Kendte kontaktadresser."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ikke ETH-netværk, sat til små bogstaver"
+    "message": "Ikke AC-netværk, sat til små bogstaver"
   },
   "invalidInput": {
     "message": "Ugyldigt input."
@@ -730,7 +730,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan ikke sende en negativ mængde ETH."
+    "message": "Kan ikke sende en negativ mængde AC."
   },
   "networkName": {
     "message": "Netværksnavn"
@@ -864,7 +864,7 @@
     "message": "Primær Valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Vælg lokal for fortrinsvis at vise værdier i kædens (f.eks. ETH) lokale valuta. Vælg Fiat for fortrinsvis at vise værdier i din valgte fiat valuta."
+    "message": "Vælg lokal for fortrinsvis at vise værdier i kædens (f.eks. AC) lokale valuta. Vælg Fiat for fortrinsvis at vise værdier i din valgte fiat valuta."
   },
   "privacyMsg": {
     "message": "Privatlivspolitik"
@@ -1045,7 +1045,7 @@
     "message": "Send Beløb"
   },
   "sendETH": {
-    "message": "Vælg ETH"
+    "message": "Vælg AC"
   },
   "sendTokens": {
     "message": "Send tokens"
@@ -1210,7 +1210,7 @@
     "message": "Til"
   },
   "toETHviaShapeShift": {
-    "message": "$1 til ETH via ShapeShift",
+    "message": "$1 til AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {

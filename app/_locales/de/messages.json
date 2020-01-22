@@ -175,10 +175,10 @@
     "message": "Affilcoin wurde in Kalifornien entwickelt und gebaut."
   },
   "buyWithWyre": {
-    "message": "ETH mit Wyre kaufen"
+    "message": "AC mit Wyre kaufen"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ermöglicht Ihnen die Verwendung einer Kreditkarte zum direkten Einzahlen von ETH auf Ihr Affilcoin-Konto."
+    "message": "Wyre ermöglicht Ihnen die Verwendung einer Kreditkarte zum direkten Einzahlen von AC auf Ihr Affilcoin-Konto."
   },
   "buyCoinSwitch": {
     "message": "Auf CoinSwitch kaufen"
@@ -620,7 +620,7 @@
     "message": "Bekannte Vertragsadresse."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Kein ETH-Netzwerk, auf Kleinschreibung gesetzt"
+    "message": "Kein AC-Netzwerk, auf Kleinschreibung gesetzt"
   },
   "invalidInput": {
     "message": "Ungültige Eingabe."
@@ -725,7 +725,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Negative ETH Beträge können nicht versendet werden."
+    "message": "Negative AC Beträge können nicht versendet werden."
   },
   "networkName": {
     "message": "Netzwerkname"
@@ -856,7 +856,7 @@
     "message": "Hauptwährung"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Wählen Sie 'Nativ', um dem Anzeigen von Werten in der nativen Währung der Kette (z. B. ETH) Vorrang zu geben. Wählen Sie 'Fiat', um dem Anzeigen von Werten in Ihrer gewählten Fiat-Währung Vorrang zu geben."
+    "message": "Wählen Sie 'Nativ', um dem Anzeigen von Werten in der nativen Währung der Kette (z. B. AC) Vorrang zu geben. Wählen Sie 'Fiat', um dem Anzeigen von Werten in Ihrer gewählten Fiat-Währung Vorrang zu geben."
   },
   "privacyMsg": {
     "message": "Datenschutzrichtlinie"
@@ -1036,7 +1036,7 @@
     "message": "Betrag senden"
   },
   "sendETH": {
-    "message": "ETH senden"
+    "message": "AC senden"
   },
   "sendTokens": {
     "message": "Token senden"
@@ -1201,7 +1201,7 @@
     "message": "An"
   },
   "toETHviaShapeShift": {
-    "message": "$1 an ETH via ShapeShift",
+    "message": "$1 an AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {
