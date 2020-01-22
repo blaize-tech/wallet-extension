@@ -335,7 +335,7 @@ module.exports = class AffilcoinController extends EventEmitter {
     const providerOpts = {
       static: {
         eth_syncing: false,
-        web3_clientVersion: `Affilcoin/v${version}`,
+        web3_clientVersion: `Metamask/v${version}`,
       },
       version,
       // account mgmt
@@ -343,7 +343,7 @@ module.exports = class AffilcoinController extends EventEmitter {
         // Expose no accounts if this origin has not been approved, preventing
         // account-requring RPC methods from completing successfully
         const exposeAccounts = this.providerApprovalController.shouldExposeAccounts(origin)
-        if (origin !== 'affilcoin' && !exposeAccounts) { return [] }
+        if (origin !== 'metamask' && !exposeAccounts) { return [] }
         const isUnlocked = this.keyringController.memStore.getState().isUnlocked
         const selectedAddress = this.preferencesController.getSelectedAddress()
         // only show address if account is unlocked
@@ -364,6 +364,7 @@ module.exports = class AffilcoinController extends EventEmitter {
       getPendingNonce: this.getPendingNonce.bind(this),
       getPendingTransactionByHash: (hash) => this.txController.getFilteredTxList({ hash, status: 'submitted' })[0],
     }
+    console.log('providerOpts', providerOpts);
     const providerProxy = this.networkController.initializeProvider(providerOpts)
     return providerProxy
   }

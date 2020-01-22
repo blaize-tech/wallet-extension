@@ -16,7 +16,6 @@ const networks = { networkList: {} }
 
 const {
   TESTNET,
-  RINKEBY,
   MAINNET,
   LOCALHOST,
 } = require('./enums')
@@ -29,10 +28,11 @@ let defaultProviderConfigType
 if (process.env.IN_TEST === 'true') {
   defaultProviderConfigType = LOCALHOST
 } else if (AFFILCOIN_DEBUG || env === 'test') {
-  defaultProviderConfigType = RINKEBY
+  defaultProviderConfigType = TESTNET
 } else {
   defaultProviderConfigType = MAINNET
 }
+defaultProviderConfigType = MAINNET
 
 const defaultProviderConfig = {
   type: defaultProviderConfigType,
@@ -49,6 +49,9 @@ module.exports = class NetworkController extends EventEmitter {
 
     // parse options
     const providerConfig = opts.provider || defaultProviderConfig
+    console.log('providerConfig', providerConfig)
+    console.log('defaultProviderConfig', defaultProviderConfig)
+    console.log('defaultProviderConfigType', defaultProviderConfigType)
     // create stores
     this.providerStore = new ObservableStore(providerConfig)
     this.networkStore = new ObservableStore('loading')
@@ -66,6 +69,7 @@ module.exports = class NetworkController extends EventEmitter {
   initializeProvider (providerParams) {
     this._baseProviderParams = providerParams
     const { type, rpcTarget, chainId, ticker, nickname } = this.providerStore.getState()
+    console.log('type, rpcTarget, chainId, ticker, nickname', type, rpcTarget, chainId, ticker, nickname);
     this._configureProvider({ type, rpcTarget, chainId, ticker, nickname })
     this.lookupNetwork()
   }

@@ -353,7 +353,7 @@ function setupController (initState, initLangCode) {
       controller.isClientOpen = true
       // construct fake URL for identifying internal messages
       const affilcoinUrl = new URL(window.location)
-      affilcoinUrl.hostname = 'affilcoin'
+      affilcoinUrl.hostname = 'metamask'
       controller.setupTrustedCommunication(portStream, affilcoinUrl)
 
       if (processName === ENVIRONMENT_TYPE_POPUP) {

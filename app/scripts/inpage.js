@@ -104,7 +104,7 @@ const getPublicConfigWhenReady = async () => {
 }
 
 // add affilcoin-specific convenience methods
-inpageProvider._affilcoin = new Proxy({
+inpageProvider._metamask = new Proxy({
   /**
    * Synchronously determines if this domain is currently enabled, with a potential false negative if called to soon
    *
@@ -136,7 +136,7 @@ inpageProvider._affilcoin = new Proxy({
   },
 }, {
   get: function (obj, prop) {
-    !warned && console.warn('Heads up! ethereum._affilcoin exposes methods that have ' +
+    !warned && console.warn('Heads up! ethereum._metamask exposes methods that have ' +
     'not been standardized yet. This means that these methods may not be implemented ' +
     'in other dapp browsers and may be removed from Affilcoin in the future.')
     warned = true
