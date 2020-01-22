@@ -110,7 +110,7 @@ describe('send selectors', () => {
       )
     })
 
-    it('should return the eth conversion rate if no token is selected', () => {
+    it('should return the ac conversion rate if no token is selected', () => {
       const editedMockState = {
         affilcoin: Object.assign({}, mockState.affilcoin, { selectedTokenAddress: null }),
       }
@@ -131,7 +131,7 @@ describe('send selectors', () => {
   })
 
   describe('getConversionRate()', () => {
-    it('should return the eth conversion rate', () => {
+    it('should return the ac conversion rate', () => {
       assert.deepEqual(
         getConversionRate(mockState),
         1200.88200327

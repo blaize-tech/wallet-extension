@@ -167,7 +167,7 @@ describe('Affilcoin', function () {
     })
   })
 
-  describe('Adds an entry to the address book and sends eth to that address', () => {
+  describe('Adds an entry to the address book and sends ac to that address', () => {
     it('starts a send transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()

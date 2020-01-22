@@ -9,7 +9,7 @@ module.exports = resolveEnsToIpfsContentId
 
 
 async function resolveEnsToIpfsContentId ({ provider, name }) {
-  const eth = new Eth(provider)
+  const ac = new Eth(provider)
   const hash = namehash.hash(name)
   const contract = new EthContract(eth)
   // lookup registry

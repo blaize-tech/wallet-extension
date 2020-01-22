@@ -61,7 +61,7 @@ Additional features or functionality on the send screen should include an update
   - [ ] allow user to enter any rational number >= 0
   - [ ] allow user to copy and paste into the field
   - [ ] show an 'insufficient tokens' error if an amount > token balance
-  - [ ] show an 'insufficient funds' error if an gas fee > eth balance
+  - [ ] show an 'insufficient funds' error if an gas fee > ac balance
   - [ ] display [token symbol] after the number amount. The position of [token symbol] should change as the length of the input amount text changes
   - [ ] display the value of the amount of tokens in the current currency, formatted in that currency
   - [ ] show a 'max' but if amount < token balance
@@ -86,8 +86,8 @@ Additional features or functionality on the send screen should include an update
   - [ ] Behave the same as 'Edit send Eth mode' (see above)
 
 ## Specific cases to test
- - [ ] Send eth to a hex address
- - [ ] Send eth to an ENS address
+ - [ ] Send ac to a hex address
+ - [ ] Send ac to an ENS address
  - [ ] Donate to the faucet at https://faucet.affilcoin.io/ and edit the transaction before confirming
  - [ ] Send a token that is available on the 'Add Token' screen search to a hex address
  - [ ] Create a custom token at https://tokenfactory.surge.sh/ and send it to a hex address

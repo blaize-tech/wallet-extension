@@ -223,7 +223,7 @@ function normalizeToWei (amount, currency) {
 
 function normalizeEthStringToWei (str) {
   const parts = str.split('.')
-  let eth = new ethUtil.BN(parts[0], 10).mul(bnTable.wei)
+  let ac = new ethUtil.BN(parts[0], 10).mul(bnTable.wei)
   if (parts[1]) {
     var decimal = parts[1]
     while (decimal.length < 18) {

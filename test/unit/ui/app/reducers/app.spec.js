@@ -752,7 +752,7 @@ describe('App State', () => {
     assert.equal(state.accountDetail.privateKey, 'private key')
   })
 
-  it('shows buy eth view', () => {
+  it('shows buy ac view', () => {
 
     const state = reduceApp(affilcoinState, {
       type: actions.BUY_ETH_VIEW,
@@ -769,7 +769,7 @@ describe('App State', () => {
     assert.equal(state.buyView.formView.shapeshift, false)
   })
 
-  it('shows onboarding subview to buy eth', () => {
+  it('shows onboarding subview to buy ac', () => {
     const state = reduceApp(affilcoinState, {
       type: actions.ONBOARDING_BUY_ETH_VIEW,
       value: '0xAddress',

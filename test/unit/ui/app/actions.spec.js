@@ -900,7 +900,7 @@ describe('Actions', () => {
       stub.reset()
     })
 
-    it('returns default gas limit for basic eth transaction', async () => {
+    it('returns default gas limit for basic ac transaction', async () => {
       const store = mockStore()
 
       const expectedActions = [
