@@ -535,7 +535,7 @@
   },
   "getEtherFromFaucet": {
     "message": "$1 ಗಾಗಿ ಫಾಸೆಟ್‌ನಿಂದ ಎಥರ್ ಅನ್ನು ಪಡೆಯಿರಿ",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "ಸಹಾಯವನ್ನು ಪಡೆಯಿರಿ."

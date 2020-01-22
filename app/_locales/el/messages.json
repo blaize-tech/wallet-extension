@@ -3,7 +3,7 @@
     "message": "Η Λειτουργία Απορρήτου είναι πλέον ενεργοποιημένη από προεπιλογή"
   },
   "chartOnlyAvailableEth": {
-    "message": "Το διάγραμμα είναι διαθέσιμο μόνο σε δίκτυα Ethereum."
+    "message": "Το διάγραμμα είναι διαθέσιμο μόνο σε δίκτυα Affilcoin."
   },
   "confirmClear": {
     "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε τους εγκεκριμένους ιστότοπους;"
@@ -93,7 +93,7 @@
     "message": "Ποσό"
   },
   "appDescription": {
-    "message": "Ένα Πορτοφόλι Ethereum στο Πρόγραμμα Περιήγησής σας",
+    "message": "Ένα Πορτοφόλι Affilcoin στο Πρόγραμμα Περιήγησής σας",
     "description": "The description of the application"
   },
   "appName": {
@@ -259,7 +259,7 @@
     "message": "Σύνδεση στο Δοκιμαστικό Δίκτυο Kovan"
   },
   "connectingToMainnet": {
-    "message": "Σύνδεση στο Κύριο Δίκτυο Ethereum"
+    "message": "Σύνδεση στο Κύριο Δίκτυο Affilcoin"
   },
   "connectingToTestnet": {
     "message": "Σύνδεση με το Δίκτυο Δοκιμών Testnet"
@@ -349,7 +349,7 @@
     "message": "Δεκαδικά Ψηφία Ακριβείας"
   },
   "defaultNetwork": {
-    "message": "Το προεπιλεγμένο δίκτυο για συναλλαγές Ether είναι το Main Net."
+    "message": "Το προεπιλεγμένο δίκτυο για συναλλαγές Affilcoin είναι το Main Net."
   },
   "delete": {
     "message": "Διαγραφή"
@@ -361,16 +361,16 @@
     "message": "Κατάθεση"
   },
   "depositEther": {
-    "message": "Κατάθεση Ether"
+    "message": "Κατάθεση Affilcoin"
   },
   "details": {
     "message": "Λεπτομέρειες"
   },
   "directDepositEther": {
-    "message": "Απευθείας Κατάθεση Ether"
+    "message": "Απευθείας Κατάθεση Affilcoin"
   },
   "directDepositEtherExplainer": {
-    "message": "Αν έχετε ήδη κάποια Ether, ο πιο γρήγορος τρόπος για να πάρετε τα Ether στο νέο σας πορτοφόλι με άμεση κατάθεση."
+    "message": "Αν έχετε ήδη κάποια Affilcoin, ο πιο γρήγορος τρόπος για να πάρετε τα Affilcoin στο νέο σας πορτοφόλι με άμεση κατάθεση."
   },
   "dismiss": {
     "message": "Παράβλεψη"
@@ -436,7 +436,7 @@
     "message": "Σφάλμα στην καταχώριση ονόματος ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Το όνομα ENS δεν βρέθηκε στο τρέχον δίκτυο. Δοκιμάστε να μεταβείτε στο Κύριο Δίκτυο Ethereum."
+    "message": "Το όνομα ENS δεν βρέθηκε στο τρέχον δίκτυο. Δοκιμάστε να μεταβείτε στο Κύριο Δίκτυο Affilcoin."
   },
   "enterAnAlias": {
     "message": "Δώστε ένα ψευδώνυμο"
@@ -448,7 +448,7 @@
     "message": "Πληκτρολογήστε τον κωδικό πρόσβασης για να συνεχίσετε"
   },
   "ethereumPublicAddress": {
-    "message": "Δημόσια Διεύθυνση Ethereum"
+    "message": "Δημόσια Διεύθυνση Affilcoin"
   },
   "etherscanView": {
     "message": "Προβολή λογαριασμού στο Etherscan"
@@ -513,7 +513,7 @@
     "message": "Τιμή Καυσίμου Εξαιρετικά Χαμηλή"
   },
   "gasPriceInfoModalContent": {
-    "message": "Η τιμή καυσίμου καθορίζει το ποσό των Ether που είστε διατεθειμένοι να πληρώσετε για κάθε μονάδα καυσίμου."
+    "message": "Η τιμή καυσίμου καθορίζει το ποσό των Affilcoin που είστε διατεθειμένοι να πληρώσετε για κάθε μονάδα καυσίμου."
   },
   "gasPriceNoDenom": {
     "message": "Τιμή Gas"
@@ -528,11 +528,11 @@
     "message": "Μετατροπή νομίσματος, πρωτογενές νόμισμα, γλώσσα, αναπαράσταση μπλοκ"
   },
   "getEther": {
-    "message": "Λάβετε Ether"
+    "message": "Λάβετε Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Πάρτε Ether από μια πηγή για το $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Πάρτε Affilcoin από μια πηγή για το $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Πάρτε Βοήθεια."
@@ -697,7 +697,7 @@
     "message": "Αποσύνδεση"
   },
   "mainnet": {
-    "message": "Κύριο Δίκτυο Ethereum"
+    "message": "Κύριο Δίκτυο Affilcoin"
   },
   "memorizePhrase": {
     "message": "Απομνημονεύστε αυτή τη φράση."
@@ -712,7 +712,7 @@
     "message": "Μήνυμα"
   },
   "affilcoinDescription": {
-    "message": "Σύνδεση με το Ethereum και τον Αποκεντρωμένο Ιστό."
+    "message": "Σύνδεση με το Affilcoin και τον Αποκεντρωμένο Ιστό."
   },
   "affilcoinSeedWords": {
     "message": "Λέξεις Φύτρου Affilcoin"
@@ -739,7 +739,7 @@
     "message": "Πρέπει να επιλέξετε 1 τουλάχιστον διακριτικό."
   },
   "needEtherInWallet": {
-    "message": "Για να αλληλεπιδράσετε με αποκεντρωμένες εφαρμογές χρησιμοποιώντας το Affilcoin, θα χρειαστείτε Ether στο πορτοφόλι σας."
+    "message": "Για να αλληλεπιδράσετε με αποκεντρωμένες εφαρμογές χρησιμοποιώντας το Affilcoin, θα χρειαστείτε Affilcoin στο πορτοφόλι σας."
   },
   "needImportFile": {
     "message": "Πρέπει να επιλέξετε ένα αρχείο για εισαγωγή.",
@@ -1031,7 +1031,7 @@
     "message": "Η μυστική φράση δημιουργίας αντιγράφων ασφαλείας σας διευκολύνει να δημιουργήσετε αντίγραφα ασφαλείας και να επαναφέρετε τον λογαριασμού σας."
   },
   "secretBackupPhraseWarning": {
-    "message": "ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Ποτέ μην αποκαλύπτετε την εφεδρική φράση. Όποιος έχει αυτή τη φράση μπορεί να πάρει τα Ether σας για πάντα."
+    "message": "ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Ποτέ μην αποκαλύπτετε την εφεδρική φράση. Όποιος έχει αυτή τη φράση μπορεί να πάρει τα Affilcoin σας για πάντα."
   },
   "secretPhrase": {
     "message": "Εισαγάγετε εδώ τη μυστική φράση δώδεκα λέξεων για να επαναφέρετε το χρηματοκιβώτιό σας."
@@ -1178,7 +1178,7 @@
     "message": "3. Ξεκινήστε να χρησιμοποιείτε το dApps και άλλα!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Χρησιμοποιήστε τον λογαριασμό εξοπλισμού σας όπως θα κάνατε με οποιονδήποτε λογαριασμό του Ethereum. Συνδεθείτε στο dApps, στείλτε το Eth, αγοράστε και αποθηκεύστε ERC20 tokens και Non-Fungible tokens όπως το CryptoKitties."
+    "message": "Χρησιμοποιήστε τον λογαριασμό εξοπλισμού σας όπως θα κάνατε με οποιονδήποτε λογαριασμό του Affilcoin. Συνδεθείτε στο dApps, στείλτε το Eth, αγοράστε και αποθηκεύστε ERC20 tokens και Non-Fungible tokens όπως το CryptoKitties."
   },
   "storePhrase": {
     "message": "Αποθηκεύστε αυτήν τη φράση σε έναν διαχειριστή κωδικών πρόσβασης όπως το 1Password."

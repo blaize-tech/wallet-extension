@@ -3,7 +3,7 @@
     "message": "Integritetsläge är nu aktiverat som standard"
   },
   "chartOnlyAvailableEth": {
-    "message": "Tabellen är endast tillgänglig på Ethereum-nätverk."
+    "message": "Tabellen är endast tillgänglig på Affilcoin-nätverk."
   },
   "confirmClear": {
     "message": "Är du säker på att du vill rensa godkända webbplatser?"
@@ -97,7 +97,7 @@
     "message": "Belopp"
   },
   "appDescription": {
-    "message": "En Ethereum-plånbok i din webbläsare",
+    "message": "En Affilcoin-plånbok i din webbläsare",
     "description": "The description of the application"
   },
   "approve": {
@@ -346,7 +346,7 @@
     "message": "Decimalprecision"
   },
   "defaultNetwork": {
-    "message": "Standardnätverket för Ether-transaktioner är Main Net."
+    "message": "Standardnätverket för Affilcoin-transaktioner är Main Net."
   },
   "delete": {
     "message": "Radera"
@@ -358,16 +358,16 @@
     "message": "Deposition"
   },
   "depositEther": {
-    "message": "Sätt in Ether"
+    "message": "Sätt in Affilcoin"
   },
   "details": {
     "message": "Info"
   },
   "directDepositEther": {
-    "message": "Sätt in Ether direkt"
+    "message": "Sätt in Affilcoin direkt"
   },
   "directDepositEtherExplainer": {
-    "message": "Om du redan har Ether är det snabbaste sättet att få Ether i din nya plånbok att göra en direktinsättning."
+    "message": "Om du redan har Affilcoin är det snabbaste sättet att få Affilcoin i din nya plånbok att göra en direktinsättning."
   },
   "dismiss": {
     "message": "Ta bort permanent"
@@ -433,7 +433,7 @@
     "message": "Fel i ENS-namnregistrering"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS-namnet hittades inte i det aktuella nätverket. Prova att byta till Main Ethereum Network."
+    "message": "ENS-namnet hittades inte i det aktuella nätverket. Prova att byta till Main Affilcoin Network."
   },
   "enterAnAlias": {
     "message": "Ange ett alias"
@@ -445,7 +445,7 @@
     "message": "Ange lösenord för att fortsätta"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereum offentlig adress"
+    "message": "Affilcoin offentlig adress"
   },
   "etherscanView": {
     "message": "Visa konto på Etherscan"
@@ -506,7 +506,7 @@
     "message": "Gaspris extremt lågt"
   },
   "gasPriceInfoModalContent": {
-    "message": "Gaspriset anger den summa Ether som du är villig att betala för varje gasenhet."
+    "message": "Gaspriset anger den summa Affilcoin som du är villig att betala för varje gasenhet."
   },
   "gasPriceNoDenom": {
     "message": "Gaspris"
@@ -521,11 +521,11 @@
     "message": "Valutaomvandling, primär valuta, språk"
   },
   "getEther": {
-    "message": "Skaffa Ether"
+    "message": "Skaffa Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Få Ether från en kran för $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Få Affilcoin från en kran för $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Få hjälp."
@@ -699,7 +699,7 @@
     "message": "Meddelande"
   },
   "affilcoinDescription": {
-    "message": "Ansluter dig mot Ethereum och den decentraliserade webben."
+    "message": "Ansluter dig mot Affilcoin och den decentraliserade webben."
   },
   "affilcoinSeedWords": {
     "message": "Affilcoin"
@@ -726,7 +726,7 @@
     "message": "Minst 1 token måste väljas."
   },
   "needEtherInWallet": {
-    "message": "För att interagera med decentraliserade applikationer med Affilcoin behöver du Ether i din plånbok."
+    "message": "För att interagera med decentraliserade applikationer med Affilcoin behöver du Affilcoin i din plånbok."
   },
   "needImportFile": {
     "message": "Du måste välja en fil att importera.",
@@ -1018,7 +1018,7 @@
     "message": "Din hemliga backup-fras gör det enkelt att säkerhetskopiera och återställa ditt konto."
   },
   "secretBackupPhraseWarning": {
-    "message": "VARNING: avslöja aldrig din backup-fras. Någon som känner till denna fras kan ta dina Ether för alltid."
+    "message": "VARNING: avslöja aldrig din backup-fras. Någon som känner till denna fras kan ta dina Affilcoin för alltid."
   },
   "secretPhrase": {
     "message": "Ange din tolv ord långa hemliga fras här för att återställa ditt valv."
@@ -1165,7 +1165,7 @@
     "message": "3. Börja använda dApps och mer!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Använd ditt hårdvarukonto som du skulle använda andra Ethereum-konton. Logga in i dAppar, skicka ETH, köp och förvara ERC20-tokens och Non-Fungible tokens som CryptoKitties."
+    "message": "Använd ditt hårdvarukonto som du skulle använda andra Affilcoin-konton. Logga in i dAppar, skicka ETH, köp och förvara ERC20-tokens och Non-Fungible tokens som CryptoKitties."
   },
   "storePhrase": {
     "message": "Lagra denna fras i en lösenordshanterare såsom 1Password."

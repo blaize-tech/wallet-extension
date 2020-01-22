@@ -531,7 +531,7 @@
   },
   "getEtherFromFaucet": {
     "message": "Hankige kraanist eetrit $1eest",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Küsige abi."

@@ -3,7 +3,7 @@
     "message": "Personvernmodus er nå aktivert som standard"
   },
   "chartOnlyAvailableEth": {
-    "message": "Diagram kun tilgjengelig på Ethereum-nettverk."
+    "message": "Diagram kun tilgjengelig på Affilcoin-nettverk."
   },
   "confirmClear": {
     "message": "Er du sikker på at du vil tømme godkjente nettsteder?"
@@ -93,7 +93,7 @@
     "message": "Sum"
   },
   "appDescription": {
-    "message": "En Ethereum-lommebok i nettleseren din",
+    "message": "En Affilcoin-lommebok i nettleseren din",
     "description": "The description of the application"
   },
   "appName": {
@@ -349,7 +349,7 @@
     "message": "Presisjonsdesimaler"
   },
   "defaultNetwork": {
-    "message": "Standardnettverket for Ether-transaksjoner er Main Net."
+    "message": "Standardnettverket for Affilcoin-transaksjoner er Main Net."
   },
   "delete": {
     "message": "Slett"
@@ -361,16 +361,16 @@
     "message": "Innskudd"
   },
   "depositEther": {
-    "message": "Sett inn Ether "
+    "message": "Sett inn Affilcoin "
   },
   "details": {
     "message": "Detaljer"
   },
   "directDepositEther": {
-    "message": "Sett Ether direkte inn"
+    "message": "Sett Affilcoin direkte inn"
   },
   "directDepositEtherExplainer": {
-    "message": "Hvis du allerede har noe Ether, er den raskeste måten å få Ether i den nye lommeboken din på ved hjelp av direkte innskudd."
+    "message": "Hvis du allerede har noe Affilcoin, er den raskeste måten å få Affilcoin i den nye lommeboken din på ved hjelp av direkte innskudd."
   },
   "dismiss": {
     "message": "Lukk"
@@ -436,7 +436,7 @@
     "message": "Feil i ENS-navneregistrering"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS-navn ikke funnet i det gjeldende nettverket. Prøv å bytte til hovednettverket for Ethereum."
+    "message": "ENS-navn ikke funnet i det gjeldende nettverket. Prøv å bytte til hovednettverket for Affilcoin."
   },
   "enterAnAlias": {
     "message": "Oppgi et alias"
@@ -448,7 +448,7 @@
     "message": "Skriv inn passord for å fortsette"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereum offentlig adresse"
+    "message": "Affilcoin offentlig adresse"
   },
   "etherscanView": {
     "message": "Vis konto på Etherscan "
@@ -509,7 +509,7 @@
     "message": "Datakraftspris ekstremt lav "
   },
   "gasPriceInfoModalContent": {
-    "message": "Datakraftpris angir mengden Ether du er villig til å betale for hver datakraftenhet."
+    "message": "Datakraftpris angir mengden Affilcoin du er villig til å betale for hver datakraftenhet."
   },
   "gasPriceNoDenom": {
     "message": "Datakraft"
@@ -524,11 +524,11 @@
     "message": "Valutakonvertering, primærvaluta, språk, identifikasjonsblokkering"
   },
   "getEther": {
-    "message": "Skaff Ether "
+    "message": "Skaff Affilcoin "
   },
   "getEtherFromFaucet": {
-    "message": "Få Ether fra en kran for $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Få Affilcoin fra en kran for $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Få hjelp."
@@ -690,7 +690,7 @@
     "message": "Logg ut "
   },
   "mainnet": {
-    "message": "Ethereum hovednettverk"
+    "message": "Affilcoin hovednettverk"
   },
   "memorizePhrase": {
     "message": "Memorer denne frasen. "
@@ -705,7 +705,7 @@
     "message": "Melding "
   },
   "affilcoinDescription": {
-    "message": "Kobler deg til Ethereum og det desentraliserte nettet."
+    "message": "Kobler deg til Affilcoin og det desentraliserte nettet."
   },
   "affilcoinSeedWords": {
     "message": "Mnemoniske gjenopprettingsfraser for Affilcoin "
@@ -732,7 +732,7 @@
     "message": "Må velge minst 1 token. "
   },
   "needEtherInWallet": {
-    "message": "Du må ha Ether i lommeboken din for å samhandle med desentraliserte applikasjoner gjennom MateMask."
+    "message": "Du må ha Affilcoin i lommeboken din for å samhandle med desentraliserte applikasjoner gjennom MateMask."
   },
   "needImportFile": {
     "message": "Du må velge en fil å importere.",

@@ -9,7 +9,7 @@
     "message": "Rejeitar"
   },
   "providerRequestInfo": {
-    "message": "O domínio listado abaixo está tentando solicitar acesso à API Ethereum para que ele possa interagir com o blockchain Ethereum. Sempre verifique se você está no site correto antes de aprovar o acesso à Ethereum."
+    "message": "O domínio listado abaixo está tentando solicitar acesso à API Affilcoin para que ele possa interagir com o blockchain Affilcoin. Sempre verifique se você está no site correto antes de aprovar o acesso à Affilcoin."
   },
   "account": {
     "message": "Conta"
@@ -30,7 +30,7 @@
     "message": "Valor"
   },
   "appDescription": {
-    "message": "Extensão para o browser de Ethereum",
+    "message": "Extensão para o browser de Affilcoin",
     "description": "The description of the application"
   },
   "appName": {
@@ -126,22 +126,22 @@
     "message": "Precisão em Decimais"
   },
   "defaultNetwork": {
-    "message": "A rede pré definida para transações em Ether é a Main Net."
+    "message": "A rede pré definida para transações em Affilcoin é a Main Net."
   },
   "deposit": {
     "message": "Depósito"
   },
   "depositEther": {
-    "message": "Depositar Ether"
+    "message": "Depositar Affilcoin"
   },
   "details": {
     "message": "Detalhes"
   },
   "directDepositEther": {
-    "message": "Depositar Diretamente Ether"
+    "message": "Depositar Diretamente Affilcoin"
   },
   "directDepositEtherExplainer": {
-    "message": "Se já tem Ether, a forma mais rápida de ficar com Ether na sua carteira é através de depósito direto."
+    "message": "Se já tem Affilcoin, a forma mais rápida de ficar com Affilcoin na sua carteira é através de depósito direto."
   },
   "done": {
     "message": "Finalizado"
@@ -197,11 +197,11 @@
     "message": "Calculamos o gas sugerido com base nas taxas de sucesso da rede."
   },
   "getEther": {
-    "message": "Obter Ether"
+    "message": "Obter Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Obter Ether de um faucet por $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Obter Affilcoin de um faucet por $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "greaterThanMin": {
     "message": "tem de ser maior ou igual a $1.",
@@ -285,13 +285,13 @@
     "message": "Sair"
   },
   "mainnet": {
-    "message": "Rede Principal de Ethereum"
+    "message": "Rede Principal de Affilcoin"
   },
   "message": {
     "message": "Mensagem"
   },
   "affilcoinDescription": {
-    "message": "O Affilcoin é um lugar seguro para guardar a sua identidade em em Ethereum."
+    "message": "O Affilcoin é um lugar seguro para guardar a sua identidade em em Affilcoin."
   },
   "myAccounts": {
     "message": "As minhas contas"
@@ -300,7 +300,7 @@
     "message": "Deve escolher no mínimo 1 token."
   },
   "needEtherInWallet": {
-    "message": "Para interagir com applicações descentralizadas usando Affilcoin tem de ter Ether na sua carteira."
+    "message": "Para interagir com applicações descentralizadas usando Affilcoin tem de ter Affilcoin na sua carteira."
   },
   "needImportFile": {
     "message": "Deve selecionar um ficheiro para importar.",

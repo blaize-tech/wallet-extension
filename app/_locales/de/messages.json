@@ -3,7 +3,7 @@
     "message": "Der Datenschutzmodus ist jetzt standardmäßig aktiviert"
   },
   "chartOnlyAvailableEth": {
-    "message": "Die Grafik ist nur in Ethereum-Netzwerken verfügbar."
+    "message": "Die Grafik ist nur in Affilcoin-Netzwerken verfügbar."
   },
   "confirmClear": {
     "message": "Möchten Sie die genehmigten Websites wirklich löschen?"
@@ -90,7 +90,7 @@
     "message": "Betrag"
   },
   "appDescription": {
-    "message": "Ethereum Browsererweiterung",
+    "message": "Affilcoin Browsererweiterung",
     "description": "The description of the application"
   },
   "appName": {
@@ -250,7 +250,7 @@
     "message": " Verbinde zum Kovan Testnetzwerk"
   },
   "connectingToMainnet": {
-    "message": "Verbinde zum Ethereum Main Net"
+    "message": "Verbinde zum Affilcoin Main Net"
   },
   "connectingToTestnet": {
     "message": " Verbinde zum Testnet Testnetzwerk"
@@ -340,7 +340,7 @@
     "message": "Dezimalangabe der Präzision"
   },
   "defaultNetwork": {
-    "message": "Das Standardnetzwerk für Ether Transaktionen ist das Main Net."
+    "message": "Das Standardnetzwerk für Affilcoin Transaktionen ist das Main Net."
   },
   "delete": {
     "message": "Löschen"
@@ -352,13 +352,13 @@
     "message": "Einzahlen"
   },
   "depositEther": {
-    "message": "Ether einzahlen"
+    "message": "Affilcoin einzahlen"
   },
   "directDepositEther": {
-    "message": "Sofort Ether einzahlen"
+    "message": "Sofort Affilcoin einzahlen"
   },
   "directDepositEtherExplainer": {
-    "message": "Wenn du bereits Ether besitzt, ist die sofortige Einzahlung die schnellste Methode Ether in deine neue Wallet zu bekommen."
+    "message": "Wenn du bereits Affilcoin besitzt, ist die sofortige Einzahlung die schnellste Methode Affilcoin in deine neue Wallet zu bekommen."
   },
   "dismiss": {
     "message": "Schließen"
@@ -424,7 +424,7 @@
     "message": "Fehler bei der ENS-Namensregistrierung"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS-Name wurde im aktuellen Netzwerk nicht gefunden. Versuchen Sie, zum Main Ethereum Network zu wechseln."
+    "message": "ENS-Name wurde im aktuellen Netzwerk nicht gefunden. Versuchen Sie, zum Main Affilcoin Network zu wechseln."
   },
   "enterAnAlias": {
     "message": "Ein Alias eingeben"
@@ -436,7 +436,7 @@
     "message": "Zum Fortfahren Passwort eingeben"
   },
   "ethereumPublicAddress": {
-    "message": "Öffentliche Ethereum-Adresse"
+    "message": "Öffentliche Affilcoin-Adresse"
   },
   "etherscanView": {
     "message": "Account auf Etherscan anschauen"
@@ -501,7 +501,7 @@
     "message": "Gaspreis extrem niedrig"
   },
   "gasPriceInfoModalContent": {
-    "message": "Der Gaspreis gibt die Menge Ether an, die Sie für jede Einheit Gas zu zahlen bereit sind."
+    "message": "Der Gaspreis gibt die Menge Affilcoin an, die Sie für jede Einheit Gas zu zahlen bereit sind."
   },
   "gasPriceNoDenom": {
     "message": "Gaspreis"
@@ -516,11 +516,11 @@
     "message": "Währungsumrechnung, Primärwährung, Sprache, Blockies-Identicon"
   },
   "getEther": {
-    "message": "Ether holen"
+    "message": "Affilcoin holen"
   },
   "getEtherFromFaucet": {
-    "message": "Ether für $1 vom Faucet holen",
-    "description": "Displays network name for Ether faucet"
+    "message": "Affilcoin für $1 vom Faucet holen",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Erhalten Sie Hilfe."
@@ -676,7 +676,7 @@
     "message": "Ausloggen"
   },
   "mainnet": {
-    "message": "Ethereum Main Net"
+    "message": "Affilcoin Main Net"
   },
   "memorizePhrase": {
     "message": "Prägen Sie sich diese Phrase ein."
@@ -691,7 +691,7 @@
     "message": "Nachricht"
   },
   "affilcoinDescription": {
-    "message": "Affilcoin ist ein sicherer Identitätssafe für Ethereum."
+    "message": "Affilcoin ist ein sicherer Identitätssafe für Affilcoin."
   },
   "affilcoinSeedWords": {
     "message": "Affilcoin-Seed-Wörter"
@@ -718,7 +718,7 @@
     "message": "Du musst mindestens 1 Token auswählen."
   },
   "needEtherInWallet": {
-    "message": "Um dezentralisierte Applikationen mit Affilcoin verwenden zu können, benötigst du Ether in deiner Wallet."
+    "message": "Um dezentralisierte Applikationen mit Affilcoin verwenden zu können, benötigst du Affilcoin in deiner Wallet."
   },
   "needImportFile": {
     "message": "Für den Import musst du eine Datei auswählen.",
@@ -1000,7 +1000,7 @@
     "message": "Mit Ihrem geheimen Backup-Schlüssel können Sie Ihr Konto ganz einfach sichern und wiederherstellen."
   },
   "secretBackupPhraseWarning": {
-    "message": "WARNUNG: Legen Sie niemals Ihre Sicherungsphrase offen. Mit dieser Phrase kann sich jeder Ihr Ether für immer aneignen."
+    "message": "WARNUNG: Legen Sie niemals Ihre Sicherungsphrase offen. Mit dieser Phrase kann sich jeder Ihr Affilcoin für immer aneignen."
   },
   "secretPhrase": {
     "message": "Gib die 12 Wörter deiner geheimem Wörterfolge ein um deinen Vault wiederherzustellen."
@@ -1042,7 +1042,7 @@
     "message": "Token senden"
   },
   "sentEther": {
-    "message": "Ether senden"
+    "message": "Affilcoin senden"
   },
   "sentTokens": {
     "message": "gesendete Token"
@@ -1147,7 +1147,7 @@
     "message": "3. Erste Schritte mit dApps und mehr!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Verwenden Sie Ihr Hardware-Konto so wie jedes Ethereum-Konto. Loggen Sie sich bei dApps ein, senden Sie Eth, kaufen und speichern Sie ERC20-Token und Nicht-Fungible-Token wie CryptoKitties."
+    "message": "Verwenden Sie Ihr Hardware-Konto so wie jedes Affilcoin-Konto. Loggen Sie sich bei dApps ein, senden Sie Eth, kaufen und speichern Sie ERC20-Token und Nicht-Fungible-Token wie CryptoKitties."
   },
   "storePhrase": {
     "message": "Speichern Sie diesen Schlüssel in einem Passwortmanager wie 1Password."

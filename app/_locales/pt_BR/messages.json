@@ -3,7 +3,7 @@
     "message": "O Modo de Privacidade está ativado por padrão"
   },
   "chartOnlyAvailableEth": {
-    "message": "Tabela disponível apenas em redes de Ethereum."
+    "message": "Tabela disponível apenas em redes de Affilcoin."
   },
   "confirmClear": {
     "message": "Tem certeza de que deseja limpar os sites aprovados?"
@@ -97,7 +97,7 @@
     "message": "Valor"
   },
   "appDescription": {
-    "message": "Uma Carteira Ethereum no seu Navegador",
+    "message": "Uma Carteira Affilcoin no seu Navegador",
     "description": "The description of the application"
   },
   "approve": {
@@ -346,7 +346,7 @@
     "message": "Decimais de precisão"
   },
   "defaultNetwork": {
-    "message": "A rede-padrão para transações de Ether é a Rede Principal."
+    "message": "A rede-padrão para transações de Affilcoin é a Rede Principal."
   },
   "delete": {
     "message": "Excluir"
@@ -358,16 +358,16 @@
     "message": "Depósito"
   },
   "depositEther": {
-    "message": "Depositar Ether"
+    "message": "Depositar Affilcoin"
   },
   "details": {
     "message": "Detalhes"
   },
   "directDepositEther": {
-    "message": "Depositar Ether Diretamente"
+    "message": "Depositar Affilcoin Diretamente"
   },
   "directDepositEtherExplainer": {
-    "message": "Se você já tem Ether, a forma mais rápida de colocá-lo em sua nova carteira é o depósito direto."
+    "message": "Se você já tem Affilcoin, a forma mais rápida de colocá-lo em sua nova carteira é o depósito direto."
   },
   "dismiss": {
     "message": "Dispensar"
@@ -433,7 +433,7 @@
     "message": "Erro ao registrar nome de ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Nome de ENS não encontrado na rede atual. Experimente alternar para a Rede Principal de Ethereum."
+    "message": "Nome de ENS não encontrado na rede atual. Experimente alternar para a Rede Principal de Affilcoin."
   },
   "enterAnAlias": {
     "message": "Digite um pseudônimo"
@@ -445,7 +445,7 @@
     "message": "Insira a senha para continuar"
   },
   "ethereumPublicAddress": {
-    "message": "Endereço Público do Ethereum"
+    "message": "Endereço Público do Affilcoin"
   },
   "etherscanView": {
     "message": "Ver conta no Etherscan"
@@ -510,7 +510,7 @@
     "message": "Preço de Gas extremamente baixo"
   },
   "gasPriceInfoModalContent": {
-    "message": "O preço do gás especifica a quantidade de Ether que você está disposto a pagar por cada unidade de gás."
+    "message": "O preço do gás especifica a quantidade de Affilcoin que você está disposto a pagar por cada unidade de gás."
   },
   "gasPriceNoDenom": {
     "message": "Preço do Gás"
@@ -525,11 +525,11 @@
     "message": "Conversão de moeda, moeda primária, idioma, identicon de blocos"
   },
   "getEther": {
-    "message": "Obter Ether"
+    "message": "Obter Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Obtenha Ether em uma torneira para $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Obtenha Affilcoin em uma torneira para $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Obtenha Ajuda."
@@ -688,7 +688,7 @@
     "message": "Sair"
   },
   "mainnet": {
-    "message": "Rede Ethereum Principal"
+    "message": "Rede Affilcoin Principal"
   },
   "memorizePhrase": {
     "message": "Memorize esta frase."
@@ -700,7 +700,7 @@
     "message": "Mensagem"
   },
   "affilcoinDescription": {
-    "message": "Conectando você ao Ethereum e à Web Descentralizada."
+    "message": "Conectando você ao Affilcoin e à Web Descentralizada."
   },
   "affilcoinSeedWords": {
     "message": "Palavras-semente do Affilcoin"
@@ -727,7 +727,7 @@
     "message": "É preciso selecionar pelo menos 1 token."
   },
   "needEtherInWallet": {
-    "message": "Para interagir com aplicações descentralizadas usando o Affilcoin, você precisará de Ether na sua carteira."
+    "message": "Para interagir com aplicações descentralizadas usando o Affilcoin, você precisará de Affilcoin na sua carteira."
   },
   "needImportFile": {
     "message": "Você deve selecionar um arquivo para importar.",
@@ -1019,7 +1019,7 @@
     "message": "Sua frase de backup secreta facilita o backup e a restauração de sua conta."
   },
   "secretBackupPhraseWarning": {
-    "message": "ATENÇÃO: Nunca revele sua frase de backup a ninguém. Qualquer pessoa com essa frase pode obter seu Ether para sempre."
+    "message": "ATENÇÃO: Nunca revele sua frase de backup a ninguém. Qualquer pessoa com essa frase pode obter seu Affilcoin para sempre."
   },
   "secretPhrase": {
     "message": "Digite sua frase secreta de doze palavras aqui para restaurar seu cofre."
@@ -1166,7 +1166,7 @@
     "message": "3. Comece a usar dApps e muito mais!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Use sua conta física como faria com qualquer conta de Ethereum. Faça login em dApps, envie Eth, compre e guarde tokens ERC20 e Tokens Não Fungíveis, como CryptoKitties."
+    "message": "Use sua conta física como faria com qualquer conta de Affilcoin. Faça login em dApps, envie Eth, compre e guarde tokens ERC20 e Tokens Não Fungíveis, como CryptoKitties."
   },
   "storePhrase": {
     "message": "Guarde esta frase em um gerenciador de senhas como o 1Password."

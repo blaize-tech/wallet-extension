@@ -3,7 +3,7 @@
     "message": "গোপনীয়তার মোড এখন ডিফল্ট হিসাবে সক্রিয় করা আছে"
   },
   "chartOnlyAvailableEth": {
-    "message": "শুধুমাত্র Ethereum নেটওয়ার্কগুলিতে চার্ট উপলভ্য। "
+    "message": "শুধুমাত্র Affilcoin নেটওয়ার্কগুলিতে চার্ট উপলভ্য। "
   },
   "confirmClear": {
     "message": "আপনি কি অনুমোদিত ওয়েবসাইটগুলি মুছে পরিস্কার করার বিষয়ে নিশ্চিত?"
@@ -93,7 +93,7 @@
     "message": "পরিমান"
   },
   "appDescription": {
-    "message": "আপনার ব্রাউজারে একটি Ethereum ওয়ালেট",
+    "message": "আপনার ব্রাউজারে একটি Affilcoin ওয়ালেট",
     "description": "The description of the application"
   },
   "appName": {
@@ -262,7 +262,7 @@
     "message": "কোভান টেস্ট নেটওয়ার্কের সাথে সংযোগ করছে"
   },
   "connectingToMainnet": {
-    "message": "মুখ্য Ethereum নেটওয়ার্কের সাথে সংযোগ করছে"
+    "message": "মুখ্য Affilcoin নেটওয়ার্কের সাথে সংযোগ করছে"
   },
   "connectingToTestnet": {
     "message": "রপস্টেন টেস্ট নেটওয়ার্কের সাথে সংযোগ করছে"
@@ -439,7 +439,7 @@
     "message": "ENS নাম নিবন্ধীকরণে ত্রুটি হয়েছে"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS নাম বর্তমান নেটওয়ার্কে খুঁজে পাওয়া যায় নি। মূল Ethereum নেটওয়ার্কে বদলানোর চেষ্টা করুন।"
+    "message": "ENS নাম বর্তমান নেটওয়ার্কে খুঁজে পাওয়া যায় নি। মূল Affilcoin নেটওয়ার্কে বদলানোর চেষ্টা করুন।"
   },
   "enterAnAlias": {
     "message": "একটি উপনাম লিখুন"
@@ -451,7 +451,7 @@
     "message": "অবিরত রাখতে পাসওয়ার্ড লিখুন"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereum পাবলিক অ্যাড্রেস"
+    "message": "Affilcoin পাবলিক অ্যাড্রেস"
   },
   "etherscanView": {
     "message": "Etherscan এ অ্যাকাউন্ট দেখুন"
@@ -535,7 +535,7 @@
   },
   "getEtherFromFaucet": {
     "message": "$1 এর জন্য একটি ফসেট থেকে ইথার পান",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "সহায়তা পান।"
@@ -700,7 +700,7 @@
     "message": "লগ আউট করুন"
   },
   "mainnet": {
-    "message": "মূল Ethereum নেটওয়ার্ক"
+    "message": "মূল Affilcoin নেটওয়ার্ক"
   },
   "memorizePhrase": {
     "message": "এই ফ্রেজটি মুখস্থ করুন।"
@@ -715,7 +715,7 @@
     "message": "বার্তা"
   },
   "affilcoinDescription": {
-    "message": "আপনার Ethereum এবং ছড়িয়ে ছিটিয়ে থাকা ওয়েবের সাথে সংযোগ করছে। "
+    "message": "আপনার Affilcoin এবং ছড়িয়ে ছিটিয়ে থাকা ওয়েবের সাথে সংযোগ করছে। "
   },
   "affilcoinSeedWords": {
     "message": "Affilcoin সীড শব্দসমূহ"
@@ -1181,7 +1181,7 @@
     "message": "3. dApps এবং আরও ব্যবহার করে শুরু করুন!"
   },
   "step3HardwareWalletMsg": {
-    "message": "আপনি কোনো Ethereum অ্যাকাউন্ট যেমন ব্যবহার করেন সেইভাবে আপনার হার্ডওয়্যার অ্যাকাউন্ট ব্যবহার করুন। dApps এ লগইন করুন, Eth পাঠান, ERC20 টোকেন এবং CryptoKitties এর মতো পরস্পর বিনিময়যোগ্য নয় এমন টোকেনগুলি ক্রয় ও সংরক্ষণ করুন।  "
+    "message": "আপনি কোনো Affilcoin অ্যাকাউন্ট যেমন ব্যবহার করেন সেইভাবে আপনার হার্ডওয়্যার অ্যাকাউন্ট ব্যবহার করুন। dApps এ লগইন করুন, Eth পাঠান, ERC20 টোকেন এবং CryptoKitties এর মতো পরস্পর বিনিময়যোগ্য নয় এমন টোকেনগুলি ক্রয় ও সংরক্ষণ করুন।  "
   },
   "storePhrase": {
     "message": "এই বাক্যাংশটি 1Password এর মতো একটি পাসওয়ার্ড পরিচালকে সংরক্ষণ করুন। "

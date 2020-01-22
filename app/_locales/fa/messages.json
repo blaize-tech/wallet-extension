@@ -352,7 +352,7 @@
     "message": "اعشاریه های دقت"
   },
   "defaultNetwork": {
-    "message": "شبکه خودکار برای معاملات Ether عبارت است از Main Net."
+    "message": "شبکه خودکار برای معاملات Affilcoin عبارت است از Main Net."
   },
   "delete": {
     "message": "حذف"
@@ -535,7 +535,7 @@
   },
   "getEtherFromFaucet": {
     "message": "اخذ ایتر از یک فاست برای 1$1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "دریافت کمک"

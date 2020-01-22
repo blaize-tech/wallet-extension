@@ -9,7 +9,7 @@
     "message": "Отклонить"
   },
   "providerRequestInfo": {
-    "message": "Домен, указанный ниже, пытается запросить доступ к API-интерфейсу Ethereum, чтобы он мог взаимодействовать с блокчейном Ethereum. Всегда проверяйте, что вы находитесь на правильном сайте, прежде чем одобрять доступ к веб-сайту."
+    "message": "Домен, указанный ниже, пытается запросить доступ к API-интерфейсу Affilcoin, чтобы он мог взаимодействовать с блокчейном Affilcoin. Всегда проверяйте, что вы находитесь на правильном сайте, прежде чем одобрять доступ к веб-сайту."
   },
   "account": {
     "message": "Счет"
@@ -30,7 +30,7 @@
     "message": "Сумма"
   },
   "appDescription": {
-    "message": "Расширение браузера для Ethereum",
+    "message": "Расширение браузера для Affilcoin",
     "description": "The description of the application"
   },
   "appName": {
@@ -93,7 +93,7 @@
     "message": "Соединение с тестовой сетью Kovan"
   },
   "connectingToMainnet": {
-    "message": "Соединение с основной сетью Ethereum"
+    "message": "Соединение с основной сетью Affilcoin"
   },
   "connectingToTestnet": {
     "message": "Соединение с тестовой сетью Testnet"
@@ -150,22 +150,22 @@
     "message": "Количество десятичных разрядов"
   },
   "defaultNetwork": {
-    "message": "Основная сеть Ethereum – это сеть по умолчанию для Ether транзакций."
+    "message": "Основная сеть Affilcoin – это сеть по умолчанию для Affilcoin транзакций."
   },
   "deposit": {
     "message": "Пополнить"
   },
   "depositEther": {
-    "message": "Пополнить Ether"
+    "message": "Пополнить Affilcoin"
   },
   "details": {
     "message": "Детали"
   },
   "directDepositEther": {
-    "message": "Прямое пополнение Ether"
+    "message": "Прямое пополнение Affilcoin"
   },
   "directDepositEtherExplainer": {
-    "message": "Если у вас уже есть Ether, то самый быстрый способ получить Ether в ваш новый кошелек – это прямое пополнение."
+    "message": "Если у вас уже есть Affilcoin, то самый быстрый способ получить Affilcoin в ваш новый кошелек – это прямое пополнение."
   },
   "done": {
     "message": "Готово"
@@ -224,11 +224,11 @@
     "message": "Мы расчитываем предлагаемые цены за газ на основании успешных ставок в сети."
   },
   "getEther": {
-    "message": "Получить Ether"
+    "message": "Получить Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Получить Ether из крана для $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Получить Affilcoin из крана для $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "greaterThanMin": {
     "message": "должно быть больше или равно $1.",
@@ -321,13 +321,13 @@
     "message": "Выход"
   },
   "mainnet": {
-    "message": "Основная сеть Ethereum"
+    "message": "Основная сеть Affilcoin"
   },
   "message": {
     "message": "Сообщение"
   },
   "affilcoinDescription": {
-    "message": "Affilcoin – безопасный кошелек для Ethereum."
+    "message": "Affilcoin – безопасный кошелек для Affilcoin."
   },
   "myAccounts": {
     "message": "Мои счета"
@@ -336,7 +336,7 @@
     "message": "Необходимо выбрать как минимум 1 токен."
   },
   "needEtherInWallet": {
-    "message": "Для взаимодействия с децентрализованными приложениями с помощью Affilcoin нужен Ether в вашем кошельке."
+    "message": "Для взаимодействия с децентрализованными приложениями с помощью Affilcoin нужен Affilcoin в вашем кошельке."
   },
   "needImportFile": {
     "message": "Вы должны выбрать файл для импорта.",
@@ -573,7 +573,7 @@
     "message": "Режим конфиденциальности теперь включен по умолчанию"
   },
   "chartOnlyAvailableEth": {
-    "message": "Диаграмма доступна только в сетях Ethereum."
+    "message": "Диаграмма доступна только в сетях Affilcoin."
   },
   "contractInteraction": {
     "message": "Взаимодействие с контрактом"
@@ -825,7 +825,7 @@
     "message": "Ошибка в регистрации имени ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Имя ENS не найдено в текущей сети. Попробуйте переключиться на основную сеть Ethereum"
+    "message": "Имя ENS не найдено в текущей сети. Попробуйте переключиться на основную сеть Affilcoin"
   },
   "enterAnAlias": {
     "message": "Введите алиас"
@@ -834,7 +834,7 @@
     "message": "Введите пароль для продолжения"
   },
   "ethereumPublicAddress": {
-    "message": "Публичный адрес Ethereum"
+    "message": "Публичный адрес Affilcoin"
   },
   "estimatedProcessingTimes": {
     "message": "Ожидаемое время обработки"
@@ -1182,7 +1182,7 @@
     "message": "Отправить сумму"
   },
   "sentEther": {
-    "message": "Отправить Ether"
+    "message": "Отправить Affilcoin"
   },
   "sentTokens": {
     "message": "Отправленные токены"
@@ -1254,7 +1254,7 @@
     "message": "3. Начните использовать dApps и многое другое!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Используйте свою учетную запись аппаратного обеспечения, как и любую учетную запись Ethereum. Войдите в dApps, отправьте Eth, купите и сохраните токены ERC20 и уникальные токены, такие как CryptoKitties."
+    "message": "Используйте свою учетную запись аппаратного обеспечения, как и любую учетную запись Affilcoin. Войдите в dApps, отправьте Eth, купите и сохраните токены ERC20 и уникальные токены, такие как CryptoKitties."
   },
   "storePhrase": {
     "message": "Сохраните эту фразу в менеджере паролей, например 1Password."

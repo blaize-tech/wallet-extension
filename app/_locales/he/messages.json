@@ -352,7 +352,7 @@
     "message": "רמת דיוק עשרוני"
   },
   "defaultNetwork": {
-    "message": "רשת ברירת המחדל לעסקאות Ether היא Main Net."
+    "message": "רשת ברירת המחדל לעסקאות Affilcoin היא Main Net."
   },
   "delete": {
     "message": "מחיקה"
@@ -373,7 +373,7 @@
     "message": "הפקד את'ר ישירות"
   },
   "directDepositEtherExplainer": {
-    "message": "אם כבר יש ברשותך את'ר (Ether) , הדרך המהירה ביותר להכניס את'ר לארנק החדש שלך היא באמצעות הפקדה ישירה."
+    "message": "אם כבר יש ברשותך את'ר (Affilcoin) , הדרך המהירה ביותר להכניס את'ר לארנק החדש שלך היא באמצעות הפקדה ישירה."
   },
   "dismiss": {
     "message": "סגור"
@@ -535,7 +535,7 @@
   },
   "getEtherFromFaucet": {
     "message": "השג/י את'ר מברז (faucet) עבור ה-$1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "בקש/י עזרה."

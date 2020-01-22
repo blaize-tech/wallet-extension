@@ -9,7 +9,7 @@
     "message": "Odmítnout"
   },
   "providerRequestInfo": {
-    "message": "Níže uvedená doména se pokouší požádat o přístup k API Ethereum, aby mohla komunikovat s blokádou Ethereum. Před schválením přístupu Ethereum vždy zkontrolujte, zda jste na správném místě."
+    "message": "Níže uvedená doména se pokouší požádat o přístup k API Affilcoin, aby mohla komunikovat s blokádou Affilcoin. Před schválením přístupu Affilcoin vždy zkontrolujte, zda jste na správném místě."
   },
   "account": {
     "message": "Účet"
@@ -30,7 +30,7 @@
     "message": "Částka"
   },
   "appDescription": {
-    "message": "Ethereum rozšíření prohlížeče",
+    "message": "Affilcoin rozšíření prohlížeče",
     "description": "The description of the application"
   },
   "appName": {
@@ -90,7 +90,7 @@
     "message": "Připojuji se k Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Main Ethereum Network"
+    "message": "Připojuji se k Main Affilcoin Network"
   },
   "connectingToTestnet": {
     "message": "Připojuji se k Testnet Test Network"
@@ -153,16 +153,16 @@
     "message": "Vklad"
   },
   "depositEther": {
-    "message": "Vložit Ether"
+    "message": "Vložit Affilcoin"
   },
   "details": {
     "message": "Podrobnosti"
   },
   "directDepositEther": {
-    "message": "Vložit Ether přímo"
+    "message": "Vložit Affilcoin přímo"
   },
   "directDepositEtherExplainer": {
-    "message": "Pokud už vlastníte nějaký Ether, nejrychleji ho dostanete do peněženky přímým vkladem."
+    "message": "Pokud už vlastníte nějaký Affilcoin, nejrychleji ho dostanete do peněženky přímým vkladem."
   },
   "done": {
     "message": "Hotovo"
@@ -221,11 +221,11 @@
     "message": "Počítáme doporučenou cenu paliva na základě úspěšnosti v síti."
   },
   "getEther": {
-    "message": "Získejte Ether"
+    "message": "Získejte Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Získejte Ether z faucetu za $1.",
-    "description": "Displays network name for Ether faucet"
+    "message": "Získejte Affilcoin z faucetu za $1.",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "greaterThanMin": {
     "message": "musí být větší nebo roven $1.",
@@ -311,7 +311,7 @@
     "message": "Zpráva"
   },
   "affilcoinDescription": {
-    "message": "Affilcoin je bezpečný osobní trezor pro Ethereum."
+    "message": "Affilcoin je bezpečný osobní trezor pro Affilcoin."
   },
   "myAccounts": {
     "message": "Moje účty"
@@ -320,7 +320,7 @@
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needEtherInWallet": {
-    "message": "Potřebujete Ether v peněžence, abyste mohli pomocí Affilcoinu interagovat s decentralizovanými aplikacemi."
+    "message": "Potřebujete Affilcoin v peněžence, abyste mohli pomocí Affilcoinu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
     "message": "Musíte zvolit soubor k importu.",

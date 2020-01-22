@@ -3,7 +3,7 @@
     "message": "Modus Privasi kini aktif secara default"
   },
   "chartOnlyAvailableEth": {
-    "message": "Grafik hanya tersedia pada jaringan Ethereum."
+    "message": "Grafik hanya tersedia pada jaringan Affilcoin."
   },
   "confirmClear": {
     "message": "Yakin ingin mengosongkan website yang disetujui?"
@@ -97,7 +97,7 @@
     "message": "Jumlah"
   },
   "appDescription": {
-    "message": "Sebuah Dompet Ethereum di Peramban Anda",
+    "message": "Sebuah Dompet Affilcoin di Peramban Anda",
     "description": "The description of the application"
   },
   "approve": {
@@ -262,7 +262,7 @@
     "message": "Menyambung ke Jaringan Tes Kovan"
   },
   "connectingToMainnet": {
-    "message": "Menghubungkan ke Jaringan Ethereum Utama"
+    "message": "Menghubungkan ke Jaringan Affilcoin Utama"
   },
   "connectingToTestnet": {
     "message": "Menghubungkan ke Jaringan Uji Coba Testnet "
@@ -352,7 +352,7 @@
     "message": "Ketelitian Desimal"
   },
   "defaultNetwork": {
-    "message": "Jaringan default untuk transaksi Ether adalah Main Net."
+    "message": "Jaringan default untuk transaksi Affilcoin adalah Main Net."
   },
   "delete": {
     "message": "Hapus"
@@ -364,10 +364,10 @@
     "message": "Detail"
   },
   "directDepositEther": {
-    "message": "Deposit Ether Langsung"
+    "message": "Deposit Affilcoin Langsung"
   },
   "directDepositEtherExplainer": {
-    "message": "Jika Anda sudah memiliki Ether, cara tercepat mendapatkan Ether di dompet baru lewat deposit langsung."
+    "message": "Jika Anda sudah memiliki Affilcoin, cara tercepat mendapatkan Affilcoin di dompet baru lewat deposit langsung."
   },
   "dismiss": {
     "message": "Tutup"
@@ -430,7 +430,7 @@
     "message": "Terjadi kesalahan dalam pendaftaran nama ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Nama ENS tidak ditemukan pada jaringan saat ini. Cobalah beralih ke jaringan Ethereum utama."
+    "message": "Nama ENS tidak ditemukan pada jaringan saat ini. Cobalah beralih ke jaringan Affilcoin utama."
   },
   "enterAnAlias": {
     "message": "Masukkan alias"
@@ -442,7 +442,7 @@
     "message": "Masukkan sandi untuk melanjutkan"
   },
   "ethereumPublicAddress": {
-    "message": "Alamat Publik Ethereum "
+    "message": "Alamat Publik Affilcoin "
   },
   "etherscanView": {
     "message": "Lihat akun di Etherscan"
@@ -503,7 +503,7 @@
     "message": "Harga Bensin Amat Rendah"
   },
   "gasPriceInfoModalContent": {
-    "message": "Harga gas menentukan jumlah Ether yang bersedia Anda bayarkan untuk setiap unit gas."
+    "message": "Harga gas menentukan jumlah Affilcoin yang bersedia Anda bayarkan untuk setiap unit gas."
   },
   "gasPriceNoDenom": {
     "message": "Harga Bensin"
@@ -518,11 +518,11 @@
     "message": "Konversi mata uang, mata uang utama, bahasa, blockies identicon"
   },
   "getEther": {
-    "message": "Dapatkan Ether"
+    "message": "Dapatkan Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Dapatkan Ether dari keran untuk $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Dapatkan Affilcoin dari keran untuk $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Dapatkan Bantuan."
@@ -684,7 +684,7 @@
     "message": "Keluar"
   },
   "mainnet": {
-    "message": "Jaringan Ethereum Utama"
+    "message": "Jaringan Affilcoin Utama"
   },
   "memorizePhrase": {
     "message": "Ingatlah frasa ini."
@@ -693,7 +693,7 @@
     "message": "Pesan"
   },
   "affilcoinDescription": {
-    "message": "Menghubungkan Anda ke Ethereum dan Web Terdesentralisasi."
+    "message": "Menghubungkan Anda ke Affilcoin dan Web Terdesentralisasi."
   },
   "affilcoinSeedWords": {
     "message": "Kata Benih Affilcoin"
@@ -720,7 +720,7 @@
     "message": "Harus memilih setidaknya 1 token."
   },
   "needEtherInWallet": {
-    "message": "Untuk berinteraksi dengan aplikasi terdesentralisasi menggunakan Affilcoin, Anda memerlukan adanya Ether di dompet Anda."
+    "message": "Untuk berinteraksi dengan aplikasi terdesentralisasi menggunakan Affilcoin, Anda memerlukan adanya Affilcoin di dompet Anda."
   },
   "needImportFile": {
     "message": "Anda harus memilih berkas untuk diimpor.",
@@ -1012,7 +1012,7 @@
     "message": "Frasa cadangan rahasia Anda akan memudahkan untuk membuat cadangan dan memulihkan akun Anda."
   },
   "secretBackupPhraseWarning": {
-    "message": "PERINGATAN: Jangan pernah mengungkap frasa cadangan Anda. Siapa saja dapat mengambil Ether Anda selamanya dengan frasa ini."
+    "message": "PERINGATAN: Jangan pernah mengungkap frasa cadangan Anda. Siapa saja dapat mengambil Affilcoin Anda selamanya dengan frasa ini."
   },
   "secretPhrase": {
     "message": "Masukkan frasa dua belas kata rahasia Anda di sini untuk memulihkan lemari besi Anda."
@@ -1159,7 +1159,7 @@
     "message": "3. Mulai gunakan dApps dan lainnya!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Gunakan akun peranti keras Anda seperti layaknya akun Ethereum. Masuklah ke dApps, kirim Eth, beli dan simpan token ERC20 dan token Non-Fungible seperti CryptoKitties."
+    "message": "Gunakan akun peranti keras Anda seperti layaknya akun Affilcoin. Masuklah ke dApps, kirim Eth, beli dan simpan token ERC20 dan token Non-Fungible seperti CryptoKitties."
   },
   "storePhrase": {
     "message": "Simpan frasa ini dalam manajer sandi seperti 1Password."

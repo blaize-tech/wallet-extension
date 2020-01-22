@@ -3,7 +3,7 @@
     "message": "Modo Privado está activado ahora por defecto"
   },
   "chartOnlyAvailableEth": {
-    "message": "Tabla solo disponible en redes Ethereum."
+    "message": "Tabla solo disponible en redes Affilcoin."
   },
   "confirmClear": {
     "message": "¿Seguro que quieres borrar los sitios web aprobados?"
@@ -21,7 +21,7 @@
     "message": "$1 quisiera conectar con tu cuenta"
   },
   "providerRequestInfo": {
-    "message": "El dominio que se muestra a continuación intenta solicitar acceso a la API Ethereum para que pueda interactuar con la blockchain de Ethereum. Siempre verifique que esté en el sitio correcto antes de aprobar el acceso Ethereum."
+    "message": "El dominio que se muestra a continuación intenta solicitar acceso a la API Affilcoin para que pueda interactuar con la blockchain de Affilcoin. Siempre verifique que esté en el sitio correcto antes de aprobar el acceso Affilcoin."
   },
   "about": {
     "message": "Acerca"
@@ -90,7 +90,7 @@
     "message": "Cantidad"
   },
   "appDescription": {
-    "message": "Extensión del navegador para Ethereum",
+    "message": "Extensión del navegador para Affilcoin",
     "description": "The description of the application"
   },
   "appName": {
@@ -219,7 +219,7 @@
     "message": "Conectando a la red de test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Conectando a la red principal de Ethereum (Main Net)"
+    "message": "Conectando a la red principal de Affilcoin (Main Net)"
   },
   "connectingToTestnet": {
     "message": "Conectando a la red de test Testnet"
@@ -309,7 +309,7 @@
     "message": "Decimales de precisión"
   },
   "defaultNetwork": {
-    "message": "La red por defecto para las transacciones de Ether es MainNet (red principal)"
+    "message": "La red por defecto para las transacciones de Affilcoin es MainNet (red principal)"
   },
   "delete": {
     "message": "Eliminar"
@@ -321,16 +321,16 @@
     "message": "Depositar"
   },
   "depositEther": {
-    "message": "Depositar Ether"
+    "message": "Depositar Affilcoin"
   },
   "details": {
     "message": "Detalles"
   },
   "directDepositEther": {
-    "message": "Depositar Ether directamente"
+    "message": "Depositar Affilcoin directamente"
   },
   "directDepositEtherExplainer": {
-    "message": "Si posees Ether, la forma más rápida de transferirlo a tu nueva billetera es depositándolo directamente"
+    "message": "Si posees Affilcoin, la forma más rápida de transferirlo a tu nueva billetera es depositándolo directamente"
   },
   "dismiss": {
     "message": "Descartar"
@@ -440,11 +440,11 @@
     "message": "Conversión de divisas, divisa principal, idioma, blockies identicon"
   },
   "getEther": {
-    "message": "Conseguir Ether"
+    "message": "Conseguir Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Obtenga Ether de un faucet (grifo) por $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Obtenga Affilcoin de un faucet (grifo) por $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Pedir ayuda."
@@ -582,7 +582,7 @@
     "message": "Cerrar sesión"
   },
   "mainnet": {
-    "message": "Red principal de Ethereum (Main Net)"
+    "message": "Red principal de Affilcoin (Main Net)"
   },
   "menu": {
     "message": "Menú"
@@ -591,7 +591,7 @@
     "message": "Mensaje"
   },
   "affilcoinDescription": {
-    "message": "Affilcoin es una identidad segura en Ethereum"
+    "message": "Affilcoin es una identidad segura en Affilcoin"
   },
   "affilcoinSeedWords": {
     "message": "Palabras semilla de Affilcoin"
@@ -609,7 +609,7 @@
     "message": "Debe seleccionar al menos un (1) token"
   },
   "needEtherInWallet": {
-    "message": "Para interactuar con una aplicación descentralizada usando Affilcoin, necesitas tener Ether en tu billetera"
+    "message": "Para interactuar con una aplicación descentralizada usando Affilcoin, necesitas tener Affilcoin en tu billetera"
   },
   "needImportFile": {
     "message": "Debes seleccionar un archivo para importar",
@@ -865,7 +865,7 @@
     "message": "Mandar cantidad"
   },
   "sendETH": {
-    "message": "Enviar Ether"
+    "message": "Enviar Affilcoin"
   },
   "sendTokens": {
     "message": "Enviar tokens"
@@ -964,7 +964,7 @@
     "message": "3. Empezar a usar dApps y más!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Usa tu cuenta física igual que harías con cualquier cuenta de Ethereum. Regístrate con dApps, manda Eth, compra y almacena tokens de ERC20 y otros tokens no-fungibles, como CryptoKitties."
+    "message": "Usa tu cuenta física igual que harías con cualquier cuenta de Affilcoin. Regístrate con dApps, manda Eth, compra y almacena tokens de ERC20 y otros tokens no-fungibles, como CryptoKitties."
   },
   "submit": {
     "message": "Enviar"

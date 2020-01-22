@@ -3,7 +3,7 @@
     "message": "Način se Privatnost sada zadano omogućava"
   },
   "chartOnlyAvailableEth": {
-    "message": "Grafikon je dostupan samo na mrežama Ethereum."
+    "message": "Grafikon je dostupan samo na mrežama Affilcoin."
   },
   "confirmClear": {
     "message": "Sigurno želite očistiti odobrena mrežna mjesta?"
@@ -97,7 +97,7 @@
     "message": "Iznos"
   },
   "appDescription": {
-    "message": "Novčanik Ethereum u vašem pregledniku",
+    "message": "Novčanik Affilcoin u vašem pregledniku",
     "description": "The description of the application"
   },
   "approve": {
@@ -262,7 +262,7 @@
     "message": "Povezivanje na testnu mrežu Kovan"
   },
   "connectingToMainnet": {
-    "message": "Povezivanje na glavnu mrežu Ethereum"
+    "message": "Povezivanje na glavnu mrežu Affilcoin"
   },
   "connectingToTestnet": {
     "message": "Povezivanje na testnu mrežu Testnet"
@@ -352,7 +352,7 @@
     "message": "Precizni decimalni brojevi"
   },
   "defaultNetwork": {
-    "message": "Zadana je mreža za transakcije Ether glavna mreža."
+    "message": "Zadana je mreža za transakcije Affilcoin glavna mreža."
   },
   "delete": {
     "message": "Izbriši"
@@ -364,13 +364,13 @@
     "message": "Polog"
   },
   "depositEther": {
-    "message": "Položi Ether"
+    "message": "Položi Affilcoin"
   },
   "details": {
     "message": "Detalji"
   },
   "directDepositEther": {
-    "message": "Izravan polog Ether"
+    "message": "Izravan polog Affilcoin"
   },
   "directDepositEtherExplainer": {
     "message": "Ako imate nešto Ethera, najbrži je način prebacivanja Ethera u vaš novi novčanik izravan polog."
@@ -439,7 +439,7 @@
     "message": "Greška u registraciji naziva ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Naziv ENS nije pronađen na trenutačnoj mreži. Pokušajte prebaciti na glavnu mrežu Ethereum."
+    "message": "Naziv ENS nije pronađen na trenutačnoj mreži. Pokušajte prebaciti na glavnu mrežu Affilcoin."
   },
   "enterAnAlias": {
     "message": "Upiši pseudonim"
@@ -451,7 +451,7 @@
     "message": "Upišite lozinku za nastavak"
   },
   "ethereumPublicAddress": {
-    "message": "Javna adresa Ethereum"
+    "message": "Javna adresa Affilcoin"
   },
   "etherscanView": {
     "message": "Prikaži račun na Etherscanu"
@@ -512,7 +512,7 @@
     "message": "Iznimno niska cijena goriva"
   },
   "gasPriceInfoModalContent": {
-    "message": "Cijena goriva odnosi se na vrijednost Ether koju ste spremni platiti za svaku jedinicu goriva."
+    "message": "Cijena goriva odnosi se na vrijednost Affilcoin koju ste spremni platiti za svaku jedinicu goriva."
   },
   "gasPriceNoDenom": {
     "message": "Cijena goriva"
@@ -527,11 +527,11 @@
     "message": "Konverzija valuta, glavna valuta, jezik, blockies identicon"
   },
   "getEther": {
-    "message": "Dohvati Ether"
+    "message": "Dohvati Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Dohvati Ether iz svežnja za $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Dohvati Affilcoin iz svežnja za $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Potražite pomoć."
@@ -693,7 +693,7 @@
     "message": "Odjava"
   },
   "mainnet": {
-    "message": "Glavna mreža Ethereum"
+    "message": "Glavna mreža Affilcoin"
   },
   "memorizePhrase": {
     "message": "Zapamtite ovu rečenicu."
@@ -708,7 +708,7 @@
     "message": "Poruka"
   },
   "affilcoinDescription": {
-    "message": "Povezujete se na Ethereum i decentralizirani internet."
+    "message": "Povezujete se na Affilcoin i decentralizirani internet."
   },
   "affilcoinSeedWords": {
     "message": "Početne riječi za Affilcoin"
@@ -735,7 +735,7 @@
     "message": "Mora se odabrati barem jedan token."
   },
   "needEtherInWallet": {
-    "message": "Trebate Ether u svojem novčaniku kako biste ostvarili interakciju s decentraliziranim aplikacijama uporabom usluge Affilcoin. "
+    "message": "Trebate Affilcoin u svojem novčaniku kako biste ostvarili interakciju s decentraliziranim aplikacijama uporabom usluge Affilcoin. "
   },
   "needImportFile": {
     "message": "Morate odabrati datoteku za uvoz.",
@@ -1027,7 +1027,7 @@
     "message": "Vašom se alternativnom tajnom rečenicom jednostavno sigurnosno kopira i obnavlja vaš račun."
   },
   "secretBackupPhraseWarning": {
-    "message": "UPOZORENJE: nikada ne otkrivajte svoju alternativnu rečenicu. Bilo tko ovom rečenicom može zauvijek preuzeti vaš Ether."
+    "message": "UPOZORENJE: nikada ne otkrivajte svoju alternativnu rečenicu. Bilo tko ovom rečenicom može zauvijek preuzeti vaš Affilcoin."
   },
   "secretPhrase": {
     "message": "Ovdje upišite svoju tajnu rečenicu od 12 riječi kako biste obnovili svoj sef."
@@ -1174,7 +1174,7 @@
     "message": "3. Započnite upotrebljavati dApps i više!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Upotrebljavajte svoj hardverski račun kako biste upotrebljavali bilo koji drugi račun Ethereum. Prijavite se u dApps, šaljite Eth, kupujte i pohranjujte ERC20 tokene i nezamjenske tokene kao CryptoKitties."
+    "message": "Upotrebljavajte svoj hardverski račun kako biste upotrebljavali bilo koji drugi račun Affilcoin. Prijavite se u dApps, šaljite Eth, kupujte i pohranjujte ERC20 tokene i nezamjenske tokene kao CryptoKitties."
   },
   "storePhrase": {
     "message": "Spremite ovu rečenicu u upravitelj lozinkama poput aplikacije 1Password."

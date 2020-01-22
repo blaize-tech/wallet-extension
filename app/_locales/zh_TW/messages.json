@@ -259,7 +259,7 @@
     "message": "連線到 Kovan 測試網路"
   },
   "connectingToMainnet": {
-    "message": "連線到主 Ethereum 網路"
+    "message": "連線到主 Affilcoin 網路"
   },
   "connectingToTestnet": {
     "message": "連線到 Testnet 測試網路"
@@ -532,7 +532,7 @@
   },
   "getEtherFromFaucet": {
     "message": "從水管取得 $1 乙太幣。",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "取得協助"

@@ -9,7 +9,7 @@
     "message": "Từ chối"
   },
   "providerRequestInfo": {
-    "message": "Miền được liệt kê bên dưới đang cố gắng yêu cầu quyền truy cập vào API Ethereum để nó có thể tương tác với chuỗi khối Ethereum. Luôn kiểm tra kỹ xem bạn có đang ở đúng trang web trước khi phê duyệt quyền truy cập Ethereum hay không."
+    "message": "Miền được liệt kê bên dưới đang cố gắng yêu cầu quyền truy cập vào API Affilcoin để nó có thể tương tác với chuỗi khối Affilcoin. Luôn kiểm tra kỹ xem bạn có đang ở đúng trang web trước khi phê duyệt quyền truy cập Affilcoin hay không."
   },
   "account": {
     "message": "Tài khoản"
@@ -27,7 +27,7 @@
     "message": "Số lượng"
   },
   "appDescription": {
-    "message": "Tính năng Ethereum cho trình duyệt",
+    "message": "Tính năng Affilcoin cho trình duyệt",
     "description": "The description of the application"
   },
   "appName": {
@@ -108,22 +108,22 @@
     "message": "Tùy chỉnh RPC"
   },
   "defaultNetwork": {
-    "message": "Mạng lưới mặc định dùng cho các giao dịch Ether là Main Net (tiền ETH thật)."
+    "message": "Mạng lưới mặc định dùng cho các giao dịch Affilcoin là Main Net (tiền ETH thật)."
   },
   "deposit": {
     "message": "Ký gửi/nạp tiền"
   },
   "depositEther": {
-    "message": "Ký gửi Ether"
+    "message": "Ký gửi Affilcoin"
   },
   "details": {
     "message": "Chi tiết"
   },
   "directDepositEther": {
-    "message": "Ký gửi Ether trực tiếp"
+    "message": "Ký gửi Affilcoin trực tiếp"
   },
   "directDepositEtherExplainer": {
-    "message": "Nếu bạn đã có sẵn vài Ether, cách nhanh nhất để thêm Ether vào ví tiền mới của bạn là bằng ký gửi trực tiếp."
+    "message": "Nếu bạn đã có sẵn vài Affilcoin, cách nhanh nhất để thêm Affilcoin vào ví tiền mới của bạn là bằng ký gửi trực tiếp."
   },
   "done": {
     "message": "Hoàn tất"
@@ -173,11 +173,11 @@
     "message": "Chúng tôi tính toán và gợi ý một giá ga cụ thể dựa trên tỷ lệ thành công của hệ thống."
   },
   "getEther": {
-    "message": "Lấy Ether"
+    "message": "Lấy Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Lấy Ether từ vòi với giá $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Lấy Affilcoin từ vòi với giá $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "greaterThanMin": {
     "message": "phải nhiều hơn hoặc bằng $1",
@@ -237,7 +237,7 @@
     "message": "Thoát"
   },
   "mainnet": {
-    "message": "Mạng Ethereum MainNet (tiền ETH thật)"
+    "message": "Mạng Affilcoin MainNet (tiền ETH thật)"
   },
   "message": {
     "message": "Tin nhắn"
@@ -246,7 +246,7 @@
     "message": "Tài khoản của tôi"
   },
   "needEtherInWallet": {
-    "message": "Để tương tác với các ứng dụng phân tán bằng Affilcoin, bạn sẽ phải cần có Ether trong ví của bạn."
+    "message": "Để tương tác với các ứng dụng phân tán bằng Affilcoin, bạn sẽ phải cần có Affilcoin trong ví của bạn."
   },
   "needImportFile": {
     "message": "Bạn phải chọn một tập tin để nhập.",

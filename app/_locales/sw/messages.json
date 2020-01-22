@@ -3,7 +3,7 @@
     "message": "Hali ya Faragha sasa imewezeshwa kwa chaguomsingi"
   },
   "chartOnlyAvailableEth": {
-    "message": "Zogoa inapatikana kwenye mitandao ya Ethereum pekee."
+    "message": "Zogoa inapatikana kwenye mitandao ya Affilcoin pekee."
   },
   "confirmClear": {
     "message": "Una uhakika unataka kufuta tovuti zilizodihinishwa?"
@@ -97,7 +97,7 @@
     "message": "Kiasi"
   },
   "appDescription": {
-    "message": "Waleti ya Ethereum kwenye Kivinjari chako",
+    "message": "Waleti ya Affilcoin kwenye Kivinjari chako",
     "description": "The description of the application"
   },
   "approve": {
@@ -256,7 +256,7 @@
     "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Kovan"
   },
   "connectingToMainnet": {
-    "message": "Inaunganisha kwenye Mtandao Mkuu wa Ethereum"
+    "message": "Inaunganisha kwenye Mtandao Mkuu wa Affilcoin"
   },
   "connectingToTestnet": {
     "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Testnet"
@@ -346,7 +346,7 @@
     "message": "Desimali za Usahihi"
   },
   "defaultNetwork": {
-    "message": "Mtandao chaguomsingi wa miamala ya Ether ni Main Net."
+    "message": "Mtandao chaguomsingi wa miamala ya Affilcoin ni Main Net."
   },
   "delete": {
     "message": "Futa"
@@ -358,16 +358,16 @@
     "message": "Fedha zilizopo kwenye akaunti"
   },
   "depositEther": {
-    "message": "Weka Ether"
+    "message": "Weka Affilcoin"
   },
   "details": {
     "message": "Maelezo"
   },
   "directDepositEther": {
-    "message": "Weka Ether Moja kwa Moja"
+    "message": "Weka Affilcoin Moja kwa Moja"
   },
   "directDepositEtherExplainer": {
-    "message": "Ikiwa tayari una sarafu kadhaa za Ether, njia rahisi ya kupata Ether kwenye waleti yako mpya kupitia kuweka moja kwa moja."
+    "message": "Ikiwa tayari una sarafu kadhaa za Affilcoin, njia rahisi ya kupata Affilcoin kwenye waleti yako mpya kupitia kuweka moja kwa moja."
   },
   "dismiss": {
     "message": "Ondoa"
@@ -433,7 +433,7 @@
     "message": "Hitilafu imetokea kwenye usajili wa jina la ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Jina la ENS halipatikani kwenye mtandao wa sasa. Jaribu kuhamia kwenye Mtandao Mkuu wa Ethereum."
+    "message": "Jina la ENS halipatikani kwenye mtandao wa sasa. Jaribu kuhamia kwenye Mtandao Mkuu wa Affilcoin."
   },
   "enterAnAlias": {
     "message": "Ingiza majina mengine"
@@ -445,7 +445,7 @@
     "message": "Ingiza nenosiri ili uendelee"
   },
   "ethereumPublicAddress": {
-    "message": "Anwani ya Umma ya Ethereum"
+    "message": "Anwani ya Umma ya Affilcoin"
   },
   "etherscanView": {
     "message": "Tazama akaunti kwenye Etherscan"
@@ -506,7 +506,7 @@
     "message": "Bei ya Gesi Ipo Chini Kupita Kiasi"
   },
   "gasPriceInfoModalContent": {
-    "message": "Bei ya gesi hubainisha kiwango cha Ether ambacho upo radhi kulipia kila kizio cha gesi."
+    "message": "Bei ya gesi hubainisha kiwango cha Affilcoin ambacho upo radhi kulipia kila kizio cha gesi."
   },
   "gasPriceNoDenom": {
     "message": "Bei ya Gesi"
@@ -521,11 +521,11 @@
     "message": "Ubadilishaji wa fedha, sarafu ya msingi, lugha, blockies identicon"
   },
   "getEther": {
-    "message": "Pata Ether"
+    "message": "Pata Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Pata Ether kutoka kwenye mfereji $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Pata Affilcoin kutoka kwenye mfereji $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Pata Msaada"
@@ -681,7 +681,7 @@
     "message": "Toka kwenye akaunti"
   },
   "mainnet": {
-    "message": "Mtandao Mkuu wa Ethereum"
+    "message": "Mtandao Mkuu wa Affilcoin"
   },
   "memorizePhrase": {
     "message": "Kariri kirai hiki"
@@ -693,7 +693,7 @@
     "message": "Ujumbe"
   },
   "affilcoinDescription": {
-    "message": "Kukuunganisha kwenye Ethereum na Wavutiu Uliotawanywa."
+    "message": "Kukuunganisha kwenye Affilcoin na Wavutiu Uliotawanywa."
   },
   "affilcoinSeedWords": {
     "message": "Maeno ya Kianzio ya Affilcoin"
@@ -720,7 +720,7 @@
     "message": "Lazima uchague angalau kianzio 1."
   },
   "needEtherInWallet": {
-    "message": "Ili kuingiliana na programu zilizosambazwa kwa kutumia Affilcoin, utahitaji kuwa na Ether kwenye waleti yako."
+    "message": "Ili kuingiliana na programu zilizosambazwa kwa kutumia Affilcoin, utahitaji kuwa na Affilcoin kwenye waleti yako."
   },
   "needImportFile": {
     "message": "Unapaswa kuchagua faili la kuhamisha.",
@@ -1012,7 +1012,7 @@
     "message": "Kirai chako cha siri cha hifadhi mbadala kinafanya iwe rahisi kuhifadhi kwa njia mbadala na kurejesha akaunti yako."
   },
   "secretBackupPhraseWarning": {
-    "message": "ONYO: Kamwe usiweke wazi kirai chako cha hifadhi mbadala. Mtu yeyote mwenye kirai hiki anaweza kuchukua Ether yako daima."
+    "message": "ONYO: Kamwe usiweke wazi kirai chako cha hifadhi mbadala. Mtu yeyote mwenye kirai hiki anaweza kuchukua Affilcoin yako daima."
   },
   "secretPhrase": {
     "message": "Ingiza hapa kirai chako cha siri cha maneno kumi na mawili ili urejeshe vault yako."
@@ -1159,7 +1159,7 @@
     "message": "3. Anza kutumia dApps na zaidi!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Tumia akaunti yako ya programu maunzi kama ambavyo ungetumia kwa akaunti ya Ethereum. Ingia kwenye dApps, tuma Eth, nunua na hifadhi vianzio vya ERC20 na Vianzio visivyobadilishika kama vile CryptoKitties."
+    "message": "Tumia akaunti yako ya programu maunzi kama ambavyo ungetumia kwa akaunti ya Affilcoin. Ingia kwenye dApps, tuma Eth, nunua na hifadhi vianzio vya ERC20 na Vianzio visivyobadilishika kama vile CryptoKitties."
   },
   "storePhrase": {
     "message": "Hifadhi kirai hiki kwenye kidhibiti nenosiri kama vile 1Password."

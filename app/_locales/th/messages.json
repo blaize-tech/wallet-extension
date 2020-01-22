@@ -12,7 +12,7 @@
     "message": "$1 ต้องการเชื่อมต่อกับบัญชีของคุณ"
   },
   "providerRequestInfo": {
-    "message": "โดเมนที่แสดงด้านล่างกำลังพยายามขอเข้าถึง API ของ Ethereum เพื่อให้สามารถโต้ตอบกับบล็อค Ethereum ได้ ตรวจสอบว่าคุณอยู่ในไซต์ที่ถูกต้องก่อนที่จะอนุมัติการเข้าถึง Ethereum เสมอ"
+    "message": "โดเมนที่แสดงด้านล่างกำลังพยายามขอเข้าถึง API ของ Affilcoin เพื่อให้สามารถโต้ตอบกับบล็อค Affilcoin ได้ ตรวจสอบว่าคุณอยู่ในไซต์ที่ถูกต้องก่อนที่จะอนุมัติการเข้าถึง Affilcoin เสมอ"
   },
   "about": {
     "message": "เกี่ยวกับ"
@@ -108,7 +108,7 @@
     "message": "เชื่อมต่อกับ $1"
   },
   "connectingToMainnet": {
-    "message": "เชื่อมต่อกับเครือข่าย Ethereum หลัก"
+    "message": "เชื่อมต่อกับเครือข่าย Affilcoin หลัก"
   },
   "connectingToTestnet": {
     "message": "เชื่อมต่อกับเครือข่ายทดสอบ Testnet"
@@ -282,7 +282,7 @@
   },
   "getEtherFromFaucet": {
     "message": "รับอีเธอร์ที่ปล่อยจาก $1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "greaterThanMin": {
     "message": "ต้องมากกว่าหรือเท่ากับ $1.",
@@ -583,7 +583,7 @@
     "message": "2. เลือกบัญชี"
   },
   "step3HardwareWalletMsg": {
-    "message": "ใช้บัญชีฮาร์ดแวร์ของคุณเช่นเดียวกับการใช้กับบัญชี Ethereum ล็อกอินเข้าสู่ dApp ส่ง Eth ซื้อและเก็บโทเคน ERC20 และโทเคนแบบ Non-Fungible เช่น CryptoKitties"
+    "message": "ใช้บัญชีฮาร์ดแวร์ของคุณเช่นเดียวกับการใช้กับบัญชี Affilcoin ล็อกอินเข้าสู่ dApp ส่ง Eth ซื้อและเก็บโทเคน ERC20 และโทเคนแบบ Non-Fungible เช่น CryptoKitties"
   },
   "storePhrase": {
     "message": "เก็บ Phrase นี้ในตัวจัดการรหัสผ่าน เช่น 1Password"

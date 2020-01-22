@@ -3,7 +3,7 @@
     "message": "Modul de confidențialitate este activat acum în mod implicit"
   },
   "chartOnlyAvailableEth": {
-    "message": "Grafic disponibil numai pe rețelele Ethereum."
+    "message": "Grafic disponibil numai pe rețelele Affilcoin."
   },
   "confirmClear": {
     "message": "Sunteți sigur că doriți să ștergeți site-urile aprobate?"
@@ -93,7 +93,7 @@
     "message": "Sumă"
   },
   "appDescription": {
-    "message": "Un portofel Ethereum în browserul dvs.",
+    "message": "Un portofel Affilcoin în browserul dvs.",
     "description": "The description of the application"
   },
   "appName": {
@@ -262,7 +262,7 @@
     "message": "Se conectează la rețeaua de test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Se conectează la rețeaua Ethereum principală"
+    "message": "Se conectează la rețeaua Affilcoin principală"
   },
   "connectingToTestnet": {
     "message": "Se conectează la rețeaua de test Testnet"
@@ -352,7 +352,7 @@
     "message": "Zecimale de precizie"
   },
   "defaultNetwork": {
-    "message": "Rețeaua implicită pentru tranzacțiile cu Ether este Main Net."
+    "message": "Rețeaua implicită pentru tranzacțiile cu Affilcoin este Main Net."
   },
   "delete": {
     "message": "Șterge"
@@ -364,16 +364,16 @@
     "message": "Depunere"
   },
   "depositEther": {
-    "message": "Depuneți Ether"
+    "message": "Depuneți Affilcoin"
   },
   "details": {
     "message": "Detalii"
   },
   "directDepositEther": {
-    "message": "Depuneți direct Ether"
+    "message": "Depuneți direct Affilcoin"
   },
   "directDepositEtherExplainer": {
-    "message": "Dacă deja aveți Ether, cel mai rapid mod de a avea Ether în portofelul nou prin depunere directă."
+    "message": "Dacă deja aveți Affilcoin, cel mai rapid mod de a avea Affilcoin în portofelul nou prin depunere directă."
   },
   "dismiss": {
     "message": "Închide"
@@ -439,7 +439,7 @@
     "message": "Eroare la înregistrarea numelui ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Numele ENS nu s-a găsit pe rețeaua curentă. Încercați să comutați la Rețeaua Ethereum principală."
+    "message": "Numele ENS nu s-a găsit pe rețeaua curentă. Încercați să comutați la Rețeaua Affilcoin principală."
   },
   "enterAnAlias": {
     "message": "Introduceți un alias"
@@ -451,7 +451,7 @@
     "message": "Introduceți parola pentru a continua"
   },
   "ethereumPublicAddress": {
-    "message": "Adresa publică Ethereum"
+    "message": "Adresa publică Affilcoin"
   },
   "etherscanView": {
     "message": "Vizualizare cont pe Etherscan"
@@ -512,7 +512,7 @@
     "message": "Prețul gaz este foarte scăzut"
   },
   "gasPriceInfoModalContent": {
-    "message": "Prețul în gas indică suma Ether pe care doriți să o plătiți pentru fiecare unitate gas."
+    "message": "Prețul în gas indică suma Affilcoin pe care doriți să o plătiți pentru fiecare unitate gas."
   },
   "gasPriceNoDenom": {
     "message": "Preț gas"
@@ -524,11 +524,11 @@
     "message": "Schimb valutar, moneda principală, limba, blockies identicon"
   },
   "getEther": {
-    "message": "Obțineți Ether"
+    "message": "Obțineți Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Obțineți Ether de la un robinet pentru $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Obțineți Affilcoin de la un robinet pentru $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Obțineți ajutor."
@@ -687,7 +687,7 @@
     "message": "Deconectați-vă"
   },
   "mainnet": {
-    "message": "Rețeaua Ethereum principală"
+    "message": "Rețeaua Affilcoin principală"
   },
   "memorizePhrase": {
     "message": "Memorați această expresie."
@@ -702,7 +702,7 @@
     "message": "Mesaj"
   },
   "affilcoinDescription": {
-    "message": "Vă conectăm la Ethereum și la Internetul descentralizat."
+    "message": "Vă conectăm la Affilcoin și la Internetul descentralizat."
   },
   "affilcoinSeedWords": {
     "message": "Cuvinte Seed Affilcoin"
@@ -729,7 +729,7 @@
     "message": "Trebuie să selectați cel puțin 1 simbol."
   },
   "needEtherInWallet": {
-    "message": "Pentru a interacționa cu aplicațiile descentralizate prin intermediul Affilcoin, trebuie să aveți Ether în portofel."
+    "message": "Pentru a interacționa cu aplicațiile descentralizate prin intermediul Affilcoin, trebuie să aveți Affilcoin în portofel."
   },
   "needImportFile": {
     "message": "Trebuie să selectați un fișier pentru importare.",
@@ -1021,7 +1021,7 @@
     "message": "Expresia dvs. secretă de rezervă înlesnește crearea unei copii de rezervă a contului dvs. și restabilirea acestuia."
   },
   "secretBackupPhraseWarning": {
-    "message": "ATENȚIE: Nu dezvăluiți niciodată expresia dvs. de rezervă. Oricine are această expresie vă poate lua Ether-ul pentru totdeauna."
+    "message": "ATENȚIE: Nu dezvăluiți niciodată expresia dvs. de rezervă. Oricine are această expresie vă poate lua Affilcoin-ul pentru totdeauna."
   },
   "secretPhrase": {
     "message": "Introduceți aici expresia dvs. secretă din 12 cuvinte pentru a restabili seiful."
@@ -1168,7 +1168,7 @@
     "message": "3. Începeți să folosiți dApps și altele!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Folosiți-vă contul hardware la fel ca pe orice cont Ethereum. Conectați-vă la dApps, trimiteți Eth, cumpărați și stocați tokenuri ERC20 și tokenuri non-fungibile precum CryptoKitties."
+    "message": "Folosiți-vă contul hardware la fel ca pe orice cont Affilcoin. Conectați-vă la dApps, trimiteți Eth, cumpărați și stocați tokenuri ERC20 și tokenuri non-fungibile precum CryptoKitties."
   },
   "storePhrase": {
     "message": "Păstrați această expresie într-un program de gestionare a parolelor cum ar fi 1Password."

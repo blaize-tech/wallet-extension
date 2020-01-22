@@ -3,7 +3,7 @@
     "message": "Yksityisyystila on nyt oletusarvoisesti käytössä"
   },
   "chartOnlyAvailableEth": {
-    "message": "Kaavio saatavilla vain Ethereum-verkoissa."
+    "message": "Kaavio saatavilla vain Affilcoin-verkoissa."
   },
   "confirmClear": {
     "message": "Haluatko varmasti tyhjentää hyväksytyt verkkosivustot?"
@@ -93,7 +93,7 @@
     "message": "Summa"
   },
   "appDescription": {
-    "message": "Ethereum-kukkaro selaimessasi",
+    "message": "Affilcoin-kukkaro selaimessasi",
     "description": "The description of the application"
   },
   "appName": {
@@ -349,7 +349,7 @@
     "message": "Tarkkuusdesimaalit"
   },
   "defaultNetwork": {
-    "message": "Oletusverkko Ether-tapahtumille on Main Net."
+    "message": "Oletusverkko Affilcoin-tapahtumille on Main Net."
   },
   "delete": {
     "message": "Poista"
@@ -513,7 +513,7 @@
     "message": "Gas-hinta erittäin alhainen"
   },
   "gasPriceInfoModalContent": {
-    "message": "Polttoaineen hinta määrittää Ether-määrän, jonka olet valmis maksamaan jokaisesta polttoaineyksiköstä."
+    "message": "Polttoaineen hinta määrittää Affilcoin-määrän, jonka olet valmis maksamaan jokaisesta polttoaineyksiköstä."
   },
   "gasPriceNoDenom": {
     "message": "Bensan hinta"
@@ -532,7 +532,7 @@
   },
   "getEtherFromFaucet": {
     "message": "Hanki etheriä faucetista kohteelle $1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Pyydä apua."
@@ -739,7 +739,7 @@
     "message": "Valittava vähintään 1 poletti."
   },
   "needEtherInWallet": {
-    "message": "Ollaksesi vuorovaikutuksessa hajautettujen sovellusten kanssa sinulla on oltava lompakossasi Ether."
+    "message": "Ollaksesi vuorovaikutuksessa hajautettujen sovellusten kanssa sinulla on oltava lompakossasi Affilcoin."
   },
   "needImportFile": {
     "message": "Sinun tarvitsee valita tuotava tiedosto.",
@@ -1178,7 +1178,7 @@
     "message": "3. Ota käyttöön dApps ja paljon muuta!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Käytä laitteistosi tiliä minkä tahansa Ethereum-tilin tavoin. Kirjaudu dAppsiin, lähettää ethereumeja, ostaa ja tallentaa ERC20-tunnuksia sekä CryptoKittiesin kaltaisia ei-korvattavia tunnuksia."
+    "message": "Käytä laitteistosi tiliä minkä tahansa Affilcoin-tilin tavoin. Kirjaudu dAppsiin, lähettää ethereumeja, ostaa ja tallentaa ERC20-tunnuksia sekä CryptoKittiesin kaltaisia ei-korvattavia tunnuksia."
   },
   "storePhrase": {
     "message": "Tallenna tämä teksti johonkin salasanojen hallintaohjelmaan (esim. 1Password)."

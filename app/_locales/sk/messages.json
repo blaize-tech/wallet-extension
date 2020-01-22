@@ -3,7 +3,7 @@
     "message": "Režim súkromia je povolený. Je prednastavený automaticky"
   },
   "chartOnlyAvailableEth": {
-    "message": "Graf je k dispozícii iba v sieťach Ethereum."
+    "message": "Graf je k dispozícii iba v sieťach Affilcoin."
   },
   "confirmClear": {
     "message": "Naozaj chcete vymazať schválené webové stránky?"
@@ -21,7 +21,7 @@
     "message": "$1 sa chce pripojiť k vášmu účtu"
   },
   "providerRequestInfo": {
-    "message": "Níže uvedená doména se pokouší požádat o přístup k API Ethereum, aby mohla komunikovat s blokádou Ethereum. Před schválením přístupu Ethereum vždy zkontrolujte, zda jste na správném místě."
+    "message": "Níže uvedená doména se pokouší požádat o přístup k API Affilcoin, aby mohla komunikovat s blokádou Affilcoin. Před schválením přístupu Affilcoin vždy zkontrolujte, zda jste na správném místě."
   },
   "about": {
     "message": "Informácie"
@@ -93,7 +93,7 @@
     "message": "Částka"
   },
   "appDescription": {
-    "message": "Ethereum rozšíření prohlížeče",
+    "message": "Affilcoin rozšíření prohlížeče",
     "description": "The description of the application"
   },
   "appName": {
@@ -253,7 +253,7 @@
     "message": "Připojuji se k Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Main Ethereum Network"
+    "message": "Připojuji se k Main Affilcoin Network"
   },
   "connectingToTestnet": {
     "message": "Připojuji se k Testnet Test Network"
@@ -355,16 +355,16 @@
     "message": "Vklad"
   },
   "depositEther": {
-    "message": "Vložit Ether"
+    "message": "Vložit Affilcoin"
   },
   "details": {
     "message": "Podrobnosti"
   },
   "directDepositEther": {
-    "message": "Vložit Ether přímo"
+    "message": "Vložit Affilcoin přímo"
   },
   "directDepositEtherExplainer": {
-    "message": "Pokud už vlastníte nějaký Ether, nejrychleji ho dostanete do peněženky přímým vkladem."
+    "message": "Pokud už vlastníte nějaký Affilcoin, nejrychleji ho dostanete do peněženky přímým vkladem."
   },
   "dismiss": {
     "message": "Zatvoriť"
@@ -430,7 +430,7 @@
     "message": "Chyba pri registrácii názvu ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Názov ENS sa nenašiel v aktuálnej sieti. Skúste sa prepnúť na hlavnú sieť Ethereum."
+    "message": "Názov ENS sa nenašiel v aktuálnej sieti. Skúste sa prepnúť na hlavnú sieť Affilcoin."
   },
   "enterAnAlias": {
     "message": "Zadať alias"
@@ -442,7 +442,7 @@
     "message": "Pokračujte zadaním hesla"
   },
   "ethereumPublicAddress": {
-    "message": "Verejná adresa Ethereum"
+    "message": "Verejná adresa Affilcoin"
   },
   "etherscanView": {
     "message": "Prohlédněte si účet na Etherscan"
@@ -507,7 +507,7 @@
     "message": "Cena za GAS je mimoriadne nízka"
   },
   "gasPriceInfoModalContent": {
-    "message": "Cena za GAS určuje množstvo Ether, ktoré ste ochotní zaplatiť za každú jednotku GAS."
+    "message": "Cena za GAS určuje množstvo Affilcoin, ktoré ste ochotní zaplatiť za každú jednotku GAS."
   },
   "gasPriceNoDenom": {
     "message": "Cena GAS"
@@ -522,11 +522,11 @@
     "message": "Prevod mien, primárna mena, jazyk, identifikácia blokov"
   },
   "getEther": {
-    "message": "Získejte Ether"
+    "message": "Získejte Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Získejte Ether z faucetu za $1.",
-    "description": "Displays network name for Ether faucet"
+    "message": "Získejte Affilcoin z faucetu za $1.",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Získajte pomoc."
@@ -681,7 +681,7 @@
     "message": "Zpráva"
   },
   "affilcoinDescription": {
-    "message": "Affilcoin je bezpečný osobní trezor pro Ethereum."
+    "message": "Affilcoin je bezpečný osobní trezor pro Affilcoin."
   },
   "affilcoinSeedWords": {
     "message": "Seed slová Affilcoin"
@@ -708,7 +708,7 @@
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needEtherInWallet": {
-    "message": "Potřebujete Ether v peněžence, abyste mohli pomocí Affilcoinu interagovat s decentralizovanými aplikacemi."
+    "message": "Potřebujete Affilcoin v peněžence, abyste mohli pomocí Affilcoinu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
     "message": "Musíte zvolit soubor k importu.",
@@ -994,7 +994,7 @@
     "message": "Vaša tajná backup fráza uľahčuje zálohovanie a obnovenie vášho účtu."
   },
   "secretBackupPhraseWarning": {
-    "message": "UPOZORNENIE: Nikdy nezverejňujte svoju backup frázu. Každý, kto má túto frázu, môže navždy vziať váš Ether."
+    "message": "UPOZORNENIE: Nikdy nezverejňujte svoju backup frázu. Každý, kto má túto frázu, môže navždy vziať váš Affilcoin."
   },
   "secretPhrase": {
     "message": "Zadejte svých 12 slov tajné fráze k obnovení trezoru."
@@ -1141,7 +1141,7 @@
     "message": "3. Začať používať dApps a ďalšie!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Použite svoj hardvérový účet, ako keby ste použili akýkoľvek účet Ethereum. Prihláste sa do Dapps, pošlite Eth, nakupujte a ukladajte tokeny ERC20 a nezameniteľné tokeny ako CryptoKitties."
+    "message": "Použite svoj hardvérový účet, ako keby ste použili akýkoľvek účet Affilcoin. Prihláste sa do Dapps, pošlite Eth, nakupujte a ukladajte tokeny ERC20 a nezameniteľné tokeny ako CryptoKitties."
   },
   "storePhrase": {
     "message": "Túto frázu uložte do správcu hesiel ako 1Password."

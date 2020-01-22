@@ -3,7 +3,7 @@
     "message": "Privātais režīms tagad ieslēgts pēc noklusējuma"
   },
   "chartOnlyAvailableEth": {
-    "message": "Grafiks pieejams vienīgi Ethereum tīklos."
+    "message": "Grafiks pieejams vienīgi Affilcoin tīklos."
   },
   "confirmClear": {
     "message": "Vai tiešām vēlaties dzēst apstiprinātās vietnes?"
@@ -97,7 +97,7 @@
     "message": "Apjoms"
   },
   "appDescription": {
-    "message": "Ethereum maks pārlūkā",
+    "message": "Affilcoin maks pārlūkā",
     "description": "The description of the application"
   },
   "approve": {
@@ -262,7 +262,7 @@
     "message": "Savienojas ar Kovan testa tīklu"
   },
   "connectingToMainnet": {
-    "message": "Savienojas ar galveno Ethereum tīklu"
+    "message": "Savienojas ar galveno Affilcoin tīklu"
   },
   "connectingToTestnet": {
     "message": "Pieslēdzas Testnet testa tīklam"
@@ -352,7 +352,7 @@
     "message": "Decimāldaļu precizitāte"
   },
   "defaultNetwork": {
-    "message": "Galvenais Ether darījumu tīkls ir Main Net."
+    "message": "Galvenais Affilcoin darījumu tīkls ir Main Net."
   },
   "delete": {
     "message": "Dzēst"
@@ -364,16 +364,16 @@
     "message": "Iemaksa"
   },
   "depositEther": {
-    "message": "Noguldīt Ether"
+    "message": "Noguldīt Affilcoin"
   },
   "details": {
     "message": "Informācija"
   },
   "directDepositEther": {
-    "message": "Tiešā Ether iemaksa"
+    "message": "Tiešā Affilcoin iemaksa"
   },
   "directDepositEtherExplainer": {
-    "message": "Ja jums jau ir Ether, tad visātrāk Ether savā makā varat saņemt ar tiešo iemaksu."
+    "message": "Ja jums jau ir Affilcoin, tad visātrāk Affilcoin savā makā varat saņemt ar tiešo iemaksu."
   },
   "dismiss": {
     "message": "Noraidīt"
@@ -439,7 +439,7 @@
     "message": "Kļūda ENS vārda reģistrācijā"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Šajā tīklā ENS nosaukums nav atrasts. Pamēģiniet pārslēgties uz galveno Ethereum tīklu."
+    "message": "Šajā tīklā ENS nosaukums nav atrasts. Pamēģiniet pārslēgties uz galveno Affilcoin tīklu."
   },
   "enterAnAlias": {
     "message": "Ievadiet segvārdu"
@@ -451,7 +451,7 @@
     "message": "Ievadiet paroli, lai turpinātu"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereum publiskā adrese"
+    "message": "Affilcoin publiskā adrese"
   },
   "etherscanView": {
     "message": "Skatīt kontu ar Etherscan"
@@ -512,7 +512,7 @@
     "message": "Ārkārtīgi zema Gas cena"
   },
   "gasPriceInfoModalContent": {
-    "message": "Gas cena norāda Ether summu, ko vēlaties maksāt par katru Gas vienību."
+    "message": "Gas cena norāda Affilcoin summu, ko vēlaties maksāt par katru Gas vienību."
   },
   "gasPriceNoDenom": {
     "message": "Gas cena"
@@ -527,11 +527,11 @@
     "message": "Valūtas konvertēšana, galvenā valūta, valoda, bloku identifikators"
   },
   "getEther": {
-    "message": "Saņemt Ether"
+    "message": "Saņemt Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Vai vēlaties $1 iegūt Ether no krāna?",
-    "description": "Displays network name for Ether faucet"
+    "message": "Vai vēlaties $1 iegūt Affilcoin no krāna?",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Saņemt palīdzību."
@@ -696,7 +696,7 @@
     "message": "Izrakstīties"
   },
   "mainnet": {
-    "message": "Galvenais Ethereum tīkls"
+    "message": "Galvenais Affilcoin tīkls"
   },
   "memorizePhrase": {
     "message": "Iegaumējiet šo frāzi."
@@ -711,7 +711,7 @@
     "message": "Ziņojums"
   },
   "affilcoinDescription": {
-    "message": "Veido savienojumu ar Ethereum un decentralizēto tīmekli."
+    "message": "Veido savienojumu ar Affilcoin un decentralizēto tīmekli."
   },
   "affilcoinSeedWords": {
     "message": "Affilcoin atkopšanas vārdi"
@@ -738,7 +738,7 @@
     "message": "Jāatlasa vismaz 1 marķieris."
   },
   "needEtherInWallet": {
-    "message": "Lai izmantotu decentralizētas lietotnes ar Affilcoin, jūsu makā jābūt Ether."
+    "message": "Lai izmantotu decentralizētas lietotnes ar Affilcoin, jūsu makā jābūt Affilcoin."
   },
   "needImportFile": {
     "message": "Jums jāatlasa fails, ko importēt",
@@ -1030,7 +1030,7 @@
     "message": "Ar slepeno atgūšanas frāzi ir vieglāk dublēt un atjaunot kontu."
   },
   "secretBackupPhraseWarning": {
-    "message": "BRĪDINĀJUMS! Nekādā gadījumā neizpaudiet savu rezerves frāzi. Ikviens, kam pieejama šī frāze, var uz visiem laikiem pārņemt jūsu Ether."
+    "message": "BRĪDINĀJUMS! Nekādā gadījumā neizpaudiet savu rezerves frāzi. Ikviens, kam pieejama šī frāze, var uz visiem laikiem pārņemt jūsu Affilcoin."
   },
   "secretPhrase": {
     "message": "Ievadiet šeit slepeno divpadsmit vārdu frāzi, lai atjaunotu savu seifu."
@@ -1177,7 +1177,7 @@
     "message": "3. Sāciet izmantot dApps un citas funkcijas!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Lietojiet aparatūras kontu līdzīgi citiem Ethereum kontiem. Pierakstieties dApps, sūtiet Eth, pērciet un glabājiet ERC20 žetonus un neatvietojamos žetonus, piemēram, CryptoKitties."
+    "message": "Lietojiet aparatūras kontu līdzīgi citiem Affilcoin kontiem. Pierakstieties dApps, sūtiet Eth, pērciet un glabājiet ERC20 žetonus un neatvietojamos žetonus, piemēram, CryptoKitties."
   },
   "storePhrase": {
     "message": "Saglabājiet šo frāzi paroļu pārvaldniekā, piemēram, 1Password."

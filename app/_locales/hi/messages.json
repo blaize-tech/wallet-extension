@@ -93,7 +93,7 @@
     "message": "राशि "
   },
   "appDescription": {
-    "message": "आपके ब्राउज़र में एक Ethereum वॉलेट",
+    "message": "आपके ब्राउज़र में एक Affilcoin वॉलेट",
     "description": "The description of the application"
   },
   "appName": {
@@ -262,7 +262,7 @@
     "message": "कोवन टेस्ट नेटवर्क से जोड़ रहा है\n"
   },
   "connectingToMainnet": {
-    "message": "मुख्य Ethereum नेटवर्क से कनेक्ट हो रहा है"
+    "message": "मुख्य Affilcoin नेटवर्क से कनेक्ट हो रहा है"
   },
   "connectingToTestnet": {
     "message": "रोपस्टेन टेस्ट नेटवर्क से कनेक्ट करना"
@@ -352,7 +352,7 @@
     "message": "डेसीमल ऑफ़ प्रिसिशन"
   },
   "defaultNetwork": {
-    "message": "Ether ट्रांज़ैक्शन के लिए डिफ़ॉल्ट नेटवर्क Main Net है।"
+    "message": "Affilcoin ट्रांज़ैक्शन के लिए डिफ़ॉल्ट नेटवर्क Main Net है।"
   },
   "delete": {
     "message": "हटाएं"
@@ -364,16 +364,16 @@
     "message": "जमा "
   },
   "depositEther": {
-    "message": "Ether जमा करें"
+    "message": "Affilcoin जमा करें"
   },
   "details": {
     "message": "विवरण"
   },
   "directDepositEther": {
-    "message": "Ether को सीधे जमा करें"
+    "message": "Affilcoin को सीधे जमा करें"
   },
   "directDepositEtherExplainer": {
-    "message": "यदि आपके पास पहले से ही कुछ Ether हैं, तो अपने नए वॉलेट में Ether पाने का सबसे तेज़ तरीका सीधे जमा करना है।"
+    "message": "यदि आपके पास पहले से ही कुछ Affilcoin हैं, तो अपने नए वॉलेट में Affilcoin पाने का सबसे तेज़ तरीका सीधे जमा करना है।"
   },
   "dismiss": {
     "message": "खारिज करें"
@@ -439,7 +439,7 @@
     "message": "ईएनएस नाम पंजीकरण में त्रुटि"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "वर्तमान नेटवर्क पर ENS नाम नहीं मिला। मुख्य Ethereum नेटवर्क पर स्विच करने का प्रयास करें।"
+    "message": "वर्तमान नेटवर्क पर ENS नाम नहीं मिला। मुख्य Affilcoin नेटवर्क पर स्विच करने का प्रयास करें।"
   },
   "enterAnAlias": {
     "message": "एक उपनाम दर्ज करें"
@@ -531,11 +531,11 @@
     "message": "मुद्रा रूपांतरण, प्राथमिक मुद्रा, भाषा, ब्लॉकीज़ पहचान"
   },
   "getEther": {
-    "message": "Ether पाएँ"
+    "message": "Affilcoin पाएँ"
   },
   "getEtherFromFaucet": {
-    "message": "$1 में फॉसेट से Ether प्राप्त करें",
-    "description": "Displays network name for Ether faucet"
+    "message": "$1 में फॉसेट से Affilcoin प्राप्त करें",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "सहायता प्राप्त करें।"
@@ -697,7 +697,7 @@
     "message": "लॉग आउट"
   },
   "mainnet": {
-    "message": "मुख्य Ethereum नेटवर्क"
+    "message": "मुख्य Affilcoin नेटवर्क"
   },
   "memorizePhrase": {
     "message": "इस फ़्रेज़ को याद कर लें।"
@@ -712,7 +712,7 @@
     "message": "संदेश"
   },
   "affilcoinDescription": {
-    "message": "आपको Ethereum और विकेंद्रीकृत वेब से कनेक्ट कर रहे हैं।"
+    "message": "आपको Affilcoin और विकेंद्रीकृत वेब से कनेक्ट कर रहे हैं।"
   },
   "affilcoinSeedWords": {
     "message": "मेटामास्क बीज शब्द"
@@ -1031,7 +1031,7 @@
     "message": "आपका सीक्रेट बैकअप फ़्रेज़ आपके खाते का बैकअप लेना और उसे पुनर्स्थापित करना आसान बनाता है।"
   },
   "secretBackupPhraseWarning": {
-    "message": "चेतावनी: अपने बैकअप फ़्रेज़ को कभी भी ज़ाहिर न करें। इस फ़्रेज़ से कोई भी आपका Ether हमेशा के लिए ले सकता है।"
+    "message": "चेतावनी: अपने बैकअप फ़्रेज़ को कभी भी ज़ाहिर न करें। इस फ़्रेज़ से कोई भी आपका Affilcoin हमेशा के लिए ले सकता है।"
   },
   "secretPhrase": {
     "message": "अपने वॉल्ट को रिस्टोर करने के लिए अपने बारह शब्दों के सीक्रेट फ़्रेज़ को यहाँ दर्ज करें।"

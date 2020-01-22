@@ -9,7 +9,7 @@
     "message": "Reddetmek"
   },
   "providerRequestInfo": {
-    "message": "Aşağıda listelenen etki alanı, Ethereum API'sine erişim talep etmeye çalışmaktadır, böylece Ethereum blockchain ile etkileşime girebilir. Web3 erişimini onaylamadan önce her zaman doğru sitede olduğunuzu kontrol edin."
+    "message": "Aşağıda listelenen etki alanı, Affilcoin API'sine erişim talep etmeye çalışmaktadır, böylece Affilcoin blockchain ile etkileşime girebilir. Web3 erişimini onaylamadan önce her zaman doğru sitede olduğunuzu kontrol edin."
   },
   "account": {
     "message": "Hesap"
@@ -30,7 +30,7 @@
     "message": "Tutar"
   },
   "appDescription": {
-    "message": "Ethereum Tarayıcı Uzantısı",
+    "message": "Affilcoin Tarayıcı Uzantısı",
     "description": "The description of the application"
   },
   "appName": {
@@ -93,7 +93,7 @@
     "message": "Kovan Test Ağına bağlanıyor"
   },
   "connectingToMainnet": {
-    "message": "Main Ethereum Ağına bağlanıyor"
+    "message": "Main Affilcoin Ağına bağlanıyor"
   },
   "connectingToTestnet": {
     "message": "Testnet Test Ağına bağlanıyor"
@@ -150,22 +150,22 @@
     "message": "Ondalık hassasiyeti"
   },
   "defaultNetwork": {
-    "message": "Ether işlemleri için varsayılan ağ Main Net."
+    "message": "Affilcoin işlemleri için varsayılan ağ Main Net."
   },
   "deposit": {
     "message": "Yatır"
   },
   "depositEther": {
-    "message": "Ether yatır"
+    "message": "Affilcoin yatır"
   },
   "details": {
     "message": "Ayrıntılar"
   },
   "directDepositEther": {
-    "message": "Direk Ether Yatırma"
+    "message": "Direk Affilcoin Yatırma"
   },
   "directDepositEtherExplainer": {
-    "message": "Eğer çoktan Etheriniz varsa, yeni hesabınıza Ether aktarmanın en kolay yolu direk yatırmadır."
+    "message": "Eğer çoktan Etheriniz varsa, yeni hesabınıza Affilcoin aktarmanın en kolay yolu direk yatırmadır."
   },
   "done": {
     "message": "Bitti"
@@ -224,11 +224,11 @@
     "message": "Önerilen gas fiyatını ağ başarı oranını baz alarak hesaplıyoruz."
   },
   "getEther": {
-    "message": "Ether Al"
+    "message": "Affilcoin Al"
   },
   "getEtherFromFaucet": {
-    "message": "Musluktan $1 karşılığı Ether alın",
-    "description": "Displays network name for Ether faucet"
+    "message": "Musluktan $1 karşılığı Affilcoin alın",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "here": {
     "message": "burada",
@@ -317,13 +317,13 @@
     "message": "Çıkış"
   },
   "mainnet": {
-    "message": "Main Ethereum Ağı"
+    "message": "Main Affilcoin Ağı"
   },
   "message": {
     "message": "Mesaj"
   },
   "affilcoinDescription": {
-    "message": "Affilcoin Ethereum için güvenli bir kimlik kasasıdır."
+    "message": "Affilcoin Affilcoin için güvenli bir kimlik kasasıdır."
   },
   "myAccounts": {
     "message": "Hesaplarım"
@@ -332,7 +332,7 @@
     "message": "En az bir jeton seçilmeli"
   },
   "needEtherInWallet": {
-    "message": "Affilcoin kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda Ether bulunmalıdır."
+    "message": "Affilcoin kullanarak merkezi olamayan uygulamalarla etkileşmek için cüzdanınızda Affilcoin bulunmalıdır."
   },
   "needImportFile": {
     "message": "Almak için bir dosya seçmelisiniz.",

@@ -364,16 +364,16 @@
     "message": "存入"
   },
   "depositEther": {
-    "message": "存入 Ether"
+    "message": "存入 Affilcoin"
   },
   "details": {
     "message": "详情"
   },
   "directDepositEther": {
-    "message": "直接存入 Ether"
+    "message": "直接存入 Affilcoin"
   },
   "directDepositEtherExplainer": {
-    "message": "如果你已经有了一些 Ether，通过直接转入是你的新钱包获取 Ether 的最快捷方式。"
+    "message": "如果你已经有了一些 Affilcoin，通过直接转入是你的新钱包获取 Affilcoin 的最快捷方式。"
   },
   "dismiss": {
     "message": "关闭"
@@ -525,11 +525,11 @@
     "message": "货币兑换、主要货币、语言和块状身份头像"
   },
   "getEther": {
-    "message": "获取 Ether"
+    "message": "获取 Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "从水管获取$1网络的 Ether",
-    "description": "Displays network name for Ether faucet"
+    "message": "从水管获取$1网络的 Affilcoin",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "获取帮助。"
@@ -703,7 +703,7 @@
     "message": "消息"
   },
   "affilcoinDescription": {
-    "message": "Affilcoin is a secure identity vault for Ethereum."
+    "message": "Affilcoin is a secure identity vault for Affilcoin."
   },
   "affilcoinSeedWords": {
     "message": "Affilcoin 助记词"
@@ -727,7 +727,7 @@
     "message": "至少选择一种代币."
   },
   "needEtherInWallet": {
-    "message": "使用 Affilcoin 与 DAPP 交互，需要你的钱包里有 Ether。"
+    "message": "使用 Affilcoin 与 DAPP 交互，需要你的钱包里有 Affilcoin。"
   },
   "needImportFile": {
     "message": "必须选择导入一个文件。",

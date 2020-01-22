@@ -93,7 +93,7 @@
     "message": "Znesek"
   },
   "appDescription": {
-    "message": "Denarnica za Ethereum v brskalniku",
+    "message": "Denarnica za Affilcoin v brskalniku",
     "description": "The description of the application"
   },
   "appName": {
@@ -373,7 +373,7 @@
     "message": "Neposredno vplačilo ehera"
   },
   "directDepositEtherExplainer": {
-    "message": "Če že imate Ether, ga lahko najhitreje dobite v Affilcoin z neposrednim vplačilom."
+    "message": "Če že imate Affilcoin, ga lahko najhitreje dobite v Affilcoin z neposrednim vplačilom."
   },
   "dismiss": {
     "message": "Opusti"
@@ -439,7 +439,7 @@
     "message": "Napaka pri registraciji imena ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Imena ENS v trenutnem omrežju ni mogoče najti. Poskusite preklopiti na glavno omrežje Ethereum."
+    "message": "Imena ENS v trenutnem omrežju ni mogoče najti. Poskusite preklopiti na glavno omrežje Affilcoin."
   },
   "enterAnAlias": {
     "message": "Vnesite vzdevek"
@@ -451,7 +451,7 @@
     "message": "Za nadaljevanje vnesite geslo"
   },
   "ethereumPublicAddress": {
-    "message": "Javni naslov Ethereum"
+    "message": "Javni naslov Affilcoin"
   },
   "etherscanView": {
     "message": "Poglej račun na Etherscan"
@@ -528,11 +528,11 @@
     "message": "Pretvorba valut, primarna valuta, jezik, identifikacija Blockies"
   },
   "getEther": {
-    "message": "Pridobi Ether"
+    "message": "Pridobi Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Pridobite Ether iz fauceta za $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Pridobite Affilcoin iz fauceta za $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getStarted": {
     "message": "Začnite"
@@ -700,7 +700,7 @@
     "message": "Sporočilo"
   },
   "affilcoinDescription": {
-    "message": "Affilcoin je varen identitetni sklad za Ethereum."
+    "message": "Affilcoin je varen identitetni sklad za Affilcoin."
   },
   "affilcoinSeedWords": {
     "message": "Seed Words"
@@ -1016,7 +1016,7 @@
     "message": "Vaše skrivno geslo za varnostno kopiranje olajša varnostno kopiranje in obnovitev računa."
   },
   "secretBackupPhraseWarning": {
-    "message": "OPOZORILO: Nikoli nikomur ne razkrijte varnostne kopije. Kdorkoli lahko tem geslom vedno prevzame vaš Ether."
+    "message": "OPOZORILO: Nikoli nikomur ne razkrijte varnostne kopije. Kdorkoli lahko tem geslom vedno prevzame vaš Affilcoin."
   },
   "secretPhrase": {
     "message": "Vnesite vaših dvanajst besed za obnovitev vaših računov."
@@ -1163,7 +1163,7 @@
     "message": "3. Začnite uporabljati dApps in več!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Uporabite strojno denarnico kot katerikoli drug Ethereum račun. Prijavite se v dApps, pošljite Ether in ERC20 žetone in žetone kot CryptoKitties."
+    "message": "Uporabite strojno denarnico kot katerikoli drug Affilcoin račun. Prijavite se v dApps, pošljite Affilcoin in ERC20 žetone in žetone kot CryptoKitties."
   },
   "storePhrase": {
     "message": "To geslo shranite v upravitelja gesel, kot je 1Password."

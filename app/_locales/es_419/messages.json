@@ -3,7 +3,7 @@
     "message": "El modo de privacidad está habilitado de manera predeterminada"
   },
   "chartOnlyAvailableEth": {
-    "message": "Chart está disponible únicamente en las redes de Ethereum."
+    "message": "Chart está disponible únicamente en las redes de Affilcoin."
   },
   "confirmClear": {
     "message": "¿Estás seguro de que deseas borrar los sitios web aprobados?"
@@ -93,7 +93,7 @@
     "message": "Monto"
   },
   "appDescription": {
-    "message": "Una billetera de Ethereum en tu navegador",
+    "message": "Una billetera de Affilcoin en tu navegador",
     "description": "The description of the application"
   },
   "appName": {
@@ -259,7 +259,7 @@
     "message": "Conexión con la red de prueba Kovan"
   },
   "connectingToMainnet": {
-    "message": "Conexión con la red principal de Ethereum"
+    "message": "Conexión con la red principal de Affilcoin"
   },
   "connectingToTestnet": {
     "message": "Conexión con la red de prueba Testnet"
@@ -436,7 +436,7 @@
     "message": "Error en el registro de nombres de ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "No se pudo encontrar el nombre de ENS en la red actual. Intenta cambiar a la red principal de Ethereum."
+    "message": "No se pudo encontrar el nombre de ENS en la red actual. Intenta cambiar a la red principal de Affilcoin."
   },
   "enterAnAlias": {
     "message": "Ingresa un alias"
@@ -448,7 +448,7 @@
     "message": "Ingresa tu contraseña para continuar"
   },
   "ethereumPublicAddress": {
-    "message": "Dirección pública de Ethereum"
+    "message": "Dirección pública de Affilcoin"
   },
   "etherscanView": {
     "message": "Ver cuenta en Etherscan"
@@ -529,7 +529,7 @@
   },
   "getEtherFromFaucet": {
     "message": "Obtener Ethers a partir de un grifo para $1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Obtén ayuda."
@@ -688,7 +688,7 @@
     "message": "Cerrar sesión"
   },
   "mainnet": {
-    "message": "Red principal de Ethereum"
+    "message": "Red principal de Affilcoin"
   },
   "memorizePhrase": {
     "message": "Memoriza esta frase."
@@ -700,7 +700,7 @@
     "message": "Mensaje"
   },
   "affilcoinDescription": {
-    "message": "Te estamos conectando a Ethereum y a la web descentralizada."
+    "message": "Te estamos conectando a Affilcoin y a la web descentralizada."
   },
   "affilcoinSeedWords": {
     "message": "Palabras de inicialización de Affilcoin"
@@ -1166,7 +1166,7 @@
     "message": "3. ¡Comienza a utilizar dApps y más!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Utiliza tu cuenta de hardware como si fuera una cuenta de Ethereum. Inicia sesión en dApps, envía ETH, compra y almacena tokens ERC20 y tokens no fungibles como CryptoKitties."
+    "message": "Utiliza tu cuenta de hardware como si fuera una cuenta de Affilcoin. Inicia sesión en dApps, envía ETH, compra y almacena tokens ERC20 y tokens no fungibles como CryptoKitties."
   },
   "storePhrase": {
     "message": "Almacena esta frase en un administrador de contraseñas como 1Password."

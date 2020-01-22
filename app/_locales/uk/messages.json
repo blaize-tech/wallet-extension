@@ -3,7 +3,7 @@
     "message": "Режим конфіденційності тепер увімкнено за замовчуванням"
   },
   "chartOnlyAvailableEth": {
-    "message": "Таблиця доступна тільки в мережах Ethereum."
+    "message": "Таблиця доступна тільки в мережах Affilcoin."
   },
   "confirmClear": {
     "message": "Ви впевнені, що хочете очистити затверджені веб-сайти?"
@@ -93,7 +93,7 @@
     "message": "Кількість"
   },
   "appDescription": {
-    "message": "Гаманець Ethereum у вашому браузері",
+    "message": "Гаманець Affilcoin у вашому браузері",
     "description": "The description of the application"
   },
   "appName": {
@@ -262,7 +262,7 @@
     "message": "Підключення до тестової мережі Kovan"
   },
   "connectingToMainnet": {
-    "message": "З'єднуємось з Головною мережею Ethereum"
+    "message": "З'єднуємось з Головною мережею Affilcoin"
   },
   "connectingToTestnet": {
     "message": "Під'єднуємось до Тестової мережі Testnet"
@@ -352,7 +352,7 @@
     "message": "Знаків після коми"
   },
   "defaultNetwork": {
-    "message": "Мережа для транзакцій з Ether за замовчуванням - Main Net."
+    "message": "Мережа для транзакцій з Affilcoin за замовчуванням - Main Net."
   },
   "delete": {
     "message": "Видалити"
@@ -364,7 +364,7 @@
     "message": "Депозит"
   },
   "depositEther": {
-    "message": "Депонувати Ether"
+    "message": "Депонувати Affilcoin"
   },
   "details": {
     "message": "Деталі"
@@ -439,7 +439,7 @@
     "message": "Помилка у реєстрації ENS ім'я"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Ім'я ENS не знайдено у даній мережі. Спробуйте перейти у Main Ethereum Network."
+    "message": "Ім'я ENS не знайдено у даній мережі. Спробуйте перейти у Main Affilcoin Network."
   },
   "enterAnAlias": {
     "message": "Введіть псевдонім"
@@ -451,7 +451,7 @@
     "message": "Введіть пароль, щоб продовжити"
   },
   "ethereumPublicAddress": {
-    "message": "Публічна адреса Ethereum"
+    "message": "Публічна адреса Affilcoin"
   },
   "etherscanView": {
     "message": "Переглянути обліковий запис на Etherscan"
@@ -489,7 +489,7 @@
     "message": "Від"
   },
   "fromShapeShift": {
-    "message": "Від Ethereum"
+    "message": "Від Affilcoin"
   },
   "functionType": {
     "message": "Тип функції"
@@ -516,7 +516,7 @@
     "message": "Ціна газу дуже низька"
   },
   "gasPriceInfoModalContent": {
-    "message": "Ціна на пальне визначає кількість Ether, яку ви готові заплатити за кожну одиницю пального."
+    "message": "Ціна на пальне визначає кількість Affilcoin, яку ви готові заплатити за кожну одиницю пального."
   },
   "gasPriceNoDenom": {
     "message": "Ціна Газу"
@@ -534,8 +534,8 @@
     "message": "Отримати Ефір"
   },
   "getEtherFromFaucet": {
-    "message": "Отримайте Ether з крану за $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Отримайте Affilcoin з крану за $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Отримати допомогу."
@@ -700,7 +700,7 @@
     "message": "Вийти"
   },
   "mainnet": {
-    "message": "Головна Мережа Ethereum"
+    "message": "Головна Мережа Affilcoin"
   },
   "memorizePhrase": {
     "message": "Запам'ятайте цю фразу."
@@ -715,7 +715,7 @@
     "message": "Повідомлення"
   },
   "affilcoinDescription": {
-    "message": "Під'єднуємо вас до Ethereum та децентралізованої мережі."
+    "message": "Під'єднуємо вас до Affilcoin та децентралізованої мережі."
   },
   "affilcoinSeedWords": {
     "message": "Початкові слова Affilcoin"
@@ -742,7 +742,7 @@
     "message": "Слід вибрати хоча б 1 токен."
   },
   "needEtherInWallet": {
-    "message": "Щоб взаємодіяти з децентралізованими застосунками використовуючи Affilcoin, вам буде потрібен Ether у вашому гаманці."
+    "message": "Щоб взаємодіяти з децентралізованими застосунками використовуючи Affilcoin, вам буде потрібен Affilcoin у вашому гаманці."
   },
   "needImportFile": {
     "message": "Потрібно вибрати файл для імпорту.",
@@ -1034,7 +1034,7 @@
     "message": "Ваша секретна резервна фраза дозволяє легко створити резервну копію та відновити обліковий запис."
   },
   "secretBackupPhraseWarning": {
-    "message": "ЗАСТЕРЕЖЕННЯ: Ніколи не розголошуйте вашу резервну фразу. Будь-хто з цією фразою зможе забрати ваш Ether назавжди."
+    "message": "ЗАСТЕРЕЖЕННЯ: Ніколи не розголошуйте вашу резервну фразу. Будь-хто з цією фразою зможе забрати ваш Affilcoin назавжди."
   },
   "secretPhrase": {
     "message": "Введіть секретну фразу з дванадцяти слів, щоб відновити своє сховище."
@@ -1181,7 +1181,7 @@
     "message": "3. Почніть користуватись dApps та більше!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Використовуйте ваш апаратний обліковий запис, як би ви використовували будь-який обліковий запис Ethereum. Увійдіть в dApps, надсилайте Eth, купуйте та зберігайте токени ERC20 та токени, які не є взаємозамінними, такі як CryptoKitties."
+    "message": "Використовуйте ваш апаратний обліковий запис, як би ви використовували будь-який обліковий запис Affilcoin. Увійдіть в dApps, надсилайте Eth, купуйте та зберігайте токени ERC20 та токени, які не є взаємозамінними, такі як CryptoKitties."
   },
   "storePhrase": {
     "message": "Зберігайте цю фразу у менеджері паролів, як 1Password."
