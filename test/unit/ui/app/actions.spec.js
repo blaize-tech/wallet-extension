@@ -1348,8 +1348,8 @@ describe('Actions', () => {
     beforeEach(() => {
       nock('https://shapeshift.io')
         .defaultReplyHeaders({ 'access-control-allow-origin': '*' })
-        .get('/marketinfo/btc_eth')
-        .reply(200, {pair: 'BTC_ETH', rate: 25.68289016, minerFee: 0.00176, limit: 0.67748474, minimum: 0.00013569, maxLimit: 0.67758573})
+        .get('/marketinfo/btc_ac')
+        .reply(200, {pair: 'BTC_AC', rate: 25.68289016, minerFee: 0.00176, limit: 0.67748474, minimum: 0.00013569, maxLimit: 0.67758573})
 
       nock('https://shapeshift.io')
         .defaultReplyHeaders({ 'access-control-allow-origin': '*' })

@@ -811,7 +811,7 @@ describe('App State', () => {
     }
 
     const marketinfo = {
-      pair: 'BTC_ETH',
+      pair: 'BTC_AC',
       rate: 28.91191106,
       minerFee: 0.0022,
       limit: 0.76617432,
@@ -873,7 +873,7 @@ describe('App State', () => {
     }
 
     const marketinfo = {
-      pair: 'BTC_ETH',
+      pair: 'BTC_AC',
       rate: 28.91191106,
       minerFee: 0.0022,
       limit: 0.76617432,

@@ -174,7 +174,7 @@ function getSelectedTokenExchangeRate (state) {
   const tokenExchangeRates = state.affilcoin.tokenExchangeRates
   const selectedToken = getSelectedToken(state) || {}
   const { symbol = '' } = selectedToken
-  const pair = `${symbol.toLowerCase()}_eth`
+  const pair = `${symbol.toLowerCase()}_ac`
   const { rate: tokenExchangeRate = 0 } = tokenExchangeRates && tokenExchangeRates[pair] || {}
 
   return tokenExchangeRate
@@ -256,7 +256,7 @@ function getSendEnsResolutionError (state) {
 }
 
 function getTokenExchangeRate (state, tokenSymbol) {
-  const pair = `${tokenSymbol.toLowerCase()}_eth`
+  const pair = `${tokenSymbol.toLowerCase()}_ac`
   const tokenExchangeRates = state.affilcoin.tokenExchangeRates
   const { rate: tokenExchangeRate = 0 } = tokenExchangeRates[pair] || {}
 

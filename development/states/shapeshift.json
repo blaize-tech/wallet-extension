@@ -75,7 +75,7 @@
         "coinbase": false,
         "shapeshift": true,
         "marketinfo": {
-          "pair": "btc_eth",
+          "pair": "btc_ac",
           "rate": 51.14252949,
           "minerFee": 0.01,
           "limit": 2.60306578,
