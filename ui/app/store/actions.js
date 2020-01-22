@@ -2287,7 +2287,7 @@ function pairUpdate (coin) {
   return (dispatch) => {
     dispatch(actions.showSubLoadingIndication())
     dispatch(actions.hideWarning())
-    shapeShiftRequest('marketinfo', {pair: `${coin.toLowerCase()}_ac`}, (mktResponse) => {
+    shapeShiftRequest('marketinfo', {pair: `${coin.toLowerCase()}_eth`}, (mktResponse) => {
       dispatch(actions.hideSubLoadingIndication())
       if (mktResponse.error) return dispatch(actions.displayWarning(mktResponse.error))
       dispatch({
@@ -2301,7 +2301,7 @@ function pairUpdate (coin) {
 }
 
 function shapeShiftSubview () {
-  var pair = 'btc_ac'
+  var pair = 'btc_eth'
   return (dispatch) => {
     dispatch(actions.showSubLoadingIndication())
     shapeShiftRequest('marketinfo', {pair}, (mktResponse) => {
@@ -2359,7 +2359,7 @@ function showQrView (data, message) {
 function reshowQrCode (data, coin) {
   return (dispatch) => {
     dispatch(actions.showLoadingIndication())
-    shapeShiftRequest('marketinfo', {pair: `${coin.toLowerCase()}_ac`}, (mktResponse) => {
+    shapeShiftRequest('marketinfo', {pair: `${coin.toLowerCase()}_eth`}, (mktResponse) => {
       if (mktResponse.error) return dispatch(actions.displayWarning(mktResponse.error))
 
       var message = [
