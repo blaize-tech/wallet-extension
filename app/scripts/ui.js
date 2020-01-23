@@ -158,7 +158,7 @@ function setupControllerConnection (connectionStream, cb) {
   const eventEmitter = new EventEmitter()
   const backgroundDnode = Dnode({
     sendUpdate: function (state) {
-      eventEmitter.emit('update', state)
+      eventEmitter.emit('update', {...state, nativeCurrency: 'AC'})
     },
   })
   connectionStream.pipe(backgroundDnode).pipe(connectionStream)
