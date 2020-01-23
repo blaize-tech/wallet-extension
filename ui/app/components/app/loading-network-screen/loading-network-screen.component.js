@@ -62,7 +62,7 @@ export default class LoadingNetworkScreen extends PureComponent {
 
   renderLoadingScreenContent = () => {
     return <div className="loading-overlay__screen-content">
-      <Spinner color="#F7C06C" />
+      <Spinner color="#064cfa" />
       {this.renderMessage()}
     </div>
   }
