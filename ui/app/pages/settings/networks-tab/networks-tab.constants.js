@@ -3,7 +3,7 @@ const defaultNetworksData = [
     labelKey: 'mainnet',
     iconColor: '#29B6AF',
     providerType: 'mainnet',
-    rpcUrl: 'https://api.infura.io/v1/jsonrpc/mainnet',
+    rpcUrl: 'https://explorer.affilcoin.net/api',
     chainId: '1',
     ticker: 'AC',
     blockExplorerUrl: 'https://etherscan.io',
