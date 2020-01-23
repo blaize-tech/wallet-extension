@@ -12464,16 +12464,6 @@ gifsicle@^4.0.0:
     execa "^1.0.0"
     logalot "^2.0.0"
 
-gl-mat4@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/gl-mat4/-/gl-mat4-1.1.4.tgz#1e895b55892e56a896867abd837d38f37a178086"
-  integrity sha1-HolbVYkuVqiWhnq9g30483oXgIY=
-
-gl-vec3@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/gl-vec3/-/gl-vec3-1.0.3.tgz#110fd897d0729f6398307381567d0944941bf22b"
-  integrity sha1-EQ/Yl9Byn2OYMHOBVn0JRJQb8is=
-
 glamor@^2.20.40:
   version "2.20.40"
   resolved "https://registry.yarnpkg.com/glamor/-/glamor-2.20.40.tgz#f606660357b7cf18dface731ad1a2cfa93817f05"
@@ -18248,14 +18238,6 @@ metamask-inpage-provider@^3.0.0:
     obs-store "^4.0.3"
     pump "^3.0.0"
     safe-event-emitter "^1.0.1"
-
-metamask-logo@^2.1.4:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/metamask-logo/-/metamask-logo-2.2.1.tgz#cd1edc8f2f5c756ed10de778cfecb29741b72cc8"
-  integrity sha512-huLxQs9lrUE/csIChgLAsz9JloVtUm9YwuvrWTL2JsIWx+t1FgrTKWWSifphryWIv/J07pfNvL5YJXKI3DA8fg==
-  dependencies:
-    gl-mat4 "1.1.4"
-    gl-vec3 "1.0.3"
 
 methods@^1.1.1, methods@~1.1.2:
   version "1.1.2"

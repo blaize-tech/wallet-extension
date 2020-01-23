@@ -125,7 +125,6 @@
     "loglevel": "^1.4.1",
     "luxon": "^1.8.2",
     "metamask-inpage-provider": "^3.0.0",
-    "metamask-logo": "^2.1.4",
     "mkdirp": "^0.5.1",
     "multihashes": "^0.4.12",
     "nonce-tracker": "^1.0.0",
