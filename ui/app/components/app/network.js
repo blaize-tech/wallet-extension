@@ -90,7 +90,7 @@ Network.prototype.render = function () {
                 }, [
                   h('img', {
                     title: context.t('attemptingConnect'),
-                    src: 'images/loading.svg',
+                    src: 'images/loading.gif',
                   }),
                 ])
                 : h('i.fa.fa-question-circle.fa-lg', {
