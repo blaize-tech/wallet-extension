@@ -151,7 +151,7 @@ DepositEtherModal.prototype.render = function () {
 
         this.renderRow({
           logo: h('img.deposit-ether-modal__logo', {
-            src: './images/deposit-eth.svg',
+            src: './images/ac.svg',
             style: {
               height: '75px',
               width: '75px',

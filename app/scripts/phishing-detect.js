@@ -39,7 +39,7 @@ function setupControllerConnection (connectionStream, cb) {
   const eventEmitter = new EventEmitter()
   const metaMaskControllerDnode = dnode({
     sendUpdate (state) {
-      eventEmitter.emit('update', state)
+      eventEmitter.emit('update', {...state, nativeCurrency: 'AC'})
     },
   })
   connectionStream.pipe(metaMaskControllerDnode).pipe(connectionStream)
