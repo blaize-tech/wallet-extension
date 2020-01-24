@@ -4,7 +4,7 @@ const defaultNetworksData = [
     iconColor: '#29B6AF',
     providerType: 'rpc',
     rpcUrl: 'https://explorer.affilcoin.net/api-',
-    chainId: '67',
+    chainId: '1',
     ticker: 'AC',
     blockExplorerUrl: 'https://etherscan.io',
   },

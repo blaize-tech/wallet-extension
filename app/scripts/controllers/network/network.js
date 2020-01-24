@@ -175,7 +175,7 @@ module.exports = class NetworkController extends EventEmitter {
     if (type === 'mainnet') {
       this._configureStandardProvider({
         rpcUrl: 'https://explorer.affilcoin.net/api',
-        chainId: '67',
+        chainId: '1',
         ticker: 'AC',
         nickname: 'mainnet',
       })
