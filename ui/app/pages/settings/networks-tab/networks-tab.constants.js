@@ -2,9 +2,9 @@ const defaultNetworksData = [
   {
     labelKey: 'mainnet',
     iconColor: '#29B6AF',
-    providerType: 'mainnet',
-    rpcUrl: 'https://explorer.affilcoin.net/api',
-    chainId: '1',
+    providerType: 'rpc',
+    rpcUrl: 'https://explorer.affilcoin.net/api-',
+    chainId: '67',
     ticker: 'AC',
     blockExplorerUrl: 'https://etherscan.io',
   },

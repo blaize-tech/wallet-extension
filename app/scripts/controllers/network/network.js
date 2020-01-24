@@ -171,9 +171,15 @@ module.exports = class NetworkController extends EventEmitter {
 
   _configureProvider (opts) {
     const { type, rpcTarget, chainId, ticker, nickname } = opts
-    // infura type-based endpoints
     const isInfura = INFURA_PROVIDER_TYPES.includes(type)
-    if (isInfura) {
+    if (type === 'mainnet') {
+      this._configureStandardProvider({
+        rpcUrl: 'https://explorer.affilcoin.net/api',
+        chainId: '67',
+        ticker: 'AC',
+        nickname: 'mainnet',
+      })
+    } else if (isInfura) {
       this._configureInfuraProvider(opts)
     // other type-based rpc endpoints
     } else if (type === LOCALHOST) {
