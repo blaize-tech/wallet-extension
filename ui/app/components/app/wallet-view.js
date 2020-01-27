@@ -33,14 +33,14 @@ WalletView.defaultProps = {
 function mapStateToProps (state) {
 
   return {
-    network: state.metamask.network,
+    network: state.affilcoin.network,
     sidebarOpen: state.appState.sidebar.isOpen,
-    identities: state.metamask.identities,
-    accounts: selectors.getMetaMaskAccounts(state),
-    keyrings: state.metamask.keyrings,
+    identities: state.affilcoin.identities,
+    accounts: selectors.getAffilcoinAccounts(state),
+    keyrings: state.affilcoin.keyrings,
     selectedAddress: selectors.getSelectedAddress(state),
     selectedAccount: selectors.getSelectedAccount(state),
-    selectedTokenAddress: state.metamask.selectedTokenAddress,
+    selectedTokenAddress: state.affilcoin.selectedTokenAddress,
   }
 }
 

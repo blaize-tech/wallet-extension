@@ -37,7 +37,7 @@
     "description": "आवेदन का विवरण"
   },
   "appName": {
-    "message": "मेटामास्क/MetaMask",
+    "message": "मेटामास्क/Affilcoin",
     "description": "एप्लिकेशन का नाम"
   },
   "attemptingConnect": {
@@ -132,7 +132,7 @@
     "message": "जमा"
   },
   "depositEther": {
-    "message": "जमा - Ether"
+    "message": "जमा - Affilcoin"
   },
   "details": {
     "message": "संदेश विवरण"
@@ -293,7 +293,7 @@
   "message": {
     "message": "संदेश"
   },
-  "metamaskDescription": {
+  "affilcoinDescription": {
     "message": "मेटामास्क इथीरियम के लिए एक सुरक्षित पहचान वॉल्ट है।"
   },
   "myAccounts": {
@@ -396,7 +396,7 @@
   "rinkeby": {
     "message": "रिचीव टेस्ट नेटवर्क"
   },
-  "ropsten": {
+  "testnet": {
     "message": "रॉप्स्टेन टेस्ट नेटवर्क"
   },
   "save": {
@@ -421,7 +421,7 @@
     "message": "भेजें"
   },
   "sendETH": {
-    "message": "भेजें ETH"
+    "message": "भेजें AC"
   },
   "sendTokens": {
     "message": "भेजें टोकन"
@@ -466,7 +466,7 @@
     "message": "के लिए"
   },
   "toETHviaShapeShift": {
-    "message": "शैपशैफ्ट द्वारा $1 से ETH में जमा",
+    "message": "शैपशैफ्ट द्वारा $1 से AC में जमा",
     "description": "संदेश की शुरुआत में जमा प्रकार भर जाएगा"
   },
   "tokenAlreadyAdded": {

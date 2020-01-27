@@ -5,9 +5,9 @@ import AccountDetailsModal from './account-details-modal.component'
 
 const mapStateToProps = (state) => {
   return {
-    network: state.metamask.network,
+    network: state.affilcoin.network,
     selectedIdentity: getSelectedIdentity(state),
-    keyrings: state.metamask.keyrings,
+    keyrings: state.affilcoin.keyrings,
     rpcPrefs: getRpcPrefsForCurrentProvider(state),
   }
 }

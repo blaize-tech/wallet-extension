@@ -6,7 +6,7 @@
     "message": "Klè Done sou vi prive"
   },
   "providerRequestInfo": {
-    "message": "Domèn ki nan lis anba a ap mande pou jwenn aksè a blòkchou Ethereum ak pou wè kont ou ye kounye a. Toujou double tcheke ke ou sou sit ki kòrèk la anvan apwouve aksè."
+    "message": "Domèn ki nan lis anba a ap mande pou jwenn aksè a blòkchou Affilcoin ak pou wè kont ou ye kounye a. Toujou double tcheke ke ou sou sit ki kòrèk la anvan apwouve aksè."
   },
   "accessingYourCamera": {
     "message": "Aksè a Kamera"
@@ -39,17 +39,17 @@
     "message": "Ajoute Token Yo Sikjere W"
   },
   "addAcquiredTokens": {
-    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk MetaMask"
+    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk Affilcoin"
   },
   "amount": {
     "message": "Kantite lajan"
   },
   "appDescription": {
-    "message": "Ekstansyon Navigatè Ethereum",
+    "message": "Ekstansyon Navigatè Affilcoin",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -90,7 +90,7 @@
     "message": "Navigatè ou a pa sipòte..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask fèt e bati nan California."
+    "message": "Affilcoin fèt e bati nan California."
   },
   "buyCoinSwitch": {
     "message": "Achte sou CoinSwitch"
@@ -117,7 +117,7 @@
     "message": "Fèmen"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Ou bezwen sèvi ak MetaMask sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
+    "message": "Ou bezwen sèvi ak Affilcoin sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
   },
   "confirm": {
     "message": "Konfime"
@@ -138,10 +138,10 @@
     "message": "Konekte nan Kovan Tès Rezo a"
   },
   "connectingToMainnet": {
-    "message": "Konekte ak Prensipal Ethereum Rezo a"
+    "message": "Konekte ak Prensipal Affilcoin Rezo a"
   },
-  "connectingToRopsten": {
-    "message": "Konekte ak Ropsten Tès Rezo a"
+  "connectingToTestnet": {
+    "message": "Konekte ak Testnet Tès Rezo a"
   },
   "connectingToRinkeby": {
     "message": "Konekte nan Rinkeby Tès Rezo a"
@@ -201,22 +201,22 @@
     "message": "Presizyon desimal la"
   },
   "defaultNetwork": {
-    "message": "Dfo rezo a pou tranzaksyon Ether se Mainnet."
+    "message": "Dfo rezo a pou tranzaksyon Affilcoin se Mainnet."
   },
   "deposit": {
     "message": "Depo"
   },
   "depositEther": {
-    "message": "Depo Ether"
+    "message": "Depo Affilcoin"
   },
   "details": {
     "message": "Detay yo"
   },
   "directDepositEther": {
-    "message": "Dirèkteman Depo Ether"
+    "message": "Dirèkteman Depo Affilcoin"
   },
   "directDepositEtherExplainer": {
-    "message": "Si ou deja gen kèk Ether, fason ki pi rapid yo ka resevwa Ether nan nouvo Wallet ou pa depo dirèk."
+    "message": "Si ou deja gen kèk Affilcoin, fason ki pi rapid yo ka resevwa Affilcoin nan nouvo Wallet ou pa depo dirèk."
   },
   "done": {
     "message": "Fini"
@@ -296,11 +296,11 @@
     "message": "Nou kalkile pri yo gaz ki sijere ki baze sou pousantaj siksè rezo."
   },
   "getEther": {
-    "message": "Jwenn Ether"
+    "message": "Jwenn Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Jwenn Ether nan yon tiyo pou $1 la",
-    "description": "Displays network name for Ether faucet"
+    "message": "Jwenn Affilcoin nan yon tiyo pou $1 la",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Jwenn èd."
@@ -319,7 +319,7 @@
     "message": "Materyèl Wallet konekte"
   },
   "hardwareWalletsMsg": {
-    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak MetaMask"
+    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak Affilcoin"
   },
   "havingTroubleConnecting": {
     "message": "Èske w gen pwoblèm pou konekte?"
@@ -348,7 +348,7 @@
     "message": "Pòte Kont"
   },
   "importAccountMsg": {
-    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont MetaMask seed fraz. Aprann plis sou kont enpòte "
+    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont Affilcoin seed fraz. Aprann plis sou kont enpòte "
   },
   "imported": {
     "message": "Pòte",
@@ -426,7 +426,7 @@
     "message": "Dekonekte"
   },
   "mainnet": {
-    "message": "Prensipal Ethereum Rezo a"
+    "message": "Prensipal Affilcoin Rezo a"
   },
   "menu": {
     "message": "Opsyon"
@@ -434,14 +434,14 @@
   "message": {
     "message": "Mesaje"
   },
-  "metamaskDescription": {
-    "message": "MetaMask sekirize idantite pou Ethereum."
+  "affilcoinDescription": {
+    "message": "Affilcoin sekirize idantite pou Affilcoin."
   },
-  "metamaskSeedWords": {
-    "message": "MetaMask Seed Mo"
+  "affilcoinSeedWords": {
+    "message": "Affilcoin Seed Mo"
   },
-  "metamaskVersion": {
-    "message": "MetaMask Vèsyon"
+  "affilcoinVersion": {
+    "message": "Affilcoin Vèsyon"
   },
   "missingYourTokens": {
     "message": "Ou pa wè token ou a?"
@@ -453,14 +453,14 @@
     "message": "Ou dwe chwazi omwen 1 token."
   },
   "needEtherInWallet": {
-    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize MetaMask, ou pral bezwen Ether nan Wallet ou."
+    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize Affilcoin, ou pral bezwen Affilcoin nan Wallet ou."
   },
   "needImportFile": {
     "message": "Ou dwe chwazi yon dosye pou enpòte.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Pa ka voye kantite lajan negatif ETH."
+    "message": "Pa ka voye kantite lajan negatif AC."
   },
   "networks": {
     "message": "Rezo"
@@ -540,7 +540,7 @@
     "message": "Lajan ou itilize pi plis la"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Chwazi ETH pou bay priyorite montre valè nan ETH. Chwazi Fiat priyorite montre valè nan lajan ou chwazi a."
+    "message": "Chwazi AC pou bay priyorite montre valè nan AC. Chwazi Fiat priyorite montre valè nan lajan ou chwazi a."
   },
   "privacyMsg": {
     "message": "Règleman sou enfòmasyon prive"
@@ -633,8 +633,8 @@
   "rinkeby": {
     "message": "Rinkeby Tès Rezo"
   },
-  "ropsten": {
-    "message": "Ropsten Tès Rezo"
+  "testnet": {
+    "message": "Testnet Tès Rezo"
   },
   "save": {
     "message": "Sove"
@@ -673,7 +673,7 @@
     "message": "Voye"
   },
   "sendETH": {
-    "message": "Voye ETH"
+    "message": "Voye AC"
   },
   "sendTokens": {
     "message": "Voye Tokens"
@@ -694,7 +694,7 @@
     "message": "Chwazi yon kont"
   },
   "selectAnAccountHelp": {
-    "message": "Chwazi kont pou wè nan MetaMask"
+    "message": "Chwazi kont pou wè nan Affilcoin"
   },
   "selectHdPath": {
     "message": "Chwazi chemen HD"
@@ -778,7 +778,7 @@
     "message": "Pou"
   },
   "toETHviaShapeShift": {
-    "message": "$1 pou ETH pa ShapeShift",
+    "message": "$1 pou AC pa ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {
@@ -876,7 +876,7 @@
     "message": "Bon Retou!"
   },
   "welcome": {
-    "message": "Byenveni nan MetaMask"
+    "message": "Byenveni nan Affilcoin"
   },
   "yesLetsTry": {
     "message": "Wi, ann eseye"

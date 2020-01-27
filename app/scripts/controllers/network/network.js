@@ -6,7 +6,7 @@ const EthQuery = require('eth-query')
 const JsonRpcEngine = require('json-rpc-engine')
 const providerFromEngine = require('eth-json-rpc-middleware/providerFromEngine')
 const log = require('loglevel')
-const createMetamaskMiddleware = require('./createMetamaskMiddleware')
+const createMetamaskMiddleware = require('./createAffilcoinMiddleware')
 const createInfuraClient = require('./createInfuraClient')
 const createJsonRpcClient = require('./createJsonRpcClient')
 const createLocalhostClient = require('./createLocalhostClient')
@@ -15,33 +15,31 @@ const extend = require('extend')
 const networks = { networkList: {} }
 
 const {
-  ROPSTEN,
-  RINKEBY,
-  KOVAN,
+  TESTNET,
   MAINNET,
   LOCALHOST,
-  GOERLI,
 } = require('./enums')
-const INFURA_PROVIDER_TYPES = [ROPSTEN, RINKEBY, KOVAN, MAINNET, GOERLI]
+const INFURA_PROVIDER_TYPES = [TESTNET, MAINNET]
 
-const env = process.env.METAMASK_ENV
-const METAMASK_DEBUG = process.env.METAMASK_DEBUG
+const env = process.env.AFFILCOIN_ENV
+const AFFILCOIN_DEBUG = process.env.AFFILCOIN_DEBUG
 
 let defaultProviderConfigType
 if (process.env.IN_TEST === 'true') {
   defaultProviderConfigType = LOCALHOST
-} else if (METAMASK_DEBUG || env === 'test') {
-  defaultProviderConfigType = RINKEBY
+} else if (AFFILCOIN_DEBUG || env === 'test') {
+  defaultProviderConfigType = TESTNET
 } else {
   defaultProviderConfigType = MAINNET
 }
+defaultProviderConfigType = MAINNET
 
 const defaultProviderConfig = {
   type: defaultProviderConfigType,
 }
 
 const defaultNetworkConfig = {
-  ticker: 'ETH',
+  ticker: 'AC',
 }
 
 module.exports = class NetworkController extends EventEmitter {
@@ -129,7 +127,7 @@ module.exports = class NetworkController extends EventEmitter {
     })
   }
 
-  setRpcTarget (rpcTarget, chainId, ticker = 'ETH', nickname = '', rpcPrefs) {
+  setRpcTarget (rpcTarget, chainId, ticker = 'AC', nickname = '', rpcPrefs) {
     const providerConfig = {
       type: 'rpc',
       rpcTarget,
@@ -141,7 +139,7 @@ module.exports = class NetworkController extends EventEmitter {
     this.providerConfig = providerConfig
   }
 
-  async setProviderType (type, rpcTarget = '', ticker = 'ETH', nickname = '') {
+  async setProviderType (type, rpcTarget = '', ticker = 'AC', nickname = '') {
     assert.notEqual(type, 'rpc', `NetworkController - cannot call "setProviderType" with type 'rpc'. use "setRpcTarget"`)
     assert(INFURA_PROVIDER_TYPES.includes(type) || type === LOCALHOST, `NetworkController - Unknown rpc type "${type}"`)
     const providerConfig = { type, rpcTarget, ticker, nickname }
@@ -173,9 +171,15 @@ module.exports = class NetworkController extends EventEmitter {
 
   _configureProvider (opts) {
     const { type, rpcTarget, chainId, ticker, nickname } = opts
-    // infura type-based endpoints
     const isInfura = INFURA_PROVIDER_TYPES.includes(type)
-    if (isInfura) {
+    if (type === 'mainnet') {
+      this._configureStandardProvider({
+        rpcUrl: 'https://explorer.affilcoin.net/api',
+        chainId: '1',
+        ticker: 'AC',
+        nickname: 'mainnet',
+      })
+    } else if (isInfura) {
       this._configureInfuraProvider(opts)
     // other type-based rpc endpoints
     } else if (type === LOCALHOST) {
@@ -197,7 +201,7 @@ module.exports = class NetworkController extends EventEmitter {
     this._setNetworkClient(networkClient)
     // setup networkConfig
     var settings = {
-      ticker: 'ETH',
+      ticker: 'AC',
     }
     this.networkConfig.putState(settings)
   }
@@ -215,7 +219,7 @@ module.exports = class NetworkController extends EventEmitter {
     networks.networkList['rpc'] = {
       chainId: chainId,
       rpcUrl,
-      ticker: ticker || 'ETH',
+      ticker: ticker || 'AC',
       nickname,
     }
     // setup networkConfig
@@ -228,9 +232,9 @@ module.exports = class NetworkController extends EventEmitter {
   }
 
   _setNetworkClient ({ networkMiddleware, blockTracker }) {
-    const metamaskMiddleware = createMetamaskMiddleware(this._baseProviderParams)
+    const affilcoinMiddleware = createMetamaskMiddleware(this._baseProviderParams)
     const engine = new JsonRpcEngine()
-    engine.push(metamaskMiddleware)
+    engine.push(affilcoinMiddleware)
     engine.push(networkMiddleware)
     const provider = providerFromEngine(engine)
     this._setProviderAndBlockTracker({ provider, blockTracker })

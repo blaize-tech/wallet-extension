@@ -14,7 +14,7 @@ module.exports = createInfuraClient
 function createInfuraClient ({ network, onRequest }) {
   const infuraMiddleware = mergeMiddleware([
     createRequestHookMiddleware(onRequest),
-    createInfuraMiddleware({ network, maxAttempts: 5, source: 'metamask' }),
+    createInfuraMiddleware({ network, maxAttempts: 5, source: 'affilcoin' }),
   ])
   const infuraProvider = providerFromMiddleware(infuraMiddleware)
   const blockTracker = new BlockTracker({ provider: infuraProvider })
@@ -40,21 +40,9 @@ function createNetworkAndChainIdMiddleware ({ network }) {
       netId = '1'
       chainId = '0x01'
       break
-    case 'ropsten':
+    case 'testnet':
       netId = '3'
       chainId = '0x03'
-      break
-    case 'rinkeby':
-      netId = '4'
-      chainId = '0x04'
-      break
-    case 'kovan':
-      netId = '42'
-      chainId = '0x2a'
-      break
-    case 'goerli':
-      netId = '5'
-      chainId = '0x05'
       break
     default:
       throw new Error(`createInfuraClient - unknown network "${network}"`)

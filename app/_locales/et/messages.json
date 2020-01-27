@@ -87,7 +87,7 @@
     "message": "Lisa soovitatud lube"
   },
   "addAcquiredTokens": {
-    "message": "Lisage load, mis olete MetaMaskiga saanud"
+    "message": "Lisage load, mis olete Affilcoiniga saanud"
   },
   "amount": {
     "message": "Summa"
@@ -97,7 +97,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -125,7 +125,7 @@
     "message": "Automaatse väljalogimise taimer (minutites)"
   },
   "autoLogoutTimeLimitDescription": {
-    "message": "Seadistage jõudeolek minutites, enne kui MetaMask automaatselt välja logib"
+    "message": "Seadistage jõudeolek minutites, enne kui Affilcoin automaatselt välja logib"
   },
   "average": {
     "message": "Keskmine"
@@ -140,7 +140,7 @@
     "message": "Varundage oma salajane taastamisvõti, et oma rahakott ja vahendid turvalisena hoida."
   },
   "backupApprovalInfo": {
-    "message": "See salakood on vajalik teie rahakoti taastamiseks, kui kaotate oma seadme, unustate parooli, peate MetaMaski uuesti alla laadima, või kui soovite avada oma rahakoti mõnel teisel seadmel."
+    "message": "See salakood on vajalik teie rahakoti taastamiseks, kui kaotate oma seadme, unustate parooli, peate Affilcoini uuesti alla laadima, või kui soovite avada oma rahakoti mõnel teisel seadmel."
   },
   "backupNow": {
     "message": "Varunda kohe"
@@ -175,13 +175,13 @@
     "message": "Teie lehitsejat ei toetata..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask on projekteeritud ja loodud Californias."
+    "message": "Affilcoin on projekteeritud ja loodud Californias."
   },
   "buyWithWyre": {
-    "message": "Ostke ETH-d Wyre'iga"
+    "message": "Ostke AC-d Wyre'iga"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre võimaldab kasutada krediitkaarti, et teha ETH sissemakse otse MetaMaski kontole."
+    "message": "Wyre võimaldab kasutada krediitkaarti, et teha AC sissemakse otse Affilcoini kontole."
   },
   "buyCoinSwitch": {
     "message": "Osta CoinSwitchil"
@@ -229,7 +229,7 @@
     "message": "Sule"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Riistvararahakoti ühendamiseks peate kasutama MetaMaski Google Chrome'is."
+    "message": "Riistvararahakoti ühendamiseks peate kasutama Affilcoini Google Chrome'is."
   },
   "confirm": {
     "message": "Kinnita"
@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "Ühenduse loomine peamise Etherumi võrguga"
   },
-  "connectingToRopsten": {
-    "message": "Ühendamine Ropsteni testvõrguga"
+  "connectingToTestnet": {
+    "message": "Ühendamine Testneti testvõrguga"
   },
   "connectingToRinkeby": {
     "message": "Ühendamine Rinkeby testvõrguga"
@@ -418,16 +418,16 @@
     "message": "Ärge jagage fraasi mitte kellegagi."
   },
   "endOfFlowMessage5": {
-    "message": "Olge ettevaatlik andmepüügi osas! MetaMask ei küsi kunagi spontaanselt teie seemnefraasi."
+    "message": "Olge ettevaatlik andmepüügi osas! Affilcoin ei küsi kunagi spontaanselt teie seemnefraasi."
   },
   "endOfFlowMessage6": {
     "message": "Kui peate oma seemnefraasi uuesti varundama, leiate selle valikust Settings (Seaded) -> Security (Turvalisus)."
   },
   "endOfFlowMessage7": {
-    "message": "Kui teil on küsimusi või näete midagi kahtlast, kirjutage meile support@metamask.io."
+    "message": "Kui teil on küsimusi või näete midagi kahtlast, kirjutage meile support@affilcoin.io."
   },
   "endOfFlowMessage8": {
-    "message": "Metamask ei saa teie seemnefraasi taastada. Lisateave."
+    "message": "Affilcoin ei saa teie seemnefraasi taastada. Lisateave."
   },
   "endOfFlowMessage9": {
     "message": "Lisateave."
@@ -531,7 +531,7 @@
   },
   "getEtherFromFaucet": {
     "message": "Hankige kraanist eetrit $1eest",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Küsige abi."
@@ -556,7 +556,7 @@
     "message": "Ühendage riistvara rahakott"
   },
   "hardwareWalletsMsg": {
-    "message": "Valige riistvara rahakott, mida soovite MetaMaskis kasutada"
+    "message": "Valige riistvara rahakott, mida soovite Affilcoinis kasutada"
   },
   "havingTroubleConnecting": {
     "message": "Kas ühendamisel esineb probleeme?"
@@ -588,7 +588,7 @@
     "message": "Impordi konto"
   },
   "importAccountMsg": {
-    "message": "Imporditud kontosid ei seostata teie ainulaadse MetaMaski konto seemnefraasiga. Lugege imporditud kontode kohta lähemalt"
+    "message": "Imporditud kontosid ei seostata teie ainulaadse Affilcoini konto seemnefraasiga. Lugege imporditud kontode kohta lähemalt"
   },
   "importAccountSeedPhrase": {
     "message": "Impordi seemnefraasiga konto"
@@ -631,7 +631,7 @@
     "message": "Teadaolev lepinguaadress."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Kehtetu ETH-võrk, kasutage väiketähti"
+    "message": "Kehtetu AC-võrk, kasutage väiketähti"
   },
   "invalidInput": {
     "message": "Vigane sisend."
@@ -704,14 +704,14 @@
   "message": {
     "message": "Sõnum"
   },
-  "metamaskDescription": {
+  "affilcoinDescription": {
     "message": "Teid ühendatakse Ethereumi ja detsentraliseeritud võrguga."
   },
-  "metamaskSeedWords": {
-    "message": "MetaMaski seemnesõnad"
+  "affilcoinSeedWords": {
+    "message": "Affilcoini seemnesõnad"
   },
-  "metamaskVersion": {
-    "message": "MetaMaski versioon"
+  "affilcoinVersion": {
+    "message": "Affilcoini versioon"
   },
   "missingYourTokens": {
     "message": "Te ei näe oma lube?"
@@ -726,13 +726,13 @@
     "message": "Minu rahakotikontod"
   },
   "myWalletAccountsDescription": {
-    "message": "Sellesse jaotisesse lisatakse automaatselt kõik teie MetaMaski kontod."
+    "message": "Sellesse jaotisesse lisatakse automaatselt kõik teie Affilcoini kontod."
   },
   "mustSelectOne": {
     "message": "Peate valima vähemalt 1 loa."
   },
   "needEtherInWallet": {
-    "message": "Selleks, et suhelda MetaMaski abil detsentraliseeritud rakendustega, peab teil rahakotis eetrit olema."
+    "message": "Selleks, et suhelda Affilcoini abil detsentraliseeritud rakendustega, peab teil rahakotis eetrit olema."
   },
   "needImportFile": {
     "message": "Peate importimiseks faili valima.",
@@ -775,8 +775,8 @@
   "newNetwork": {
     "message": "Uus võrk"
   },
-  "newToMetaMask": {
-    "message": "Pole MetaMaski varem kasutanud?"
+  "newToAffilcoin": {
+    "message": "Pole Affilcoini varem kasutanud?"
   },
   "noAlreadyHaveSeed": {
     "message": "Ei, mul on juba seemnefraas"
@@ -785,10 +785,10 @@
     "message": "Kaitske oma võtmeid!"
   },
   "protectYourKeysMessage1": {
-    "message": "Kaitske oma seemnefraasi. Meid on teavitatud veebilehtedest, mis püüavad MetaMaski jäljendada. MetaMask ei küsi teilt kunagi teie seemnefraasi!"
+    "message": "Kaitske oma seemnefraasi. Meid on teavitatud veebilehtedest, mis püüavad Affilcoini jäljendada. Affilcoin ei küsi teilt kunagi teie seemnefraasi!"
   },
   "protectYourKeysMessage2": {
-    "message": "Kaitske oma seemnefraasi. Kui näete midagi kahtlast või pole veebilehe ehtsuses kindel, saatke e-kiri aadressile support@metamask.io"
+    "message": "Kaitske oma seemnefraasi. Kui näete midagi kahtlast või pole veebilehe ehtsuses kindel, saatke e-kiri aadressile support@affilcoin.io"
   },
   "rpcUrl": {
     "message": "Uus RPC URL"
@@ -845,7 +845,7 @@
     "message": "Osalege MetaMetricsis"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Osalege MetaMetricsis, et aidata meil MetaMaski paremaks teha"
+    "message": "Osalege MetaMetricsis, et aidata meil Affilcoini paremaks teha"
   },
   "password": {
     "message": "Parool"
@@ -876,7 +876,7 @@
     "message": "Põhivaluuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Valige omavääring, et prioriseerida vääringu kuvamist ahela omavääringus (nt ETH). Valige Fiat, et prioriseerida vääringu kuvamist valitud fiat-vääringus."
+    "message": "Valige omavääring, et prioriseerida vääringu kuvamist ahela omavääringus (nt AC). Valige Fiat, et prioriseerida vääringu kuvamist valitud fiat-vääringus."
   },
   "privacyMsg": {
     "message": "privaatsuspoliitika"
@@ -987,8 +987,8 @@
   "rinkeby": {
     "message": "Rinkeby katsevõrk"
   },
-  "ropsten": {
-    "message": "Ropsteni testvõrk"
+  "testnet": {
+    "message": "Testneti testvõrk"
   },
   "goerli": {
     "message": "Goerli testvõrk"
@@ -1060,7 +1060,7 @@
     "message": "Saatke kogus"
   },
   "sendETH": {
-    "message": "Saada ETH"
+    "message": "Saada AC"
   },
   "sendTokens": {
     "message": "Saada lube"
@@ -1081,7 +1081,7 @@
     "message": "Valige konto"
   },
   "selectAnAccountHelp": {
-    "message": "Valige konto, mida MetaMaskis vaadata"
+    "message": "Valige konto, mida Affilcoinis vaadata"
   },
   "selectAHigherGasFee": {
     "message": "Valige suurem gaasihind, et kiirendada tehingu töötlemist.*"
@@ -1198,19 +1198,19 @@
     "message": "Mobiiliga sünkroonimine"
   },
   "syncWithMobileDesc": {
-    "message": "Saate sünkroonida oma kontod ja teabe oma mobiiliseadmega. Avage MetaMaski mobiilirakendus, avage \"Settings\" (Seaded) ja puudutage valikut \"Sync from Browser Extension\" (Sünkroonimine lehitseja laiendusest)"
+    "message": "Saate sünkroonida oma kontod ja teabe oma mobiiliseadmega. Avage Affilcoini mobiilirakendus, avage \"Settings\" (Seaded) ja puudutage valikut \"Sync from Browser Extension\" (Sünkroonimine lehitseja laiendusest)"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Järgige Metamaski mobiilirakenduse esmakordsel avamisel telefonis esitatud samme."
+    "message": "Järgige Affilcoini mobiilirakenduse esmakordsel avamisel telefonis esitatud samme."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Skanneerige see kood MetaMaski mobiilirakendusega"
+    "message": "Skanneerige see kood Affilcoini mobiilirakendusega"
   },
   "syncWithMobileBeCareful": {
     "message": "Veenduge, et keegi teine ei vaata selle koodi skannimisel teie ekraani"
   },
   "syncWithMobileComplete": {
-    "message": "Teie andmed on edukalt sünkroonitud. Nautige MetaMaski mobiilirakendust!"
+    "message": "Teie andmed on edukalt sünkroonitud. Nautige Affilcoini mobiilirakendust!"
   },
   "terms": {
     "message": "Teenusetingimused"
@@ -1228,7 +1228,7 @@
     "message": "Saaja"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ETH-le ShapeShifti kaudu",
+    "message": "$1 AC-le ShapeShifti kaudu",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
@@ -1305,7 +1305,7 @@
     "message": "Proovi uuesti"
   },
   "typePassword": {
-    "message": "Sisestage oma MetaMaski parool"
+    "message": "Sisestage oma Affilcoini parool"
   },
   "unapproved": {
     "message": "Kinnitamata"
@@ -1374,7 +1374,7 @@
     "message": "Tere tulemast tagasi!"
   },
   "welcome": {
-    "message": "Tere tulemast MetaMaski"
+    "message": "Tere tulemast Affilcoini"
   },
   "writePhrase": {
     "message": "Kirjutage see fraas paberile ja hoidke seda turvalises kohas. Veel suurema turvalisuse tagamiseks kirjutage see mitmele paberile ja hoidke neid 2–3 erinevas kohas."

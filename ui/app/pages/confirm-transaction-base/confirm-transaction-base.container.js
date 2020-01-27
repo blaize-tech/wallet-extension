@@ -28,7 +28,7 @@ import { isBalanceSufficient, calcGasTotal } from '../send/send.utils'
 import { conversionGreaterThan } from '../../helpers/utils/conversion-util'
 import { MIN_GAS_LIMIT_DEC } from '../send/send.constants'
 import { checksumAddress, addressSlicer, valuesFor } from '../../helpers/utils/util'
-import { getMetaMaskAccounts, getCustomNonceValue, getUseNonceField, getAdvancedInlineGasShown, preferencesSelector, getIsMainnet, getKnownMethodData } from '../../selectors/selectors'
+import { getAffilcoinAccounts, getCustomNonceValue, getUseNonceField, getAdvancedInlineGasShown, preferencesSelector, getIsMainnet, getKnownMethodData } from '../../selectors/selectors'
 import { transactionFeeSelector } from '../../selectors/confirm-transaction'
 
 const casedContractMap = Object.keys(contractMap).reduce((acc, base) => {
@@ -49,7 +49,7 @@ const mapStateToProps = (state, ownProps) => {
   const { id: paramsTransactionId } = params
   const { showFiatInTestnets } = preferencesSelector(state)
   const isMainnet = getIsMainnet(state)
-  const { confirmTransaction, metamask } = state
+  const { confirmTransaction, affilcoin } = state
   const {
     ensResolutionsByAddress,
     conversionRate,
@@ -63,7 +63,7 @@ const mapStateToProps = (state, ownProps) => {
     unapprovedTxs,
     metaMetricsSendCount,
     nextNonce,
-  } = metamask
+  } = affilcoin
   const {
     tokenData,
     txData,
@@ -82,7 +82,7 @@ const mapStateToProps = (state, ownProps) => {
     value: amount,
     data,
   } = transaction && transaction.txParams || txParams
-  const accounts = getMetaMaskAccounts(state)
+  const accounts = getAffilcoinAccounts(state)
   const assetImage = assetImages[txParamsToAddress]
 
   const { balance } = accounts[selectedAddress]
@@ -120,7 +120,7 @@ const mapStateToProps = (state, ownProps) => {
   }
 
   const currentNetworkUnapprovedTxs = Object.keys(unapprovedTxs)
-    .filter(key => unapprovedTxs[key].metamaskNetworkId === network)
+    .filter(key => unapprovedTxs[key].affilcoinNetworkId === network)
     .reduce((acc, key) => ({ ...acc, [key]: unapprovedTxs[key] }), {})
   const unapprovedTxCount = valuesFor(currentNetworkUnapprovedTxs).length
 

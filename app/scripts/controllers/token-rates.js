@@ -30,7 +30,7 @@ class TokenRatesController {
   async updateExchangeRates () {
     if (!this.isActive) { return }
     const contractExchangeRates = {}
-    const nativeCurrency = this.currency ? this.currency.state.nativeCurrency.toLowerCase() : 'eth'
+    const nativeCurrency = this.currency ? this.currency.state.nativeCurrency.toLowerCase() : 'ac'
     const pairs = this._tokens.map(token => token.address).join(',')
     const query = `contract_addresses=${pairs}&vs_currencies=${nativeCurrency}`
     if (this._tokens.length > 0) {
@@ -42,7 +42,7 @@ class TokenRatesController {
           contractExchangeRates[normalizeAddress(token.address)] = price ? price[nativeCurrency] : 0
         })
       } catch (error) {
-        log.warn(`MetaMask - TokenRatesController exchange rate fetch failed.`, error)
+        log.warn(`Affilcoin - TokenRatesController exchange rate fetch failed.`, error)
       }
     }
     this.store.putState({ contractExchangeRates })

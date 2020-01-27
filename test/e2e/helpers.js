@@ -65,7 +65,7 @@ async function prepareExtensionForTesting ({ responsive } = {}) {
     }
   }
   // Depending on the state of the application built into the above directory (extPath) and the value of
-  // METAMASK_DEBUG we will see different post-install behaviour and possibly some extra windows. Here we
+  // AFFILCOIN_DEBUG we will see different post-install behaviour and possibly some extra windows. Here we
   // are closing any extraneous windows to reset us to a single window before continuing.
 
   // wait an extra long time so any slow popups can trigger

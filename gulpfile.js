@@ -511,7 +511,7 @@ gulp.task('dist',
 function zipTask (target) {
   return () => {
     return gulp.src(`dist/${target}/**`)
-      .pipe(zip(`metamask-${target}-${manifest.version}.zip`))
+      .pipe(zip(`affilcoin-${target}-${manifest.version}.zip`))
       .pipe(gulp.dest('builds'))
   }
 }
@@ -570,7 +570,7 @@ function generateBundler (opts, performBundle) {
 
   // Inject variables into bundle
   bundler.transform(envify({
-    METAMASK_DEBUG: opts.devMode,
+    AFFILCOIN_DEBUG: opts.devMode,
     NODE_ENV: opts.devMode ? 'development' : 'production',
     IN_TEST: opts.testing,
     PUBNUB_SUB_KEY: process.env.PUBNUB_SUB_KEY || '',
@@ -637,7 +637,7 @@ function bundleTask (opts) {
       buildStream = buildStream
         .pipe(terser({
           mangle: {
-            reserved: [ 'MetamaskInpageProvider' ],
+            reserved: [ 'AffilcoinInpageProvider' ],
           },
         }))
     }

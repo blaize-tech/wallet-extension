@@ -1,5 +1,5 @@
 const Sentry = require('@sentry/browser')
-const METAMASK_DEBUG = process.env.METAMASK_DEBUG
+const AFFILCOIN_DEBUG = process.env.AFFILCOIN_DEBUG
 const extractEthjsErrorMessage = require('./extractEthjsErrorMessage')
 const SENTRY_DSN_PROD = 'https://3567c198f8a8412082d32655da2961d0@sentry.io/273505'
 const SENTRY_DSN_DEV = 'https://f59f3dd640d2429d9d0e2445a87ea8e1@sentry.io/273496'
@@ -13,7 +13,7 @@ function setupSentry (opts) {
   // detect brave
   const isBrave = Boolean(window.chrome.ipcRenderer)
 
-  if (METAMASK_DEBUG) {
+  if (AFFILCOIN_DEBUG) {
     console.log('Setting up Sentry Remote Error Reporting: SENTRY_DSN_DEV')
     sentryTarget = SENTRY_DSN_DEV
   } else {
@@ -23,7 +23,7 @@ function setupSentry (opts) {
 
   Sentry.init({
     dsn: sentryTarget,
-    debug: METAMASK_DEBUG,
+    debug: AFFILCOIN_DEBUG,
     release,
     beforeSend: (report) => rewriteReport(report),
   })
@@ -78,20 +78,20 @@ function rewriteErrorMessages (report, rewriteFn) {
 
 function rewriteReportUrls (report) {
   // update request url
-  report.request.url = toMetamaskUrl(report.request.url)
+  report.request.url = toAffilcoinUrl(report.request.url)
   // update exception stack trace
   if (report.exception && report.exception.values) {
     report.exception.values.forEach(item => {
       item.stacktrace.frames.forEach(frame => {
-        frame.filename = toMetamaskUrl(frame.filename)
+        frame.filename = toAffilcoinUrl(frame.filename)
       })
     })
   }
 }
 
-function toMetamaskUrl (origUrl) {
+function toAffilcoinUrl (origUrl) {
   const filePath = origUrl.split(location.origin)[1]
   if (!filePath) return origUrl
-  const metamaskUrl = `metamask${filePath}`
-  return metamaskUrl
+  const affilcoinUrl = `affilcoin${filePath}`
+  return affilcoinUrl
 }

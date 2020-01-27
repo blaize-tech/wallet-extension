@@ -4,7 +4,7 @@ const InfuraController = require('../../../../app/scripts/controllers/infura')
 
 describe('infura-controller', function () {
   let infuraController, sandbox, networkStatus
-  const response = {'mainnet': 'degraded', 'ropsten': 'ok', 'kovan': 'ok', 'rinkeby': 'down', 'goerli': 'ok'}
+  const response = {'mainnet': 'degraded', 'testnet': 'ok'}
 
   before(async function () {
     infuraController = new InfuraController()
@@ -29,43 +29,13 @@ describe('infura-controller', function () {
       })
     })
 
-    describe('Ropsten', function () {
-      it('should have Ropsten', function () {
-        assert.equal(Object.keys(networkStatus)[1], 'ropsten')
+    describe('Testnet', function () {
+      it('should have Testnet', function () {
+        assert.equal(Object.keys(networkStatus)[1], 'testnet')
       })
 
-      it('should have a value for Ropsten status', function () {
-        assert.equal(networkStatus.ropsten, 'ok')
-      })
-    })
-
-    describe('Kovan', function () {
-      it('should have Kovan', function () {
-        assert.equal(Object.keys(networkStatus)[2], 'kovan')
-      })
-
-      it('should have a value for Kovan status', function () {
-        assert.equal(networkStatus.kovan, 'ok')
-      })
-    })
-
-    describe('Rinkeby', function () {
-      it('should have Rinkeby', function () {
-        assert.equal(Object.keys(networkStatus)[3], 'rinkeby')
-      })
-
-      it('should have a value for Rinkeby status', function () {
-        assert.equal(networkStatus.rinkeby, 'down')
-      })
-    })
-
-    describe('Goerli', function () {
-      it('should have Goerli', function () {
-        assert.equal(Object.keys(networkStatus)[4], 'goerli')
-      })
-
-      it('should have a value for Goerli status', function () {
-        assert.equal(networkStatus.goerli, 'ok')
+      it('should have a value for Testnet status', function () {
+        assert.equal(networkStatus.testnet, 'ok')
       })
     })
   })

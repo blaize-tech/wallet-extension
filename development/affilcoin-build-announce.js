@@ -28,7 +28,7 @@ async function start () {
   // links to extension builds
   const platforms = ['chrome', 'firefox', 'opera', 'edge']
   const buildLinks = platforms.map(platform => {
-    const url = `${BUILD_LINK_BASE}/builds/metamask-${platform}-${VERSION}.zip`
+    const url = `${BUILD_LINK_BASE}/builds/affilcoin-${platform}-${VERSION}.zip`
     return `<a href="${url}">${platform}</a>`
   }).join(', ')
 
@@ -44,7 +44,7 @@ async function start () {
   const depVizLink = `<a href="${depVizUrl}">background</a>`
 
   // link to artifacts
-  const allArtifactsUrl = `https://circleci.com/gh/MetaMask/metamask-extension/${CIRCLE_BUILD_NUM}#artifacts/containers/0`
+  const allArtifactsUrl = `https://circleci.com/gh/Affilcoin/affilcoin-extension/${CIRCLE_BUILD_NUM}#artifacts/containers/0`
 
   const contentRows = [
     `builds: ${buildLinks}`,
@@ -57,7 +57,7 @@ async function start () {
   const commentBody = `<details><summary>${exposedContent}</summary>${hiddenContent}</details>`
 
   const JSON_PAYLOAD = JSON.stringify({ body: commentBody })
-  const POST_COMMENT_URI = `https://api.github.com/repos/metamask/metamask-extension/issues/${CIRCLE_PR_NUMBER}/comments`
+  const POST_COMMENT_URI = `https://api.github.com/repos/affilcoin/affilcoin-extension/issues/${CIRCLE_PR_NUMBER}/comments`
   console.log(`Announcement:\n${commentBody}`)
   console.log(`Posting to: ${POST_COMMENT_URI}`)
 
@@ -66,7 +66,7 @@ async function start () {
     uri: POST_COMMENT_URI,
     body: JSON_PAYLOAD,
     headers: {
-      'User-Agent': 'metamaskbot',
+      'User-Agent': 'affilcoinbot',
       'Authorization': `token ${GITHUB_COMMENT_TOKEN}`,
     },
   })

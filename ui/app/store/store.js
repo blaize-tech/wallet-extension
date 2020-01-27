@@ -5,10 +5,10 @@ const rootReducer = require('../ducks')
 
 module.exports = function configureStore (initialState) {
   const composeEnhancers = composeWithDevTools({
-    name: 'MetaMask',
+    name: 'Affilcoin',
     hostname: 'localhost',
     port: 8000,
-    realtime: Boolean(process.env.METAMASK_DEBUG),
+    realtime: Boolean(process.env.AFFILCOIN_DEBUG),
   })
   return createStore(rootReducer, initialState, composeEnhancers(
     applyMiddleware(

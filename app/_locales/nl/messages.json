@@ -9,7 +9,7 @@
     "message": "Afwijzen"
   },
   "providerRequestInfo": {
-    "message": "Het onderstaande domein probeert toegang tot de Ethereum API te vragen zodat deze kan communiceren met de Ethereum-blockchain. Controleer altijd eerst of u op de juiste site bent voordat u Ethereum-toegang goedkeurt."
+    "message": "Het onderstaande domein probeert toegang tot de Affilcoin API te vragen zodat deze kan communiceren met de Affilcoin-blockchain. Controleer altijd eerst of u op de juiste site bent voordat u Affilcoin-toegang goedkeurt."
   },
   "accountDetails": {
     "message": "Accountgegevens"
@@ -27,11 +27,11 @@
     "message": "Bedrag"
   },
   "appDescription": {
-    "message": "Ethereum Browser-extensie",
+    "message": "Affilcoin Browser-extensie",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -60,7 +60,7 @@
     "message": "Gebruik Blockies Identicon"
   },
   "builtInCalifornia": {
-    "message": "MetaMask is ontworpen en gebouwd in Californië."
+    "message": "Affilcoin is ontworpen en gebouwd in Californië."
   },
   "buyCoinSwitch": {
     "message": "Koop op CoinSwitch"
@@ -123,19 +123,19 @@
     "message": "Decimalen van precisie"
   },
   "defaultNetwork": {
-    "message": "Het standaardnetwerk voor Ether-transacties is Main Net."
+    "message": "Het standaardnetwerk voor Affilcoin-transacties is Main Net."
   },
   "deposit": {
     "message": "Storting"
   },
   "depositEther": {
-    "message": "Stort Ether"
+    "message": "Stort Affilcoin"
   },
   "directDepositEther": {
-    "message": "Directe Ether storten"
+    "message": "Directe Affilcoin storten"
   },
   "directDepositEtherExplainer": {
-    "message": "Als je al wat Ether hebt, de snelste manier om Ether in je nieuwe portemonnee te krijgen door een directe storting."
+    "message": "Als je al wat Affilcoin hebt, de snelste manier om Affilcoin in je nieuwe portemonnee te krijgen door een directe storting."
   },
   "done": {
     "message": "Gedaan"
@@ -191,11 +191,11 @@
     "message": "We berekenen de voorgestelde gasprijzen op basis van succespercentages van het netwerk."
   },
   "getEther": {
-    "message": "Krijg Ether"
+    "message": "Krijg Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Haal Ether uit een kraan voor de $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Haal Affilcoin uit een kraan voor de $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "greaterThanMin": {
     "message": "moet groter zijn dan of gelijk zijn aan $1.",
@@ -222,7 +222,7 @@
     "message": "Account importeren"
   },
   "importAccountMsg": {
-    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte MetaMask-account. Meer informatie over geïmporteerde accounts"
+    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte Affilcoin-account. Meer informatie over geïmporteerde accounts"
   },
   "imported": {
     "message": "geïmporteerde",
@@ -284,8 +284,8 @@
   "message": {
     "message": "Bericht"
   },
-  "metamaskDescription": {
-    "message": "MetaMask is een veilige identiteitskluis voor Ethereum."
+  "affilcoinDescription": {
+    "message": "Affilcoin is een veilige identiteitskluis voor Affilcoin."
   },
   "myAccounts": {
     "message": "Mijn accounts"
@@ -294,14 +294,14 @@
     "message": "Moet ten minste één token selecteren."
   },
   "needEtherInWallet": {
-    "message": "Om te communiceren met gedecentraliseerde applicaties met MetaMask, heb je Ether nodig in je portemonnee."
+    "message": "Om te communiceren met gedecentraliseerde applicaties met Affilcoin, heb je Affilcoin nodig in je portemonnee."
   },
   "needImportFile": {
     "message": "U moet een bestand selecteren om te importeren.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan geen negatieve hoeveelheden ETH verzenden."
+    "message": "Kan geen negatieve hoeveelheden AC verzenden."
   },
   "networks": {
     "message": "netwerken"
@@ -383,8 +383,8 @@
   "rinkeby": {
     "message": "Rinkeby testnetwerk"
   },
-  "ropsten": {
-    "message": "Ropsten testnetwerk"
+  "testnet": {
+    "message": "Testnet testnetwerk"
   },
   "save": {
     "message": "Opslaan"
@@ -408,7 +408,7 @@
     "message": "Sturen"
   },
   "sendETH": {
-    "message": "Verzend ETH"
+    "message": "Verzend AC"
   },
   "sendTokens": {
     "message": "Stuur tokens"
@@ -456,7 +456,7 @@
     "message": "Naar"
   },
   "toETHviaShapeShift": {
-    "message": "$1 tot ETH via ShapeShift",
+    "message": "$1 tot AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {
@@ -494,7 +494,7 @@
     "message": "Bezoek onze website"
   },
   "welcome": {
-    "message": "Welkom bij MetaMask"
+    "message": "Welkom bij Affilcoin"
   },
   "yourSigRequested": {
     "message": "Uw handtekening wordt aangevraagd"

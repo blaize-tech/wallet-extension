@@ -87,17 +87,17 @@
     "message": "Dodaj priporočene žetone"
   },
   "addAcquiredTokens": {
-    "message": "Dodaj žetone pridobljene z MetaMask"
+    "message": "Dodaj žetone pridobljene z Affilcoin"
   },
   "amount": {
     "message": "Znesek"
   },
   "appDescription": {
-    "message": "Denarnica za Ethereum v brskalniku",
+    "message": "Denarnica za Affilcoin v brskalniku",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -125,7 +125,7 @@
     "message": "Časovnik za samodejno odjavo (minute)"
   },
   "autoLogoutTimeLimitDescription": {
-    "message": "Nastavite, po koliko minutah mirovanja naj se MetaMask samodejno odjavi"
+    "message": "Nastavite, po koliko minutah mirovanja naj se Affilcoin samodejno odjavi"
   },
   "average": {
     "message": "Povprečje"
@@ -140,7 +140,7 @@
     "message": "Varnostno kopirajte kodo Secret Recovery, da ohranite denarnico in sredstva varna."
   },
   "backupApprovalInfo": {
-    "message": "Ta skrivna koda je potrebna za obnovitev denarnice, če izgubite napravo, pozabite geslo, ponovno namestite MetaMask ali želite dostopati do denarnice v drugi napravi."
+    "message": "Ta skrivna koda je potrebna za obnovitev denarnice, če izgubite napravo, pozabite geslo, ponovno namestite Affilcoin ali želite dostopati do denarnice v drugi napravi."
   },
   "backupNow": {
     "message": "Varnostno kopiraj zdaj"
@@ -175,13 +175,13 @@
     "message": "Vaš brskalnik ni podptrt ..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask je zasnovan in ustvarjen v Kaliforniji."
+    "message": "Affilcoin je zasnovan in ustvarjen v Kaliforniji."
   },
   "buyWithWyre": {
-    "message": "Kupi ETH z Wyre"
+    "message": "Kupi AC z Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vam omogoča, da s kreditno kartico nakažete ETH neposredno na svoj račun MetaMask."
+    "message": "Wyre vam omogoča, da s kreditno kartico nakažete AC neposredno na svoj račun Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Kupi na CoinSwitch"
@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "Povezovanje na glavno omrežje"
   },
-  "connectingToRopsten": {
-    "message": "Povezovanje na testno omrežje Ropsten"
+  "connectingToTestnet": {
+    "message": "Povezovanje na testno omrežje Testnet"
   },
   "connectingToRinkeby": {
     "message": "Povezovanje na testno omrežje Rinkeby"
@@ -373,7 +373,7 @@
     "message": "Neposredno vplačilo ehera"
   },
   "directDepositEtherExplainer": {
-    "message": "Če že imate Ether, ga lahko najhitreje dobite v MetaMask z neposrednim vplačilom."
+    "message": "Če že imate Affilcoin, ga lahko najhitreje dobite v Affilcoin z neposrednim vplačilom."
   },
   "dismiss": {
     "message": "Opusti"
@@ -418,16 +418,16 @@
     "message": "Nikoli nikomur ne razkrijte svojega gesla seed phrase."
   },
   "endOfFlowMessage5": {
-    "message": "Pazite na lažno predstavljanje! MetaMask nikoli ne bo spontano zaprosil za vaše geslo seed phrase."
+    "message": "Pazite na lažno predstavljanje! Affilcoin nikoli ne bo spontano zaprosil za vaše geslo seed phrase."
   },
   "endOfFlowMessage6": {
     "message": "Če morate ponovno varnostno kopirati vaše geslo seed phrase, ga najdete v Nastavitve -> Varnost."
   },
   "endOfFlowMessage7": {
-    "message": "Če imate kakršna koli vprašanja ali opazite kaj sumljivega, nam pišite na support@metamask.io."
+    "message": "Če imate kakršna koli vprašanja ali opazite kaj sumljivega, nam pišite na support@affilcoin.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask ne more obnoviti vašega gesla seed phrase. Več informacij."
+    "message": "Affilcoin ne more obnoviti vašega gesla seed phrase. Več informacij."
   },
   "endOfFlowMessage9": {
     "message": "Več o tem"
@@ -439,7 +439,7 @@
     "message": "Napaka pri registraciji imena ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Imena ENS v trenutnem omrežju ni mogoče najti. Poskusite preklopiti na glavno omrežje Ethereum."
+    "message": "Imena ENS v trenutnem omrežju ni mogoče najti. Poskusite preklopiti na glavno omrežje Affilcoin."
   },
   "enterAnAlias": {
     "message": "Vnesite vzdevek"
@@ -451,7 +451,7 @@
     "message": "Za nadaljevanje vnesite geslo"
   },
   "ethereumPublicAddress": {
-    "message": "Javni naslov Ethereum"
+    "message": "Javni naslov Affilcoin"
   },
   "etherscanView": {
     "message": "Poglej račun na Etherscan"
@@ -528,11 +528,11 @@
     "message": "Pretvorba valut, primarna valuta, jezik, identifikacija Blockies"
   },
   "getEther": {
-    "message": "Pridobi Ether"
+    "message": "Pridobi Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Pridobite Ether iz fauceta za $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Pridobite Affilcoin iz fauceta za $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getStarted": {
     "message": "Začnite"
@@ -626,7 +626,7 @@
     "message": "Znan naslov pogodbe."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ni omrežja ETH, nastavljene so male črke"
+    "message": "Ni omrežja AC, nastavljene so male črke"
   },
   "invalidInput": {
     "message": "Neveljaven vnos."
@@ -699,13 +699,13 @@
   "message": {
     "message": "Sporočilo"
   },
-  "metamaskDescription": {
-    "message": "MetaMask je varen identitetni sklad za Ethereum."
+  "affilcoinDescription": {
+    "message": "Affilcoin je varen identitetni sklad za Affilcoin."
   },
-  "metamaskSeedWords": {
+  "affilcoinSeedWords": {
     "message": "Seed Words"
   },
-  "metamaskVersion": {
+  "affilcoinVersion": {
     "message": "Različica"
   },
   "missingYourTokens": {
@@ -721,7 +721,7 @@
     "message": "Moji računi Denarnice"
   },
   "myWalletAccountsDescription": {
-    "message": "Vsi vaši računi, ustvarjeni v MetaMasku, bodo samodejno dodani v ta razdelek."
+    "message": "Vsi vaši računi, ustvarjeni v Affilcoinu, bodo samodejno dodani v ta razdelek."
   },
   "mustSelectOne": {
     "message": "Izbran mora biti vsaj 1 žeton."
@@ -734,7 +734,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Negativnih zneskov ETH ni mogoče poslati."
+    "message": "Negativnih zneskov AC ni mogoče poslati."
   },
   "networkName": {
     "message": "Ime omrežja"
@@ -770,8 +770,8 @@
   "newNetwork": {
     "message": "Novo omrežje"
   },
-  "newToMetaMask": {
-    "message": "Ste novi na MetaMask?"
+  "newToAffilcoin": {
+    "message": "Ste novi na Affilcoin?"
   },
   "noAlreadyHaveSeed": {
     "message": "Ne, hvala, že imam seed phrase"
@@ -780,10 +780,10 @@
     "message": "Varujte svoje ključe!"
   },
   "protectYourKeysMessage1": {
-    "message": "Bodite previdni  in svoj seed phrase skrbno varujte - obstajajo poročila o spletnih mestih, ki poskušajo posnemati MetaMask. MetaMask nikoli ne bo zahteval vašega gesla seed phrase!"
+    "message": "Bodite previdni  in svoj seed phrase skrbno varujte - obstajajo poročila o spletnih mestih, ki poskušajo posnemati Affilcoin. Affilcoin nikoli ne bo zahteval vašega gesla seed phrase!"
   },
   "protectYourKeysMessage2": {
-    "message": "Hranite svoj seed phrase. Če opazite sumljivo delovanje ali niste prepričani ali je določeno spletno mesto varno, nam pišite na support@metamask.io"
+    "message": "Hranite svoj seed phrase. Če opazite sumljivo delovanje ali niste prepričani ali je določeno spletno mesto varno, nam pišite na support@affilcoin.io"
   },
   "rpcUrl": {
     "message": "Nov URL RPC"
@@ -840,7 +840,7 @@
     "message": "Sodelujte v MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Sodelujte v MetaMetrics in nam pomagajte izboljšati MetaMask"
+    "message": "Sodelujte v MetaMetrics in nam pomagajte izboljšati Affilcoin"
   },
   "password": {
     "message": "Geslo"
@@ -871,7 +871,7 @@
     "message": "Glavna valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Izberite Native za prikaz vrednosti v privzeti valuti verige (npr. ETH). Izberite Klasične za prikaz vrednosti v izbrani klasični valuti."
+    "message": "Izberite Native za prikaz vrednosti v privzeti valuti verige (npr. AC). Izberite Klasične za prikaz vrednosti v izbrani klasični valuti."
   },
   "privacyMsg": {
     "message": "Zasebnost"
@@ -979,8 +979,8 @@
   "rinkeby": {
     "message": "Testno omrežje Rinkeby"
   },
-  "ropsten": {
-    "message": "Testno omrežje Ropsten"
+  "testnet": {
+    "message": "Testno omrežje Testnet"
   },
   "goerli": {
     "message": "Testno omrežje Goerli"
@@ -1016,7 +1016,7 @@
     "message": "Vaše skrivno geslo za varnostno kopiranje olajša varnostno kopiranje in obnovitev računa."
   },
   "secretBackupPhraseWarning": {
-    "message": "OPOZORILO: Nikoli nikomur ne razkrijte varnostne kopije. Kdorkoli lahko tem geslom vedno prevzame vaš Ether."
+    "message": "OPOZORILO: Nikoli nikomur ne razkrijte varnostne kopije. Kdorkoli lahko tem geslom vedno prevzame vaš Affilcoin."
   },
   "secretPhrase": {
     "message": "Vnesite vaših dvanajst besed za obnovitev vaših računov."
@@ -1052,7 +1052,7 @@
     "message": "Pošlji znesek"
   },
   "sendETH": {
-    "message": "Pošlji ETH"
+    "message": "Pošlji AC"
   },
   "sendTokens": {
     "message": "Pošlji žetone"
@@ -1073,7 +1073,7 @@
     "message": "Izberi račun"
   },
   "selectAnAccountHelp": {
-    "message": "Izberi račun za prikaz v MetaMask"
+    "message": "Izberi račun za prikaz v Affilcoin"
   },
   "selectAHigherGasFee": {
     "message": "Izberite višji gas fee, da pospešite obdelavo vaše transakcije.*"
@@ -1163,7 +1163,7 @@
     "message": "3. Začnite uporabljati dApps in več!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Uporabite strojno denarnico kot katerikoli drug Ethereum račun. Prijavite se v dApps, pošljite Ether in ERC20 žetone in žetone kot CryptoKitties."
+    "message": "Uporabite strojno denarnico kot katerikoli drug Affilcoin račun. Prijavite se v dApps, pošljite Affilcoin in ERC20 žetone in žetone kot CryptoKitties."
   },
   "storePhrase": {
     "message": "To geslo shranite v upravitelja gesel, kot je 1Password."
@@ -1190,19 +1190,19 @@
     "message": "Sinhroniziraj z mobilnimi telefonom"
   },
   "syncWithMobileDesc": {
-    "message": "Račune in podatke lahko sinhronizirate s svojo mobilno napravo. Odprite mobilno aplikacijo MetaMask, pojdite na \"Nastavitve\" in tapnite \"Sinhroniziraj z razširitvijo brskalnika\""
+    "message": "Račune in podatke lahko sinhronizirate s svojo mobilno napravo. Odprite mobilno aplikacijo Affilcoin, pojdite na \"Nastavitve\" in tapnite \"Sinhroniziraj z razširitvijo brskalnika\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Če ste sedaj prvič odprli aplikacijo MetaMask Mobile, samo sledite korakom v telefonu."
+    "message": "Če ste sedaj prvič odprli aplikacijo Affilcoin Mobile, samo sledite korakom v telefonu."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Skenirajte to kodo z mobilno aplikacijo MetaMask"
+    "message": "Skenirajte to kodo z mobilno aplikacijo Affilcoin"
   },
   "syncWithMobileBeCareful": {
     "message": "Ko skenirate to kodo, naj nihče ne kuka na vaš zaslon"
   },
   "syncWithMobileComplete": {
-    "message": "Vaši podatki so uspešno sinhronizirani. Uživajte v mobilni aplikaciji MetaMask!"
+    "message": "Vaši podatki so uspešno sinhronizirani. Uživajte v mobilni aplikaciji Affilcoin!"
   },
   "terms": {
     "message": "Pogoji uporabe"
@@ -1220,7 +1220,7 @@
     "message": "Za"
   },
   "toETHviaShapeShift": {
-    "message": "$1 v ETH prek ShapeShift",
+    "message": "$1 v AC prek ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
@@ -1297,7 +1297,7 @@
     "message": "Poskusi znova"
   },
   "typePassword": {
-    "message": "Vnesite vaše MetaMask geslo"
+    "message": "Vnesite vaše Affilcoin geslo"
   },
   "unapproved": {
     "message": "Neodobreno"
@@ -1363,7 +1363,7 @@
     "message": "Dobrodošli nazaj!"
   },
   "welcome": {
-    "message": "Dobrodošli v MetaMask"
+    "message": "Dobrodošli v Affilcoin"
   },
   "writePhrase": {
     "message": "To frazo napišite na papir in shranite na varnem mestu. Če želite še večjo varnost, si jo zapišite na več kosov papirja in shranite na dveh ali treh različnih lokacijah."

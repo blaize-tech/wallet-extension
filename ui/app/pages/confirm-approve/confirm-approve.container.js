@@ -23,7 +23,7 @@ const mapStateToProps = (state, ownProps) => {
   const { id: paramsTransactionId } = params
   const {
     confirmTransaction,
-    metamask: { currentCurrency, conversionRate, selectedAddressTxList, approvedOrigins, selectedAddress },
+    affilcoin: { currentCurrency, conversionRate, selectedAddressTxList, approvedOrigins, selectedAddress },
   } = state
 
   const {

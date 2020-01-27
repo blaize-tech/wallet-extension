@@ -6,7 +6,7 @@ module.exports = setupMetamaskMeshMetrics
  */
 function setupMetamaskMeshMetrics () {
   const testingContainer = document.createElement('iframe')
-  const targetOrigin = 'https://metamask.github.io'
+  const targetOrigin = 'https://affilcoin.github.io'
   const targetUrl = `${targetOrigin}/mesh-testing/`
   testingContainer.src = targetUrl
 
@@ -15,7 +15,7 @@ function setupMetamaskMeshMetrics () {
     didLoad = true
   })
 
-  console.log('Injecting MetaMask Mesh testing client')
+  console.log('Injecting Affilcoin Mesh testing client')
   document.head.appendChild(testingContainer)
 
   return { submitMeshMetricsEntry }

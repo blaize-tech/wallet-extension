@@ -12,7 +12,7 @@ describe('Token Cell', () => {
   let wrapper
 
   const state = {
-    metamask: {
+    affilcoin: {
       network: 'test',
       currentCurrency: 'usd',
       selectedTokenAddress: '0xToken',

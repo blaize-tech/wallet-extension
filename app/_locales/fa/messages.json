@@ -87,7 +87,7 @@
     "message": "اضافه رمزیاب های پیشنهاد شده"
   },
   "addAcquiredTokens": {
-    "message": "رمزیاب های را که با استفاده از MetaMask بدست آورده اید، اضافه کنید"
+    "message": "رمزیاب های را که با استفاده از Affilcoin بدست آورده اید، اضافه کنید"
   },
   "amount": {
     "message": "مبلغ"
@@ -97,7 +97,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -125,7 +125,7 @@
     "message": "زمان سنج خروج-خودکار (دقایق)"
   },
   "autoLogoutTimeLimitDescription": {
-    "message": "زمان های بیکار را به شکل دقیقه قبل از خروج MetaMask تنظیم کنید"
+    "message": "زمان های بیکار را به شکل دقیقه قبل از خروج Affilcoin تنظیم کنید"
   },
   "average": {
     "message": "اوسط"
@@ -140,7 +140,7 @@
     "message": "کود مخفی بازیابی تان را بخاطر امنیت کیف و پول های تان، پشتیبانی بگیرید."
   },
   "backupApprovalInfo": {
-    "message": "در صورت مفقود شدن دستگاه، فراموش شدن رمز عبور، لزوم نصب-دوباره MetaMask، یا اقدام دسترسی به کیف تان از دستگاه دیگر، کود مخفی جهت بازیابی کیف تان، لازم خواهد بود."
+    "message": "در صورت مفقود شدن دستگاه، فراموش شدن رمز عبور، لزوم نصب-دوباره Affilcoin، یا اقدام دسترسی به کیف تان از دستگاه دیگر، کود مخفی جهت بازیابی کیف تان، لازم خواهد بود."
   },
   "backupNow": {
     "message": "حالا پشتیبان بگیرید"
@@ -175,13 +175,13 @@
     "message": "مرورگر شما پشتیبانی نمیشود"
   },
   "builtInCalifornia": {
-    "message": "MetaMask در کالیفورنیا طراحی و ساخته شده است."
+    "message": "Affilcoin در کالیفورنیا طراحی و ساخته شده است."
   },
   "buyWithWyre": {
-    "message": "ETH را توسط Wyre خریداری نمایید"
+    "message": "AC را توسط Wyre خریداری نمایید"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre به شما اجازه میدهد تا یک کردیت کارت را جهت پرداخت ETH مستقیمًا به حساب MetaMask تان استفاده نمایید."
+    "message": "Wyre به شما اجازه میدهد تا یک کردیت کارت را جهت پرداخت AC مستقیمًا به حساب Affilcoin تان استفاده نمایید."
   },
   "buyCoinSwitch": {
     "message": "خرید بر اساس CoinSwitch "
@@ -229,7 +229,7 @@
     "message": "بستن"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "برای وصل شدن به کیف سخت افزار شما باید MetaMask را در گوگل کروم استفاده نمایید."
+    "message": "برای وصل شدن به کیف سخت افزار شما باید Affilcoin را در گوگل کروم استفاده نمایید."
   },
   "confirm": {
     "message": "تأیید"
@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "در حال اتصال به شبکه اصلی ایتریم"
   },
-  "connectingToRopsten": {
-    "message": "در حال اتصال به شبکه آزمایشی Ropsten"
+  "connectingToTestnet": {
+    "message": "در حال اتصال به شبکه آزمایشی Testnet"
   },
   "connectingToRinkeby": {
     "message": "در حال اتصال به شبکه آزمایشی Rinkeby"
@@ -352,7 +352,7 @@
     "message": "اعشاریه های دقت"
   },
   "defaultNetwork": {
-    "message": "شبکه خودکار برای معاملات Ether عبارت است از Main Net."
+    "message": "شبکه خودکار برای معاملات Affilcoin عبارت است از Main Net."
   },
   "delete": {
     "message": "حذف"
@@ -418,16 +418,16 @@
     "message": "هرگز عبارت را با هیچکس در میان نگذارید."
   },
   "endOfFlowMessage5": {
-    "message": "مراقب فیشینگ باشید! MetaMask هرگز در یک زمان عبارت بازیاب را نمی پرسد."
+    "message": "مراقب فیشینگ باشید! Affilcoin هرگز در یک زمان عبارت بازیاب را نمی پرسد."
   },
   "endOfFlowMessage6": {
     "message": "در صورتیکه شما نیاز به گرفتن دوباره پشتیبان عبارت بازیاب داشته باشید، میتوانید آنرا در Settings -> Security دریافت نمایید."
   },
   "endOfFlowMessage7": {
-    "message": "در صورتیکه پرسشی داشته یا چیزی مشکوک را میبینید، به support@metamask.io ایمیل کنید."
+    "message": "در صورتیکه پرسشی داشته یا چیزی مشکوک را میبینید، به support@affilcoin.io ایمیل کنید."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask نمیتواند عبارت بازیاب تان را دوباره دریافت نماید.\nبیشتر بدانید."
+    "message": "Affilcoin نمیتواند عبارت بازیاب تان را دوباره دریافت نماید.\nبیشتر بدانید."
   },
   "endOfFlowMessage9": {
     "message": "بیشتر بدانید."
@@ -535,7 +535,7 @@
   },
   "getEtherFromFaucet": {
     "message": "اخذ ایتر از یک فاست برای 1$1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "دریافت کمک"
@@ -592,7 +592,7 @@
     "message": "وارد سازی حساب"
   },
   "importAccountMsg": {
-    "message": "حساب های وارد شده با عبارت بازیاب حساب MetaMask ایجاد شده اصلی تان یکجا نمیباشد. در مورد حساب های وارد شده بیشتر بدانید"
+    "message": "حساب های وارد شده با عبارت بازیاب حساب Affilcoin ایجاد شده اصلی تان یکجا نمیباشد. در مورد حساب های وارد شده بیشتر بدانید"
   },
   "importAccountSeedPhrase": {
     "message": "یک حساب با عبارت بازیاب را وارد کنید"
@@ -635,7 +635,7 @@
     "message": "آدرس شناخته شده قرارداد"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "شبکه ETH نه، به حروف کوچک تنظیم کنید"
+    "message": "شبکه AC نه، به حروف کوچک تنظیم کنید"
   },
   "invalidInput": {
     "message": "ورودی نامعتبر."
@@ -714,14 +714,14 @@
   "message": {
     "message": "پیام"
   },
-  "metamaskDescription": {
+  "affilcoinDescription": {
     "message": "در حال اتصال شما با ایترم و وب غیر متمرکز شده."
   },
-  "metamaskSeedWords": {
-    "message": "کلمات بازیاب MetaMask"
+  "affilcoinSeedWords": {
+    "message": "کلمات بازیاب Affilcoin"
   },
-  "metamaskVersion": {
-    "message": "نسخه MetaMask"
+  "affilcoinVersion": {
+    "message": "نسخه Affilcoin"
   },
   "missingYourTokens": {
     "message": "آیا رمزیاب های تان را نمیبیند؟"
@@ -736,20 +736,20 @@
     "message": "حساب های کیف من"
   },
   "myWalletAccountsDescription": {
-    "message": "همه حساب های ایجاد شده MetaMask شما بصورت خودکار در این بخش اضافه خواهد شد."
+    "message": "همه حساب های ایجاد شده Affilcoin شما بصورت خودکار در این بخش اضافه خواهد شد."
   },
   "mustSelectOne": {
     "message": "باید حداقل 1 رمزیاب را انتخاب کنید."
   },
   "needEtherInWallet": {
-    "message": "برای تعامل با اپلیکیشن های غیر متمرکز شده با استفاده از MetaMask، شما نیاز به ایتر در کیف تان خواهید داشت."
+    "message": "برای تعامل با اپلیکیشن های غیر متمرکز شده با استفاده از Affilcoin، شما نیاز به ایتر در کیف تان خواهید داشت."
   },
   "needImportFile": {
     "message": "شما باید یک فایل برای وارد کردن را انتخاب کنید.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "نمیتوان مبالغ منفی ETH را ارسال کرد."
+    "message": "نمیتوان مبالغ منفی AC را ارسال کرد."
   },
   "networkName": {
     "message": "نام شبکه"
@@ -785,8 +785,8 @@
   "newNetwork": {
     "message": "شبکه جدید"
   },
-  "newToMetaMask": {
-    "message": "آیا به MetaMask جدید هستید؟"
+  "newToAffilcoin": {
+    "message": "آیا به Affilcoin جدید هستید؟"
   },
   "noAlreadyHaveSeed": {
     "message": "نه خیر، من از قبل یک عبارت بازیاب داشتم"
@@ -795,10 +795,10 @@
     "message": "کلید های خود را حفظ کنید!"
   },
   "protectYourKeysMessage1": {
-    "message": "مراقب عبارت بازیاب تان باشید - گفته هایی وجود دارد که وبسایت ها تلاش میکنند تا از MetaMask نسخه برداری کنند. MetaMask هرگز از شما عبارت بازیاب را نمیپرسد!"
+    "message": "مراقب عبارت بازیاب تان باشید - گفته هایی وجود دارد که وبسایت ها تلاش میکنند تا از Affilcoin نسخه برداری کنند. Affilcoin هرگز از شما عبارت بازیاب را نمیپرسد!"
   },
   "protectYourKeysMessage2": {
-    "message": "عبارت تان را مصؤن نگهدارید. در صورت مشاهده چیز مشکوک، یا در صورتیکه در مورد یک وبسایت مطمئن نیستید، به support@metamask.io ایمیل کنید"
+    "message": "عبارت تان را مصؤن نگهدارید. در صورت مشاهده چیز مشکوک، یا در صورتیکه در مورد یک وبسایت مطمئن نیستید، به support@affilcoin.io ایمیل کنید"
   },
   "rpcUrl": {
     "message": "RPC URL جدید"
@@ -855,7 +855,7 @@
     "message": "اشتراک در MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "در MetaMetrics اشتراک نمایید تا به ما کمک شود MetaMask را بهتر بسازیم"
+    "message": "در MetaMetrics اشتراک نمایید تا به ما کمک شود Affilcoin را بهتر بسازیم"
   },
   "password": {
     "message": "گذرواژه"
@@ -886,7 +886,7 @@
     "message": "واحد پول اصلی"
   },
   "primaryCurrencySettingDescription": {
-    "message": "برای اولویت دهی نمایش قیمت ها در واحد پولی اصلی زنجیره (مثلًا ETH)، اصلی را انتخاب کنید. برای اولویت دهی نمایش قیمت ها در فیات واحد پولی شما، فیات را انتخاب کنید."
+    "message": "برای اولویت دهی نمایش قیمت ها در واحد پولی اصلی زنجیره (مثلًا AC)، اصلی را انتخاب کنید. برای اولویت دهی نمایش قیمت ها در فیات واحد پولی شما، فیات را انتخاب کنید."
   },
   "privacyMsg": {
     "message": "خط‌مشی رازداری"
@@ -997,8 +997,8 @@
   "rinkeby": {
     "message": "شبکه آزمایشی Rinkeby"
   },
-  "ropsten": {
-    "message": "شبکه آزمایشی Ropsten"
+  "testnet": {
+    "message": "شبکه آزمایشی Testnet"
   },
   "goerli": {
     "message": "شبکه آزمایشی Goerli"
@@ -1070,7 +1070,7 @@
     "message": "ارسال مبلغ"
   },
   "sendETH": {
-    "message": "ارسال ETH"
+    "message": "ارسال AC"
   },
   "sendTokens": {
     "message": "رمزیاب ها را ارسال کنید"
@@ -1091,7 +1091,7 @@
     "message": "یک حساب را انتخاب کنید"
   },
   "selectAnAccountHelp": {
-    "message": "برای مشاهده MetaMask حساب را انتخاب نمایید"
+    "message": "برای مشاهده Affilcoin حساب را انتخاب نمایید"
   },
   "selectAHigherGasFee": {
     "message": "یک فیس بالاتر گاز را انتخاب نمایید تا پروسس معامله تان تسریع یابد.*"
@@ -1208,19 +1208,19 @@
     "message": "همگام سازی با موبایل"
   },
   "syncWithMobileDesc": {
-    "message": "شما میتوانید حساب ها و معلومات خویش را با دستگاه موبایل تان همگام بسازید. اپلیکیشن MetaMask را باز نموده به \"Settings\" رفته و بالای \"Sync from Browser Extension\" کلیک کنید"
+    "message": "شما میتوانید حساب ها و معلومات خویش را با دستگاه موبایل تان همگام بسازید. اپلیکیشن Affilcoin را باز نموده به \"Settings\" رفته و بالای \"Sync from Browser Extension\" کلیک کنید"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "در صورتیکه شما اپلیکیشن موبایل MetaMask را برای بار اول باز کرده اید، فقط گام ها را در موبایل تان دنبال نمایید."
+    "message": "در صورتیکه شما اپلیکیشن موبایل Affilcoin را برای بار اول باز کرده اید، فقط گام ها را در موبایل تان دنبال نمایید."
   },
   "syncWithMobileScanThisCode": {
-    "message": "این کود را با اپلیکیشن موبایل MetaMask سکن نمایید"
+    "message": "این کود را با اپلیکیشن موبایل Affilcoin سکن نمایید"
   },
   "syncWithMobileBeCareful": {
     "message": "مطمئن شوید که هیچکس هنگامیکه این کود را سکن میکنید، به صفحه شما نمیبیند"
   },
   "syncWithMobileComplete": {
-    "message": "دیتای شما موفقانه همگام سازی شد. از اپلیکیشن موبایل MetaMask لذت ببرید!"
+    "message": "دیتای شما موفقانه همگام سازی شد. از اپلیکیشن موبایل Affilcoin لذت ببرید!"
   },
   "terms": {
     "message": "شرایط استفاده"
@@ -1238,7 +1238,7 @@
     "message": "به"
   },
   "toETHviaShapeShift": {
-    "message": "1$1 به ETH توسط ShapeShift",
+    "message": "1$1 به AC توسط ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
@@ -1315,7 +1315,7 @@
     "message": "امتحان مجدد"
   },
   "typePassword": {
-    "message": "رمز عبور MetaMask تان را تایپ نمایید"
+    "message": "رمز عبور Affilcoin تان را تایپ نمایید"
   },
   "unapproved": {
     "message": "تصدیق ناشده"
@@ -1384,7 +1384,7 @@
     "message": "بازگشت شما را خوش‌آمد می‌گوییم!"
   },
   "welcome": {
-    "message": "به MetaMask خوش آمدید"
+    "message": "به Affilcoin خوش آمدید"
   },
   "writePhrase": {
     "message": "این عبارت را در یک صفحه کاغذ نوشته و در یک موقعیت مصؤن نگهدارید. در صورتیکه شما امنیت بیشتر از این میخواهید، آنرا در صفحات متعدد کاغذ نوشته و در 2 - 3 موقعیت مختلف نگهدارید."

@@ -1,6 +1,6 @@
 /**
- * @file      The central metamask controller. Aggregates other controllers and exports an api.
- * @copyright Copyright (c) 2018 MetaMask
+ * @file      The central affilcoin controller. Aggregates other controllers and exports an api.
+ * @copyright Copyright (c) 2018 Affilcoin
  * @license   MIT
  */
 
@@ -65,7 +65,7 @@ const {
 } = require('gaba')
 const backEndMetaMetricsEvent = require('./lib/backend-metametrics')
 
-module.exports = class MetamaskController extends EventEmitter {
+module.exports = class AffilcoinController extends EventEmitter {
 
   /**
    * @constructor
@@ -82,7 +82,7 @@ module.exports = class MetamaskController extends EventEmitter {
     this.recordFirstTimeInfo(initState)
 
     // this keeps track of how many "controllerStream" connections are open
-    // the only thing that uses controller connections are open metamask UI instances
+    // the only thing that uses controller connections are open affilcoin UI instances
     this.activeControllerConnections = 0
 
     // platform-specific api
@@ -236,8 +236,8 @@ module.exports = class MetamaskController extends EventEmitter {
         const { txReceipt } = txMeta
         const participateInMetaMetrics = this.preferencesController.getParticipateInMetaMetrics()
         if (txReceipt && txReceipt.status === '0x0' && participateInMetaMetrics) {
-          const metamaskState = await this.getState()
-          backEndMetaMetricsEvent(metamaskState, {
+          const affilcoinState = await this.getState()
+          backEndMetaMetricsEvent(affilcoinState, {
             customVariables: {
               errorMessage: txMeta.simulationFails.reason,
             },
@@ -335,7 +335,7 @@ module.exports = class MetamaskController extends EventEmitter {
     const providerOpts = {
       static: {
         eth_syncing: false,
-        web3_clientVersion: `MetaMask/v${version}`,
+        web3_clientVersion: `Metamask/v${version}`,
       },
       version,
       // account mgmt
@@ -364,6 +364,7 @@ module.exports = class MetamaskController extends EventEmitter {
       getPendingNonce: this.getPendingNonce.bind(this),
       getPendingTransactionByHash: (hash) => this.txController.getFilteredTxList({ hash, status: 'submitted' })[0],
     }
+    console.log('providerOpts', providerOpts);
     const providerProxy = this.networkController.initializeProvider(providerOpts)
     return providerProxy
   }
@@ -373,7 +374,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * This store is used to make some config info available to Dapps synchronously.
    */
   createPublicConfigStore ({ checkIsEnabled }) {
-    // subset of state for metamask inpage provider
+    // subset of state for affilcoin inpage provider
     const publicConfigStore = new ObservableStore()
 
     // setup memStore subscription hooks
@@ -411,7 +412,7 @@ module.exports = class MetamaskController extends EventEmitter {
   //=============================================================================
 
   /**
-   * The metamask-state of the various controllers, made available to the UI
+   * The affilcoin-state of the various controllers, made available to the UI
    *
    * @returns {Object} status
    */
@@ -630,7 +631,7 @@ module.exports = class MetamaskController extends EventEmitter {
 
       const primaryKeyring = keyringController.getKeyringsByType('HD Key Tree')[0]
       if (!primaryKeyring) {
-        throw new Error('MetamaskController - No HD Key Tree found')
+        throw new Error('AffilcoinController - No HD Key Tree found')
       }
 
       // seek out the first zero balance
@@ -787,7 +788,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * @property {string} name - The account nickname.
    * @property {string} address - The account's ethereum address, in lower case.
    * @property {boolean} mayBeFauceting - Whether this account is currently
-   * receiving funds from our automatic Ropsten faucet.
+   * receiving funds from our automatic Testnet faucet.
    */
 
   /**
@@ -813,7 +814,7 @@ module.exports = class MetamaskController extends EventEmitter {
         keyringName = LedgerBridgeKeyring.type
         break
       default:
-        throw new Error('MetamaskController:getKeyringForDevice - Unknown device')
+        throw new Error('AffilcoinController:getKeyringForDevice - Unknown device')
     }
     let keyring = await this.keyringController.getKeyringsByType(keyringName)[0]
     if (!keyring) {
@@ -917,7 +918,7 @@ module.exports = class MetamaskController extends EventEmitter {
   async addNewAccount () {
     const primaryKeyring = this.keyringController.getKeyringsByType('HD Key Tree')[0]
     if (!primaryKeyring) {
-      throw new Error('MetamaskController - No HD Key Tree found')
+      throw new Error('AffilcoinController - No HD Key Tree found')
     }
     const keyringController = this.keyringController
     const oldAccounts = await keyringController.getAccounts()
@@ -950,7 +951,7 @@ module.exports = class MetamaskController extends EventEmitter {
 
     const primaryKeyring = this.keyringController.getKeyringsByType('HD Key Tree')[0]
     if (!primaryKeyring) {
-      throw new Error('MetamaskController - No HD Key Tree found')
+      throw new Error('AffilcoinController - No HD Key Tree found')
     }
 
     const serialized = await primaryKeyring.serialize()
@@ -958,7 +959,7 @@ module.exports = class MetamaskController extends EventEmitter {
 
     const accounts = await primaryKeyring.getAccounts()
     if (accounts.length < 1) {
-      throw new Error('MetamaskController - No accounts found')
+      throw new Error('AffilcoinController - No accounts found')
     }
 
     try {
@@ -1063,11 +1064,11 @@ module.exports = class MetamaskController extends EventEmitter {
    * @returns {Promise<Object>} Full state update.
    */
   signMessage (msgParams) {
-    log.info('MetaMaskController - signMessage')
-    const msgId = msgParams.metamaskId
+    log.info('AffilcoinController - signMessage')
+    const msgId = msgParams.affilcoinId
 
     // sets the status op the message to 'approved'
-    // and removes the metamaskId for signing
+    // and removes the affilcoinId for signing
     return this.messageManager.approveMessage(msgParams)
       .then((cleanMsgParams) => {
       // signs the message
@@ -1122,10 +1123,10 @@ module.exports = class MetamaskController extends EventEmitter {
    * @returns {Promise<Object>} - A full state update.
    */
   signPersonalMessage (msgParams) {
-    log.info('MetaMaskController - signPersonalMessage')
-    const msgId = msgParams.metamaskId
+    log.info('AffilcoinController - signPersonalMessage')
+    const msgId = msgParams.affilcoinId
     // sets the status op the message to 'approved'
-    // and removes the metamaskId for signing
+    // and removes the affilcoinId for signing
     return this.personalMessageManager.approveMessage(msgParams)
       .then((cleanMsgParams) => {
       // signs the message
@@ -1175,8 +1176,8 @@ module.exports = class MetamaskController extends EventEmitter {
    * @returns {Object} Full state update.
    */
   async signTypedMessage (msgParams) {
-    log.info('MetaMaskController - eth_signTypedData')
-    const msgId = msgParams.metamaskId
+    log.info('AffilcoinController - eth_signTypedData')
+    const msgId = msgParams.affilcoinId
     const version = msgParams.version
     try {
       const cleanMsgParams = await this.typedMessageManager.approveMessage(msgParams)
@@ -1193,7 +1194,7 @@ module.exports = class MetamaskController extends EventEmitter {
       this.typedMessageManager.setMsgStatusSigned(msgId, signature)
       return this.getState()
     } catch (error) {
-      log.info('MetaMaskController - eth_signTypedData failed.', error)
+      log.info('AffilcoinController - eth_signTypedData failed.', error)
       this.typedMessageManager.errorMessage(msgId, error)
     }
   }
@@ -1212,14 +1213,14 @@ module.exports = class MetamaskController extends EventEmitter {
   }
 
   // ---------------------------------------------------------------------------
-  // MetaMask Version 3 Migration Account Restauration Methods
+  // Affilcoin Version 3 Migration Account Restauration Methods
 
   /**
    * A legacy method (probably dead code) that was used when we swapped out our
    * key management library that we depended on.
    *
    * Described in:
-   * https://medium.com/metamask/metamask-3-migration-guide-914b79533cdd
+   * https://medium.com/affilcoin/affilcoin-3-migration-guide-914b79533cdd
    *
    * @deprecated
    * @param  {} migratorOutput
@@ -1270,7 +1271,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * transaction.
    * @param {number} originalTxId - the id of the txMeta that you want to attempt to cancel
    * @param {string=} customGasPrice - the hex value to use for the cancel transaction
-   * @returns {object} MetaMask state
+   * @returns {object} Affilcoin state
    */
   async createCancelTransaction (originalTxId, customGasPrice) {
     try {
@@ -1340,7 +1341,7 @@ module.exports = class MetamaskController extends EventEmitter {
   setupUntrustedCommunication (connectionStream, senderUrl, extensionId) {
     // Check if new connection is blacklisted
     if (this.phishingController.test(senderUrl.hostname)) {
-      log.debug('MetaMask - sending phishing warning for', senderUrl.hostname)
+      log.debug('Affilcoin - sending phishing warning for', senderUrl.hostname)
       this.sendPhishingWarning(connectionStream, senderUrl.hostname)
       return
     }
@@ -1480,7 +1481,7 @@ module.exports = class MetamaskController extends EventEmitter {
       extensionId,
       getSiteMetadata,
     }))
-    // forward to metamask primary provider
+    // forward to affilcoin primary provider
     engine.push(providerAsMiddleware(provider))
     return engine
   }
@@ -1575,7 +1576,7 @@ module.exports = class MetamaskController extends EventEmitter {
   }
 
   /**
-   * A method for emitting the full MetaMask state to all registered listeners.
+   * A method for emitting the full Affilcoin state to all registered listeners.
    * @private
    */
   privateSendUpdate () {
@@ -1703,7 +1704,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * @returns {Promise<String>} - The RPC Target URL confirmed.
    */
 
-  async updateAndSetCustomRpc (rpcUrl, chainId, ticker = 'ETH', nickname, rpcPrefs) {
+  async updateAndSetCustomRpc (rpcUrl, chainId, ticker = 'AC', nickname, rpcPrefs) {
     await this.preferencesController.updateRpc({ rpcUrl, chainId, ticker, nickname, rpcPrefs })
     this.networkController.setRpcTarget(rpcUrl, chainId, ticker, nickname, rpcPrefs)
     return rpcUrl
@@ -1718,7 +1719,7 @@ module.exports = class MetamaskController extends EventEmitter {
    * @param {string} nickname - Optional nickname of the selected network.
    * @returns {Promise<String>} - The RPC Target URL confirmed.
    */
-  async setCustomRpc (rpcTarget, chainId, ticker = 'ETH', nickname = '', rpcPrefs = {}) {
+  async setCustomRpc (rpcTarget, chainId, ticker = 'AC', nickname = '', rpcPrefs = {}) {
     const frequentRpcListDetail = this.preferencesController.getFrequentRpcListDetail()
     const rpcSettings = frequentRpcListDetail.find((rpc) => rpcTarget === rpc.rpcUrl)
 
@@ -1839,7 +1840,7 @@ module.exports = class MetamaskController extends EventEmitter {
 
   // TODO: Replace isClientOpen methods with `controllerConnectionChanged` events.
   /**
-   * A method for recording whether the MetaMask user interface is open or not.
+   * A method for recording whether the Affilcoin user interface is open or not.
    * @private
    * @param {boolean} open
    */
@@ -1877,7 +1878,7 @@ module.exports = class MetamaskController extends EventEmitter {
   }
 
   /**
-   * Locks MetaMask
+   * Locks Affilcoin
    */
   setLocked () {
     return this.keyringController.setLocked()

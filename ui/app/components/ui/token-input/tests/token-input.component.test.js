@@ -25,7 +25,7 @@ describe('TokenInput Component', () => {
 
     it('should render properly with a token', () => {
       const mockStore = {
-        metamask: {
+        affilcoin: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -59,7 +59,7 @@ describe('TokenInput Component', () => {
 
     it('should render properly with a token and selectedTokenExchangeRate', () => {
       const mockStore = {
-        metamask: {
+        affilcoin: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -91,9 +91,9 @@ describe('TokenInput Component', () => {
       assert.equal(wrapper.find(CurrencyDisplay).length, 1)
     })
 
-    it('should render properly with a token value for ETH', () => {
+    it('should render properly with a token value for AC', () => {
       const mockStore = {
-        metamask: {
+        affilcoin: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -127,7 +127,7 @@ describe('TokenInput Component', () => {
 
     it('should render properly with a token value for fiat', () => {
       const mockStore = {
-        metamask: {
+        affilcoin: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -162,7 +162,7 @@ describe('TokenInput Component', () => {
 
     it('should render properly with a token value for fiat, but hideConversion is true', () => {
       const mockStore = {
-        metamask: {
+        affilcoin: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -212,9 +212,9 @@ describe('TokenInput Component', () => {
       handleBlurSpy.resetHistory()
     })
 
-    it('should call onChange and onBlur on input changes with the hex value for ETH', () => {
+    it('should call onChange and onBlur on input changes with the hex value for AC', () => {
       const mockStore = {
-        metamask: {
+        affilcoin: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -262,7 +262,7 @@ describe('TokenInput Component', () => {
 
     it('should call onChange and onBlur on input changes with the hex value for fiat', () => {
       const mockStore = {
-        metamask: {
+        affilcoin: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -311,7 +311,7 @@ describe('TokenInput Component', () => {
 
     it('should change the state and pass in a new decimalValue when props.value changes', () => {
       const mockStore = {
-        metamask: {
+        affilcoin: {
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },

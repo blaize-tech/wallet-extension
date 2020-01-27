@@ -55,8 +55,8 @@ var actions = {
   transitionForward,
   transitionBackward,
   // remote state
-  UPDATE_METAMASK_STATE: 'UPDATE_METAMASK_STATE',
-  updateMetamaskState: updateMetamaskState,
+  UPDATE_AFFILCOIN_STATE: 'UPDATE_AFFILCOIN_STATE',
+  updateAffilcoinState: updateAffilcoinState,
   markAccountsFound,
   // intialize screen
   CREATE_NEW_VAULT_IN_PROGRESS: 'CREATE_NEW_VAULT_IN_PROGRESS',
@@ -72,7 +72,7 @@ var actions = {
   SHOW_IMPORT_PAGE: 'SHOW_IMPORT_PAGE',
   SHOW_NEW_ACCOUNT_PAGE: 'SHOW_NEW_ACCOUNT_PAGE',
   SET_NEW_ACCOUNT_FORM: 'SET_NEW_ACCOUNT_FORM',
-  unlockMetamask: unlockMetamask,
+  unlockAffilcoin: unlockAffilcoin,
   unlockFailed: unlockFailed,
   unlockSucceeded,
   showCreateVault: showCreateVault,
@@ -107,10 +107,10 @@ var actions = {
   UNLOCK_IN_PROGRESS: 'UNLOCK_IN_PROGRESS',
   UNLOCK_FAILED: 'UNLOCK_FAILED',
   UNLOCK_SUCCEEDED: 'UNLOCK_SUCCEEDED',
-  UNLOCK_METAMASK: 'UNLOCK_METAMASK',
-  LOCK_METAMASK: 'LOCK_METAMASK',
-  tryUnlockMetamask: tryUnlockMetamask,
-  lockMetamask: lockMetamask,
+  UNLOCK_AFFILCOIN: 'UNLOCK_AFFILCOIN',
+  LOCK_AFFILCOIN: 'LOCK_AFFILCOIN',
+  tryUnlockAffilcoin: tryUnlockAffilcoin,
+  lockAffilcoin: lockAffilcoin,
   unlockInProgress: unlockInProgress,
   // error handling
   displayWarning: displayWarning,
@@ -292,7 +292,7 @@ var actions = {
   showNewKeychain: showNewKeychain,
 
   callBackgroundThenUpdate,
-  forceUpdateMetamaskState,
+  forceUpdateAffilcoinState,
 
   TOGGLE_ACCOUNT_MENU: 'TOGGLE_ACCOUNT_MENU',
   toggleAccountMenu,
@@ -412,7 +412,7 @@ function goHome () {
 
 // async actions
 
-function tryUnlockMetamask (password) {
+function tryUnlockAffilcoin (password) {
   return dispatch => {
     dispatch(actions.showLoadingIndication())
     dispatch(actions.unlockInProgress())
@@ -429,7 +429,7 @@ function tryUnlockMetamask (password) {
     })
       .then(() => {
         dispatch(actions.unlockSucceeded())
-        return forceUpdateMetamaskState(dispatch)
+        return forceUpdateAffilcoinState(dispatch)
       })
       .then(() => {
         return new Promise((resolve, reject) => {
@@ -519,7 +519,7 @@ function unlockAndGetSeedPhrase (password) {
     try {
       await submitPassword(password)
       const seedWords = await verifySeedPhrase()
-      await forceUpdateMetamaskState(dispatch)
+      await forceUpdateAffilcoinState(dispatch)
       dispatch(actions.hideLoadingIndication())
       return seedWords
     } catch (error) {
@@ -697,7 +697,7 @@ function importNewAccount (strategy, args) {
       throw err
     }
     dispatch(actions.hideLoadingIndication())
-    dispatch(actions.updateMetamaskState(newState))
+    dispatch(actions.updateAffilcoinState(newState))
     if (newState.selectedAddress) {
       dispatch({
         type: actions.SHOW_ACCOUNT_DETAIL,
@@ -717,7 +717,7 @@ function navigateToNewAccountScreen () {
 function addNewAccount () {
   log.debug(`background.addNewAccount`)
   return (dispatch, getState) => {
-    const oldIdentities = getState().metamask.identities
+    const oldIdentities = getState().affilcoin.identities
     dispatch(actions.showLoadingIndication())
     return new Promise((resolve, reject) => {
       background.addNewAccount((err, { identities: newIdentities}) => {
@@ -729,7 +729,7 @@ function addNewAccount () {
 
         dispatch(actions.hideLoadingIndication())
 
-        forceUpdateMetamaskState(dispatch)
+        forceUpdateAffilcoinState(dispatch)
         return resolve(newAccountAddress)
       })
     })
@@ -750,7 +750,7 @@ function checkHardwareStatus (deviceName, hdPath) {
 
         dispatch(actions.hideLoadingIndication())
 
-        forceUpdateMetamaskState(dispatch)
+        forceUpdateAffilcoinState(dispatch)
         return resolve(unlocked)
       })
     })
@@ -771,7 +771,7 @@ function forgetDevice (deviceName) {
 
         dispatch(actions.hideLoadingIndication())
 
-        forceUpdateMetamaskState(dispatch)
+        forceUpdateAffilcoinState(dispatch)
         return resolve()
       })
     })
@@ -792,7 +792,7 @@ function connectHardware (deviceName, page, hdPath) {
 
         dispatch(actions.hideLoadingIndication())
 
-        forceUpdateMetamaskState(dispatch)
+        forceUpdateAffilcoinState(dispatch)
         return resolve(accounts)
       })
     })
@@ -876,7 +876,7 @@ function signMsg (msgData) {
       log.debug(`actions calling background.signMessage`)
       background.signMessage(msgData, (err, newState) => {
         log.debug('signMessage called back')
-        dispatch(actions.updateMetamaskState(newState))
+        dispatch(actions.updateAffilcoinState(newState))
         dispatch(actions.hideLoadingIndication())
 
         if (err) {
@@ -885,7 +885,7 @@ function signMsg (msgData) {
           return reject(err)
         }
 
-        dispatch(actions.completedTx(msgData.metamaskId))
+        dispatch(actions.completedTx(msgData.affilcoinId))
         dispatch(closeCurrentNotificationWindow())
 
         return resolve(msgData)
@@ -902,7 +902,7 @@ function signPersonalMsg (msgData) {
       log.debug(`actions calling background.signPersonalMessage`)
       background.signPersonalMessage(msgData, (err, newState) => {
         log.debug('signPersonalMessage called back')
-        dispatch(actions.updateMetamaskState(newState))
+        dispatch(actions.updateAffilcoinState(newState))
         dispatch(actions.hideLoadingIndication())
 
         if (err) {
@@ -911,7 +911,7 @@ function signPersonalMsg (msgData) {
           return reject(err)
         }
 
-        dispatch(actions.completedTx(msgData.metamaskId))
+        dispatch(actions.completedTx(msgData.affilcoinId))
         dispatch(closeCurrentNotificationWindow())
 
         return resolve(msgData)
@@ -928,7 +928,7 @@ function signTypedMsg (msgData) {
       log.debug(`actions calling background.signTypedMessage`)
       background.signTypedMessage(msgData, (err, newState) => {
         log.debug('signTypedMessage called back')
-        dispatch(actions.updateMetamaskState(newState))
+        dispatch(actions.updateAffilcoinState(newState))
         dispatch(actions.hideLoadingIndication())
 
         if (err) {
@@ -937,7 +937,7 @@ function signTypedMsg (msgData) {
           return reject(err)
         }
 
-        dispatch(actions.completedTx(msgData.metamaskId))
+        dispatch(actions.completedTx(msgData.affilcoinId))
         dispatch(closeCurrentNotificationWindow())
 
         return resolve(msgData)
@@ -1143,7 +1143,7 @@ function sendTx (txData) {
       }
       dispatch(actions.completedTx(txData.id))
 
-      if (global.METAMASK_UI_TYPE === ENVIRONMENT_TYPE_NOTIFICATION &&
+      if (global.AFFILCOIN_UI_TYPE === ENVIRONMENT_TYPE_NOTIFICATION &&
         !hasUnconfirmedTransactions(getState())) {
         return global.platform.closeCurrentWindow()
       }
@@ -1164,7 +1164,7 @@ function signTokenTx (tokenAddress, toAddress, amount, txData) {
   }
 }
 
-const updateMetamaskStateFromBackground = () => {
+const updateAffilcoinStateFromBackground = () => {
   log.debug(`background.getState`)
 
   return new Promise((resolve, reject) => {
@@ -1197,8 +1197,8 @@ function updateTransaction (txData) {
         resolve(txData)
       })
     })
-      .then(() => updateMetamaskStateFromBackground())
-      .then(newState => dispatch(actions.updateMetamaskState(newState)))
+      .then(() => updateAffilcoinStateFromBackground())
+      .then(newState => dispatch(actions.updateAffilcoinState(newState)))
       .then(() => {
         dispatch(actions.showConfTxPage({ id: txData.id }))
         dispatch(actions.hideLoadingIndication())
@@ -1227,8 +1227,8 @@ function updateAndApproveTx (txData) {
         resolve(txData)
       })
     })
-      .then(() => updateMetamaskStateFromBackground())
-      .then(newState => dispatch(actions.updateMetamaskState(newState)))
+      .then(() => updateAffilcoinStateFromBackground())
+      .then(newState => dispatch(actions.updateAffilcoinState(newState)))
       .then(() => {
         dispatch(actions.clearSend())
         dispatch(actions.completedTx(txData.id))
@@ -1273,7 +1273,7 @@ function cancelMsg (msgData) {
     return new Promise((resolve, reject) => {
       log.debug(`background.cancelMessage`)
       background.cancelMessage(msgData.id, (err, newState) => {
-        dispatch(actions.updateMetamaskState(newState))
+        dispatch(actions.updateAffilcoinState(newState))
         dispatch(actions.hideLoadingIndication())
 
         if (err) {
@@ -1295,7 +1295,7 @@ function cancelPersonalMsg (msgData) {
     return new Promise((resolve, reject) => {
       const id = msgData.id
       background.cancelPersonalMessage(id, (err, newState) => {
-        dispatch(actions.updateMetamaskState(newState))
+        dispatch(actions.updateAffilcoinState(newState))
         dispatch(actions.hideLoadingIndication())
 
         if (err) {
@@ -1317,7 +1317,7 @@ function cancelTypedMsg (msgData) {
     return new Promise((resolve, reject) => {
       const id = msgData.id
       background.cancelTypedMessage(id, (err, newState) => {
-        dispatch(actions.updateMetamaskState(newState))
+        dispatch(actions.updateAffilcoinState(newState))
         dispatch(actions.hideLoadingIndication())
 
         if (err) {
@@ -1346,8 +1346,8 @@ function cancelTx (txData) {
         resolve()
       })
     })
-      .then(() => updateMetamaskStateFromBackground())
-      .then(newState => dispatch(actions.updateMetamaskState(newState)))
+      .then(() => updateAffilcoinStateFromBackground())
+      .then(newState => dispatch(actions.updateAffilcoinState(newState)))
       .then(() => {
         dispatch(actions.clearSend())
         dispatch(actions.completedTx(txData.id))
@@ -1379,8 +1379,8 @@ function cancelTxs (txDataList) {
     }))
 
     await Promise.all(cancellations)
-    const newState = await updateMetamaskStateFromBackground()
-    dispatch(actions.updateMetamaskState(newState))
+    const newState = await updateAffilcoinStateFromBackground()
+    dispatch(actions.updateAffilcoinState(newState))
     dispatch(actions.clearSend())
 
     txIds.forEach((id) => {
@@ -1389,7 +1389,7 @@ function cancelTxs (txDataList) {
 
     dispatch(actions.hideLoadingIndication())
 
-    if (global.METAMASK_UI_TYPE === ENVIRONMENT_TYPE_NOTIFICATION) {
+    if (global.AFFILCOIN_UI_TYPE === ENVIRONMENT_TYPE_NOTIFICATION) {
       return global.platform.closeCurrentWindow()
     }
   }
@@ -1433,7 +1433,7 @@ function markPasswordForgotten () {
     return background.markPasswordForgotten(() => {
       dispatch(actions.hideLoadingIndication())
       dispatch(actions.forgotPassword())
-      forceUpdateMetamaskState(dispatch)
+      forceUpdateAffilcoinState(dispatch)
     })
   }
 }
@@ -1446,7 +1446,7 @@ function unMarkPasswordForgotten () {
         resolve()
       })
     })
-      .then(() => forceUpdateMetamaskState(dispatch))
+      .then(() => forceUpdateAffilcoinState(dispatch))
   }
 }
 
@@ -1531,16 +1531,16 @@ function unlockSucceeded (message) {
   }
 }
 
-function unlockMetamask (account) {
+function unlockAffilcoin (account) {
   return {
-    type: actions.UNLOCK_METAMASK,
+    type: actions.UNLOCK_AFFILCOIN,
     value: account,
   }
 }
 
-function updateMetamaskState (newState) {
+function updateAffilcoinState (newState) {
   return {
-    type: actions.UPDATE_METAMASK_STATE,
+    type: actions.UPDATE_AFFILCOIN_STATE,
     value: newState,
   }
 }
@@ -1556,26 +1556,26 @@ const backgroundSetLocked = () => {
   })
 }
 
-function lockMetamask () {
+function lockAffilcoin () {
   log.debug(`background.setLocked`)
 
   return dispatch => {
     dispatch(actions.showLoadingIndication())
 
     return backgroundSetLocked()
-      .then(() => updateMetamaskStateFromBackground())
+      .then(() => updateAffilcoinStateFromBackground())
       .catch(error => {
         dispatch(actions.displayWarning(error.message))
         return Promise.reject(error)
       })
       .then(newState => {
-        dispatch(actions.updateMetamaskState(newState))
+        dispatch(actions.updateAffilcoinState(newState))
         dispatch(actions.hideLoadingIndication())
-        dispatch({ type: actions.LOCK_METAMASK })
+        dispatch({ type: actions.LOCK_AFFILCOIN })
       })
       .catch(() => {
         dispatch(actions.hideLoadingIndication())
-        dispatch({ type: actions.LOCK_METAMASK })
+        dispatch({ type: actions.LOCK_AFFILCOIN })
       })
   }
 }
@@ -1756,14 +1756,14 @@ function removeSuggestedTokens () {
           dispatch(actions.displayWarning(err.message))
         }
         dispatch(actions.clearPendingTokens())
-        if (global.METAMASK_UI_TYPE === ENVIRONMENT_TYPE_NOTIFICATION) {
+        if (global.AFFILCOIN_UI_TYPE === ENVIRONMENT_TYPE_NOTIFICATION) {
           return global.platform.closeCurrentWindow()
         }
         resolve(suggestedTokens)
       })
     })
-      .then(() => updateMetamaskStateFromBackground())
-      .then(suggestedTokens => dispatch(actions.updateMetamaskState({...suggestedTokens})))
+      .then(() => updateAffilcoinStateFromBackground())
+      .then(suggestedTokens => dispatch(actions.updateAffilcoinState({...suggestedTokens})))
   }
 }
 
@@ -1815,7 +1815,7 @@ function retryTransaction (txId, gasPrice) {
         resolve(newState)
       })
     })
-      .then(newState => dispatch(actions.updateMetamaskState(newState)))
+      .then(newState => dispatch(actions.updateAffilcoinState(newState)))
       .then(() => newTxId)
   }
 }
@@ -1838,7 +1838,7 @@ function createCancelTransaction (txId, customGasPrice) {
         resolve(newState)
       })
     })
-      .then(newState => dispatch(actions.updateMetamaskState(newState)))
+      .then(newState => dispatch(actions.updateAffilcoinState(newState)))
       .then(() => newTxId)
   }
 }
@@ -1860,7 +1860,7 @@ function createSpeedUpTransaction (txId, customGasPrice) {
         resolve(newState)
       })
     })
-      .then(newState => dispatch(actions.updateMetamaskState(newState)))
+      .then(newState => dispatch(actions.updateAffilcoinState(newState)))
       .then(() => newTx)
   }
 }
@@ -1882,7 +1882,7 @@ function createRetryTransaction (txId, customGasPrice) {
         resolve(newState)
       })
     })
-      .then(newState => dispatch(actions.updateMetamaskState(newState)))
+      .then(newState => dispatch(actions.updateAffilcoinState(newState)))
       .then(() => newTx)
   }
 }
@@ -1893,7 +1893,7 @@ function createRetryTransaction (txId, customGasPrice) {
 
 function setProviderType (type) {
   return (dispatch, getState) => {
-    const { type: currentProviderType } = getState().metamask.provider
+    const { type: currentProviderType } = getState().affilcoin.provider
     log.debug(`background.setProviderType`, type)
     background.setProviderType(type, (err) => {
       if (err) {
@@ -1922,7 +1922,7 @@ function setPreviousProvider (type) {
   }
 }
 
-function updateAndSetCustomRpc (newRpc, chainId, ticker = 'ETH', nickname, rpcPrefs) {
+function updateAndSetCustomRpc (newRpc, chainId, ticker = 'AC', nickname, rpcPrefs) {
   return (dispatch) => {
     log.debug(`background.updateAndSetCustomRpc: ${newRpc} ${chainId} ${ticker} ${nickname}`)
     background.updateAndSetCustomRpc(newRpc, chainId, ticker, nickname || newRpc, rpcPrefs, (err) => {
@@ -1938,7 +1938,7 @@ function updateAndSetCustomRpc (newRpc, chainId, ticker = 'ETH', nickname, rpcPr
   }
 }
 
-function editRpc (oldRpc, newRpc, chainId, ticker = 'ETH', nickname, rpcPrefs) {
+function editRpc (oldRpc, newRpc, chainId, ticker = 'AC', nickname, rpcPrefs) {
   return (dispatch) => {
     log.debug(`background.delRpcTarget: ${oldRpc}`)
     background.delCustomRpc(oldRpc, (err) => {
@@ -1961,7 +1961,7 @@ function editRpc (oldRpc, newRpc, chainId, ticker = 'ETH', nickname, rpcPrefs) {
   }
 }
 
-function setRpcTarget (newRpc, chainId, ticker = 'ETH', nickname) {
+function setRpcTarget (newRpc, chainId, ticker = 'AC', nickname) {
   return (dispatch) => {
     log.debug(`background.setRpcTarget: ${newRpc} ${chainId} ${ticker} ${nickname}`)
     background.setCustomRpc(newRpc, chainId, ticker, nickname || newRpc, (err) => {
@@ -1996,7 +1996,7 @@ function addToAddressBook (recipient, nickname = '', memo = '') {
   log.debug(`background.addToAddressBook`)
 
   return (dispatch, getState) => {
-    const chainId = getState().metamask.network
+    const chainId = getState().affilcoin.network
     background.setAddressBook(checksumAddress(recipient), nickname, chainId, memo, (err, set) => {
       if (err) {
         log.error(err)
@@ -2060,7 +2060,7 @@ function hideModal (payload) {
 
 function closeCurrentNotificationWindow () {
   return (dispatch, getState) => {
-    if (global.METAMASK_UI_TYPE === ENVIRONMENT_TYPE_NOTIFICATION &&
+    if (global.AFFILCOIN_UI_TYPE === ENVIRONMENT_TYPE_NOTIFICATION &&
       !hasUnconfirmedTransactions(getState())) {
       global.platform.closeCurrentWindow()
 
@@ -2534,7 +2534,7 @@ function callBackgroundThenUpdateNoSpinner (method, ...args) {
       if (err) {
         return dispatch(actions.displayWarning(err.message))
       }
-      forceUpdateMetamaskState(dispatch)
+      forceUpdateAffilcoinState(dispatch)
     })
   }
 }
@@ -2547,12 +2547,12 @@ function callBackgroundThenUpdate (method, ...args) {
       if (err) {
         return dispatch(actions.displayWarning(err.message))
       }
-      forceUpdateMetamaskState(dispatch)
+      forceUpdateAffilcoinState(dispatch)
     })
   }
 }
 
-function forceUpdateMetamaskState (dispatch) {
+function forceUpdateAffilcoinState (dispatch) {
   log.debug(`background.getState`)
   return new Promise((resolve, reject) => {
     background.getState((err, newState) => {
@@ -2561,7 +2561,7 @@ function forceUpdateMetamaskState (dispatch) {
         return reject(err)
       }
 
-      dispatch(actions.updateMetamaskState(newState))
+      dispatch(actions.updateAffilcoinState(newState))
       resolve(newState)
     })
   })
@@ -2782,7 +2782,7 @@ function getContractMethodData (data = '') {
   return (dispatch, getState) => {
     const prefixedData = ethUtil.addHexPrefix(data)
     const fourBytePrefix = prefixedData.slice(0, 10)
-    const { knownMethodData } = getState().metamask
+    const { knownMethodData } = getState().affilcoin
     if (knownMethodData && knownMethodData[fourBytePrefix]) {
       return Promise.resolve(knownMethodData[fourBytePrefix])
     }
@@ -2815,7 +2815,7 @@ function loadingTokenParamsFinished () {
 
 function getTokenParams (tokenAddress) {
   return (dispatch, getState) => {
-    const existingTokens = getState().metamask.tokens
+    const existingTokens = getState().affilcoin.tokens
     const existingToken = existingTokens.find(({ address }) => tokenAddress === address)
 
     if (existingToken) {
@@ -2852,7 +2852,7 @@ function setSeedPhraseBackedUp (seedPhraseBackupState) {
           dispatch(actions.displayWarning(err.message))
           return reject(err)
         }
-        return forceUpdateMetamaskState(dispatch)
+        return forceUpdateAffilcoinState(dispatch)
           .then(resolve)
           .catch(reject)
       })
@@ -2967,7 +2967,7 @@ function setNextNonce (nextNonce) {
 
 function getNextNonce () {
   return (dispatch, getState) => {
-    const address = getState().metamask.selectedAddress
+    const address = getState().affilcoin.selectedAddress
     return new Promise((resolve, reject) => {
       background.getNextNonce(address, (err, nextNonce) => {
         if (err) {

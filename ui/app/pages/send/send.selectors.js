@@ -4,7 +4,7 @@ const {
   multiplyCurrencies,
 } = require('../../helpers/utils/conversion-util')
 const {
-  getMetaMaskAccounts,
+  getAffilcoinAccounts,
   getSelectedAddress,
   getAddressBook,
 } = require('../../selectors/selectors')
@@ -63,8 +63,8 @@ const selectors = {
 module.exports = selectors
 
 function accountsWithSendEtherInfoSelector (state) {
-  const accounts = getMetaMaskAccounts(state)
-  const { identities } = state.metamask
+  const accounts = getAffilcoinAccounts(state)
+  const { identities } = state.affilcoin
   const accountsWithSendEtherInfo = Object.entries(accounts).map(([key, account]) => {
     return Object.assign({}, account, identities[key])
   })
@@ -79,11 +79,11 @@ function getAmountConversionRate (state) {
 }
 
 function getBlockGasLimit (state) {
-  return state.metamask.currentBlockGasLimit
+  return state.affilcoin.currentBlockGasLimit
 }
 
 function getConversionRate (state) {
-  return state.metamask.conversionRate
+  return state.affilcoin.conversionRate
 }
 
 function getCurrentAccountWithSendEtherInfo (state) {
@@ -94,15 +94,15 @@ function getCurrentAccountWithSendEtherInfo (state) {
 }
 
 function getCurrentCurrency (state) {
-  return state.metamask.currentCurrency
+  return state.affilcoin.currentCurrency
 }
 
 function getNativeCurrency (state) {
-  return state.metamask.nativeCurrency
+  return state.affilcoin.nativeCurrency
 }
 
 function getCurrentNetwork (state) {
-  return state.metamask.network
+  return state.affilcoin.network
 }
 
 function getCurrentViewContext (state) {
@@ -111,19 +111,19 @@ function getCurrentViewContext (state) {
 }
 
 function getForceGasMin (state) {
-  return state.metamask.send.forceGasMin
+  return state.affilcoin.send.forceGasMin
 }
 
 function getGasLimit (state) {
-  return state.metamask.send.gasLimit || '0'
+  return state.affilcoin.send.gasLimit || '0'
 }
 
 function getGasPrice (state) {
-  return state.metamask.send.gasPrice || getAveragePriceEstimateInHexWEI(state)
+  return state.affilcoin.send.gasPrice || getAveragePriceEstimateInHexWEI(state)
 }
 
 function getGasPriceFromRecentBlocks (state) {
-  return estimateGasPriceFromRecentBlocks(state.metamask.recentBlocks)
+  return estimateGasPriceFromRecentBlocks(state.affilcoin.recentBlocks)
 }
 
 function getGasTotal (state) {
@@ -136,11 +136,11 @@ function getPrimaryCurrency (state) {
 }
 
 function getRecentBlocks (state) {
-  return state.metamask.recentBlocks
+  return state.affilcoin.recentBlocks
 }
 
 function getSelectedAccount (state) {
-  const accounts = getMetaMaskAccounts(state)
+  const accounts = getAffilcoinAccounts(state)
   const selectedAddress = getSelectedAddress(state)
 
   return accounts[selectedAddress]
@@ -148,16 +148,16 @@ function getSelectedAccount (state) {
 
 function getSelectedIdentity (state) {
   const selectedAddress = getSelectedAddress(state)
-  const identities = state.metamask.identities
+  const identities = state.affilcoin.identities
 
   return identities[selectedAddress]
 }
 
 function getSelectedToken (state) {
-  const tokens = state.metamask.tokens || []
-  const selectedTokenAddress = state.metamask.selectedTokenAddress
+  const tokens = state.affilcoin.tokens || []
+  const selectedTokenAddress = state.affilcoin.selectedTokenAddress
   const selectedToken = tokens.filter(({ address }) => address === selectedTokenAddress)[0]
-  const sendToken = state.metamask.send.token
+  const sendToken = state.affilcoin.send.token
 
   return selectedToken || sendToken || null
 }
@@ -171,7 +171,7 @@ function getSelectedTokenContract (state) {
 }
 
 function getSelectedTokenExchangeRate (state) {
-  const tokenExchangeRates = state.metamask.tokenExchangeRates
+  const tokenExchangeRates = state.affilcoin.tokenExchangeRates
   const selectedToken = getSelectedToken(state) || {}
   const { symbol = '' } = selectedToken
   const pair = `${symbol.toLowerCase()}_eth`
@@ -194,19 +194,19 @@ function getSelectedTokenToFiatRate (state) {
 }
 
 function getSendAmount (state) {
-  return state.metamask.send.amount
+  return state.affilcoin.send.amount
 }
 
 function getSendHexData (state) {
-  return state.metamask.send.data
+  return state.affilcoin.send.data
 }
 
 function getSendHexDataFeatureFlagState (state) {
-  return state.metamask.featureFlags.sendHexData
+  return state.affilcoin.featureFlags.sendHexData
 }
 
 function getSendEditingTransactionId (state) {
-  return state.metamask.send.editingTransactionId
+  return state.affilcoin.send.editingTransactionId
 }
 
 function getSendErrors (state) {
@@ -214,7 +214,7 @@ function getSendErrors (state) {
 }
 
 function getSendFrom (state) {
-  return state.metamask.send.from
+  return state.affilcoin.send.from
 }
 
 function getSendFromBalance (state) {
@@ -227,15 +227,15 @@ function getSendFromObject (state) {
 }
 
 function getSendMaxModeState (state) {
-  return state.metamask.send.maxModeOn
+  return state.affilcoin.send.maxModeOn
 }
 
 function getSendTo (state) {
-  return state.metamask.send.to
+  return state.affilcoin.send.to
 }
 
 function getSendToNickname (state) {
-  return state.metamask.send.toNickname
+  return state.affilcoin.send.toNickname
 }
 
 function getSendToAccounts (state) {
@@ -244,34 +244,34 @@ function getSendToAccounts (state) {
   return [...fromAccounts, ...addressBookAccounts]
 }
 function getTokenBalance (state) {
-  return state.metamask.send.tokenBalance
+  return state.affilcoin.send.tokenBalance
 }
 
 function getSendEnsResolution (state) {
-  return state.metamask.send.ensResolution
+  return state.affilcoin.send.ensResolution
 }
 
 function getSendEnsResolutionError (state) {
-  return state.metamask.send.ensResolutionError
+  return state.affilcoin.send.ensResolutionError
 }
 
 function getTokenExchangeRate (state, tokenSymbol) {
   const pair = `${tokenSymbol.toLowerCase()}_eth`
-  const tokenExchangeRates = state.metamask.tokenExchangeRates
+  const tokenExchangeRates = state.affilcoin.tokenExchangeRates
   const { rate: tokenExchangeRate = 0 } = tokenExchangeRates[pair] || {}
 
   return tokenExchangeRate
 }
 
 function getUnapprovedTxs (state) {
-  return state.metamask.unapprovedTxs
+  return state.affilcoin.unapprovedTxs
 }
 
 function transactionsSelector (state) {
-  const { network, selectedTokenAddress } = state.metamask
-  const unapprovedMsgs = valuesFor(state.metamask.unapprovedMsgs)
-  const shapeShiftTxList = (network === '1') ? state.metamask.shapeShiftTxList : undefined
-  const transactions = state.metamask.selectedAddressTxList || []
+  const { network, selectedTokenAddress } = state.affilcoin
+  const unapprovedMsgs = valuesFor(state.affilcoin.unapprovedMsgs)
+  const shapeShiftTxList = (network === '1') ? state.affilcoin.shapeShiftTxList : undefined
+  const transactions = state.affilcoin.selectedAddressTxList || []
   const txsToRender = !shapeShiftTxList ? transactions.concat(unapprovedMsgs) : transactions.concat(unapprovedMsgs, shapeShiftTxList)
 
   return selectedTokenAddress

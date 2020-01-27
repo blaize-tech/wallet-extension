@@ -31,7 +31,7 @@ NetworkDropdownIcon.prototype.render = function () {
         style: {
           width: '27px',
         },
-        src: 'images/loading.svg',
+        src: 'images/loading.gif',
       }),
     ])
     : h(`.menu-icon-circle${isSelected ? '--active' : ''}`, {},

@@ -10,13 +10,13 @@ import {
 } from '../../../store/actions'
 
 const mapStateToProps = state => {
-  const { appState: { warning }, metamask } = state
+  const { appState: { warning }, affilcoin } = state
   const {
     featureFlags: {
       showIncomingTransactions,
     } = {},
     participateInMetaMetrics,
-  } = metamask
+  } = affilcoin
 
   return {
     warning,

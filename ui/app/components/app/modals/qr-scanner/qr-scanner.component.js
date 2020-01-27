@@ -149,7 +149,7 @@ export default class QrScanner extends Component {
             display: this.state.ready ? 'block' : 'none',
           }}
         />
-        { !this.state.ready ? <Spinner color="#F7C06C" /> : null}
+        { !this.state.ready ? <Spinner color="#064cfa" /> : null}
       </div>
     )
   }

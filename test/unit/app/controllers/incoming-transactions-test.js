@@ -6,10 +6,7 @@ const IncomingTransactionsController = proxyquire('../../../../app/scripts/contr
 })
 
 const {
-  ROPSTEN,
-  RINKEBY,
-  KOVAN,
-  GOERLI,
+  TESTNET,
   MAINNET,
 } = require('../../../../app/scripts/controllers/network/enums')
 
@@ -17,10 +14,7 @@ describe('IncomingTransactionsController', () => {
   const EMPTY_INIT_STATE = {
     incomingTransactions: {},
     incomingTxLastFetchedBlocksByNetwork: {
-      [ROPSTEN]: null,
-      [RINKEBY]: null,
-      [KOVAN]: null,
-      [GOERLI]: null,
+      [TESTNET]: null,
       [MAINNET]: null,
     },
   }
@@ -30,10 +24,7 @@ describe('IncomingTransactionsController', () => {
       '0x123456': { id: 777 },
     },
     incomingTxLastFetchedBlocksByNetwork: {
-      [ROPSTEN]: 1,
-      [RINKEBY]: 2,
-      [KOVAN]: 3,
-      [GOERLI]: 5,
+      [TESTNET]: 1,
       [MAINNET]: 4,
     },
   }
@@ -43,10 +34,7 @@ describe('IncomingTransactionsController', () => {
       '0x123456': { id: 777 },
     },
     incomingTxLastFetchedBlocksByNetwork: {
-      [ROPSTEN]: 1,
-      [RINKEBY]: 2,
-      [KOVAN]: 3,
-      [GOERLI]: 5,
+      [TESTNET]: 1,
       [MAINNET]: 4,
       FAKE_NETWORK: 1111,
     },
@@ -244,10 +232,7 @@ describe('IncomingTransactionsController', () => {
           '0x123456': { id: 777 },
         },
         currentBlocksByNetwork: {
-          [ROPSTEN]: 1,
-          [RINKEBY]: 2,
-          [KOVAN]: 3,
-          [GOERLI]: 5,
+          [TESTNET]: 1,
           [MAINNET]: 4,
           FAKE_NETWORK: 1111,
         },
@@ -264,10 +249,7 @@ describe('IncomingTransactionsController', () => {
         '0x123456': { id: 777, hash: '0x123456' },
       },
       currentBlocksByNetwork: {
-        [ROPSTEN]: 1,
-        [RINKEBY]: 2,
-        [KOVAN]: 3,
-        [GOERLI]: 5,
+        [TESTNET]: 1,
         [MAINNET]: 4,
         FAKE_NETWORK: 1111,
       },
@@ -354,10 +336,10 @@ describe('IncomingTransactionsController', () => {
         initState: NON_EMPTY_INIT_STATE,
       })
 
-      await incomingTransactionsController._fetchTxs('0xfakeaddress', '789', ROPSTEN)
+      await incomingTransactionsController._fetchTxs('0xfakeaddress', '789', TESTNET)
 
       assert(mockFetch.calledOnce)
-      assert.equal(mockFetch.getCall(0).args[0], `https://api-${ROPSTEN}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1&startBlock=789`)
+      assert.equal(mockFetch.getCall(0).args[0], `https://api-${TESTNET}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1&startBlock=789`)
     })
 
     it('should call fetch with the expected url when passed an address, block number and MAINNET', async () => {
@@ -382,10 +364,10 @@ describe('IncomingTransactionsController', () => {
         initState: NON_EMPTY_INIT_STATE,
       })
 
-      await incomingTransactionsController._fetchTxs('0xfakeaddress', null, ROPSTEN)
+      await incomingTransactionsController._fetchTxs('0xfakeaddress', null, TESTNET)
 
       assert(mockFetch.calledOnce)
-      assert.equal(mockFetch.getCall(0).args[0], `https://api-${ROPSTEN}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1`)
+      assert.equal(mockFetch.getCall(0).args[0], `https://api-${TESTNET}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1`)
     })
 
     it('should not fetch and return an empty object when passed an unsported network', async () => {
@@ -410,7 +392,7 @@ describe('IncomingTransactionsController', () => {
         initState: NON_EMPTY_INIT_STATE,
       })
 
-      const result = await incomingTransactionsController._fetchTxs('0xfakeaddress', '789', ROPSTEN)
+      const result = await incomingTransactionsController._fetchTxs('0xfakeaddress', '789', TESTNET)
 
       assert(mockFetch.calledOnce)
       assert.deepEqual(result, {
@@ -605,7 +587,7 @@ describe('IncomingTransactionsController', () => {
       assert.deepEqual(result, {
         blockNumber: 333,
         id: 54321,
-        metamaskNetworkId: 'FAKE_NETWORK',
+        affilcoinNetworkId: 'FAKE_NETWORK',
         status: 'failed',
         time: 4444000,
         txParams: {
@@ -645,7 +627,7 @@ describe('IncomingTransactionsController', () => {
       assert.deepEqual(result, {
         blockNumber: 333,
         id: 54321,
-        metamaskNetworkId: 'FAKE_NETWORK',
+        affilcoinNetworkId: 'FAKE_NETWORK',
         status: 'confirmed',
         time: 4444000,
         txParams: {

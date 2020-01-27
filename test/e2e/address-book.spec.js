@@ -14,7 +14,7 @@ const {
 } = require('./helpers')
 const enLocaleMessages = require('../../app/_locales/en/messages.json')
 
-describe('MetaMask', function () {
+describe('Affilcoin', function () {
   let driver
 
   const testSeedPhrase = 'forum vessel pink push lonely enact gentle tail admit parrot grunt dress'
@@ -162,12 +162,12 @@ describe('MetaMask', function () {
 
     it('balance renders', async () => {
       const balance = await findElement(driver, By.css('.balance-display .token-amount'))
-      await driver.wait(until.elementTextMatches(balance, /25\s*ETH/))
+      await driver.wait(until.elementTextMatches(balance, /25\s*AC/))
       await delay(regularDelayMs)
     })
   })
 
-  describe('Adds an entry to the address book and sends eth to that address', () => {
+  describe('Adds an entry to the address book and sends ac to that address', () => {
     it('starts a send transaction', async function () {
       const sendButton = await findElement(driver, By.xpath(`//button[contains(text(), 'Send')]`))
       await sendButton.click()
@@ -216,7 +216,7 @@ describe('MetaMask', function () {
       }, 10000)
 
       const txValues = await findElement(driver, By.css('.transaction-list-item__amount--primary'))
-      await driver.wait(until.elementTextMatches(txValues, /-1\s*ETH/), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-1\s*AC/), 10000)
     })
   })
 
@@ -257,7 +257,7 @@ describe('MetaMask', function () {
       }, 10000)
 
       const txValues = await findElement(driver, By.css('.transaction-list-item__amount--primary'))
-      await driver.wait(until.elementTextMatches(txValues, /-2\s*ETH/), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-2\s*AC/), 10000)
     })
   })
 })

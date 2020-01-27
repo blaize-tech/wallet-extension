@@ -7,10 +7,10 @@ const connect = require('react-redux').connect
 const actions = require('../../../store/actions')
 const FileInput = require('react-simple-file-input').default
 const { DEFAULT_ROUTE } = require('../../../helpers/constants/routes')
-const { getMetaMaskAccounts } = require('../../../selectors/selectors')
+const { getAffilcoinAccounts } = require('../../../selectors/selectors')
 import Button from '../../../components/ui/button'
 
-const HELP_LINK = 'https://metamask.zendesk.com/hc/en-us/articles/360015489351-Importing-Accounts'
+const HELP_LINK = 'https://affilcoin.zendesk.com/hc/en-us/articles/360015489351-Importing-Accounts'
 
 class JsonImportSubview extends Component {
   constructor (props) {
@@ -148,7 +148,7 @@ JsonImportSubview.propTypes = {
 const mapStateToProps = state => {
   return {
     error: state.appState.warning,
-    firstAddress: Object.keys(getMetaMaskAccounts(state))[0],
+    firstAddress: Object.keys(getAffilcoinAccounts(state))[0],
   }
 }
 

@@ -34,7 +34,7 @@ const { hexToBn, bnToHex, BnMultiplyByFraction } = require('../../lib/util')
 
 /**
   Transaction Controller is an aggregate of sub-controllers and trackers
-  composing them in a way to be exposed to the metamask controller
+  composing them in a way to be exposed to the affilcoin controller
     <br>- txStateManager
       responsible for the state of a transaction and
       storing the transaction
@@ -156,7 +156,7 @@ class TransactionController extends EventEmitter {
   */
 
   async newUnapprovedTransaction (txParams, opts = {}) {
-    log.debug(`MetaMaskController newUnapprovedTransaction ${JSON.stringify(txParams)}`)
+    log.debug(`AffilcoinController newUnapprovedTransaction ${JSON.stringify(txParams)}`)
     const initialTxMeta = await this.addUnapprovedTransaction(txParams)
     initialTxMeta.origin = opts.origin
     this.txStateManager.updateTx(initialTxMeta, '#newUnapprovedTransaction - adding the origin')
@@ -167,11 +167,11 @@ class TransactionController extends EventEmitter {
           case 'submitted':
             return resolve(finishedTxMeta.hash)
           case 'rejected':
-            return reject(cleanErrorStack(rpcErrors.eth.userRejectedRequest('MetaMask Tx Signature: User denied transaction signature.')))
+            return reject(cleanErrorStack(rpcErrors.eth.userRejectedRequest('Affilcoin Tx Signature: User denied transaction signature.')))
           case 'failed':
             return reject(cleanErrorStack(rpcErrors.internal(finishedTxMeta.err.message)))
           default:
-            return reject(cleanErrorStack(rpcErrors.internal(`MetaMask Tx Signature: Unknown problem: ${JSON.stringify(finishedTxMeta.txParams)}`)))
+            return reject(cleanErrorStack(rpcErrors.internal(`Affilcoin Tx Signature: Unknown problem: ${JSON.stringify(finishedTxMeta.txParams)}`)))
         }
       })
     })
@@ -209,7 +209,7 @@ class TransactionController extends EventEmitter {
 
     try {
       // check whether recipient account is blacklisted
-      recipientBlacklistChecker.checkAccount(txMeta.metamaskNetworkId, normalizedTxParams.to)
+      recipientBlacklistChecker.checkAccount(txMeta.affilcoinNetworkId, normalizedTxParams.to)
       // add default tx params
       txMeta = await this.addTxGasDefaults(txMeta, getCodeResponse)
     } catch (error) {
@@ -280,7 +280,7 @@ class TransactionController extends EventEmitter {
 
   /**
    * Creates a new approved transaction to attempt to cancel a previously submitted transaction. The
-   * new transaction contains the same nonce as the previous, is a basic ETH transfer of 0x value to
+   * new transaction contains the same nonce as the previous, is a basic AC transfer of 0x value to
    * the sender's address, and has a higher gasPrice than that of the previous transaction.
    * @param {number} originalTxId - the id of the txMeta that you want to attempt to cancel
    * @param {string=} customGasPrice - the hex value to use for the cancel transaction
@@ -714,7 +714,7 @@ class TransactionController extends EventEmitter {
     const unapprovedTxs = this.txStateManager.getUnapprovedTxList()
     const selectedAddressTxList = this.txStateManager.getFilteredTxList({
       from: this.getSelectedAddress(),
-      metamaskNetworkId: this.getNetwork(),
+      affilcoinNetworkId: this.getNetwork(),
     })
     this.memStore.updateState({ unapprovedTxs, selectedAddressTxList })
   }

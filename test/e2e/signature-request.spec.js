@@ -17,7 +17,7 @@ const {
 } = require('./helpers')
 const enLocaleMessages = require('../../app/_locales/en/messages.json')
 
-describe('MetaMask', function () {
+describe('Affilcoin', function () {
   let driver
   let publicAddress
 
@@ -113,8 +113,8 @@ describe('MetaMask', function () {
       await networkDropdown.click()
       await delay(regularDelayMs)
 
-      const ropstenButton = await findElement(driver, By.xpath(`//span[contains(text(), 'Ropsten')]`))
-      await ropstenButton.click()
+      const testnetButton = await findElement(driver, By.xpath(`//span[contains(text(), 'Testnet')]`))
+      await testnetButton.click()
       await delay(largeDelayMs)
     })
   })
@@ -132,7 +132,7 @@ describe('MetaMask', function () {
       windowHandles = await driver.getAllWindowHandles()
 
       extension = windowHandles[0]
-      popup = await switchToWindowWithTitle(driver, 'MetaMask Notification', windowHandles)
+      popup = await switchToWindowWithTitle(driver, 'Affilcoin Notification', windowHandles)
       dapp = windowHandles.find(handle => handle !== extension && handle !== popup)
 
       await delay(regularDelayMs)
@@ -149,7 +149,7 @@ describe('MetaMask', function () {
       await delay(largeDelayMs)
 
       windowHandles = await driver.getAllWindowHandles()
-      await switchToWindowWithTitle(driver, 'MetaMask Notification', windowHandles)
+      await switchToWindowWithTitle(driver, 'Affilcoin Notification', windowHandles)
       await delay(regularDelayMs)
 
       const title = await findElement(driver, By.css('.signature-request-content__title'))

@@ -15,26 +15,26 @@ import { getFastPriceEstimateInHexWEI } from './custom-gas'
 import { getSelectedToken } from './selectors'
 import txHelper from '../../lib/tx-helper'
 
-export const shapeShiftTxListSelector = state => state.metamask.shapeShiftTxList
+export const shapeShiftTxListSelector = state => state.affilcoin.shapeShiftTxList
 
 export const incomingTxListSelector = state => {
-  const { showIncomingTransactions } = state.metamask.featureFlags
+  const { showIncomingTransactions } = state.affilcoin.featureFlags
   if (!showIncomingTransactions) {
     return []
   }
 
-  const network = state.metamask.network
-  const selectedAddress = state.metamask.selectedAddress
-  return Object.values(state.metamask.incomingTransactions)
-    .filter(({ metamaskNetworkId, txParams }) => (
-      txParams.to === selectedAddress && metamaskNetworkId === network
+  const network = state.affilcoin.network
+  const selectedAddress = state.affilcoin.selectedAddress
+  return Object.values(state.affilcoin.incomingTransactions)
+    .filter(({ affilcoinNetworkId, txParams }) => (
+      txParams.to === selectedAddress && affilcoinNetworkId === network
     ))
 }
-export const unapprovedMsgsSelector = state => state.metamask.unapprovedMsgs
-export const selectedAddressTxListSelector = state => state.metamask.selectedAddressTxList
-export const unapprovedPersonalMsgsSelector = state => state.metamask.unapprovedPersonalMsgs
-export const unapprovedTypedMessagesSelector = state => state.metamask.unapprovedTypedMessages
-export const networkSelector = state => state.metamask.network
+export const unapprovedMsgsSelector = state => state.affilcoin.unapprovedMsgs
+export const selectedAddressTxListSelector = state => state.affilcoin.selectedAddressTxList
+export const unapprovedPersonalMsgsSelector = state => state.affilcoin.unapprovedPersonalMsgs
+export const unapprovedTypedMessagesSelector = state => state.affilcoin.unapprovedTypedMessages
+export const networkSelector = state => state.affilcoin.network
 
 export const unapprovedMessagesSelector = createSelector(
   unapprovedMsgsSelector,
@@ -307,7 +307,7 @@ export const submittedPendingTransactionsSelector = createSelector(
 )
 
 export const getTxParams = (state, selectedTransaction = {}) => {
-  const { metamask: { send } } = state
+  const { affilcoin: { send } } = state
   const { txParams } = selectedTransaction
   return txParams || {
     from: send.from,

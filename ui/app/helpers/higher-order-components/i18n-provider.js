@@ -52,7 +52,7 @@ I18nProvider.childContextTypes = {
 }
 
 const mapStateToProps = state => {
-  const { localeMessages, metamask: { currentLocale } } = state
+  const { localeMessages, affilcoin: { currentLocale } } = state
   return {
     currentLocale,
     localeMessages,

@@ -18,13 +18,13 @@ describe('UnitInput Component', () => {
     it('should render properly with a suffix', () => {
       const wrapper = shallow(
         <UnitInput
-          suffix="ETH"
+          suffix="AC"
         />
       )
 
       assert.ok(wrapper)
       assert.equal(wrapper.find('.unit-input__suffix').length, 1)
-      assert.equal(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.equal(wrapper.find('.unit-input__suffix').text(), 'AC')
     })
 
     it('should render properly with a child omponent', () => {

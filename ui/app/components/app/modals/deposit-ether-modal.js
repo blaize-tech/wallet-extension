@@ -18,8 +18,8 @@ let COINSWITCH_ROW_TEXT
 
 function mapStateToProps (state) {
   return {
-    network: state.metamask.network,
-    address: state.metamask.selectedAddress,
+    network: state.affilcoin.network,
+    address: state.affilcoin.selectedAddress,
   }
 }
 
@@ -151,7 +151,7 @@ DepositEtherModal.prototype.render = function () {
 
         this.renderRow({
           logo: h('img.deposit-ether-modal__logo', {
-            src: './images/deposit-eth.svg',
+            src: './images/ac.svg',
             style: {
               height: '75px',
               width: '75px',

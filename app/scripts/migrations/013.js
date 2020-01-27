@@ -2,7 +2,7 @@ const version = 13
 
 /*
 
-This migration modifies the network config from ambiguous 'testnet' to explicit 'ropsten'
+This migration modifies the network config from ambiguous 'testnet' to explicit 'testnet'
 
 */
 
@@ -19,7 +19,7 @@ module.exports = {
       const newState = transformState(state)
       versionedData.data = newState
     } catch (err) {
-      console.warn(`MetaMask Migration #${version}` + err.stack)
+      console.warn(`Affilcoin Migration #${version}` + err.stack)
     }
     return Promise.resolve(versionedData)
   },
@@ -30,7 +30,7 @@ function transformState (state) {
   const { config } = newState
   if (config && config.provider) {
     if (config.provider.type === 'testnet') {
-      newState.config.provider.type = 'ropsten'
+      newState.config.provider.type = 'testnet'
     }
   }
   return newState

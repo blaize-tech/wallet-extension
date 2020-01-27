@@ -84,7 +84,7 @@
     "message": "推奨トークンを追加"
   },
   "addAcquiredTokens": {
-    "message": "Metamaskで獲得したトークンを追加する"
+    "message": "Affilcoinで獲得したトークンを追加する"
   },
   "amount": {
     "message": "金額"
@@ -94,7 +94,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -122,7 +122,7 @@
     "message": "自動ログアウト(分)"
   },
   "autoLogoutTimeLimitDescription": {
-    "message": "MetaMaskが自動的にログアウトするまでのアイドル時間を分単位で設定します。"
+    "message": "Affilcoinが自動的にログアウトするまでのアイドル時間を分単位で設定します。"
   },
   "average": {
     "message": "平均"
@@ -219,7 +219,7 @@
     "message": "Etherを直接入金"
   },
   "directDepositEtherExplainer": {
-    "message": "既にEtherをお持ちなら、MetaMaskの新しいウォレットにEtherを送信することができます。"
+    "message": "既にEtherをお持ちなら、Affilcoinの新しいウォレットにEtherを送信することができます。"
   },
   "done": {
     "message": "完了"
@@ -276,7 +276,7 @@
   },
   "getEtherFromFaucet": {
     "message": "フォーセットで $1のEtherを得ることができます。",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "greaterThanMin": {
     "message": " $1以上にして下さい。",
@@ -303,7 +303,7 @@
     "message": "アカウントのインポート"
   },
   "importAccountMsg": {
-    "message": "追加したアカウントはMetaMaskのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
+    "message": "追加したアカウントはAffilcoinのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
   },
   "imported": {
     "message": "インポート完了",
@@ -372,7 +372,7 @@
     "message": "一つ以上のトークンを選択してください。"
   },
   "needEtherInWallet": {
-    "message": "MetaMaskで分散型アプリケーションを使用するためには、このウォレットにEtherが必要です。"
+    "message": "Affilcoinで分散型アプリケーションを使用するためには、このウォレットにEtherが必要です。"
   },
   "needImportFile": {
     "message": "インポートするファイルを選択してください。",
@@ -462,8 +462,8 @@
   "rinkeby": {
     "message": "Rinkebyテストネットワーク"
   },
-  "ropsten": {
-    "message": "Ropstenテストネットワーク"
+  "testnet": {
+    "message": "Testnetテストネットワーク"
   },
   "save": {
     "message": "保存"
@@ -564,7 +564,7 @@
     "message": "おかえりなさい!"
   },
   "welcome": {
-    "message": "MetaMask ベータ版へようこそ!"
+    "message": "Affilcoin ベータ版へようこそ!"
   },
   "yourSigRequested": {
     "message": "あなたの署名がリクエストされています。"

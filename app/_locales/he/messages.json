@@ -87,7 +87,7 @@
     "message": "הוסף/י אסימונים מוצעים"
   },
   "addAcquiredTokens": {
-    "message": "הוספת הטוקנים שהשגת באמצעות MetaMask"
+    "message": "הוספת הטוקנים שהשגת באמצעות Affilcoin"
   },
   "amount": {
     "message": "כמות"
@@ -97,7 +97,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -125,7 +125,7 @@
     "message": "טיימר התנתקות אוטומטית (דקות)"
   },
   "autoLogoutTimeLimitDescription": {
-    "message": "הגדר/י את זמן היעדר הפעילות בדקות לפני ש-MetaMask יתנתק אוטומטית."
+    "message": "הגדר/י את זמן היעדר הפעילות בדקות לפני ש-Affilcoin יתנתק אוטומטית."
   },
   "average": {
     "message": "ממוצע"
@@ -140,7 +140,7 @@
     "message": "גבה/י את קוד השחזור הסודי שלך כדי לשמור את בטיחות הארנק והכספים שלך."
   },
   "backupApprovalInfo": {
-    "message": "קוד סודי זה נדרש כדי לשחזר את הארנק שלך במקרה שתאבד/י את מכשירך, תשכח/י את הססמה, תצטרכ/י להתקין מחדש את MetaMask או שתרצה/י לגשת לארנק שלך במכשיר אחר."
+    "message": "קוד סודי זה נדרש כדי לשחזר את הארנק שלך במקרה שתאבד/י את מכשירך, תשכח/י את הססמה, תצטרכ/י להתקין מחדש את Affilcoin או שתרצה/י לגשת לארנק שלך במכשיר אחר."
   },
   "backupNow": {
     "message": "צור גיבוי כעת"
@@ -175,13 +175,13 @@
     "message": "הדפדפן שלך אינו נתמך..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask תוכנן ונבנה בקליפורניה."
+    "message": "Affilcoin תוכנן ונבנה בקליפורניה."
   },
   "buyWithWyre": {
     "message": "רכישת את'ר עם Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre מאפשרת לך להשתמש בכרטיס אשראי כדי להפקיד ETH ישירות בחשבון ה-MetaMask שלך."
+    "message": "Wyre מאפשרת לך להשתמש בכרטיס אשראי כדי להפקיד AC ישירות בחשבון ה-Affilcoin שלך."
   },
   "buyCoinSwitch": {
     "message": "רכישה ב-CoinSwitch"
@@ -229,7 +229,7 @@
     "message": "סגירה"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "עליך להשתמש ב-MetaMask בגוגל כרום כדי להתחבר לארנק החומרה שלך."
+    "message": "עליך להשתמש ב-Affilcoin בגוגל כרום כדי להתחבר לארנק החומרה שלך."
   },
   "confirm": {
     "message": "אישור"
@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "מתחבר לרשת אתריום הראשית"
   },
-  "connectingToRopsten": {
-    "message": "מתחבר אל רשת בדיקה Ropsten "
+  "connectingToTestnet": {
+    "message": "מתחבר אל רשת בדיקה Testnet "
   },
   "connectingToRinkeby": {
     "message": "מתחבר ל- Rinkeby Test Network  "
@@ -352,7 +352,7 @@
     "message": "רמת דיוק עשרוני"
   },
   "defaultNetwork": {
-    "message": "רשת ברירת המחדל לעסקאות Ether היא Main Net."
+    "message": "רשת ברירת המחדל לעסקאות Affilcoin היא Main Net."
   },
   "delete": {
     "message": "מחיקה"
@@ -373,7 +373,7 @@
     "message": "הפקד את'ר ישירות"
   },
   "directDepositEtherExplainer": {
-    "message": "אם כבר יש ברשותך את'ר (Ether) , הדרך המהירה ביותר להכניס את'ר לארנק החדש שלך היא באמצעות הפקדה ישירה."
+    "message": "אם כבר יש ברשותך את'ר (Affilcoin) , הדרך המהירה ביותר להכניס את'ר לארנק החדש שלך היא באמצעות הפקדה ישירה."
   },
   "dismiss": {
     "message": "סגור"
@@ -418,16 +418,16 @@
     "message": "לעולם אל תשתפ/י את הצירוף עם אף אחד."
   },
   "endOfFlowMessage5": {
-    "message": "היזהר/י מהתחזות! MetaMask לעולם לא יבקש באופן ספונטני את צירוף הגרעין שלך."
+    "message": "היזהר/י מהתחזות! Affilcoin לעולם לא יבקש באופן ספונטני את צירוף הגרעין שלך."
   },
   "endOfFlowMessage6": {
     "message": "אם עליך לגבות את צירוף הגרעין שלך שוב, תוכל/י למצוא זאת בהגדרות -> אבטחה."
   },
   "endOfFlowMessage7": {
-    "message": "אם יש לך שאלות או שנתקלת במשהו חשוד, שלח/י מייל ל- support@metamask.io."
+    "message": "אם יש לך שאלות או שנתקלת במשהו חשוד, שלח/י מייל ל- support@affilcoin.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask לא הצליח לשחזר את ה-seedphrase שלך. למד/י עוד."
+    "message": "Affilcoin לא הצליח לשחזר את ה-seedphrase שלך. למד/י עוד."
   },
   "endOfFlowMessage9": {
     "message": "למד עוד."
@@ -535,7 +535,7 @@
   },
   "getEtherFromFaucet": {
     "message": "השג/י את'ר מברז (faucet) עבור ה-$1",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "בקש/י עזרה."
@@ -560,7 +560,7 @@
     "message": "חבר ארנק חומרה"
   },
   "hardwareWalletsMsg": {
-    "message": "בחר/י ארנק חומרה שבו תרצה להשתמש עם MetaMask"
+    "message": "בחר/י ארנק חומרה שבו תרצה להשתמש עם Affilcoin"
   },
   "havingTroubleConnecting": {
     "message": "חווה קשיים בהתחברות?"
@@ -592,7 +592,7 @@
     "message": "יבא חשבון"
   },
   "importAccountMsg": {
-    "message": "חשבונות מיובאים לא ישויכו לצירוף הגרעין (seed) שנוצר במקור עבור חשבון ה-MetaMask שלך. למד/י עוד על חשבונות מיובאים"
+    "message": "חשבונות מיובאים לא ישויכו לצירוף הגרעין (seed) שנוצר במקור עבור חשבון ה-Affilcoin שלך. למד/י עוד על חשבונות מיובאים"
   },
   "importAccountSeedPhrase": {
     "message": "יבא חשבון באמצעות Seed Phrase"
@@ -635,7 +635,7 @@
     "message": "כתובת חוזה ידועה."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "לא רשת ETH, מוגדר במצב אותיות קטנות"
+    "message": "לא רשת AC, מוגדר במצב אותיות קטנות"
   },
   "invalidInput": {
     "message": "קלט לא תקין."
@@ -711,14 +711,14 @@
   "message": {
     "message": "הודעה"
   },
-  "metamaskDescription": {
+  "affilcoinDescription": {
     "message": "מחבר אותך לאתריום ולרשת המבוזרת."
   },
-  "metamaskSeedWords": {
-    "message": "מילות גרעין (Seed) של MetaMask "
+  "affilcoinSeedWords": {
+    "message": "מילות גרעין (Seed) של Affilcoin "
   },
-  "metamaskVersion": {
-    "message": "גרסת MetaMask"
+  "affilcoinVersion": {
+    "message": "גרסת Affilcoin"
   },
   "missingYourTokens": {
     "message": "אין באפשרותך לראות את הטוקנים שלך?"
@@ -733,20 +733,20 @@
     "message": "חשבונות הארנק שלי"
   },
   "myWalletAccountsDescription": {
-    "message": "כל חשבונותיך שנוצרו ב-MetaMask יתווספו אוטומטית לחלק זה."
+    "message": "כל חשבונותיך שנוצרו ב-Affilcoin יתווספו אוטומטית לחלק זה."
   },
   "mustSelectOne": {
     "message": "חובה לבחור לפחות אסימון אחד."
   },
   "needEtherInWallet": {
-    "message": "כדי לתקשר עם אפליקציות מבוזרות באמצעות MetaMask, צריך להיות לך את'ר בארנק."
+    "message": "כדי לתקשר עם אפליקציות מבוזרות באמצעות Affilcoin, צריך להיות לך את'ר בארנק."
   },
   "needImportFile": {
     "message": "יש לבחור קובץ לייצוא.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "לא ניתן לשלוח סכומים שליליים של ETH."
+    "message": "לא ניתן לשלוח סכומים שליליים של AC."
   },
   "networkName": {
     "message": "שם רשת"
@@ -782,8 +782,8 @@
   "newNetwork": {
     "message": "רשת חדשה"
   },
-  "newToMetaMask": {
-    "message": "חדש/ה ב- MetaMask?"
+  "newToAffilcoin": {
+    "message": "חדש/ה ב- Affilcoin?"
   },
   "noAlreadyHaveSeed": {
     "message": "לא, כבר יש לי צירוף גרעין"
@@ -792,10 +792,10 @@
     "message": "הגנ/י על המפתחות שלך!"
   },
   "protectYourKeysMessage1": {
-    "message": "יש לנקוט זהירות בנוגע לצירוף הגרעין שלך - היו דיווחים על אתרים שמנסים להתחזות ל-MetaMask .MetaMask לעולם לא תבקש את צירוף הגרעין שלך!"
+    "message": "יש לנקוט זהירות בנוגע לצירוף הגרעין שלך - היו דיווחים על אתרים שמנסים להתחזות ל-Affilcoin .Affilcoin לעולם לא תבקש את צירוף הגרעין שלך!"
   },
   "protectYourKeysMessage2": {
-    "message": "יש לשמור את ה-seedphrase שלך במקום בטוח. אם את/ה רואה משהו חשוד, או שאינך בטוח/ה בנוע לאתר, שלח/י אימייל לכתובת support@metamask.io"
+    "message": "יש לשמור את ה-seedphrase שלך במקום בטוח. אם את/ה רואה משהו חשוד, או שאינך בטוח/ה בנוע לאתר, שלח/י אימייל לכתובת support@affilcoin.io"
   },
   "rpcUrl": {
     "message": "כתובת URL חדשה של RPC"
@@ -852,7 +852,7 @@
     "message": "קח/י חלק ב- MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "קח/י חלק ב-MetaMetrics כדי לעזור לנו לשפר את MetaMask"
+    "message": "קח/י חלק ב-MetaMetrics כדי לעזור לנו לשפר את Affilcoin"
   },
   "password": {
     "message": "סיסמה"
@@ -883,7 +883,7 @@
     "message": "מטבע ראשי"
   },
   "primaryCurrencySettingDescription": {
-    "message": "בחר/י 'מקומי' כדי לתעדף הצגת ערכים במטבע המקומי של הצ'יין (למשל ETH). בחר/י פיאט כדי לתעדף הצגת ערכים במטבע הפיאט שבחרת."
+    "message": "בחר/י 'מקומי' כדי לתעדף הצגת ערכים במטבע המקומי של הצ'יין (למשל AC). בחר/י פיאט כדי לתעדף הצגת ערכים במטבע הפיאט שבחרת."
   },
   "privacyMsg": {
     "message": "מדיניות הפרטיות"
@@ -1064,7 +1064,7 @@
     "message": "שלח סכום"
   },
   "sendETH": {
-    "message": "שלח/י ETH"
+    "message": "שלח/י AC"
   },
   "sendTokens": {
     "message": "שלח טוקנים"
@@ -1085,7 +1085,7 @@
     "message": "בחר חשבון"
   },
   "selectAnAccountHelp": {
-    "message": "בחר את החשבון לצפייה ב- MetaMask"
+    "message": "בחר את החשבון לצפייה ב- Affilcoin"
   },
   "selectAHigherGasFee": {
     "message": "בחר/י בעמלת דלק גבוהה יותר כדי להאיץ את עיבוד העסקה שלך. *"
@@ -1202,19 +1202,19 @@
     "message": "סנכרן עם הנייד"
   },
   "syncWithMobileDesc": {
-    "message": "באפשרותך לסנכרן את החשבונות והמידע שלך עם המכשיר הנייד שלך. יש לפתוח את האפליקציה לנייד של MetaMask, לעבור אל \"הגדרות\" וללחוץ על \"סנכרון מהרחבה לדפדפן\""
+    "message": "באפשרותך לסנכרן את החשבונות והמידע שלך עם המכשיר הנייד שלך. יש לפתוח את האפליקציה לנייד של Affilcoin, לעבור אל \"הגדרות\" וללחוץ על \"סנכרון מהרחבה לדפדפן\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "אם את/ה פותח/ת  את אפליקציית MetaMask Mobile בפעם הראשונה, פשוט בצע/י את השלבים בטלפון שלך."
+    "message": "אם את/ה פותח/ת  את אפליקציית Affilcoin Mobile בפעם הראשונה, פשוט בצע/י את השלבים בטלפון שלך."
   },
   "syncWithMobileScanThisCode": {
-    "message": "יש לסרוק קוד QR זה באמצעות אפליקציית MetaMask לטלפון נייד"
+    "message": "יש לסרוק קוד QR זה באמצעות אפליקציית Affilcoin לטלפון נייד"
   },
   "syncWithMobileBeCareful": {
     "message": "ודא/י כי איש אינו מסתכל על המסך שלך בזמן סריקת קוד זה"
   },
   "syncWithMobileComplete": {
-    "message": "הנתונים שלך סונכרנו בהצלחה. תיהנה/י מאפליקציית MetaMask לטלפונים ניידים! "
+    "message": "הנתונים שלך סונכרנו בהצלחה. תיהנה/י מאפליקציית Affilcoin לטלפונים ניידים! "
   },
   "terms": {
     "message": "תנאי שימוש"
@@ -1232,7 +1232,7 @@
     "message": "אל"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ל-ETH באמצעות ShapeShift",
+    "message": "$1 ל-AC באמצעות ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
@@ -1309,7 +1309,7 @@
     "message": "ניסיון חוזר"
   },
   "typePassword": {
-    "message": "נא להקליד את סיסמת MetaMask שלך"
+    "message": "נא להקליד את סיסמת Affilcoin שלך"
   },
   "unapproved": {
     "message": "לא אושר"
@@ -1378,7 +1378,7 @@
     "message": "ברוך שובך!"
   },
   "welcome": {
-    "message": "ברוכים הבאים ל- MetaMask"
+    "message": "ברוכים הבאים ל- Affilcoin"
   },
   "writePhrase": {
     "message": "יש לכתוב צירוף זה על פיסת נייר ולשמור במקום מאובטח. אם הנך מעוניינ/ת ביותר אבטחה, רשמ/י אותו על גבי מספר פיסות נייר ואחסני כל אחת מהן ב- 2-3 מקומות שונים."

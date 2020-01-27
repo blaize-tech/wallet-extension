@@ -10,7 +10,7 @@ const ZERO_X_ERROR_ADDRESS = '0x'
 describe('EnsController', function () {
   describe('#constructor', function () {
     it('should construct the controller given a provider and a network', async () => {
-      const provider = new HttpProvider('https://ropsten.infura.io')
+      const provider = new HttpProvider('https://testnet.infura.io')
       const currentNetworkId = '3'
       const networkStore = new ObservableStore(currentNetworkId)
       const ens = new EnsController({

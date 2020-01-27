@@ -18,8 +18,8 @@ module.exports = connect(mapStateToProps, mapDispatchToProps)(AccountDetailsDrop
 function mapStateToProps (state) {
   return {
     selectedIdentity: getSelectedIdentity(state),
-    network: state.metamask.network,
-    keyrings: state.metamask.keyrings,
+    network: state.affilcoin.network,
+    keyrings: state.affilcoin.keyrings,
     rpcPrefs: getRpcPrefsForCurrentProvider(state),
   }
 }

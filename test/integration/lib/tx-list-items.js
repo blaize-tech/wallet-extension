@@ -40,9 +40,9 @@ async function runTxListItemsTest (assert) {
     return realFetch.fetch(...args)
   }
 
-  const metamaskLogo = await queryAsync($, '.app-header__logo-container')
-  assert.ok(metamaskLogo[0], 'metamask logo present')
-  metamaskLogo[0].click()
+  const affilcoinLogo = await queryAsync($, '.app-header__logo-container')
+  assert.ok(affilcoinLogo[0], 'affilcoin logo present')
+  affilcoinLogo[0].click()
 
   const txListItems = await queryAsync($, '.transaction-list-item')
   assert.equal(txListItems.length, 8, 'all tx list items are rendered')
