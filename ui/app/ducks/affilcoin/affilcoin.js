@@ -15,7 +15,7 @@ function reduceAffilcoin (state, action) {
     isUnlocked: false,
     isAccountMenuOpen: false,
     isPopup: getEnvironmentType(window.location.href) === ENVIRONMENT_TYPE_POPUP,
-    rpcTarget: 'https://rawtestrpc.affilcoin.io/',
+    rpcTarget: 'https://rawtestrpc.affilcoin.com/',
     identities: {},
     unapprovedTxs: {},
     frequentRpcList: [],

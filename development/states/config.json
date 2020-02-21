@@ -6,7 +6,7 @@
     "isInitialized": true,
     "isUnlocked": true,
     "currentDomain": "example.com",
-    "rpcTarget": "https://rawtestrpc.affilcoin.io/",
+    "rpcTarget": "https://rawtestrpc.affilcoin.com/",
     "identities": {
       "0x5f11b68b7d41633e74c6b18d8b8d147da52aedd6": {
         "name": "Wallet 1",
@@ -76,7 +76,7 @@
       "accountExport": "none",
       "privateKey": ""
     },
-    "currentDomain": "testfaucet.affilcoin.io",
+    "currentDomain": "testfaucet.affilcoin.com",
     "transForward": true,
     "isLoading": false,
     "warning": null,

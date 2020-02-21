@@ -85,7 +85,7 @@ class Routes extends Component {
 
     this.props.history.listen((locationObj, action) => {
       if (action === 'PUSH') {
-        const url = `&url=${encodeURIComponent('http://www.affilcoin.io/metametrics' + locationObj.pathname)}`
+        const url = `&url=${encodeURIComponent('http://www.affilcoin.com/metametrics' + locationObj.pathname)}`
         this.context.metricsEvent({}, {
           currentPath: '',
           pathname: locationObj.pathname,

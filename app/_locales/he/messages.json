@@ -424,7 +424,7 @@
     "message": "אם עליך לגבות את צירוף הגרעין שלך שוב, תוכל/י למצוא זאת בהגדרות -> אבטחה."
   },
   "endOfFlowMessage7": {
-    "message": "אם יש לך שאלות או שנתקלת במשהו חשוד, שלח/י מייל ל- support@affilcoin.io."
+    "message": "אם יש לך שאלות או שנתקלת במשהו חשוד, שלח/י מייל ל- support@affilcoin.com."
   },
   "endOfFlowMessage8": {
     "message": "Affilcoin לא הצליח לשחזר את ה-seedphrase שלך. למד/י עוד."
@@ -795,7 +795,7 @@
     "message": "יש לנקוט זהירות בנוגע לצירוף הגרעין שלך - היו דיווחים על אתרים שמנסים להתחזות ל-Affilcoin .Affilcoin לעולם לא תבקש את צירוף הגרעין שלך!"
   },
   "protectYourKeysMessage2": {
-    "message": "יש לשמור את ה-seedphrase שלך במקום בטוח. אם את/ה רואה משהו חשוד, או שאינך בטוח/ה בנוע לאתר, שלח/י אימייל לכתובת support@affilcoin.io"
+    "message": "יש לשמור את ה-seedphrase שלך במקום בטוח. אם את/ה רואה משהו חשוד, או שאינך בטוח/ה בנוע לאתר, שלח/י אימייל לכתובת support@affilcoin.com"
   },
   "rpcUrl": {
     "message": "כתובת URL חדשה של RPC"

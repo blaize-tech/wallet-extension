@@ -3,7 +3,7 @@
     "isInitialized": true,
     "isUnlocked": false,
     "currentDomain": "example.com",
-    "rpcTarget": "https://rawtestrpc.affilcoin.io/",
+    "rpcTarget": "https://rawtestrpc.affilcoin.com/",
     "identities": {},
     "unconfTxs": {},
     "currentCurrency": "USD",

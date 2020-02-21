@@ -496,7 +496,7 @@
     "message": "If you need to back up your seed phrase again, you can find it in Settings -> Security."
   },
   "endOfFlowMessage7": {
-    "message": "If you ever have questions or see something fishy, email support@affilcoin.io."
+    "message": "If you ever have questions or see something fishy, email support@affilcoin.com."
   },
   "endOfFlowMessage8": {
     "message": "Affilcoin cannot recover your seedphrase."
@@ -882,7 +882,7 @@
     "message": "Be careful with your seed phrase — there have been reports of websites that attempt to imitate Affilcoin. Affilcoin will never ask for your seed phrase!"
   },
   "protectYourKeysMessage2": {
-    "message": "Keep your phrase safe. If you see something fishy, or you’re uncertain about a website, email support@affilcoin.io"
+    "message": "Keep your phrase safe. If you see something fishy, or you’re uncertain about a website, email support@affilcoin.com"
   },
   "rpcUrl": {
     "message": "New RPC URL"

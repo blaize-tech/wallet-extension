@@ -418,7 +418,7 @@
     "message": "Se precisar fazer backup de sua frase-semente de novo, acesse Configurações -> Segurança."
   },
   "endOfFlowMessage7": {
-    "message": "Caso você tenha alguma dúvida ou veja algo suspeito, envie um e-mail para support@affilcoin.io."
+    "message": "Caso você tenha alguma dúvida ou veja algo suspeito, envie um e-mail para support@affilcoin.com."
   },
   "endOfFlowMessage8": {
     "message": "O Affilcoin não pode recuperar sua frase semente. Saiba mais."
@@ -783,7 +783,7 @@
     "message": "Tome cuidado com sua frase semente — houve relatos de sites que tentam imitar o Affilcoin. O Affilcoin nunca pedirá sua frase semente!"
   },
   "protectYourKeysMessage2": {
-    "message": "Mantenha a sua frase segura. Se você vir algo esquisito ou está inseguro quanto a um site, envie um e-mail para support@affilcoin.io"
+    "message": "Mantenha a sua frase segura. Se você vir algo esquisito ou está inseguro quanto a um site, envie um e-mail para support@affilcoin.com"
   },
   "rpcUrl": {
     "message": "Nova URL RPC"

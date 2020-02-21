@@ -28,7 +28,7 @@ And that’s how Affilcoin lets ordinary websites talk to a trusted Ethereum pro
 
 If you’d like to get started with Affilcoin right now, go ahead and click here to get the Chrome extension.
 
-If you’d like to learn more about Affilcoin, you can visit our website at affilcoin.io.
+If you’d like to learn more about Affilcoin, you can visit our website at affilcoin.com.
 
-You’re also welcome to join our slack, follow our twitter or read our source code. You can find all of those links and more at Affilcoin.io
+You’re also welcome to join our slack, follow our twitter or read our source code. You can find all of those links and more at affilcoin.com
 

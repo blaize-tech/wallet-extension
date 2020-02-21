@@ -421,7 +421,7 @@
     "message": "Jos tarvitse uuden varmuuskopion juurilauseestasi, niin se löytyy osiosta Asetukset -> Turvallisuus."
   },
   "endOfFlowMessage7": {
-    "message": "Jos sinulla on joskus jotakin kysyttävää tai jos näet jotakin epäilyttävää, lähetä sähköpostia osoitteeseen support@affilcoin.io."
+    "message": "Jos sinulla on joskus jotakin kysyttävää tai jos näet jotakin epäilyttävää, lähetä sähköpostia osoitteeseen support@affilcoin.com."
   },
   "endOfFlowMessage8": {
     "message": "Affilcoin ei pysty palauttamaan salaustekstiäsi. Lue lisää."
@@ -795,7 +795,7 @@
     "message": "Ole varovainen salausavaimesi kanssa – joidenkin verkkosivustojen kerrotaan yrittäneen matkia Affilcoinia. Affilcoin ei koskaan kysy salausavaintasi!"
   },
   "protectYourKeysMessage2": {
-    "message": "Pidä lauseesi tallessa. Jos näet jotain epäilyttävää tai et ole varma jostain sivustosta, lähetä sähköpostia osoitteeseen support@affilcoin.io"
+    "message": "Pidä lauseesi tallessa. Jos näet jotain epäilyttävää tai et ole varma jostain sivustosta, lähetä sähköpostia osoitteeseen support@affilcoin.com"
   },
   "rpcUrl": {
     "message": "Uusi RPC:n URL"

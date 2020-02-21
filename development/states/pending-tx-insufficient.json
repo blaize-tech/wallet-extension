@@ -2,7 +2,7 @@
   "affilcoin": {
     "isInitialized": true,
     "isUnlocked": true,
-    "rpcTarget": "https://rawtestrpc.affilcoin.io/",
+    "rpcTarget": "https://rawtestrpc.affilcoin.com/",
     "identities": {
       "0xa06599bd35921cfb5b71b4be3869740385b0b306": {
         "address": "0xa06599bd35921cfb5b71b4be3869740385b0b306",

@@ -268,7 +268,7 @@ jobs:
       #    name: github gh-pages docs publish
       #    command: >
       #      git config --global user.name "affilcoinbot" &&
-      #      git config --global user.email "admin@affilcoin.io" &&
+      #      git config --global user.email "admin@affilcoin.com" &&
       #      yarn publish-docs
 
   test-unit:

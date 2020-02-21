@@ -60,11 +60,11 @@
         "version": 2,
         "tolerance": 2,
         "fuzzylist": [
-          "affilcoin.io",
+          "affilcoin.com",
           "myetherwallet.com"
         ],
         "whitelist": [
-          "affilcoin.io",
+          "affilcoin.com",
           "myetherwallet.com",
           "ethereum.org",
           "myetheroll.com",

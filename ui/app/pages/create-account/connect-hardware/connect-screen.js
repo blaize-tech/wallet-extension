@@ -161,7 +161,7 @@ class ConnectScreen extends Component {
           h('p.hw-connect__footer__msg', {}, [
             this.context.t('havingTroubleConnecting'),
             h('a.hw-connect__footer__link', {
-              href: 'https://support.affilcoin.io/',
+              href: 'https://support.affilcoin.com/',
               target: '_blank',
             }, this.context.t('getHelp')),
           ]),

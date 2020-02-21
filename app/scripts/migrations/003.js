@@ -1,6 +1,6 @@
 const version = 3
-const oldTestRpc = 'https://rawtestrpc.affilcoin.io/'
-const newTestRpc = 'https://testrpc.affilcoin.io/'
+const oldTestRpc = 'https://rawtestrpc.affilcoin.com/'
+const newTestRpc = 'https://testrpc.affilcoin.com/'
 
 const clone = require('clone')
 

@@ -205,7 +205,7 @@ export default class NewAccount extends PureComponent {
             </div>
             <span id="ftf-chk1-label" className="first-time-flow__checkbox-label">
               I have read and agree to the <a
-                href="https://affilcoin.io/terms.html"
+                href="https://affilcoin.com/terms.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >

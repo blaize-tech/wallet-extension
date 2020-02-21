@@ -32,7 +32,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="https://affilcoin.io/privacy.html"
+            href="https://affilcoin.com/privacy.html"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="https://affilcoin.io/terms.html"
+            href="https://affilcoin.com/terms.html"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,7 +54,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="https://affilcoin.io/attributions.html"
+            href="https://affilcoin.com/attributions.html"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,7 +66,7 @@ export default class InfoTab extends PureComponent {
         <hr className="info-tab__separator" />
         <div className="info-tab__link-item">
           <a
-            href="https://support.affilcoin.io"
+            href="https://support.affilcoin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -77,7 +77,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="https://affilcoin.io/"
+            href="https://affilcoin.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -88,7 +88,7 @@ export default class InfoTab extends PureComponent {
         </div>
         <div className="info-tab__link-item">
           <a
-            href="mailto:help@affilcoin.io?subject=Feedback"
+            href="mailto:help@affilcoin.com?subject=Feedback"
             target="_blank"
             rel="noopener noreferrer"
           >

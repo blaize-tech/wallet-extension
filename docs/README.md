@@ -2,7 +2,7 @@
 
 These docs relate to how to contribute to the Affilcoin project itself.
 
-You can find the latest version of Affilcoin on [our official website](https://affilcoin.io/).
+You can find the latest version of Affilcoin on [our official website](https://affilcoin.com/).
 
 For help using Affilcoin, visit our [User Support Site](https://affilcoin.zendesk.com/hc/en-us).
 

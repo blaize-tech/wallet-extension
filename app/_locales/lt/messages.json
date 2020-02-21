@@ -424,7 +424,7 @@
     "message": "Jeigu reikia dar kartą padaryti jūsų atkūrimo frazės kopiją, ją galite rasti pasirinkę Nuostatos -> Sauga."
   },
   "endOfFlowMessage7": {
-    "message": "Jeigu turite klausimų arba pastebite ką nors įtartino, rašykite el. paštu support@affilcoin.io."
+    "message": "Jeigu turite klausimų arba pastebite ką nors įtartino, rašykite el. paštu support@affilcoin.com."
   },
   "endOfFlowMessage8": {
     "message": "„Affilcoin“ negali atkurti jūsų atkūrimo frazės. Sužinokite daugiau."
@@ -798,7 +798,7 @@
     "message": "Saugokite savo atkūrimo frazę – gavome pranešimų apie interneto svetaines, kuriomis bandoma imituoti „Affilcoin“. „Affilcoin“ niekada neprašys jūsų pateikti savo atkūrimo frazę!"
   },
   "protectYourKeysMessage2": {
-    "message": "Saugokite savo frazę. Jei pastebėjote kažką įtartino arba nesate tikri dėl svetainės, rašykite mums adresu support@affilcoin.io"
+    "message": "Saugokite savo frazę. Jei pastebėjote kažką įtartino arba nesate tikri dėl svetainės, rašykite mums adresu support@affilcoin.com"
   },
   "rpcUrl": {
     "message": "Naujas RPC URL"

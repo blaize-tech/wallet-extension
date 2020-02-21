@@ -1,7 +1,7 @@
 # Affilcoin Browser Extension
 [![Build Status](https://circleci.com/gh/Affilcoin/affilcoin-extension.svg?style=shield&circle-token=a1ddcf3cd38e29267f254c9c59d556d513e3a1fd)](https://circleci.com/gh/Affilcoin/affilcoin-extension) [![Coverage Status](https://coveralls.io/repos/github/Affilcoin/affilcoin-extension/badge.svg?branch=master)](https://coveralls.io/github/Affilcoin/affilcoin-extension?branch=master)
 
-You can find the latest version of Affilcoin on [our official website](https://affilcoin.io/). For help using Affilcoin, visit our [User Support Site](https://affilcoin.zendesk.com/hc/en-us).
+You can find the latest version of Affilcoin on [our official website](https://affilcoin.com/). For help using Affilcoin, visit our [User Support Site](https://affilcoin.zendesk.com/hc/en-us).
 
 Affilcoin supports Firefox, Google Chrome, and Chromium-based browsers. We recommend using the latest available browser version.
 

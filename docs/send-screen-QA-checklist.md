@@ -88,7 +88,7 @@ Additional features or functionality on the send screen should include an update
 ## Specific cases to test
  - [ ] Send ac to a hex address
  - [ ] Send ac to an ENS address
- - [ ] Donate to the faucet at https://faucet.affilcoin.io/ and edit the transaction before confirming
+ - [ ] Donate to the faucet at https://faucet.affilcoin.com/ and edit the transaction before confirming
  - [ ] Send a token that is available on the 'Add Token' screen search to a hex address
  - [ ] Create a custom token at https://tokenfactory.surge.sh/ and send it to a hex address
  - [ ] Send a token to an ENS address

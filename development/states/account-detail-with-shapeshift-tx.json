@@ -6,7 +6,7 @@
     "isInitialized": true,
     "isUnlocked": true,
     "currentDomain": "example.com",
-    "rpcTarget": "https://rawtestrpc.affilcoin.io/",
+    "rpcTarget": "https://rawtestrpc.affilcoin.com/",
     "shapeShiftTxList":[
       {
         "depositAddress": "1L8BJCR6KHkCiVceDqibt7zJscqPpH7pFw",

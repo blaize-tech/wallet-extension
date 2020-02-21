@@ -56,7 +56,7 @@ class DiagnosticsReporter {
 }
 
 function postData (data) {
-  const uri = 'https://diagnostics.affilcoin.io/v1/orphanedAccounts'
+  const uri = 'https://diagnostics.affilcoin.com/v1/orphanedAccounts'
   return fetch(uri, {
     body: JSON.stringify(data), // must match 'Content-Type' header
     credentials: 'same-origin', // include, same-origin, *omit

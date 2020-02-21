@@ -2,7 +2,7 @@
   "affilcoin": {
     "isInitialized": false,
     "isUnlocked": false,
-    "rpcTarget": "https://rawtestrpc.affilcoin.io/",
+    "rpcTarget": "https://rawtestrpc.affilcoin.com/",
     "identities": {},
     "unconfTxs": {},
     "currentCurrency": "USD",

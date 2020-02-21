@@ -424,7 +424,7 @@
     "message": "Kui peate oma seemnefraasi uuesti varundama, leiate selle valikust Settings (Seaded) -> Security (Turvalisus)."
   },
   "endOfFlowMessage7": {
-    "message": "Kui teil on küsimusi või näete midagi kahtlast, kirjutage meile support@affilcoin.io."
+    "message": "Kui teil on küsimusi või näete midagi kahtlast, kirjutage meile support@affilcoin.com."
   },
   "endOfFlowMessage8": {
     "message": "Affilcoin ei saa teie seemnefraasi taastada. Lisateave."
@@ -788,7 +788,7 @@
     "message": "Kaitske oma seemnefraasi. Meid on teavitatud veebilehtedest, mis püüavad Affilcoini jäljendada. Affilcoin ei küsi teilt kunagi teie seemnefraasi!"
   },
   "protectYourKeysMessage2": {
-    "message": "Kaitske oma seemnefraasi. Kui näete midagi kahtlast või pole veebilehe ehtsuses kindel, saatke e-kiri aadressile support@affilcoin.io"
+    "message": "Kaitske oma seemnefraasi. Kui näete midagi kahtlast või pole veebilehe ehtsuses kindel, saatke e-kiri aadressile support@affilcoin.com"
   },
   "rpcUrl": {
     "message": "Uus RPC URL"

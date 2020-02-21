@@ -6,7 +6,7 @@ _Our Terms of Use have been updated as of September 5, 2016_
 
 ## 1. Acceptance of Terms ##
 
-Affilcoin provides a platform for managing Ethereum (or "AC") accounts, and allowing ordinary websites to interact with the Ethereum blockchain, while keeping the user in control over what transactions they approve, through our website located at[ ](http://affilcoin.io)[https://affilcoin.io/](https://affilcoin.io/) and browser plugin (the "Site") — which includes text, images, audio, code and other materials  (collectively, the “Content”) and all of the features, and services provided. The Site, and any other features, tools, materials, or other services offered from time to time by Affilcoin are referred to here as the “Service.” Please read these Terms of Use (the “Terms” or “Terms of Use”) carefully before using the Service. By using or otherwise accessing the Services, or clicking to accept or agree to these Terms where that option is made available, you (1) accept and agree to these Terms (2) consent to the collection, use, disclosure and other handling of information as described in our Privacy Policy  and (3) any additional terms, rules and conditions of participation issued by Affilcoin from time to time. If you do not agree to the Terms, then you may not access or use the Content or Services.
+Affilcoin provides a platform for managing Ethereum (or "AC") accounts, and allowing ordinary websites to interact with the Ethereum blockchain, while keeping the user in control over what transactions they approve, through our website located at[ ](http://affilcoin.com)[https://affilcoin.com/](https://affilcoin.com/) and browser plugin (the "Site") — which includes text, images, audio, code and other materials  (collectively, the “Content”) and all of the features, and services provided. The Site, and any other features, tools, materials, or other services offered from time to time by Affilcoin are referred to here as the “Service.” Please read these Terms of Use (the “Terms” or “Terms of Use”) carefully before using the Service. By using or otherwise accessing the Services, or clicking to accept or agree to these Terms where that option is made available, you (1) accept and agree to these Terms (2) consent to the collection, use, disclosure and other handling of information as described in our Privacy Policy  and (3) any additional terms, rules and conditions of participation issued by Affilcoin from time to time. If you do not agree to the Terms, then you may not access or use the Content or Services.
 
 ## 2. Modification of Terms of Use ##
 
@@ -62,7 +62,7 @@ SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMIT
 
 ## 8. Our Proprietary Rights ##
 
-All title, ownership and intellectual property rights in and to the Service are owned by Affilcoin or its licensors. You acknowledge and agree that the Service contains proprietary and confidential information that is protected by applicable intellectual property and other laws. Except as expressly authorized by Affilcoin, you agree not to copy, modify, rent, lease, loan, sell, distribute, perform, display or create derivative works based on the Service, in whole or in part. Affilcoin issues a license for Affilcoin, found [here](https://github.com/Affilcoin/affilcoin-plugin/blob/master/LICENSE). For information on other licenses utilized in the development of Affilcoin, please see our attribution page at: [https://affilcoin.io/attributions.html](https://affilcoin.io/attributions.html)
+All title, ownership and intellectual property rights in and to the Service are owned by Affilcoin or its licensors. You acknowledge and agree that the Service contains proprietary and confidential information that is protected by applicable intellectual property and other laws. Except as expressly authorized by Affilcoin, you agree not to copy, modify, rent, lease, loan, sell, distribute, perform, display or create derivative works based on the Service, in whole or in part. Affilcoin issues a license for Affilcoin, found [here](https://github.com/Affilcoin/affilcoin-plugin/blob/master/LICENSE). For information on other licenses utilized in the development of Affilcoin, please see our attribution page at: [https://affilcoin.com/attributions.html](https://affilcoin.com/attributions.html)
 
 ## 9. Links ##
 
@@ -138,7 +138,7 @@ Notwithstanding the parties' decision to resolve all disputes through arbitratio
 
 ### 13.6 30-Day Right to Opt Out ###
 
-You have the right to opt-out and not be bound by the arbitration and class action waiver provisions set forth above by sending written notice of your decision to opt-out to the following address: Affilcoin ℅ ConsenSys, 49 Bogart Street, Brooklyn NY 11206 and via email at support@affilcoin.io. The notice must be sent within 30 days of September 6, 2016 or your first use of the Service, whichever is later, otherwise you shall be bound to arbitrate disputes in accordance with the terms of those paragraphs. If you opt-out of these arbitration provisions, Affilcoin also will not be bound by them.
+You have the right to opt-out and not be bound by the arbitration and class action waiver provisions set forth above by sending written notice of your decision to opt-out to the following address: Affilcoin ℅ ConsenSys, 49 Bogart Street, Brooklyn NY 11206 and via email at support@affilcoin.com. The notice must be sent within 30 days of September 6, 2016 or your first use of the Service, whichever is later, otherwise you shall be bound to arbitrate disputes in accordance with the terms of those paragraphs. If you opt-out of these arbitration provisions, Affilcoin also will not be bound by them.
 
 ### 13.7 Changes to This Section ###
 
@@ -168,12 +168,12 @@ The section titles in the Terms are for convenience only and have no legal or co
 
 ### 14.5 Communications ###
 
-Users with questions, complaints or claims with respect to the Service may contact us using the relevant contact information set forth above and at communications@affilcoin.io.
+Users with questions, complaints or claims with respect to the Service may contact us using the relevant contact information set forth above and at communications@affilcoin.com.
 
 ## 15 Related Links ##
 
-**[Terms of Use](https://affilcoin.io/terms.html)**
+**[Terms of Use](https://affilcoin.com/terms.html)**
 
-**[Privacy](https://affilcoin.io/privacy.html)**
+**[Privacy](https://affilcoin.com/privacy.html)**
 
-**[Attributions](https://affilcoin.io/attributions.html)**
+**[Attributions](https://affilcoin.com/attributions.html)**
