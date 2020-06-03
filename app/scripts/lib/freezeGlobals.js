@@ -6,7 +6,7 @@ const deepFreeze = require('deep-freeze-strict')
 
 if (
   process.env.IN_TEST !== 'true' &&
-  process.env.METAMASK_ENV !== 'test'
+  process.env.AFFILCOIN_ENV !== 'test'
 ) {
   freeze(global, 'Promise')
 }

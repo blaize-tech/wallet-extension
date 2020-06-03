@@ -21,9 +21,9 @@ module.exports = connect(mapStateToProps)(ShiftListItem)
 
 function mapStateToProps (state) {
   return {
-    selectedAddress: state.metamask.selectedAddress,
-    conversionRate: state.metamask.conversionRate,
-    currentCurrency: state.metamask.currentCurrency,
+    selectedAddress: state.affilcoin.selectedAddress,
+    conversionRate: state.affilcoin.conversionRate,
+    currentCurrency: state.affilcoin.currentCurrency,
   }
 }
 
@@ -86,7 +86,7 @@ ShiftListItem.prototype.renderUtilComponents = function () {
               marginLeft: '23px',
               marginRight: '12px',
               fontSize: '20px',
-              color: '#F7861C',
+              color: '#064cfa',
             },
           }),
         ]),

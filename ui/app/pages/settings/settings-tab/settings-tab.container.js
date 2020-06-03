@@ -13,14 +13,14 @@ import {
 import { preferencesSelector } from '../../../selectors/selectors'
 
 const mapStateToProps = state => {
-  const { appState: { warning }, metamask } = state
+  const { appState: { warning }, affilcoin } = state
   const {
     currentCurrency,
     conversionDate,
     nativeCurrency,
     useBlockie,
     currentLocale,
-  } = metamask
+  } = affilcoin
   const { useNativeCurrencyAsPrimaryCurrency } = preferencesSelector(state)
 
   return {

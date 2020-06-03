@@ -87,7 +87,7 @@
     "message": "添加推荐代币"
   },
   "addAcquiredTokens": {
-    "message": "在Metamask上添加已用的代币"
+    "message": "在Affilcoin上添加已用的代币"
   },
   "amount": {
     "message": "数量"
@@ -97,7 +97,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -125,7 +125,7 @@
     "message": "自动注销计时器（分钟）"
   },
   "autoLogoutTimeLimitDescription": {
-    "message": "请设置 MetaMask 自动注销前的空闲时间（以分钟为单位）"
+    "message": "请设置 Affilcoin 自动注销前的空闲时间（以分钟为单位）"
   },
   "average": {
     "message": "平均值"
@@ -140,7 +140,7 @@
     "message": "请备份您的私密恢复代码，保证个人钱包和资金安全。"
   },
   "backupApprovalInfo": {
-    "message": "如果不慎丢失个人设备，忘记密码，或者需要重新安装 MetaMask，亦或是需在另一台设备上打开钱包，请使用该保密码恢复个人钱包数据。"
+    "message": "如果不慎丢失个人设备，忘记密码，或者需要重新安装 Affilcoin，亦或是需在另一台设备上打开钱包，请使用该保密码恢复个人钱包数据。"
   },
   "backupNow": {
     "message": "立即备份"
@@ -175,13 +175,13 @@
     "message": "您的浏览器不支持该功能…"
   },
   "builtInCalifornia": {
-    "message": "MetaMask在加利福尼亚设计和制造。"
+    "message": "Affilcoin在加利福尼亚设计和制造。"
   },
   "buyWithWyre": {
-    "message": "使用 Wyre 购买 ETH"
+    "message": "使用 Wyre 购买 AC"
   },
   "buyWithWyreDescription": {
-    "message": "您可以通过 Wyre 使用信用卡将 ETH 存入您的 MetaMask 账户。"
+    "message": "您可以通过 Wyre 使用信用卡将 AC 存入您的 Affilcoin 账户。"
   },
   "buyCoinSwitch": {
     "message": "在CoinSwitch上购买"
@@ -229,7 +229,7 @@
     "message": "关闭"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "您需要通过 Google Chrome 浏览器使用 MetaMask ，连接个人硬件钱包。"
+    "message": "您需要通过 Google Chrome 浏览器使用 Affilcoin ，连接个人硬件钱包。"
   },
   "confirm": {
     "message": "确认"
@@ -264,8 +264,8 @@
   "connectingToMainnet": {
     "message": "正在连接到以太坊主网"
   },
-  "connectingToRopsten": {
-    "message": "正在连接到Ropsten测试网络"
+  "connectingToTestnet": {
+    "message": "正在连接到Testnet测试网络"
   },
   "connectingToRinkeby": {
     "message": "正在连接到Rinkeby测试网络"
@@ -364,16 +364,16 @@
     "message": "存入"
   },
   "depositEther": {
-    "message": "存入 Ether"
+    "message": "存入 Affilcoin"
   },
   "details": {
     "message": "详情"
   },
   "directDepositEther": {
-    "message": "直接存入 Ether"
+    "message": "直接存入 Affilcoin"
   },
   "directDepositEtherExplainer": {
-    "message": "如果你已经有了一些 Ether，通过直接转入是你的新钱包获取 Ether 的最快捷方式。"
+    "message": "如果你已经有了一些 Affilcoin，通过直接转入是你的新钱包获取 Affilcoin 的最快捷方式。"
   },
   "dismiss": {
     "message": "关闭"
@@ -418,16 +418,16 @@
     "message": "绝不向任何分享该密语。"
   },
   "endOfFlowMessage5": {
-    "message": "谨防网络钓鱼！MetaMask 绝不会主动要求您提供个人种子密语。"
+    "message": "谨防网络钓鱼！Affilcoin 绝不会主动要求您提供个人种子密语。"
   },
   "endOfFlowMessage6": {
     "message": "如果您需要再次备份个人种子密语，请通过设置 -> 安全选项完成该操作。"
   },
   "endOfFlowMessage7": {
-    "message": "如果您仍存有疑问或发现任何可疑的地方，请发送电子邮件至 support@metamask.io 进行咨询。"
+    "message": "如果您仍存有疑问或发现任何可疑的地方，请发送电子邮件至 support@affilcoin.com 进行咨询。"
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask 无法恢复您的种子密语。了解更多。"
+    "message": "Affilcoin 无法恢复您的种子密语。了解更多。"
   },
   "endOfFlowMessage9": {
     "message": "了解详情。"
@@ -525,11 +525,11 @@
     "message": "货币兑换、主要货币、语言和块状身份头像"
   },
   "getEther": {
-    "message": "获取 Ether"
+    "message": "获取 Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "从水管获取$1网络的 Ether",
-    "description": "Displays network name for Ether faucet"
+    "message": "从水管获取$1网络的 Affilcoin",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "获取帮助。"
@@ -554,7 +554,7 @@
     "message": "连接硬件钱包"
   },
   "hardwareWalletsMsg": {
-    "message": "请选择希望用于 MetaMask 的硬件钱包"
+    "message": "请选择希望用于 Affilcoin 的硬件钱包"
   },
   "havingTroubleConnecting": {
     "message": "连接出现问题？"
@@ -626,7 +626,7 @@
     "message": "已知联系人地址。"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "非 ETH 网络，设置为小写"
+    "message": "非 AC 网络，设置为小写"
   },
   "invalidInput": {
     "message": "无效输入."
@@ -702,14 +702,14 @@
   "message": {
     "message": "消息"
   },
-  "metamaskDescription": {
-    "message": "MetaMask is a secure identity vault for Ethereum."
+  "affilcoinDescription": {
+    "message": "Affilcoin is a secure identity vault for Affilcoin."
   },
-  "metamaskSeedWords": {
-    "message": "MetaMask 助记词"
+  "affilcoinSeedWords": {
+    "message": "Affilcoin 助记词"
   },
-  "metamaskVersion": {
-    "message": "MetaMask 版本"
+  "affilcoinVersion": {
+    "message": "Affilcoin 版本"
   },
   "missingYourTokens": {
     "message": "无法看到您的代币？"
@@ -721,13 +721,13 @@
     "message": "我的钱包账户"
   },
   "myWalletAccountsDescription": {
-    "message": "所有已创建的 MetaMask 账户将自动添加到该部分。"
+    "message": "所有已创建的 Affilcoin 账户将自动添加到该部分。"
   },
   "mustSelectOne": {
     "message": "至少选择一种代币."
   },
   "needEtherInWallet": {
-    "message": "使用 MetaMask 与 DAPP 交互，需要你的钱包里有 Ether。"
+    "message": "使用 Affilcoin 与 DAPP 交互，需要你的钱包里有 Affilcoin。"
   },
   "needImportFile": {
     "message": "必须选择导入一个文件。",
@@ -767,8 +767,8 @@
   "newNetwork": {
     "message": "新增网络"
   },
-  "newToMetaMask": {
-    "message": "新增至 MetaMask？"
+  "newToAffilcoin": {
+    "message": "新增至 Affilcoin？"
   },
   "noAlreadyHaveSeed": {
     "message": "不，我已经有一个种子密语了。"
@@ -777,10 +777,10 @@
     "message": "妥善保管您的密钥！"
   },
   "protectYourKeysMessage1": {
-    "message": "请注意个人种子密语安全。报告显示有多个网站企图伪造 MetaMask。MetaMask 绝不会要求您提供个人种子密语！"
+    "message": "请注意个人种子密语安全。报告显示有多个网站企图伪造 Affilcoin。Affilcoin 绝不会要求您提供个人种子密语！"
   },
   "protectYourKeysMessage2": {
-    "message": "请妥善保管您的密语。如果您发现任何可疑的地方，或无法确认网络安全性，请发送电子邮件至 support@metamask.io 进行咨询"
+    "message": "请妥善保管您的密语。如果您发现任何可疑的地方，或无法确认网络安全性，请发送电子邮件至 support@affilcoin.com 进行咨询"
   },
   "rpcUrl": {
     "message": "新增 RPC URL"
@@ -837,7 +837,7 @@
     "message": "加入 MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "加入 MetaMetrics ，帮助我们改善 MetaMask 服务"
+    "message": "加入 MetaMetrics ，帮助我们改善 Affilcoin 服务"
   },
   "password": {
     "message": "密码"
@@ -868,7 +868,7 @@
     "message": "主要货币"
   },
   "primaryCurrencySettingDescription": {
-    "message": "请选择“本地”，优先显示当地货币链价值（如 ETH ）。请选择“法定”，优先显示选定法定货币价值。"
+    "message": "请选择“本地”，优先显示当地货币链价值（如 AC ）。请选择“法定”，优先显示选定法定货币价值。"
   },
   "privacyMsg": {
     "message": "隐私政策"
@@ -979,8 +979,8 @@
   "rinkeby": {
     "message": "Rinkeby 测试网络"
   },
-  "ropsten": {
-    "message": "Ropsten 测试网络"
+  "testnet": {
+    "message": "Testnet 测试网络"
   },
   "goerli": {
     "message": "Goerli 测试网络"
@@ -1052,7 +1052,7 @@
     "message": "发送金额"
   },
   "sendETH": {
-    "message": "发送 ETH"
+    "message": "发送 AC"
   },
   "sendTokens": {
     "message": "发送 代币"
@@ -1073,7 +1073,7 @@
     "message": "选择账户"
   },
   "selectAnAccountHelp": {
-    "message": "请通过 MetaMask 选择需要查看的账户"
+    "message": "请通过 Affilcoin 选择需要查看的账户"
   },
   "selectAHigherGasFee": {
     "message": "请选择价格稍高的天然气费，加快交易处理速度。*"
@@ -1163,7 +1163,7 @@
     "message": "3. 开始体验 dApps 和更多功能！"
   },
   "step3HardwareWalletMsg": {
-    "message": "使用您的硬件钱包，操作与以太坊账户制作相同。登录 dApps，发送 ETH ，购买和保存 ERC20 代币和诸如 CryptoKitties 等不可替代代币。"
+    "message": "使用您的硬件钱包，操作与以太坊账户制作相同。登录 dApps，发送 AC ，购买和保存 ERC20 代币和诸如 CryptoKitties 等不可替代代币。"
   },
   "storePhrase": {
     "message": "通过如 1Password 等密码管家保存该密语。"
@@ -1190,19 +1190,19 @@
     "message": "使用移动设备进行同步"
   },
   "syncWithMobileDesc": {
-    "message": "您可以使用个人移动设备同步个人账户与信息。打开 MetaMask 移动应用程序，进入“设置”选项，点击“通过浏览器扩展程序同步”"
+    "message": "您可以使用个人移动设备同步个人账户与信息。打开 Affilcoin 移动应用程序，进入“设置”选项，点击“通过浏览器扩展程序同步”"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "如果您是首次启用 MetaMask 移动应用程序，请通过个人手机完成如下操作。"
+    "message": "如果您是首次启用 Affilcoin 移动应用程序，请通过个人手机完成如下操作。"
   },
   "syncWithMobileScanThisCode": {
-    "message": "使用 MetaMask 应用程序扫描编码"
+    "message": "使用 Affilcoin 应用程序扫描编码"
   },
   "syncWithMobileBeCareful": {
     "message": "扫描编码时，请确保身边无其他人正在查看您的显示页面"
   },
   "syncWithMobileComplete": {
-    "message": "您的数据已同步成功。尽情体验 MetaMask 应用程序！"
+    "message": "您的数据已同步成功。尽情体验 Affilcoin 应用程序！"
   },
   "terms": {
     "message": "使用条款"
@@ -1220,7 +1220,7 @@
     "message": "至"
   },
   "toETHviaShapeShift": {
-    "message": "$1 ETH 通过 ShapeShift",
+    "message": "$1 AC 通过 ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
@@ -1363,7 +1363,7 @@
     "message": "欢迎回来！"
   },
   "welcome": {
-    "message": "欢迎使用 MetaMask 测试版"
+    "message": "欢迎使用 Affilcoin 测试版"
   },
   "writePhrase": {
     "message": "请将该密语记录在纸上，并保存在安全的地方。如果希望提升信息安全性，请将信息记录在多张纸上，并分别保存在 2 - 3 个不同的地方。"

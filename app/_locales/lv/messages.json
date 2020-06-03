@@ -3,7 +3,7 @@
     "message": "Privātais režīms tagad ieslēgts pēc noklusējuma"
   },
   "chartOnlyAvailableEth": {
-    "message": "Grafiks pieejams vienīgi Ethereum tīklos."
+    "message": "Grafiks pieejams vienīgi Affilcoin tīklos."
   },
   "confirmClear": {
     "message": "Vai tiešām vēlaties dzēst apstiprinātās vietnes?"
@@ -15,7 +15,7 @@
     "message": "Notīrīt konfidencialitātes datus"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "reject": {
@@ -91,13 +91,13 @@
     "message": "Pievienot ieteiktos marķierus"
   },
   "addAcquiredTokens": {
-    "message": "Pievienojiet marķierus, ko ieguvāt, izmantojot MetaMask"
+    "message": "Pievienojiet marķierus, ko ieguvāt, izmantojot Affilcoin"
   },
   "amount": {
     "message": "Apjoms"
   },
   "appDescription": {
-    "message": "Ethereum maks pārlūkā",
+    "message": "Affilcoin maks pārlūkā",
     "description": "The description of the application"
   },
   "approve": {
@@ -125,7 +125,7 @@
     "message": "Automātiskās izrakstīšanās taimeris (minūtes)"
   },
   "autoLogoutTimeLimitDescription": {
-    "message": "Iestatiet bezdarbības laiku minūtēs, pēc kura MetaMask veiks automātisku izrakstīšanu"
+    "message": "Iestatiet bezdarbības laiku minūtēs, pēc kura Affilcoin veiks automātisku izrakstīšanu"
   },
   "average": {
     "message": "Vidēji"
@@ -140,7 +140,7 @@
     "message": "Dublējiet savu slepeno atgūšanas kodu, lai maks un līdzekļi atrastos drošībā."
   },
   "backupApprovalInfo": {
-    "message": "Šis slepenais kods ir nepieciešams, lai atjaunotu jūsu maku, ja pazaudējat ierīci, aizmirstat paroli, jāpārinstalē MetaMask vai vēlaties piekļūt makam no citas ierīces."
+    "message": "Šis slepenais kods ir nepieciešams, lai atjaunotu jūsu maku, ja pazaudējat ierīci, aizmirstat paroli, jāpārinstalē Affilcoin vai vēlaties piekļūt makam no citas ierīces."
   },
   "backupNow": {
     "message": "Dublēt tagad"
@@ -175,13 +175,13 @@
     "message": "Jūsu pārlūkprogramma netiek atbalstīta..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask ir izstrādāta un izveidota Kalifornijā."
+    "message": "Affilcoin ir izstrādāta un izveidota Kalifornijā."
   },
   "buyWithWyre": {
-    "message": "Pirkt ETH ar Wyre"
+    "message": "Pirkt AC ar Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ļauj noguldīt ETH tieši jūsu MetaMask kontā, izmantojot kredītkarti."
+    "message": "Wyre ļauj noguldīt AC tieši jūsu Affilcoin kontā, izmantojot kredītkarti."
   },
   "buyCoinSwitch": {
     "message": "Pirkt CoinSwitch"
@@ -229,7 +229,7 @@
     "message": "Aizvērt"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "MetaMask ir jāpalaiž pārlūkprogrammā Google Chrome, lai varētu pievienot aparatūras maku."
+    "message": "Affilcoin ir jāpalaiž pārlūkprogrammā Google Chrome, lai varētu pievienot aparatūras maku."
   },
   "confirm": {
     "message": "Apstiprināt"
@@ -262,10 +262,10 @@
     "message": "Savienojas ar Kovan testa tīklu"
   },
   "connectingToMainnet": {
-    "message": "Savienojas ar galveno Ethereum tīklu"
+    "message": "Savienojas ar galveno Affilcoin tīklu"
   },
-  "connectingToRopsten": {
-    "message": "Pieslēdzas Ropsten testa tīklam"
+  "connectingToTestnet": {
+    "message": "Pieslēdzas Testnet testa tīklam"
   },
   "connectingToRinkeby": {
     "message": "Pieslēdzas Rinkeby testa tīklam"
@@ -352,7 +352,7 @@
     "message": "Decimāldaļu precizitāte"
   },
   "defaultNetwork": {
-    "message": "Galvenais Ether darījumu tīkls ir Main Net."
+    "message": "Galvenais Affilcoin darījumu tīkls ir Main Net."
   },
   "delete": {
     "message": "Dzēst"
@@ -364,16 +364,16 @@
     "message": "Iemaksa"
   },
   "depositEther": {
-    "message": "Noguldīt Ether"
+    "message": "Noguldīt Affilcoin"
   },
   "details": {
     "message": "Informācija"
   },
   "directDepositEther": {
-    "message": "Tiešā Ether iemaksa"
+    "message": "Tiešā Affilcoin iemaksa"
   },
   "directDepositEtherExplainer": {
-    "message": "Ja jums jau ir Ether, tad visātrāk Ether savā makā varat saņemt ar tiešo iemaksu."
+    "message": "Ja jums jau ir Affilcoin, tad visātrāk Affilcoin savā makā varat saņemt ar tiešo iemaksu."
   },
   "dismiss": {
     "message": "Noraidīt"
@@ -418,16 +418,16 @@
     "message": "Nekad neizpaudiet šo frāzi citiem cilvēkiem."
   },
   "endOfFlowMessage5": {
-    "message": "Uzmanieties no pikšķerēšanas! MetaMask nekad pēkšņi nelūgs norādīt atkopšanas frāzi."
+    "message": "Uzmanieties no pikšķerēšanas! Affilcoin nekad pēkšņi nelūgs norādīt atkopšanas frāzi."
   },
   "endOfFlowMessage6": {
     "message": "Ja nepieciešams atkārtoti dublēt atkopšanas frāzi, varat to atrast, dodoties uz Iestatījumi -> Drošība."
   },
   "endOfFlowMessage7": {
-    "message": "Ja jums rodas kādi jautājumi vai pamanāt ko aizdomīgu, rakstiet uz support@metamask.io."
+    "message": "Ja jums rodas kādi jautājumi vai pamanāt ko aizdomīgu, rakstiet uz support@affilcoin.com."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask nevar atjaunot jūsu atkopšanas frāzi. Uzzināt vairāk."
+    "message": "Affilcoin nevar atjaunot jūsu atkopšanas frāzi. Uzzināt vairāk."
   },
   "endOfFlowMessage9": {
     "message": "Uzzināt vairāk."
@@ -439,7 +439,7 @@
     "message": "Kļūda ENS vārda reģistrācijā"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Šajā tīklā ENS nosaukums nav atrasts. Pamēģiniet pārslēgties uz galveno Ethereum tīklu."
+    "message": "Šajā tīklā ENS nosaukums nav atrasts. Pamēģiniet pārslēgties uz galveno Affilcoin tīklu."
   },
   "enterAnAlias": {
     "message": "Ievadiet segvārdu"
@@ -451,7 +451,7 @@
     "message": "Ievadiet paroli, lai turpinātu"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereum publiskā adrese"
+    "message": "Affilcoin publiskā adrese"
   },
   "etherscanView": {
     "message": "Skatīt kontu ar Etherscan"
@@ -512,7 +512,7 @@
     "message": "Ārkārtīgi zema Gas cena"
   },
   "gasPriceInfoModalContent": {
-    "message": "Gas cena norāda Ether summu, ko vēlaties maksāt par katru Gas vienību."
+    "message": "Gas cena norāda Affilcoin summu, ko vēlaties maksāt par katru Gas vienību."
   },
   "gasPriceNoDenom": {
     "message": "Gas cena"
@@ -527,11 +527,11 @@
     "message": "Valūtas konvertēšana, galvenā valūta, valoda, bloku identifikators"
   },
   "getEther": {
-    "message": "Saņemt Ether"
+    "message": "Saņemt Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Vai vēlaties $1 iegūt Ether no krāna?",
-    "description": "Displays network name for Ether faucet"
+    "message": "Vai vēlaties $1 iegūt Affilcoin no krāna?",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Saņemt palīdzību."
@@ -556,7 +556,7 @@
     "message": "Pieslēdziet aparatūras maku"
   },
   "hardwareWalletsMsg": {
-    "message": "Atlasiet aparatūras maku lietošanai ar MetaMask"
+    "message": "Atlasiet aparatūras maku lietošanai ar Affilcoin"
   },
   "havingTroubleConnecting": {
     "message": "Neizdodas pieslēgties?"
@@ -588,7 +588,7 @@
     "message": "Importēt kontu"
   },
   "importAccountMsg": {
-    "message": "Importētie konti netiks piesaistīti sākotnēji izveidotā MetaMask konta atkopšanas frāzei. Uzziniet vairāk par importētajiem kontiem"
+    "message": "Importētie konti netiks piesaistīti sākotnēji izveidotā Affilcoin konta atkopšanas frāzei. Uzziniet vairāk par importētajiem kontiem"
   },
   "importAccountSeedPhrase": {
     "message": "Importēt kontu ar atkopšanas frāzi"
@@ -631,7 +631,7 @@
     "message": "Zināmā līguma adrese."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nav ETH tīkls, iestatīti mazie burti"
+    "message": "Nav AC tīkls, iestatīti mazie burti"
   },
   "invalidInput": {
     "message": "Nederīga ievadītā vērtība."
@@ -696,7 +696,7 @@
     "message": "Izrakstīties"
   },
   "mainnet": {
-    "message": "Galvenais Ethereum tīkls"
+    "message": "Galvenais Affilcoin tīkls"
   },
   "memorizePhrase": {
     "message": "Iegaumējiet šo frāzi."
@@ -710,14 +710,14 @@
   "message": {
     "message": "Ziņojums"
   },
-  "metamaskDescription": {
-    "message": "Veido savienojumu ar Ethereum un decentralizēto tīmekli."
+  "affilcoinDescription": {
+    "message": "Veido savienojumu ar Affilcoin un decentralizēto tīmekli."
   },
-  "metamaskSeedWords": {
-    "message": "MetaMask atkopšanas vārdi"
+  "affilcoinSeedWords": {
+    "message": "Affilcoin atkopšanas vārdi"
   },
-  "metamaskVersion": {
-    "message": "MetaMask versija"
+  "affilcoinVersion": {
+    "message": "Affilcoin versija"
   },
   "missingYourTokens": {
     "message": "Neredzat savus marķierus?"
@@ -732,20 +732,20 @@
     "message": "Mana maka konti"
   },
   "myWalletAccountsDescription": {
-    "message": "Visi jūsu izveidotie MetaMask konti tiks automātiski pievienoti šajā sadaļā."
+    "message": "Visi jūsu izveidotie Affilcoin konti tiks automātiski pievienoti šajā sadaļā."
   },
   "mustSelectOne": {
     "message": "Jāatlasa vismaz 1 marķieris."
   },
   "needEtherInWallet": {
-    "message": "Lai izmantotu decentralizētas lietotnes ar MetaMask, jūsu makā jābūt Ether."
+    "message": "Lai izmantotu decentralizētas lietotnes ar Affilcoin, jūsu makā jābūt Affilcoin."
   },
   "needImportFile": {
     "message": "Jums jāatlasa fails, ko importēt",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nav iespējams nosūtīt negatīvu ETH summu."
+    "message": "Nav iespējams nosūtīt negatīvu AC summu."
   },
   "networkName": {
     "message": "Tīkla nosaukums"
@@ -781,8 +781,8 @@
   "newNetwork": {
     "message": "Jauns tīkls"
   },
-  "newToMetaMask": {
-    "message": "Nepazīstat MetaMask?"
+  "newToAffilcoin": {
+    "message": "Nepazīstat Affilcoin?"
   },
   "noAlreadyHaveSeed": {
     "message": "Nē, man jau ir atkopšanas frāze"
@@ -791,10 +791,10 @@
     "message": "Sargājiet savas atslēgas!"
   },
   "protectYourKeysMessage1": {
-    "message": "Rīkojieties uzmanīgi ar sēklas frāzi — saņemti ziņojumi par tīmekļa vietnēm, kas mēģina imitēt MetaMask. MetaMask nekad nelūgs norādīt sēklas frāzi."
+    "message": "Rīkojieties uzmanīgi ar sēklas frāzi — saņemti ziņojumi par tīmekļa vietnēm, kas mēģina imitēt Affilcoin. Affilcoin nekad nelūgs norādīt sēklas frāzi."
   },
   "protectYourKeysMessage2": {
-    "message": "Glabājiet frāzi drošībā. Ja kaut kas šķiet aizdomīgs vai neesat pārliecināti par tīmekļa vietni, rakstiet e-pastu uz support@metamask.io"
+    "message": "Glabājiet frāzi drošībā. Ja kaut kas šķiet aizdomīgs vai neesat pārliecināti par tīmekļa vietni, rakstiet e-pastu uz support@affilcoin.com"
   },
   "rpcUrl": {
     "message": "Jauns RPC URL"
@@ -882,7 +882,7 @@
     "message": "Primārā valūta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Atlasīt vietējo, lai piešķirtu attēlotajām vērtībām prioritātes ķēdes vietējā vērtībā (piemēram, ETH). Atlasiet Fiat, lai piešķirtu augstāku prioritāti vērtībām jūsu atlasītajā fiat valūtā."
+    "message": "Atlasīt vietējo, lai piešķirtu attēlotajām vērtībām prioritātes ķēdes vietējā vērtībā (piemēram, AC). Atlasiet Fiat, lai piešķirtu augstāku prioritāti vērtībām jūsu atlasītajā fiat valūtā."
   },
   "privacyMsg": {
     "message": "Privātuma politika"
@@ -993,8 +993,8 @@
   "rinkeby": {
     "message": "Rinkeby testa tīkls"
   },
-  "ropsten": {
-    "message": "Ropsten testa tīkls"
+  "testnet": {
+    "message": "Testnet testa tīkls"
   },
   "goerli": {
     "message": "Goerli testa tīkls"
@@ -1030,7 +1030,7 @@
     "message": "Ar slepeno atgūšanas frāzi ir vieglāk dublēt un atjaunot kontu."
   },
   "secretBackupPhraseWarning": {
-    "message": "BRĪDINĀJUMS! Nekādā gadījumā neizpaudiet savu rezerves frāzi. Ikviens, kam pieejama šī frāze, var uz visiem laikiem pārņemt jūsu Ether."
+    "message": "BRĪDINĀJUMS! Nekādā gadījumā neizpaudiet savu rezerves frāzi. Ikviens, kam pieejama šī frāze, var uz visiem laikiem pārņemt jūsu Affilcoin."
   },
   "secretPhrase": {
     "message": "Ievadiet šeit slepeno divpadsmit vārdu frāzi, lai atjaunotu savu seifu."
@@ -1066,7 +1066,7 @@
     "message": "Nosūtītā summa"
   },
   "sendETH": {
-    "message": "Sūtīt ETH"
+    "message": "Sūtīt AC"
   },
   "sendTokens": {
     "message": "Nosūtīt marķierus"
@@ -1087,7 +1087,7 @@
     "message": "Atlasiet kontu"
   },
   "selectAnAccountHelp": {
-    "message": "Atlasiet kontu, ko skatīt MetaMask"
+    "message": "Atlasiet kontu, ko skatīt Affilcoin"
   },
   "selectAHigherGasFee": {
     "message": "Atlasiet lielāku maksu par Gas, lai paātrinātu darījuma apstrādi.*"
@@ -1177,7 +1177,7 @@
     "message": "3. Sāciet izmantot dApps un citas funkcijas!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Lietojiet aparatūras kontu līdzīgi citiem Ethereum kontiem. Pierakstieties dApps, sūtiet Eth, pērciet un glabājiet ERC20 žetonus un neatvietojamos žetonus, piemēram, CryptoKitties."
+    "message": "Lietojiet aparatūras kontu līdzīgi citiem Affilcoin kontiem. Pierakstieties dApps, sūtiet Eth, pērciet un glabājiet ERC20 žetonus un neatvietojamos žetonus, piemēram, CryptoKitties."
   },
   "storePhrase": {
     "message": "Saglabājiet šo frāzi paroļu pārvaldniekā, piemēram, 1Password."
@@ -1204,19 +1204,19 @@
     "message": "Sinhronizēt ar tālruni"
   },
   "syncWithMobileDesc": {
-    "message": "Jūs varat sinhronizēt savus kontus un informāciju ar mobilo ierīci. Atveriet MetaMask mobilo lietotni, ejiet uz \"Iestatījumi\" un pieskarieties pie \"Sinhronizēt no pārlūka paplašinājuma\""
+    "message": "Jūs varat sinhronizēt savus kontus un informāciju ar mobilo ierīci. Atveriet Affilcoin mobilo lietotni, ejiet uz \"Iestatījumi\" un pieskarieties pie \"Sinhronizēt no pārlūka paplašinājuma\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Ja esat pirmoreiz atvēris MetaMask mobilo lietotni, vienkārši sekojiet norādēm tālrunī."
+    "message": "Ja esat pirmoreiz atvēris Affilcoin mobilo lietotni, vienkārši sekojiet norādēm tālrunī."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Noskenējiet šo kodu ar MetaMask mobilo lietotni"
+    "message": "Noskenējiet šo kodu ar Affilcoin mobilo lietotni"
   },
   "syncWithMobileBeCareful": {
     "message": "Pārliecinieties, ka neviens cits neskatās jūsu ekrānā, kad skenējat šo kodu."
   },
   "syncWithMobileComplete": {
-    "message": "Jūsu dati sekmīgi sinhronizēti. Patīkamu MetaMask mobilās lietotnes lietošanu!"
+    "message": "Jūsu dati sekmīgi sinhronizēti. Patīkamu Affilcoin mobilās lietotnes lietošanu!"
   },
   "terms": {
     "message": "Lietošanas noteikumi"
@@ -1234,7 +1234,7 @@
     "message": "Adresāts"
   },
   "toETHviaShapeShift": {
-    "message": "$1 uz ETH, izmantojot ShapeShift",
+    "message": "$1 uz AC, izmantojot ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
@@ -1311,7 +1311,7 @@
     "message": "Mēģināt vēlreiz"
   },
   "typePassword": {
-    "message": "Ievadiet savu MetaMask paroli"
+    "message": "Ievadiet savu Affilcoin paroli"
   },
   "unapproved": {
     "message": "Nav apstiprināts"
@@ -1380,7 +1380,7 @@
     "message": "Ar atgriešanos!"
   },
   "welcome": {
-    "message": "Laipni lūgti MetaMask"
+    "message": "Laipni lūgti Affilcoin"
   },
   "writePhrase": {
     "message": "Pierakstiet šo frāzi uz lapiņas, un noglabājiet to drošā vietā! Ja vēlaties stiprināt drošību, pierakstiet to uz vairākām lapiņām un glabājiet tās 2–3 dažādās vietās."

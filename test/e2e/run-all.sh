@@ -19,7 +19,7 @@ concurrently --kill-others \
   --success first \
   'yarn ganache:start' \
   'yarn dapp' \
-  'sleep 5 && mocha test/e2e/metamask-ui.spec'
+  'sleep 5 && mocha test/e2e/affilcoin-ui.spec'
 
 concurrently --kill-others \
   --names 'ganache,dapp,e2e' \
@@ -27,7 +27,7 @@ concurrently --kill-others \
   --success first \
   'yarn ganache:start' \
   'yarn dapp' \
-  'sleep 5 && mocha test/e2e/metamask-responsive-ui.spec'
+  'sleep 5 && mocha test/e2e/affilcoin-responsive-ui.spec'
 
 concurrently --kill-others \
   --names 'ganache,dapp,e2e' \

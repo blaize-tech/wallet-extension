@@ -18,7 +18,7 @@ const provider = createTestProviderTools({ scaffold: {}}).provider
 
 const enLocale = require('../../../../app/_locales/en/messages.json')
 const actions = require('../../../../ui/app/store/actions')
-const MetaMaskController = require('../../../../app/scripts/metamask-controller')
+const AffilcoinController = require('../../../../app/scripts/affilcoin-controller')
 
 const firstTimeState = require('../../../unit/localhostState')
 const devState = require('../../../data/2-state.json')
@@ -32,7 +32,7 @@ describe('Actions', () => {
 
   const currentNetworkId = 42
 
-  let background, metamaskController
+  let background, affilcoinController
 
   const TEST_SEED = 'debris dizzy just program just float decrease vacant alarm reduce speak stadium'
   const password = 'a-fake-password'
@@ -40,7 +40,7 @@ describe('Actions', () => {
 
   beforeEach(async () => {
 
-    metamaskController = new MetaMaskController({
+    affilcoinController = new AffilcoinController({
       provider,
       keyringController: new KeyringController({}),
       showUnapprovedTx: noop,
@@ -57,24 +57,24 @@ describe('Actions', () => {
       initState: clone(firstTimeState),
     })
 
-    metamaskController.threeBoxController = {
+    affilcoinController.threeBoxController = {
       new3Box: sinon.spy(),
       getThreeBoxAddress: sinon.spy(),
       getThreeBoxSyncingState: sinon.spy(),
     }
 
-    await metamaskController.createNewVaultAndRestore(password, TEST_SEED)
+    await affilcoinController.createNewVaultAndRestore(password, TEST_SEED)
 
-    await metamaskController.importAccountWithStrategy('Private Key', [ importPrivkey ])
+    await affilcoinController.importAccountWithStrategy('Private Key', [ importPrivkey ])
 
-    background = metamaskController.getApi()
+    background = affilcoinController.getApi()
 
     actions._setBackgroundConnection(background)
 
     global.ethQuery = new EthQuery(provider)
   })
 
-  describe('#tryUnlockMetamask', () => {
+  describe('#tryUnlockAffilcoin', () => {
 
     let submitPasswordSpy, verifySeedPhraseSpy
 
@@ -90,7 +90,7 @@ describe('Actions', () => {
       submitPasswordSpy = sinon.spy(background, 'submitPassword')
       verifySeedPhraseSpy = sinon.spy(background, 'verifySeedPhrase')
 
-      await store.dispatch(actions.tryUnlockMetamask())
+      await store.dispatch(actions.tryUnlockAffilcoin())
       assert(submitPasswordSpy.calledOnce)
       assert(verifySeedPhraseSpy.calledOnce)
     })
@@ -114,7 +114,7 @@ describe('Actions', () => {
       })
 
       try {
-        await store.dispatch(actions.tryUnlockMetamask('test'))
+        await store.dispatch(actions.tryUnlockAffilcoin('test'))
         assert.fail('Should have thrown error')
       } catch (_) {
         assert.deepEqual(store.getActions(), expectedActions)
@@ -132,7 +132,7 @@ describe('Actions', () => {
       })
 
       try {
-        await store.dispatch(actions.tryUnlockMetamask('test'))
+        await store.dispatch(actions.tryUnlockAffilcoin('test'))
         assert.fail('Should have thrown error')
       } catch (_) {
         const actions = store.getActions()
@@ -407,7 +407,7 @@ describe('Actions', () => {
   describe('#addNewAccount', () => {
 
     it('Adds a new account', () => {
-      const store = mockStore({ metamask: devState })
+      const store = mockStore({ affilcoin: devState })
 
       const addNewAccountSpy = sinon.spy(background, 'addNewAccount')
 
@@ -621,7 +621,7 @@ describe('Actions', () => {
 
   describe('#signMsg', () => {
 
-    let signMessageSpy, metamaskMsgs, msgId, messages
+    let signMessageSpy, affilcoinMsgs, msgId, messages
 
     const msgParams = {
       from: '0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc',
@@ -629,11 +629,11 @@ describe('Actions', () => {
     }
 
     beforeEach(() => {
-      metamaskController.newUnsignedMessage(msgParams, noop)
-      metamaskMsgs = metamaskController.messageManager.getUnapprovedMsgs()
-      messages = metamaskController.messageManager.messages
-      msgId = Object.keys(metamaskMsgs)[0]
-      messages[0].msgParams.metamaskId = parseInt(msgId)
+      affilcoinController.newUnsignedMessage(msgParams, noop)
+      affilcoinMsgs = affilcoinController.messageManager.getUnapprovedMsgs()
+      messages = affilcoinController.messageManager.messages
+      msgId = Object.keys(affilcoinMsgs)[0]
+      messages[0].msgParams.affilcoinId = parseInt(msgId)
     })
 
     afterEach(() => {
@@ -653,7 +653,7 @@ describe('Actions', () => {
       const store = mockStore()
       const expectedActions = [
         { type: 'SHOW_LOADING_INDICATION', value: undefined },
-        { type: 'UPDATE_METAMASK_STATE', value: undefined },
+        { type: 'UPDATE_AFFILCOIN_STATE', value: undefined },
         { type: 'HIDE_LOADING_INDICATION' },
         { type: 'DISPLAY_WARNING', value: 'error' },
       ]
@@ -675,7 +675,7 @@ describe('Actions', () => {
 
   describe('#signPersonalMsg', () => {
 
-    let signPersonalMessageSpy, metamaskMsgs, msgId, personalMessages
+    let signPersonalMessageSpy, affilcoinMsgs, msgId, personalMessages
 
     const msgParams = {
       from: '0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc',
@@ -683,11 +683,11 @@ describe('Actions', () => {
     }
 
     beforeEach(() => {
-      metamaskController.newUnsignedPersonalMessage(msgParams, noop)
-      metamaskMsgs = metamaskController.personalMessageManager.getUnapprovedMsgs()
-      personalMessages = metamaskController.personalMessageManager.messages
-      msgId = Object.keys(metamaskMsgs)[0]
-      personalMessages[0].msgParams.metamaskId = parseInt(msgId)
+      affilcoinController.newUnsignedPersonalMessage(msgParams, noop)
+      affilcoinMsgs = affilcoinController.personalMessageManager.getUnapprovedMsgs()
+      personalMessages = affilcoinController.personalMessageManager.messages
+      msgId = Object.keys(affilcoinMsgs)[0]
+      personalMessages[0].msgParams.affilcoinId = parseInt(msgId)
     })
 
     afterEach(() => {
@@ -708,7 +708,7 @@ describe('Actions', () => {
       const store = mockStore()
       const expectedActions = [
         { type: 'SHOW_LOADING_INDICATION', value: undefined },
-        { type: 'UPDATE_METAMASK_STATE', value: undefined },
+        { type: 'UPDATE_AFFILCOIN_STATE', value: undefined },
         { type: 'HIDE_LOADING_INDICATION' },
         { type: 'DISPLAY_WARNING', value: 'error' },
       ]
@@ -773,11 +773,11 @@ describe('Actions', () => {
     }
 
     beforeEach(() => {
-      metamaskController.newUnsignedTypedMessage(msgParamsV3, 'V3')
-      messages = metamaskController.typedMessageManager.getUnapprovedMsgs()
-      typedMessages = metamaskController.typedMessageManager.messages
+      affilcoinController.newUnsignedTypedMessage(msgParamsV3, 'V3')
+      messages = affilcoinController.typedMessageManager.getUnapprovedMsgs()
+      typedMessages = affilcoinController.typedMessageManager.messages
       msgId = Object.keys(messages)[0]
-      typedMessages[0].msgParams.metamaskId = parseInt(msgId)
+      typedMessages[0].msgParams.affilcoinId = parseInt(msgId)
     })
 
     afterEach(() => {
@@ -796,7 +796,7 @@ describe('Actions', () => {
       const store = mockStore()
       const expectedActions = [
         { type: 'SHOW_LOADING_INDICATION', value: undefined },
-        { type: 'UPDATE_METAMASK_STATE', value: undefined },
+        { type: 'UPDATE_AFFILCOIN_STATE', value: undefined },
         { type: 'HIDE_LOADING_INDICATION' },
         { type: 'DISPLAY_WARNING', value: 'error' },
       ]
@@ -900,13 +900,13 @@ describe('Actions', () => {
       stub.reset()
     })
 
-    it('returns default gas limit for basic eth transaction', async () => {
+    it('returns default gas limit for basic ac transaction', async () => {
       const store = mockStore()
 
       const expectedActions = [
         { type: 'GAS_LOADING_STARTED' },
         { type: 'UPDATE_GAS_LIMIT', value: '0x5208' },
-        { type: 'metamask/gas/SET_CUSTOM_GAS_LIMIT', value: '0x5208' },
+        { type: 'affilcoin/gas/SET_CUSTOM_GAS_LIMIT', value: '0x5208' },
         { type: 'UPDATE_SEND_ERRORS', value: { gasLoadingError: null } },
         { type: 'GAS_LOADING_FINISHED' },
       ]
@@ -948,10 +948,10 @@ describe('Actions', () => {
       'value': '0x0',
     }
 
-    const txData = { id: '1', status: 'unapproved', metamaskNetworkId: currentNetworkId, txParams: txParams }
+    const txData = { id: '1', status: 'unapproved', affilcoinNetworkId: currentNetworkId, txParams: txParams }
 
     beforeEach( async () => {
-      await metamaskController.txController.txStateManager.addTx(txData)
+      await affilcoinController.txController.txStateManager.addTx(txData)
     })
 
     afterEach(() => {
@@ -991,7 +991,7 @@ describe('Actions', () => {
     })
   })
 
-  describe('#lockMetamask', () => {
+  describe('#lockAffilcoin', () => {
     let backgroundSetLockedSpy
 
     afterEach(() => {
@@ -1003,7 +1003,7 @@ describe('Actions', () => {
 
       backgroundSetLockedSpy = sinon.spy(background, 'setLocked')
 
-      await store.dispatch(actions.lockMetamask())
+      await store.dispatch(actions.lockAffilcoin())
       assert(backgroundSetLockedSpy.calledOnce)
     })
 
@@ -1014,7 +1014,7 @@ describe('Actions', () => {
         { type: 'SHOW_LOADING_INDICATION', value: undefined },
         { type: 'DISPLAY_WARNING', value: 'error' },
         { type: 'HIDE_LOADING_INDICATION' },
-        { type: 'LOCK_METAMASK' },
+        { type: 'LOCK_AFFILCOIN' },
       ]
       backgroundSetLockedSpy = sinon.stub(background, 'setLocked')
       backgroundSetLockedSpy.callsFake(callback => {
@@ -1022,7 +1022,7 @@ describe('Actions', () => {
       })
 
       try {
-        await store.dispatch(actions.lockMetamask())
+        await store.dispatch(actions.lockAffilcoin())
         assert.fail('Should have thrown error')
       } catch (error) {
         assert.deepEqual(store.getActions(), expectedActions)
@@ -1043,7 +1043,7 @@ describe('Actions', () => {
     })
 
     it('calls setSelectedAddress in background', () => {
-      const store = mockStore({ metamask: devState })
+      const store = mockStore({ affilcoin: devState })
 
       store.dispatch(actions.setSelectedAddress('0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc'))
       assert(setSelectedAddressSpy.calledOnce)
@@ -1184,7 +1184,7 @@ describe('Actions', () => {
     let store
 
     beforeEach(() => {
-      store = mockStore({ metamask: { provider: {} } })
+      store = mockStore({ affilcoin: { provider: {} } })
       setProviderTypeSpy = sinon.stub(background, 'setProviderType')
     })
 
@@ -1256,7 +1256,7 @@ describe('Actions', () => {
     })
 
     it('calls setAddressBook', () => {
-      const store = mockStore({ metamask: devState })
+      const store = mockStore({ affilcoin: devState })
       store.dispatch(actions.addToAddressBook('test'))
       assert(addToAddressBookSpy.calledOnce)
     })
@@ -1349,7 +1349,7 @@ describe('Actions', () => {
       nock('https://shapeshift.io')
         .defaultReplyHeaders({ 'access-control-allow-origin': '*' })
         .get('/marketinfo/btc_eth')
-        .reply(200, {pair: 'BTC_ETH', rate: 25.68289016, minerFee: 0.00176, limit: 0.67748474, minimum: 0.00013569, maxLimit: 0.67758573})
+        .reply(200, {pair: 'BTC_AC', rate: 25.68289016, minerFee: 0.00176, limit: 0.67748474, minimum: 0.00013569, maxLimit: 0.67758573})
 
       nock('https://shapeshift.io')
         .defaultReplyHeaders({ 'access-control-allow-origin': '*' })

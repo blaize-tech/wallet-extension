@@ -2,7 +2,7 @@ const urlUtil = require('url')
 const extension = require('extensionizer')
 const resolveEnsToIpfsContentId = require('./resolver.js')
 
-const supportedTopLevelDomains = ['eth']
+const supportedTopLevelDomains = ['ac']
 
 module.exports = setupEnsIpfsResolver
 

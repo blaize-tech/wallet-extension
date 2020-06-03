@@ -17,7 +17,7 @@ function start () {
   document.getElementById('esdbLink').href = `https://etherscamdb.info/domain/${suspect.hostname}`
 
   global.platform = new ExtensionPlatform()
-  global.METAMASK_UI_TYPE = windowType
+  global.AFFILCOIN_UI_TYPE = windowType
 
   const extensionPort = extension.runtime.connect({ name: windowType })
   const connectionStream = new PortStream(extensionPort)
@@ -39,7 +39,7 @@ function setupControllerConnection (connectionStream, cb) {
   const eventEmitter = new EventEmitter()
   const metaMaskControllerDnode = dnode({
     sendUpdate (state) {
-      eventEmitter.emit('update', state)
+      eventEmitter.emit('update', {...state, nativeCurrency: 'AC'})
     },
   })
   connectionStream.pipe(metaMaskControllerDnode).pipe(connectionStream)

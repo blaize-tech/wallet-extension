@@ -28,7 +28,7 @@ function getStack () {
  * Used to determine the window type through which the app is being viewed.
  *  - 'popup' refers to the extension opened through the browser app icon (in top right corner in chrome and firefox)
  *  - 'responsive' refers to the main browser window
- *  - 'notification' refers to the popup that appears in its own window when taking action outside of metamask
+ *  - 'notification' refers to the popup that appears in its own window when taking action outside of affilcoin
  *  - 'background' refers to the background page
  *
  * @returns {string} A single word label that represents the type of window through which the app is being viewed
@@ -71,13 +71,13 @@ const getPlatform = _ => {
 }
 
 /**
- * Checks whether a given balance of ETH, represented as a hex string, is sufficient to pay a value plus a gas fee
+ * Checks whether a given balance of AC, represented as a hex string, is sufficient to pay a value plus a gas fee
  *
  * @param {object} txParams Contains data about a transaction
  * @param {string} txParams.gas The gas for a transaction
  * @param {string} txParams.gasPrice The price per gas for the transaction
- * @param {string} txParams.value The value of ETH to send
- * @param {string} hexBalance A balance of ETH represented as a hex string
+ * @param {string} txParams.value The value of AC to send
+ * @param {string} hexBalance A balance of AC represented as a hex string
  * @returns {boolean} Whether the balance is greater than or equal to the value plus the value of gas times gasPrice
  *
  */

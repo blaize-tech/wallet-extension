@@ -3,7 +3,7 @@
     "message": "La modalità privacy è ora abilitata per impostazione predefinita"
   },
   "chartOnlyAvailableEth": {
-    "message": "Grafico disponibile solo per le reti Ethereum."
+    "message": "Grafico disponibile solo per le reti Affilcoin."
   },
   "confirmClear": {
     "message": "Sei sicuro di voler cancellare i siti Web approvati?"
@@ -21,7 +21,7 @@
     "message": "$1 vorrebbe connettersi al tuo account"
   },
   "providerRequestInfo": {
-    "message": "Il dominio elencato di seguito sta tentando di richiedere l'accesso all'API Ethereum in modo che possa interagire con la blockchain di Ethereum. Controlla sempre di essere sul sito corretto prima di approvare l'accesso a Ethereum."
+    "message": "Il dominio elencato di seguito sta tentando di richiedere l'accesso all'API Affilcoin in modo che possa interagire con la blockchain di Affilcoin. Controlla sempre di essere sul sito corretto prima di approvare l'accesso a Affilcoin."
   },
   "about": {
     "message": "Informazioni"
@@ -84,17 +84,17 @@
     "message": "Aggiungi Token Suggeriti"
   },
   "addAcquiredTokens": {
-    "message": "Aggiungi i token che hai acquistato usando MetaMask"
+    "message": "Aggiungi i token che hai acquistato usando Affilcoin"
   },
   "amount": {
     "message": "Importo"
   },
   "appDescription": {
-    "message": "Ethereum Browser Extension",
+    "message": "Affilcoin Browser Extension",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -119,7 +119,7 @@
     "message": "Timer di Logout Automatico (minuti)"
   },
   "autoLogoutTimeLimitDescription": {
-    "message": "Imposta il tempo di inattività dopo il quale MetaMask fa il log out automaticamente"
+    "message": "Imposta il tempo di inattività dopo il quale Affilcoin fa il log out automaticamente"
   },
   "average": {
     "message": "Media"
@@ -134,7 +134,7 @@
     "message": "Esegui il backup del codice di recupero segreto per mantenere il portafoglio e i fondi al sicuro."
   },
   "backupApprovalInfo": {
-    "message": "Questo codice segreto è necessario per recuperare il tuo portafoglio nel caso in cui perdi il tuo dispositivo, dimentichi la tua password, debba reinstallare MetaMask o voglia accedere al tuo portafoglio su un altro dispositivo."
+    "message": "Questo codice segreto è necessario per recuperare il tuo portafoglio nel caso in cui perdi il tuo dispositivo, dimentichi la tua password, debba reinstallare Affilcoin o voglia accedere al tuo portafoglio su un altro dispositivo."
   },
   "backupNow": {
     "message": "Esegui il backup ora"
@@ -166,13 +166,13 @@
     "message": "Il tuo Browser non è supportato..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask è progettato e realizzato in California."
+    "message": "Affilcoin è progettato e realizzato in California."
   },
   "buyWithWyre": {
-    "message": "Compra ETH con Wyre"
+    "message": "Compra AC con Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ti consente di usare la carta di credito per depositare ETH direttamente nel tuo account MetaMask."
+    "message": "Wyre ti consente di usare la carta di credito per depositare AC direttamente nel tuo account Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Compra su CoinSwitch"
@@ -208,7 +208,7 @@
     "message": "Chiudi"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Devi usare MetaMask con Google Chrome per connettere il tuo Portafoglio Hardware"
+    "message": "Devi usare Affilcoin con Google Chrome per connettere il tuo Portafoglio Hardware"
   },
   "confirm": {
     "message": "Conferma"
@@ -241,10 +241,10 @@
     "message": "Connessione alla Rete di test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Connessione alla Rete Ethereum Principale"
+    "message": "Connessione alla Rete Affilcoin Principale"
   },
-  "connectingToRopsten": {
-    "message": "Connessione alla Rete di test Ropsten"
+  "connectingToTestnet": {
+    "message": "Connessione alla Rete di test Testnet"
   },
   "connectingToRinkeby": {
     "message": "Connessione alla Rete di test Rinkeby"
@@ -331,7 +331,7 @@
     "message": "Precisione Decimali"
   },
   "defaultNetwork": {
-    "message": "La rete predefinita per transazioni in Ether è la Rete Ethereum Principale."
+    "message": "La rete predefinita per transazioni in Affilcoin è la Rete Affilcoin Principale."
   },
   "delete": {
     "message": "Elimina"
@@ -343,16 +343,16 @@
     "message": "Deposita"
   },
   "depositEther": {
-    "message": "Deposita Ether"
+    "message": "Deposita Affilcoin"
   },
   "details": {
     "message": "Dettagli"
   },
   "directDepositEther": {
-    "message": "Deposita Direttamente Ether"
+    "message": "Deposita Direttamente Affilcoin"
   },
   "directDepositEtherExplainer": {
-    "message": "Se possiedi già degli Ether, questa è la via più veloce per aggiungere Ether al tuo portafoglio con un deposito diretto."
+    "message": "Se possiedi già degli Affilcoin, questa è la via più veloce per aggiungere Affilcoin al tuo portafoglio con un deposito diretto."
   },
   "dismiss": {
     "message": "Ignora"
@@ -397,16 +397,16 @@
     "message": "Non condividerla mai con nessuno."
   },
   "endOfFlowMessage5": {
-    "message": "Stai attento al phishing! MetaMask non ti chiederà mai spontaneamente la tua frase seed."
+    "message": "Stai attento al phishing! Affilcoin non ti chiederà mai spontaneamente la tua frase seed."
   },
   "endOfFlowMessage6": {
     "message": "Se vorrai fare nuovamente un backup della frase, la puoi trovare in Impostazioni -> Sicurezza & Privacy."
   },
   "endOfFlowMessage7": {
-    "message": "Se hai delle domande o vedi delle attività sospette, manda una mail a support@metamask.io."
+    "message": "Se hai delle domande o vedi delle attività sospette, manda una mail a support@affilcoin.com."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask non può recuperare la tua frase seed. Impara di più."
+    "message": "Affilcoin non può recuperare la tua frase seed. Impara di più."
   },
   "endOfFlowMessage9": {
     "message": "Scopri di più."
@@ -418,7 +418,7 @@
     "message": "Errore nella registrazione del nome ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Nome ENS non trovato sulla rete attuale. Prova a passare alla rete principale di Ethereum."
+    "message": "Nome ENS non trovato sulla rete attuale. Prova a passare alla rete principale di Affilcoin."
   },
   "enterAnAlias": {
     "message": "Inserisci un alias"
@@ -430,7 +430,7 @@
     "message": "Inserisci la tua password per continuare"
   },
   "ethereumPublicAddress": {
-    "message": "Indirizzo pubblico Ethereum "
+    "message": "Indirizzo pubblico Affilcoin "
   },
   "etherscanView": {
     "message": "Vedi account su Etherscan"
@@ -495,7 +495,7 @@
     "message": "Prezzo del gas estremamente basso"
   },
   "gasPriceInfoModalContent": {
-    "message": "Il prezzo del gas specifica il totale di Ether che sei disposto a pagare per ogni unità di gas."
+    "message": "Il prezzo del gas specifica il totale di Affilcoin che sei disposto a pagare per ogni unità di gas."
   },
   "gasPriceNoDenom": {
     "message": "Prezzo del Gas"
@@ -510,11 +510,11 @@
     "message": "Conversione moneta, moneta primaria, lingua, icone blockie"
   },
   "getEther": {
-    "message": "Ottieni Ether"
+    "message": "Ottieni Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Ottieni Get Ether da un faucet per $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Ottieni Get Affilcoin da un faucet per $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Aiuto."
@@ -536,7 +536,7 @@
     "message": "Connetti portafoglio hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selezione un portafoglio hardware che vuoi utilizzare con MetaMask"
+    "message": "Selezione un portafoglio hardware che vuoi utilizzare con Affilcoin"
   },
   "havingTroubleConnecting": {
     "message": "Problemi di connessione?"
@@ -568,7 +568,7 @@
     "message": "Importa Account"
   },
   "importAccountMsg": {
-    "message": " Gli account importati non saranno associati alla frase seed originariamente creata con MetaMask. Scopri di più sugli account importati "
+    "message": " Gli account importati non saranno associati alla frase seed originariamente creata con Affilcoin. Scopri di più sugli account importati "
   },
   "importAccountSeedPhrase": {
     "message": "Importa un Account con una Frase Seed"
@@ -611,7 +611,7 @@
     "message": "Indirizzo del contratto conosciuto."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Non rete ETH, inserisci caratteri minuscoli"
+    "message": "Non rete AC, inserisci caratteri minuscoli"
   },
   "invalidInput": {
     "message": "Input non valido."
@@ -673,7 +673,7 @@
     "message": "Disconnetti"
   },
   "mainnet": {
-    "message": "Rete Ethereum Principale"
+    "message": "Rete Affilcoin Principale"
   },
   "memorizePhrase": {
     "message": "Memorizza questa frase."
@@ -684,14 +684,14 @@
   "message": {
     "message": "Messaggio"
   },
-  "metamaskDescription": {
-    "message": "MetaMask è una cassaforte sicura per identità su Ethereum."
+  "affilcoinDescription": {
+    "message": "Affilcoin è una cassaforte sicura per identità su Affilcoin."
   },
-  "metamaskSeedWords": {
-    "message": "Parole Seed di MetaMask"
+  "affilcoinSeedWords": {
+    "message": "Parole Seed di Affilcoin"
   },
-  "metamaskVersion": {
-    "message": "versione di MetaMask"
+  "affilcoinVersion": {
+    "message": "versione di Affilcoin"
   },
   "missingYourTokens": {
     "message": "Non vedi i tuoi token?"
@@ -706,20 +706,20 @@
     "message": "I miei account di portafoglio"
   },
   "myWalletAccountsDescription": {
-    "message": "Tutti gli account creati con MetaMask saranno automaticamente aggiunti a questa sezione."
+    "message": "Tutti gli account creati con Affilcoin saranno automaticamente aggiunti a questa sezione."
   },
   "mustSelectOne": {
     "message": "Devi selezionare almeno un token."
   },
   "needEtherInWallet": {
-    "message": "Per interagire con applicazioni decentralizzate con MetaMask, devi possedere Ether nel tuo portafoglio."
+    "message": "Per interagire con applicazioni decentralizzate con Affilcoin, devi possedere Affilcoin nel tuo portafoglio."
   },
   "needImportFile": {
     "message": "Devi selezionare un file da importare.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Non puoi inviare una quantità di ETH negativa."
+    "message": "Non puoi inviare una quantità di AC negativa."
   },
   "networkName": {
     "message": "Nome Rete"
@@ -751,8 +751,8 @@
   "newNetwork": {
     "message": "Nuova Rete"
   },
-  "newToMetaMask": {
-    "message": "Nuovo a MetaMask?"
+  "newToAffilcoin": {
+    "message": "Nuovo a Affilcoin?"
   },
   "noAlreadyHaveSeed": {
     "message": "No, ho già una frase seed"
@@ -761,10 +761,10 @@
     "message": "Proteggi le tue chiavi!"
   },
   "protectYourKeysMessage1": {
-    "message": "Stai attento con la tua frase seed - ci sono stati report di siti web che hanno tentato di imitare MetaMask. MetaMask non ti chiederà mai la tua frase seed!"
+    "message": "Stai attento con la tua frase seed - ci sono stati report di siti web che hanno tentato di imitare Affilcoin. Affilcoin non ti chiederà mai la tua frase seed!"
   },
   "protectYourKeysMessage2": {
-    "message": "Tieni la tua frase al sicuro. Se vedi qualcosa di sospetto, o non sei sicuro di un sito web, manda una mail a support@metamask.io"
+    "message": "Tieni la tua frase al sicuro. Se vedi qualcosa di sospetto, o non sei sicuro di un sito web, manda una mail a support@affilcoin.com"
   },
   "rpcUrl": {
     "message": "Nuovo URL RPC"
@@ -821,7 +821,7 @@
     "message": "Participa in MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participa in MetaMetrics per aiutarci a rendere MetaMask migliore"
+    "message": "Participa in MetaMetrics per aiutarci a rendere Affilcoin migliore"
   },
   "passwordsDontMatch": {
     "message": "Le Password Non Corrispondono"
@@ -849,7 +849,7 @@
     "message": "Moneta Primaria"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Seleziona ETH per privilegiare la visualizzazione dei valori nella moneta nativa della blockhain. Seleziona Fiat per privilegiare la visualizzazione dei valori nella moneta selezionata."
+    "message": "Seleziona AC per privilegiare la visualizzazione dei valori nella moneta nativa della blockhain. Seleziona Fiat per privilegiare la visualizzazione dei valori nella moneta selezionata."
   },
   "privacyMsg": {
     "message": "Politica sulla Privacy"
@@ -960,8 +960,8 @@
   "rinkeby": {
     "message": "Rete di test Rinkeby"
   },
-  "ropsten": {
-    "message": "Rete di test Ropsten"
+  "testnet": {
+    "message": "Rete di test Testnet"
   },
   "goerli": {
     "message": "Rete di test Goerli"
@@ -997,7 +997,7 @@
     "message": "La tua frase di backup segreta rende facile fare il backup e ripristinare il tuo account."
   },
   "secretBackupPhraseWarning": {
-    "message": "ATTENZIONE: Non dire mai a nessuno questa frase di backup. Chiunque con questa frase può rubare i tuoi Ether per sempre."
+    "message": "ATTENZIONE: Non dire mai a nessuno questa frase di backup. Chiunque con questa frase può rubare i tuoi Affilcoin per sempre."
   },
   "secretPhrase": {
     "message": "Inserisci la tua frase segreta di dodici parole per ripristinare la cassaforte."
@@ -1033,7 +1033,7 @@
     "message": "Invia Importo"
   },
   "sendETH": {
-    "message": "Invia ETH"
+    "message": "Invia AC"
   },
   "sendTokens": {
     "message": "Invia Tokens"
@@ -1054,7 +1054,7 @@
     "message": "Seleziona un Account"
   },
   "selectAnAccountHelp": {
-    "message": "Selezione l'account da visualizzare in MetaMask"
+    "message": "Selezione l'account da visualizzare in Affilcoin"
   },
   "selectAHigherGasFee": {
     "message": "Seleziona un costo in gas maggiore per accelerare l'elaborazione della transazione.*"
@@ -1144,7 +1144,7 @@
     "message": "3. Inizia a usare dApps e molto altro ancora!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Usa il tuo account hardware come utilizzeresti qualsiasi account Ethereum. Accedi alle dApps, invia Eth, compra e conserva token ERC20 e token non fungibili come CryptoKitties"
+    "message": "Usa il tuo account hardware come utilizzeresti qualsiasi account Affilcoin. Accedi alle dApps, invia Eth, compra e conserva token ERC20 e token non fungibili come CryptoKitties"
   },
   "storePhrase": {
     "message": "Conserva questa frase in un gestore di password come 1Password."
@@ -1171,19 +1171,19 @@
     "message": "Sincronizza con dispositivo mobile"
   },
   "syncWithMobileDesc": {
-    "message": "Puoi sincronizzare i tuoi account e le tue informazioni con il tuo dispositivo mobile. Apri l'app di MetaMask, vai su \"Impostazioni\" e tocca \"Sincronizza da Estensione sul Browser\""
+    "message": "Puoi sincronizzare i tuoi account e le tue informazioni con il tuo dispositivo mobile. Apri l'app di Affilcoin, vai su \"Impostazioni\" e tocca \"Sincronizza da Estensione sul Browser\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Se hai appena aperto l'app di MetaMask per la prima volta, segui i passaggi sul tuo telefono."
+    "message": "Se hai appena aperto l'app di Affilcoin per la prima volta, segui i passaggi sul tuo telefono."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scansiona questo codice con l'app di MetaMask"
+    "message": "Scansiona questo codice con l'app di Affilcoin"
   },
   "syncWithMobileBeCareful": {
     "message": "Assicurati che nessun'altro stia guardando al tuo schermo quando scansioni questo codice"
   },
   "syncWithMobileComplete": {
-    "message": "I tuoi dati sono stati sincronizzati con successo. Goditi l'app di MetaMask!"
+    "message": "I tuoi dati sono stati sincronizzati con successo. Goditi l'app di Affilcoin!"
   },
   "terms": {
     "message": "Termini di Uso"
@@ -1201,7 +1201,7 @@
     "message": "A"
   },
   "toETHviaShapeShift": {
-    "message": "$1 a ETH via ShapeShift",
+    "message": "$1 a AC via ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "tokenAlreadyAdded": {
@@ -1344,7 +1344,7 @@
     "message": "Bentornato!"
   },
   "welcome": {
-    "message": "Benvenuto nella Beta di MetaMask"
+    "message": "Benvenuto nella Beta di Affilcoin"
   },
   "writePhrase": {
     "message": "Scrivi questa frase su un foglio di carta e conservala in un posto sicuro. Se vuoi ancora più sicurezza, scrivila su più fogli e conserva ognuno in 2 o 3 posti diversi. "

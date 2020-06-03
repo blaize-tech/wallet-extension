@@ -57,9 +57,9 @@ class Mock3Box {
   }
 
   static async getConfig (address) {
-    const backup = await loadFromMock3Box(`${address}-metamask-metamaskBackup`)
+    const backup = await loadFromMock3Box(`${address}-affilcoin-affilcoinBackup`)
     return backup
-      ? { spaces: { metamask: {} } }
+      ? { spaces: { affilcoin: {} } }
       : {}
   }
 }

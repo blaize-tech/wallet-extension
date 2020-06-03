@@ -14,9 +14,9 @@ describe('# Network Controller', function () {
 
   beforeEach(function () {
 
-    nock('https://rinkeby.infura.io')
+    nock('https://testnet.infura.io')
       .persist()
-      .post('/metamask')
+      .post('/affilcoin')
       .reply(200)
 
     networkController = new NetworkController()
@@ -73,28 +73,13 @@ describe('Network utils', () => {
     const tests = [
       {
         input: 3,
-        expected: 'Ropsten',
+        expected: 'Testnet',
       }, {
-        input: 4,
-        expected: 'Rinkeby',
-      }, {
-        input: 42,
-        expected: 'Kovan',
-      }, {
-        input: 'ropsten',
-        expected: 'Ropsten',
-      }, {
-        input: 'rinkeby',
-        expected: 'Rinkeby',
-      }, {
-        input: 'kovan',
-        expected: 'Kovan',
+        input: 'testnet',
+        expected: 'Testnet',
       }, {
         input: 'mainnet',
         expected: 'Main Ethereum Network',
-      }, {
-        input: 'goerli',
-        expected: 'Goerli',
       },
     ]
 

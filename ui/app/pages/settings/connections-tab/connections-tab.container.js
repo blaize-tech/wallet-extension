@@ -11,11 +11,11 @@ import {
 export const mapStateToProps = state => {
   const {
     activeTab,
-    metamask,
+    affilcoin,
   } = state
   const {
     approvedOrigins,
-  } = metamask
+  } = affilcoin
 
   return {
     activeTab,

@@ -123,20 +123,20 @@ describe('Gas Duck', () => {
     basicPriceAndTimeEstimatesLastRetrieved: 0,
     basicPriceEstimatesLastRetrieved: 0,
   }
-  const BASIC_GAS_ESTIMATE_LOADING_FINISHED = 'metamask/gas/BASIC_GAS_ESTIMATE_LOADING_FINISHED'
-  const BASIC_GAS_ESTIMATE_LOADING_STARTED = 'metamask/gas/BASIC_GAS_ESTIMATE_LOADING_STARTED'
-  const GAS_ESTIMATE_LOADING_FINISHED = 'metamask/gas/GAS_ESTIMATE_LOADING_FINISHED'
-  const GAS_ESTIMATE_LOADING_STARTED = 'metamask/gas/GAS_ESTIMATE_LOADING_STARTED'
-  const RESET_CUSTOM_GAS_STATE = 'metamask/gas/RESET_CUSTOM_GAS_STATE'
-  const SET_BASIC_GAS_ESTIMATE_DATA = 'metamask/gas/SET_BASIC_GAS_ESTIMATE_DATA'
-  const SET_CUSTOM_GAS_ERRORS = 'metamask/gas/SET_CUSTOM_GAS_ERRORS'
-  const SET_CUSTOM_GAS_LIMIT = 'metamask/gas/SET_CUSTOM_GAS_LIMIT'
-  const SET_CUSTOM_GAS_PRICE = 'metamask/gas/SET_CUSTOM_GAS_PRICE'
-  const SET_CUSTOM_GAS_TOTAL = 'metamask/gas/SET_CUSTOM_GAS_TOTAL'
-  const SET_PRICE_AND_TIME_ESTIMATES = 'metamask/gas/SET_PRICE_AND_TIME_ESTIMATES'
-  const SET_API_ESTIMATES_LAST_RETRIEVED = 'metamask/gas/SET_API_ESTIMATES_LAST_RETRIEVED'
-  const SET_BASIC_API_ESTIMATES_LAST_RETRIEVED = 'metamask/gas/SET_BASIC_API_ESTIMATES_LAST_RETRIEVED'
-  const SET_BASIC_PRICE_ESTIMATES_LAST_RETRIEVED = 'metamask/gas/SET_BASIC_PRICE_ESTIMATES_LAST_RETRIEVED'
+  const BASIC_GAS_ESTIMATE_LOADING_FINISHED = 'affilcoin/gas/BASIC_GAS_ESTIMATE_LOADING_FINISHED'
+  const BASIC_GAS_ESTIMATE_LOADING_STARTED = 'affilcoin/gas/BASIC_GAS_ESTIMATE_LOADING_STARTED'
+  const GAS_ESTIMATE_LOADING_FINISHED = 'affilcoin/gas/GAS_ESTIMATE_LOADING_FINISHED'
+  const GAS_ESTIMATE_LOADING_STARTED = 'affilcoin/gas/GAS_ESTIMATE_LOADING_STARTED'
+  const RESET_CUSTOM_GAS_STATE = 'affilcoin/gas/RESET_CUSTOM_GAS_STATE'
+  const SET_BASIC_GAS_ESTIMATE_DATA = 'affilcoin/gas/SET_BASIC_GAS_ESTIMATE_DATA'
+  const SET_CUSTOM_GAS_ERRORS = 'affilcoin/gas/SET_CUSTOM_GAS_ERRORS'
+  const SET_CUSTOM_GAS_LIMIT = 'affilcoin/gas/SET_CUSTOM_GAS_LIMIT'
+  const SET_CUSTOM_GAS_PRICE = 'affilcoin/gas/SET_CUSTOM_GAS_PRICE'
+  const SET_CUSTOM_GAS_TOTAL = 'affilcoin/gas/SET_CUSTOM_GAS_TOTAL'
+  const SET_PRICE_AND_TIME_ESTIMATES = 'affilcoin/gas/SET_PRICE_AND_TIME_ESTIMATES'
+  const SET_API_ESTIMATES_LAST_RETRIEVED = 'affilcoin/gas/SET_API_ESTIMATES_LAST_RETRIEVED'
+  const SET_BASIC_API_ESTIMATES_LAST_RETRIEVED = 'affilcoin/gas/SET_BASIC_API_ESTIMATES_LAST_RETRIEVED'
+  const SET_BASIC_PRICE_ESTIMATES_LAST_RETRIEVED = 'affilcoin/gas/SET_BASIC_PRICE_ESTIMATES_LAST_RETRIEVED'
 
   describe('GasReducer()', () => {
     it('should initialize state', () => {
@@ -465,7 +465,7 @@ describe('Gas Duck', () => {
         initState,
         { basicPriceAndTimeEstimatesLastRetrieved: 1000000 }
       ),
-      metamask: { provider: { type: 'ropsten' } },
+      affilcoin: { provider: { type: 'testnet' } },
       }))
       assert.deepEqual(
         mockDistpatch.getCall(0).args,
@@ -542,7 +542,7 @@ describe('Gas Duck', () => {
         initState,
         {}
       ),
-      metamask: { provider: { type: 'ropsten' } },
+      affilcoin: { provider: { type: 'testnet' } },
       }))
       assert.deepEqual(
         mockDistpatch.getCall(0).args,
@@ -586,7 +586,7 @@ describe('Gas Duck', () => {
         initState,
         {}
       ),
-      metamask: { provider: { type: 'ropsten' } },
+      affilcoin: { provider: { type: 'testnet' } },
       }))
       assert.deepEqual(
         mockDistpatch.getCall(0).args,
@@ -647,7 +647,7 @@ describe('Gas Duck', () => {
         initState,
         { priceAndTimeEstimatesLastRetrieved: 1000000 }
       ),
-      metamask: { provider: { type: 'ropsten' } },
+      affilcoin: { provider: { type: 'testnet' } },
       }))
       assert.deepEqual(
         mockDistpatch.getCall(0).args,
@@ -701,7 +701,7 @@ describe('Gas Duck', () => {
           }],
         }
       ),
-      metamask: { provider: { type: 'ropsten' } },
+      affilcoin: { provider: { type: 'testnet' } },
       }))
       assert.deepEqual(
         mockDistpatch.getCall(0).args,

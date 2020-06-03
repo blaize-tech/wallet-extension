@@ -5,24 +5,24 @@ import {
   toggleAccountMenu,
   showAccountDetail,
   hideSidebar,
-  lockMetamask,
+  lockAffilcoin,
   hideWarning,
   showConfigPage,
   showInfoPage,
   showModal,
 } from '../../../store/actions'
-import { getMetaMaskAccounts } from '../../../selectors/selectors'
+import { getAffilcoinAccounts } from '../../../selectors/selectors'
 import AccountMenu from './account-menu.component'
 
 function mapStateToProps (state) {
-  const { metamask: { selectedAddress, isAccountMenuOpen, keyrings, identities } } = state
+  const { affilcoin: { selectedAddress, isAccountMenuOpen, keyrings, identities } } = state
 
   return {
     selectedAddress,
     isAccountMenuOpen,
     keyrings,
     identities,
-    accounts: getMetaMaskAccounts(state),
+    accounts: getAffilcoinAccounts(state),
   }
 }
 
@@ -34,8 +34,8 @@ function mapDispatchToProps (dispatch) {
       dispatch(hideSidebar())
       dispatch(toggleAccountMenu())
     },
-    lockMetamask: () => {
-      dispatch(lockMetamask())
+    lockAffilcoin: () => {
+      dispatch(lockAffilcoin())
       dispatch(hideWarning())
       dispatch(hideSidebar())
       dispatch(toggleAccountMenu())

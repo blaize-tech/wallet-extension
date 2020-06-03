@@ -2,7 +2,7 @@
  *
  * This is a utility module.
  * It initializes a minimalist browserifiable project
- * that contains the Metamask UI, with a local background process.
+ * that contains the Affilcoin UI, with a local background process.
  *
  * Includes a state reset button for restoring to initial state.
  *
@@ -17,7 +17,7 @@ const configureStore = require('../ui/app/store/store')
 const actions = require('../ui/app/store/actions')
 const backGroundConnectionModifiers = require('./backGroundConnectionModifiers')
 const Selector = require('./selector')
-const MetamaskController = require('../app/scripts/metamask-controller')
+const AffilcoinController = require('../app/scripts/affilcoin-controller')
 const firstTimeState = require('../app/scripts/first-time-state')
 const ExtensionPlatform = require('../app/scripts/platforms/extension')
 const noop = function () {}
@@ -59,10 +59,10 @@ function updateQueryParams (newView) {
 }
 
 //
-// MetaMask Controller
+// Affilcoin Controller
 //
 
-const controller = new MetamaskController({
+const controller = new AffilcoinController({
   // User confirmation callbacks:
   showUnconfirmedMessage: noop,
   showUnapprovedTx: noop,
@@ -70,7 +70,7 @@ const controller = new MetamaskController({
   // initial state
   initState: firstTimeState,
 })
-global.metamaskController = controller
+global.affilcoinController = controller
 global.platform = new ExtensionPlatform()
 
 //

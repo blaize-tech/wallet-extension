@@ -237,7 +237,7 @@ export default class EnsInput extends Component {
     if (loadingEns) {
       return (
         <img
-          src="images/loading.svg"
+          src="images/loading.gif"
           style={{
             width: '30px',
             height: '30px',

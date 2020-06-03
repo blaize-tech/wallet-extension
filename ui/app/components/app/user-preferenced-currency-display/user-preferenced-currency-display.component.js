@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { PRIMARY, SECONDARY, ETH } from '../../../helpers/constants/common'
+import { PRIMARY, SECONDARY, AC } from '../../../helpers/constants/common'
 import CurrencyDisplay from '../../ui/currency-display'
 
 export default class UserPreferencedCurrencyDisplay extends PureComponent {
@@ -28,9 +28,9 @@ export default class UserPreferencedCurrencyDisplay extends PureComponent {
   renderEthLogo () {
     const { currency, showEthLogo, ethLogoHeight = 12 } = this.props
 
-    return currency === ETH && showEthLogo && (
+    return currency === AC && showEthLogo && (
       <img
-        src="/images/eth.svg"
+        src="/images/ac.svg"
         height={ethLogoHeight}
       />
     )

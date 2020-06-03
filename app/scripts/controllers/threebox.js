@@ -7,7 +7,7 @@ const migrations = require('../migrations/')
 const Migrator = require('../lib/migrator')
 const JsonRpcEngine = require('json-rpc-engine')
 const providerFromEngine = require('eth-json-rpc-middleware/providerFromEngine')
-const createMetamaskMiddleware = require('./network/createMetamaskMiddleware')
+const createMetamaskMiddleware = require('./network/createAffilcoinMiddleware')
 const createOriginMiddleware = require('../lib/createOriginMiddleware')
 
 const SYNC_TIMEOUT = 60 * 1000 // one minute
@@ -34,7 +34,7 @@ class ThreeBoxController {
         const accounts = await this.keyringController.getAccounts()
 
         if (isUnlocked && accounts[0]) {
-          const appKeyAddress = await this.keyringController.getAppKeyAddress(accounts[0], 'wallet://3box.metamask.io')
+          const appKeyAddress = await this.keyringController.getAppKeyAddress(accounts[0], 'wallet://3box.affilcoin.com')
           return [appKeyAddress]
         } else {
           return []
@@ -43,7 +43,7 @@ class ThreeBoxController {
       processPersonalMessage: async (msgParams) => {
         const accounts = await this.keyringController.getAccounts()
         return keyringController.signPersonalMessage({ ...msgParams, from: accounts[0] }, {
-          withAppKeyOrigin: 'wallet://3box.metamask.io',
+          withAppKeyOrigin: 'wallet://3box.affilcoin.com',
         })
       },
     })
@@ -85,7 +85,7 @@ class ThreeBoxController {
           lastMigration: this.lastMigration,
         }
 
-        await this.space.private.set('metamaskBackup', JSON.stringify(newState))
+        await this.space.private.set('affilcoinBackup', JSON.stringify(newState))
         await this.setShowRestorePromptToFalse()
       }
     } catch (error) {
@@ -94,10 +94,10 @@ class ThreeBoxController {
   }
 
   _createProvider (providerOpts) {
-    const metamaskMiddleware = createMetamaskMiddleware(providerOpts)
+    const affilcoinMiddleware = createMetamaskMiddleware(providerOpts)
     const engine = new JsonRpcEngine()
     engine.push(createOriginMiddleware({ origin: '3Box' }))
-    engine.push(metamaskMiddleware)
+    engine.push(affilcoinMiddleware)
     const provider = providerFromEngine(engine)
     return provider
   }
@@ -113,11 +113,11 @@ class ThreeBoxController {
 
   async new3Box () {
     const accounts = await this.keyringController.getAccounts()
-    this.address = await this.keyringController.getAppKeyAddress(accounts[0], 'wallet://3box.metamask.io')
+    this.address = await this.keyringController.getAppKeyAddress(accounts[0], 'wallet://3box.affilcoin.com')
     let backupExists
     try {
       const threeBoxConfig = await Box.getConfig(this.address)
-      backupExists = threeBoxConfig.spaces && threeBoxConfig.spaces.metamask
+      backupExists = threeBoxConfig.spaces && threeBoxConfig.spaces.affilcoin
     } catch (e) {
       if (e.message.match(/^Error: Invalid response \(404\)/)) {
         backupExists = false
@@ -140,7 +140,7 @@ class ThreeBoxController {
       try {
         this.box = await Box.openBox(this.address, this.provider)
         await this._waitForOnSyncDone()
-        this.space = await this.box.openSpace('metamask', {
+        this.space = await this.box.openSpace('affilcoin', {
           onSyncDone: async () => {
             const stateUpdate = {
               threeBoxSynced: true,
@@ -165,7 +165,7 @@ class ThreeBoxController {
   }
 
   async getLastUpdated () {
-    const res = await this.space.private.get('metamaskBackup')
+    const res = await this.space.private.get('affilcoinBackup')
     const parsedRes = JSON.parse(res || '{}')
     return parsedRes.lastUpdated
   }
@@ -186,7 +186,7 @@ class ThreeBoxController {
   }
 
   async restoreFromThreeBox () {
-    const backedUpState = await this.space.private.get('metamaskBackup')
+    const backedUpState = await this.space.private.get('affilcoinBackup')
     const {
       preferences,
       addressBook,

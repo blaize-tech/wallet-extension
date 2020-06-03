@@ -35,7 +35,7 @@ const selectors = {
   getCurrentViewContext,
   getTotalUnapprovedCount,
   preferencesSelector,
-  getMetaMaskAccounts,
+  getAffilcoinAccounts,
   getCurrentEthBalance,
   getNetworkIdentifier,
   isBalanceCached,
@@ -62,7 +62,7 @@ const selectors = {
 module.exports = selectors
 
 function getNetworkIdentifier (state) {
-  const { metamask: { provider: { type, nickname, rpcTarget } } } = state
+  const { affilcoin: { provider: { type, nickname, rpcTarget } } } = state
 
   return nickname || rpcTarget || type
 }
@@ -76,7 +76,7 @@ function getCurrentKeyring (state) {
 
   const simpleAddress = stripHexPrefix(identity.address).toLowerCase()
 
-  const keyring = state.metamask.keyrings.find((kr) => {
+  const keyring = state.affilcoin.keyrings.find((kr) => {
     return kr.accounts.includes(simpleAddress) ||
       kr.accounts.includes(identity.address)
   })
@@ -101,38 +101,38 @@ function getAccountType (state) {
 
 function getSelectedAsset (state) {
   const selectedToken = getSelectedToken(state)
-  return selectedToken && selectedToken.symbol || 'ETH'
+  return selectedToken && selectedToken.symbol || 'AC'
 }
 
 function getCurrentNetworkId (state) {
-  return state.metamask.network
+  return state.affilcoin.network
 }
 
 function getSelectedAddress (state) {
-  const selectedAddress = state.metamask.selectedAddress || Object.keys(getMetaMaskAccounts(state))[0]
+  const selectedAddress = state.affilcoin.selectedAddress || Object.keys(getAffilcoinAccounts(state))[0]
 
   return selectedAddress
 }
 
 function getSelectedIdentity (state) {
   const selectedAddress = getSelectedAddress(state)
-  const identities = state.metamask.identities
+  const identities = state.affilcoin.identities
 
   return identities[selectedAddress]
 }
 
 function getNumberOfAccounts (state) {
-  return Object.keys(state.metamask.accounts).length
+  return Object.keys(state.affilcoin.accounts).length
 }
 
 function getNumberOfTokens (state) {
-  const tokens = state.metamask.tokens
+  const tokens = state.affilcoin.tokens
   return tokens ? tokens.length : 0
 }
 
-function getMetaMaskAccounts (state) {
-  const currentAccounts = state.metamask.accounts
-  const cachedBalances = state.metamask.cachedBalances[state.metamask.network]
+function getAffilcoinAccounts (state) {
+  const currentAccounts = state.affilcoin.accounts
+  const cachedBalances = state.affilcoin.cachedBalances[state.affilcoin.network]
   const selectedAccounts = {}
 
   Object.keys(currentAccounts).forEach(accountID => {
@@ -150,69 +150,69 @@ function getMetaMaskAccounts (state) {
 }
 
 function isBalanceCached (state) {
-  const selectedAccountBalance = state.metamask.accounts[getSelectedAddress(state)].balance
+  const selectedAccountBalance = state.affilcoin.accounts[getSelectedAddress(state)].balance
   const cachedBalance = getSelectedAccountCachedBalance(state)
 
   return Boolean(!selectedAccountBalance && cachedBalance)
 }
 
 function getSelectedAccountCachedBalance (state) {
-  const cachedBalances = state.metamask.cachedBalances[state.metamask.network]
+  const cachedBalances = state.affilcoin.cachedBalances[state.affilcoin.network]
   const selectedAddress = getSelectedAddress(state)
 
   return cachedBalances && cachedBalances[selectedAddress]
 }
 
 function getSelectedAccount (state) {
-  const accounts = getMetaMaskAccounts(state)
+  const accounts = getAffilcoinAccounts(state)
   const selectedAddress = getSelectedAddress(state)
 
   return accounts[selectedAddress]
 }
 
 function getSelectedToken (state) {
-  const tokens = state.metamask.tokens || []
-  const selectedTokenAddress = state.metamask.selectedTokenAddress
+  const tokens = state.affilcoin.tokens || []
+  const selectedTokenAddress = state.affilcoin.selectedTokenAddress
   const selectedToken = tokens.filter(({ address }) => address === selectedTokenAddress)[0]
-  const sendToken = state.metamask.send && state.metamask.send.token
+  const sendToken = state.affilcoin.send && state.affilcoin.send.token
 
   return selectedToken || sendToken || null
 }
 
 function getSelectedTokenExchangeRate (state) {
-  const contractExchangeRates = state.metamask.contractExchangeRates
+  const contractExchangeRates = state.affilcoin.contractExchangeRates
   const selectedToken = getSelectedToken(state) || {}
   const { address } = selectedToken
   return contractExchangeRates[address] || 0
 }
 
 function getSelectedTokenAssetImage (state) {
-  const assetImages = state.metamask.assetImages || {}
+  const assetImages = state.affilcoin.assetImages || {}
   const selectedToken = getSelectedToken(state) || {}
   const { address } = selectedToken
   return assetImages[address]
 }
 
 function getAssetImages (state) {
-  const assetImages = state.metamask.assetImages || {}
+  const assetImages = state.affilcoin.assetImages || {}
   return assetImages
 }
 
 function getTokenExchangeRate (state, address) {
-  const contractExchangeRates = state.metamask.contractExchangeRates
+  const contractExchangeRates = state.affilcoin.contractExchangeRates
   return contractExchangeRates[address] || 0
 }
 
 function conversionRateSelector (state) {
-  return state.metamask.conversionRate
+  return state.affilcoin.conversionRate
 }
 
 function getAddressBook (state) {
-  const network = state.metamask.network
-  if (!state.metamask.addressBook[network]) {
+  const network = state.affilcoin.network
+  if (!state.affilcoin.addressBook[network]) {
     return []
   }
-  return Object.values(state.metamask.addressBook[network])
+  return Object.values(state.affilcoin.addressBook[network])
 }
 
 function getAddressBookEntry (state, address) {
@@ -222,19 +222,19 @@ function getAddressBookEntry (state, address) {
 }
 
 function getAddressBookEntryName (state, address) {
-  const entry = getAddressBookEntry(state, address) || state.metamask.identities[address]
+  const entry = getAddressBookEntry(state, address) || state.affilcoin.identities[address]
   return entry && entry.name !== '' ? entry.name : addressSlicer(address)
 }
 
 function getDaiV1Token (state) {
   const OLD_DAI_CONTRACT_ADDRESS = '0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359'
-  const tokens = state.metamask.tokens || []
+  const tokens = state.affilcoin.tokens || []
   return tokens.find(({address}) => checksumAddress(address) === OLD_DAI_CONTRACT_ADDRESS)
 }
 
 function accountsWithSendEtherInfoSelector (state) {
-  const accounts = getMetaMaskAccounts(state)
-  const { identities } = state.metamask
+  const accounts = getAffilcoinAccounts(state)
+  const { identities } = state.affilcoin
 
   const accountsWithSendEtherInfo = Object.entries(accounts).map(([key, account]) => {
     return Object.assign({}, account, identities[key])
@@ -259,27 +259,27 @@ function getGasIsLoading (state) {
 }
 
 function getForceGasMin (state) {
-  return state.metamask.send.forceGasMin
+  return state.affilcoin.send.forceGasMin
 }
 
 function getSendFrom (state) {
-  return state.metamask.send.from
+  return state.affilcoin.send.from
 }
 
 function getSendAmount (state) {
-  return state.metamask.send.amount
+  return state.affilcoin.send.amount
 }
 
 function getSendMaxModeState (state) {
-  return state.metamask.send.maxModeOn
+  return state.affilcoin.send.maxModeOn
 }
 
 function getCurrentCurrency (state) {
-  return state.metamask.currentCurrency
+  return state.affilcoin.currentCurrency
 }
 
 function getNativeCurrency (state) {
-  return state.metamask.nativeCurrency
+  return state.affilcoin.nativeCurrency
 }
 
 function getSelectedTokenToFiatRate (state) {
@@ -307,13 +307,13 @@ function getCurrentViewContext (state) {
   return currentView.context
 }
 
-function getTotalUnapprovedCount ({ metamask }) {
+function getTotalUnapprovedCount ({ affilcoin }) {
   const {
     unapprovedTxs = {},
     unapprovedMsgCount,
     unapprovedPersonalMsgCount,
     unapprovedTypedMessagesCount,
-  } = metamask
+  } = affilcoin
 
   return Object.keys(unapprovedTxs).length + unapprovedMsgCount + unapprovedPersonalMsgCount +
     unapprovedTypedMessagesCount
@@ -327,30 +327,27 @@ function getIsMainnet (state) {
 function isEthereumNetwork (state) {
   const networkType = getNetworkIdentifier(state)
   const {
-    KOVAN,
     MAINNET,
-    RINKEBY,
-    ROPSTEN,
-    GOERLI,
+    TESTNET,
   } = NETWORK_TYPES
 
-  return [ KOVAN, MAINNET, RINKEBY, ROPSTEN, GOERLI].includes(networkType)
+  return [ MAINNET, TESTNET ].includes(networkType)
 }
 
-function preferencesSelector ({ metamask }) {
-  return metamask.preferences
+function preferencesSelector ({ affilcoin }) {
+  return affilcoin.preferences
 }
 
 function getAdvancedInlineGasShown (state) {
-  return Boolean(state.metamask.featureFlags.advancedInlineGas)
+  return Boolean(state.affilcoin.featureFlags.advancedInlineGas)
 }
 
 function getUseNonceField (state) {
-  return Boolean(state.metamask.useNonceField)
+  return Boolean(state.affilcoin.useNonceField)
 }
 
 function getCustomNonceValue (state) {
-  return String(state.metamask.customNonceValue)
+  return String(state.affilcoin.customNonceValue)
 }
 
 function getMetaMetricState (state) {
@@ -358,15 +355,15 @@ function getMetaMetricState (state) {
     network: getCurrentNetworkId(state),
     activeCurrency: getSelectedAsset(state),
     accountType: getAccountType(state),
-    metaMetricsId: state.metamask.metaMetricsId,
+    metaMetricsId: state.affilcoin.metaMetricsId,
     numberOfTokens: getNumberOfTokens(state),
     numberOfAccounts: getNumberOfAccounts(state),
-    participateInMetaMetrics: state.metamask.participateInMetaMetrics,
+    participateInMetaMetrics: state.affilcoin.participateInMetaMetrics,
   }
 }
 
 function getRpcPrefsForCurrentProvider (state) {
-  const { frequentRpcListDetail, provider } = state.metamask
+  const { frequentRpcListDetail, provider } = state.affilcoin
   const selectRpcInfo = frequentRpcListDetail.find(rpcInfo => rpcInfo.rpcUrl === provider.rpcTarget)
   const { rpcPrefs = {} } = selectRpcInfo || {}
   return rpcPrefs
@@ -378,11 +375,11 @@ function getKnownMethodData (state, data) {
   }
   const prefixedData = addHexPrefix(data)
   const fourBytePrefix = prefixedData.slice(0, 10)
-  const { knownMethodData } = state.metamask
+  const { knownMethodData } = state.affilcoin
 
   return knownMethodData && knownMethodData[fourBytePrefix]
 }
 
 function getFeatureFlags (state) {
-  return state.metamask.featureFlags
+  return state.affilcoin.featureFlags
 }

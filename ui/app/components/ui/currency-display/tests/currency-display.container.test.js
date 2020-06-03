@@ -17,17 +17,17 @@ describe('CurrencyDisplay container', () => {
   describe('mapStateToProps()', () => {
     it('should return the correct props', () => {
       const mockState = {
-        metamask: {
+        affilcoin: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AC',
         },
       }
 
       assert.deepEqual(mapStateToProps(mockState), {
         conversionRate: 280.45,
         currentCurrency: 'usd',
-        nativeCurrency: 'ETH',
+        nativeCurrency: 'AC',
       })
     })
   })
@@ -37,7 +37,7 @@ describe('CurrencyDisplay container', () => {
       const mockStateProps = {
         conversionRate: 280.45,
         currentCurrency: 'usd',
-        nativeCurrency: 'ETH',
+        nativeCurrency: 'AC',
       }
 
       const tests = [
@@ -46,49 +46,49 @@ describe('CurrencyDisplay container', () => {
             value: '0x2386f26fc10000',
             numberOfDecimals: 2,
             currency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
           },
           result: {
             displayValue: '$2.80',
             suffix: 'USD',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
           },
         },
         {
           props: {
             value: '0x2386f26fc10000',
             currency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
           },
           result: {
             displayValue: '$2.80',
             suffix: 'USD',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
           },
         },
         {
           props: {
             value: '0x1193461d01595930',
-            currency: 'ETH',
-            nativeCurrency: 'ETH',
+            currency: 'AC',
+            nativeCurrency: 'AC',
             numberOfDecimals: 3,
           },
           result: {
             displayValue: '1.266',
-            suffix: 'ETH',
-            nativeCurrency: 'ETH',
+            suffix: 'AC',
+            nativeCurrency: 'AC',
           },
         },
         {
           props: {
             value: '0x1193461d01595930',
-            currency: 'ETH',
-            nativeCurrency: 'ETH',
+            currency: 'AC',
+            nativeCurrency: 'AC',
             numberOfDecimals: 3,
             hideLabel: true,
           },
           result: {
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
             displayValue: '1.266',
             suffix: undefined,
           },
@@ -96,13 +96,13 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x3b9aca00',
-            currency: 'ETH',
-            nativeCurrency: 'ETH',
+            currency: 'AC',
+            nativeCurrency: 'AC',
             denomination: 'GWEI',
             hideLabel: true,
           },
           result: {
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
             displayValue: '1',
             suffix: undefined,
           },
@@ -110,13 +110,13 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x3b9aca00',
-            currency: 'ETH',
-            nativeCurrency: 'ETH',
+            currency: 'AC',
+            nativeCurrency: 'AC',
             denomination: 'WEI',
             hideLabel: true,
           },
           result: {
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
             displayValue: '1000000000',
             suffix: undefined,
           },
@@ -124,13 +124,13 @@ describe('CurrencyDisplay container', () => {
         {
           props: {
             value: '0x3b9aca00',
-            currency: 'ETH',
-            nativeCurrency: 'ETH',
+            currency: 'AC',
+            nativeCurrency: 'AC',
             numberOfDecimals: 100,
             hideLabel: true,
           },
           result: {
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AC',
             displayValue: '0.000000001',
             suffix: undefined,
           },

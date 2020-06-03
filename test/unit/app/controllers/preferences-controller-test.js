@@ -361,7 +361,7 @@ describe('preferences controller', function () {
       const asy = {next: () => {}, end: () => {}}
       var stubNext = sandbox.stub(asy, 'next')
       var stubEnd = sandbox.stub(asy, 'end').returns(0)
-      req.method = 'metamask'
+      req.method = 'affilcoin'
       await preferencesController.requestWatchAsset(req, res, asy.next, asy.end)
       sandbox.assert.notCalled(stubEnd)
       sandbox.assert.called(stubNext)
@@ -370,7 +370,7 @@ describe('preferences controller', function () {
       const asy = {next: () => {}, end: () => {}}
       var stubNext = sandbox.stub(asy, 'next')
       var stubEnd = sandbox.stub(asy, 'end').returns(0)
-      req.method = 'metamask_watchAsset'
+      req.method = 'affilcoin_watchAsset'
       req.params.type = 'someasset'
       await preferencesController.requestWatchAsset(req, res, asy.next, asy.end)
       sandbox.assert.called(stubEnd)
@@ -382,7 +382,7 @@ describe('preferences controller', function () {
       sandbox.assert.notCalled(stubNext)
     })
     it('should through error if method is supported but asset type is not', async function () {
-      req.method = 'metamask_watchAsset'
+      req.method = 'affilcoin_watchAsset'
       req.params.type = 'someasset'
       await preferencesController.requestWatchAsset(req, res, asy.next, asy.end)
       sandbox.assert.called(stubEnd)
@@ -392,7 +392,7 @@ describe('preferences controller', function () {
     })
     it('should trigger handle add asset if type supported', async function () {
       const asy = {next: () => {}, end: () => {}}
-      req.method = 'metamask_watchAsset'
+      req.method = 'affilcoin_watchAsset'
       req.params.type = 'ERC20'
       await preferencesController.requestWatchAsset(req, res, asy.next, asy.end)
       sandbox.assert.called(stubHandleWatchAssetERC20)
@@ -512,14 +512,14 @@ describe('preferences controller', function () {
     it('should add custom RPC url to state', function () {
       preferencesController.addToFrequentRpcList('rpc_url', 1)
       preferencesController.addToFrequentRpcList('http://localhost:8545', 1)
-      assert.deepEqual(preferencesController.store.getState().frequentRpcListDetail, [{ rpcUrl: 'rpc_url', chainId: 1, ticker: 'ETH', nickname: '', rpcPrefs: {} }])
+      assert.deepEqual(preferencesController.store.getState().frequentRpcListDetail, [{ rpcUrl: 'rpc_url', chainId: 1, ticker: 'AC', nickname: '', rpcPrefs: {} }])
       preferencesController.addToFrequentRpcList('rpc_url', 1)
-      assert.deepEqual(preferencesController.store.getState().frequentRpcListDetail, [{ rpcUrl: 'rpc_url', chainId: 1, ticker: 'ETH', nickname: '', rpcPrefs: {} }])
+      assert.deepEqual(preferencesController.store.getState().frequentRpcListDetail, [{ rpcUrl: 'rpc_url', chainId: 1, ticker: 'AC', nickname: '', rpcPrefs: {} }])
     })
 
     it('should remove custom RPC url from state', function () {
       preferencesController.addToFrequentRpcList('rpc_url', 1)
-      assert.deepEqual(preferencesController.store.getState().frequentRpcListDetail, [{ rpcUrl: 'rpc_url', chainId: 1, ticker: 'ETH', nickname: '', rpcPrefs: {} }])
+      assert.deepEqual(preferencesController.store.getState().frequentRpcListDetail, [{ rpcUrl: 'rpc_url', chainId: 1, ticker: 'AC', nickname: '', rpcPrefs: {} }])
       preferencesController.removeFromFrequentRpcList('other_rpc_url')
       preferencesController.removeFromFrequentRpcList('http://localhost:8545')
       preferencesController.removeFromFrequentRpcList('rpc_url')

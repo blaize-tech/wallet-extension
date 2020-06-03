@@ -1,8 +1,8 @@
 {
-  "metamask": {
+  "affilcoin": {
     "isInitialized": false,
     "isUnlocked": false,
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://rawtestrpc.affilcoin.com/",
     "identities": {},
     "unconfTxs": {},
     "currentCurrency": "USD",

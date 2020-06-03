@@ -16,7 +16,7 @@ const cleanContextForImports = () => {
   try {
     global.define = undefined
   } catch (_) {
-    console.warn('MetaMask - global.define could not be deleted.')
+    console.warn('Affilcoin - global.define could not be deleted.')
   }
 }
 
@@ -27,7 +27,7 @@ const restoreContextAfterImports = () => {
   try {
     global.define = __define
   } catch (_) {
-    console.warn('MetaMask - global.define could not be overwritten.')
+    console.warn('Affilcoin - global.define could not be overwritten.')
   }
 }
 
@@ -36,27 +36,27 @@ require('web3/dist/web3.min.js')
 const log = require('loglevel')
 const LocalMessageDuplexStream = require('post-message-stream')
 const setupDappAutoReload = require('./lib/auto-reload.js')
-const MetamaskInpageProvider = require('metamask-inpage-provider')
+const AffilcoinInpageProvider = require('metamask-inpage-provider')
 const createStandardProvider = require('./createStandardProvider').default
 
 let warned = false
 
 restoreContextAfterImports()
 
-log.setDefaultLevel(process.env.METAMASK_DEBUG ? 'debug' : 'warn')
+log.setDefaultLevel(process.env.AFFILCOIN_DEBUG ? 'debug' : 'warn')
 
 //
 // setup plugin communication
 //
 
 // setup background connection
-const metamaskStream = new LocalMessageDuplexStream({
+const affilcoinStream = new LocalMessageDuplexStream({
   name: 'inpage',
   target: 'contentscript',
 })
 
 // compose the inpage provider
-const inpageProvider = new MetamaskInpageProvider(metamaskStream)
+const inpageProvider = new AffilcoinInpageProvider(affilcoinStream)
 
 // set a high max listener count to avoid unnecesary warnings
 inpageProvider.setMaxListeners(100)
@@ -68,9 +68,9 @@ inpageProvider.enable = function ({ force } = {}) {
     !warnedOfAutoRefreshDeprecation &&
     inpageProvider.autoRefreshOnNetworkChange
   ) {
-    console.warn(`MetaMask: MetaMask will soon stop reloading pages on network change.
-If you rely upon this behavior, add a 'networkChanged' event handler to trigger the reload manually: https://metamask.github.io/metamask-docs/API_Reference/Ethereum_Provider#ethereum.on(eventname%2C-callback)
-Set 'ethereum.autoRefreshOnNetworkChange' to 'false' to silence this warning: https://metamask.github.io/metamask-docs/API_Reference/Ethereum_Provider#ethereum.autorefreshonnetworkchange'
+    console.warn(`Affilcoin: Affilcoin will soon stop reloading pages on network change.
+If you rely upon this behavior, add a 'networkChanged' event handler to trigger the reload manually: https://affilcoin.github.io/affilcoin-docs/API_Reference/Ethereum_Provider#ethereum.on(eventname%2C-callback)
+Set 'ethereum.autoRefreshOnNetworkChange' to 'false' to silence this warning: https://affilcoin.github.io/affilcoin-docs/API_Reference/Ethereum_Provider#ethereum.autorefreshonnetworkchange'
 `)
     warnedOfAutoRefreshDeprecation = true
   }
@@ -103,7 +103,7 @@ const getPublicConfigWhenReady = async () => {
   return state
 }
 
-// add metamask-specific convenience methods
+// add affilcoin-specific convenience methods
 inpageProvider._metamask = new Proxy({
   /**
    * Synchronously determines if this domain is currently enabled, with a potential false negative if called to soon
@@ -126,9 +126,9 @@ inpageProvider._metamask = new Proxy({
   },
 
   /**
-   * Determines if MetaMask is unlocked by the user
+   * Determines if Affilcoin is unlocked by the user
    *
-   * @returns {Promise<boolean>} - Promise resolving to true if MetaMask is currently unlocked
+   * @returns {Promise<boolean>} - Promise resolving to true if Affilcoin is currently unlocked
    */
   isUnlocked: async function () {
     const { isUnlocked } = await getPublicConfigWhenReady()
@@ -138,7 +138,7 @@ inpageProvider._metamask = new Proxy({
   get: function (obj, prop) {
     !warned && console.warn('Heads up! ethereum._metamask exposes methods that have ' +
     'not been standardized yet. This means that these methods may not be implemented ' +
-    'in other dapp browsers and may be removed from MetaMask in the future.')
+    'in other dapp browsers and may be removed from Affilcoin in the future.')
     warned = true
     return obj[prop]
   },
@@ -159,18 +159,18 @@ window.ethereum = createStandardProvider(proxiedInpageProvider)
 //
 
 if (typeof window.web3 !== 'undefined') {
-  throw new Error(`MetaMask detected another web3.
-     MetaMask will not work reliably with another web3 extension.
-     This usually happens if you have two MetaMasks installed,
-     or MetaMask and another web3 extension. Please remove one
+  throw new Error(`Affilcoin detected another web3.
+     Affilcoin will not work reliably with another web3 extension.
+     This usually happens if you have two Affilcoins installed,
+     or Affilcoin and another web3 extension. Please remove one
      and try again.`)
 }
 
 const web3 = new Web3(proxiedInpageProvider)
 web3.setProvider = function () {
-  log.debug('MetaMask - overrode web3.setProvider')
+  log.debug('Affilcoin - overrode web3.setProvider')
 }
-log.debug('MetaMask - injected web3')
+log.debug('Affilcoin - injected web3')
 
 setupDappAutoReload(web3, inpageProvider.publicConfigStore)
 

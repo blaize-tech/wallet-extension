@@ -68,7 +68,7 @@ describe('Typed Message Manager', () => {
     typedMsgs = typedMessageManager.getUnapprovedMsgs()
     messages = typedMessageManager.messages
     msgId = Object.keys(typedMsgs)[0]
-    messages[0].msgParams.metamaskId = parseInt(msgId)
+    messages[0].msgParams.affilcoinId = parseInt(msgId)
     numberMsgId = parseInt(msgId)
   })
 
@@ -97,8 +97,8 @@ describe('Typed Message Manager', () => {
   })
 
   it('approves messages', async function () {
-    const messageMetaMaskId = messages[0].msgParams
-    typedMessageManager.approveMessage(messageMetaMaskId)
+    const messageAffilcoinId = messages[0].msgParams
+    typedMessageManager.approveMessage(messageAffilcoinId)
     assert.equal(messages[0].status, 'approved')
   })
 

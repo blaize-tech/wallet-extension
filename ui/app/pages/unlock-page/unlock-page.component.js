@@ -19,7 +19,7 @@ export default class UnlockPage extends Component {
     onImport: PropTypes.func,
     onRestore: PropTypes.func,
     onSubmit: PropTypes.func,
-    forceUpdateMetamaskState: PropTypes.func,
+    forceUpdateAffilcoinState: PropTypes.func,
     showOptInModal: PropTypes.func,
   }
 
@@ -48,7 +48,7 @@ export default class UnlockPage extends Component {
     event.stopPropagation()
 
     const { password } = this.state
-    const { onSubmit, forceUpdateMetamaskState, showOptInModal } = this.props
+    const { onSubmit, forceUpdateAffilcoinState, showOptInModal } = this.props
 
     if (password === '' || this.submitting) {
       return
@@ -59,7 +59,7 @@ export default class UnlockPage extends Component {
 
     try {
       await onSubmit(password)
-      const newState = await forceUpdateMetamaskState()
+      const newState = await forceUpdateAffilcoinState()
       this.context.metricsEvent({
         eventOpts: {
           category: 'Navigation',
@@ -74,7 +74,7 @@ export default class UnlockPage extends Component {
       }
     } catch ({ message }) {
       if (message === 'Incorrect password') {
-        const newState = await forceUpdateMetamaskState()
+        const newState = await forceUpdateAffilcoinState()
         this.context.metricsEvent({
           eventOpts: {
             category: 'Navigation',
@@ -108,7 +108,7 @@ export default class UnlockPage extends Component {
 
   renderSubmitButton () {
     const style = {
-      backgroundColor: '#f7861c',
+      backgroundColor: '#064cfa',
       color: 'white',
       marginTop: '20px',
       height: '60px',

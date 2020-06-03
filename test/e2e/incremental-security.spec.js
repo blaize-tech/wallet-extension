@@ -16,7 +16,7 @@ const {
 } = require('./helpers')
 const enLocaleMessages = require('../../app/_locales/en/messages.json')
 
-describe('MetaMask', function () {
+describe('Affilcoin', function () {
   let driver
   let publicAddress
 
@@ -121,7 +121,7 @@ describe('MetaMask', function () {
       await delay(regularDelayMs)
     })
 
-    it('sends eth to the current account', async () => {
+    it('sends ac to the current account', async () => {
       const addressInput = await findElement(driver, By.css('#address'))
       await addressInput.sendKeys(publicAddress)
       await delay(regularDelayMs)
@@ -133,11 +133,11 @@ describe('MetaMask', function () {
       await driver.wait(until.elementTextMatches(txStatus, /Success/), 15000)
     })
 
-    it('switches back to MetaMask', async () => {
+    it('switches back to Affilcoin', async () => {
       await driver.switchTo().window(extension)
     })
 
-    it('should have the correct amount of eth', async () => {
+    it('should have the correct amount of ac', async () => {
       const balances = await findElements(driver, By.css('.currency-display-component__text'))
       await driver.wait(until.elementTextMatches(balances[0], /1/), 15000)
       const balance = await balances[0].getText()
@@ -202,7 +202,7 @@ describe('MetaMask', function () {
       await delay(regularDelayMs)
     })
 
-    it('should have the correct amount of eth', async () => {
+    it('should have the correct amount of ac', async () => {
       const balances = await findElements(driver, By.css('.currency-display-component__text'))
       await driver.wait(until.elementTextMatches(balances[0], /1/), 15000)
       const balance = await balances[0].getText()

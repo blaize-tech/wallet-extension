@@ -3,7 +3,7 @@
     "message": "Modul de confidențialitate este activat acum în mod implicit"
   },
   "chartOnlyAvailableEth": {
-    "message": "Grafic disponibil numai pe rețelele Ethereum."
+    "message": "Grafic disponibil numai pe rețelele Affilcoin."
   },
   "confirmClear": {
     "message": "Sunteți sigur că doriți să ștergeți site-urile aprobate?"
@@ -87,17 +87,17 @@
     "message": "Adăugați indicativele sugerate"
   },
   "addAcquiredTokens": {
-    "message": "Adăugați token-urile pe care le-ați achiziționat folosind MetaMask"
+    "message": "Adăugați token-urile pe care le-ați achiziționat folosind Affilcoin"
   },
   "amount": {
     "message": "Sumă"
   },
   "appDescription": {
-    "message": "Un portofel Ethereum în browserul dvs.",
+    "message": "Un portofel Affilcoin în browserul dvs.",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -125,7 +125,7 @@
     "message": "Temporizator deconectare automată (minute)"
   },
   "autoLogoutTimeLimitDescription": {
-    "message": "Setați perioada de inactivitate în minute înainte ca MetaMask să se deconecteze automat"
+    "message": "Setați perioada de inactivitate în minute înainte ca Affilcoin să se deconecteze automat"
   },
   "average": {
     "message": "Mediu"
@@ -140,7 +140,7 @@
     "message": "Creați o copie de rezervă a codului de recuperare secret pentru a vă menține portofelul și fondurile în siguranță."
   },
   "backupApprovalInfo": {
-    "message": "Acest cod secret este necesar pentru recuperarea portofelului în cazul în care pierdeți dispozitivul, uitați parola, trebuie să reinstalați MetaMask sau vreți să accesați portofelul de pe alt dispozitiv."
+    "message": "Acest cod secret este necesar pentru recuperarea portofelului în cazul în care pierdeți dispozitivul, uitați parola, trebuie să reinstalați Affilcoin sau vreți să accesați portofelul de pe alt dispozitiv."
   },
   "backupNow": {
     "message": "Creați o copie de rezervă acum"
@@ -175,13 +175,13 @@
     "message": "Browserul dvs. nu este compatibil..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask este concepută și creată în California."
+    "message": "Affilcoin este concepută și creată în California."
   },
   "buyWithWyre": {
-    "message": "Cumpărați ETH cu Wyre"
+    "message": "Cumpărați AC cu Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vă permite să folosiți un card de credit pentru a depune ETH direct în contul dvs. MetaMask."
+    "message": "Wyre vă permite să folosiți un card de credit pentru a depune AC direct în contul dvs. Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Cumpărați pe CoinSwitch"
@@ -229,7 +229,7 @@
     "message": "Închide"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Trebuie să folosiți MetaMask în Google Chrome pentru a vă conecta la portofelul hardware."
+    "message": "Trebuie să folosiți Affilcoin în Google Chrome pentru a vă conecta la portofelul hardware."
   },
   "confirm": {
     "message": "Confirmați"
@@ -262,10 +262,10 @@
     "message": "Se conectează la rețeaua de test Kovan"
   },
   "connectingToMainnet": {
-    "message": "Se conectează la rețeaua Ethereum principală"
+    "message": "Se conectează la rețeaua Affilcoin principală"
   },
-  "connectingToRopsten": {
-    "message": "Se conectează la rețeaua de test Ropsten"
+  "connectingToTestnet": {
+    "message": "Se conectează la rețeaua de test Testnet"
   },
   "connectingToRinkeby": {
     "message": "Se conectează la Rețeaua de test Rinkeby"
@@ -352,7 +352,7 @@
     "message": "Zecimale de precizie"
   },
   "defaultNetwork": {
-    "message": "Rețeaua implicită pentru tranzacțiile cu Ether este Main Net."
+    "message": "Rețeaua implicită pentru tranzacțiile cu Affilcoin este Main Net."
   },
   "delete": {
     "message": "Șterge"
@@ -364,16 +364,16 @@
     "message": "Depunere"
   },
   "depositEther": {
-    "message": "Depuneți Ether"
+    "message": "Depuneți Affilcoin"
   },
   "details": {
     "message": "Detalii"
   },
   "directDepositEther": {
-    "message": "Depuneți direct Ether"
+    "message": "Depuneți direct Affilcoin"
   },
   "directDepositEtherExplainer": {
-    "message": "Dacă deja aveți Ether, cel mai rapid mod de a avea Ether în portofelul nou prin depunere directă."
+    "message": "Dacă deja aveți Affilcoin, cel mai rapid mod de a avea Affilcoin în portofelul nou prin depunere directă."
   },
   "dismiss": {
     "message": "Închide"
@@ -418,16 +418,16 @@
     "message": "Nu comunicați niciodată fraza cuiva."
   },
   "endOfFlowMessage5": {
-    "message": "Aveți grijă la phishing! MetaMask nu vă va cere niciodată în mod spontan expresia sursă."
+    "message": "Aveți grijă la phishing! Affilcoin nu vă va cere niciodată în mod spontan expresia sursă."
   },
   "endOfFlowMessage6": {
     "message": "Dacă trebuie să vă salvați din nou fraza seed, puteți să o găsiți în Setări -> Securitate."
   },
   "endOfFlowMessage7": {
-    "message": "Dacă aveți întrebări sau vedeți ceva suspect, trimiteți un e-mail la support@metamask.io."
+    "message": "Dacă aveți întrebări sau vedeți ceva suspect, trimiteți un e-mail la support@affilcoin.com."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask nu vă poate recupera expresia sursă. Aflați mai multe."
+    "message": "Affilcoin nu vă poate recupera expresia sursă. Aflați mai multe."
   },
   "endOfFlowMessage9": {
     "message": "Aflați mai multe."
@@ -439,7 +439,7 @@
     "message": "Eroare la înregistrarea numelui ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Numele ENS nu s-a găsit pe rețeaua curentă. Încercați să comutați la Rețeaua Ethereum principală."
+    "message": "Numele ENS nu s-a găsit pe rețeaua curentă. Încercați să comutați la Rețeaua Affilcoin principală."
   },
   "enterAnAlias": {
     "message": "Introduceți un alias"
@@ -451,7 +451,7 @@
     "message": "Introduceți parola pentru a continua"
   },
   "ethereumPublicAddress": {
-    "message": "Adresa publică Ethereum"
+    "message": "Adresa publică Affilcoin"
   },
   "etherscanView": {
     "message": "Vizualizare cont pe Etherscan"
@@ -512,7 +512,7 @@
     "message": "Prețul gaz este foarte scăzut"
   },
   "gasPriceInfoModalContent": {
-    "message": "Prețul în gas indică suma Ether pe care doriți să o plătiți pentru fiecare unitate gas."
+    "message": "Prețul în gas indică suma Affilcoin pe care doriți să o plătiți pentru fiecare unitate gas."
   },
   "gasPriceNoDenom": {
     "message": "Preț gas"
@@ -524,11 +524,11 @@
     "message": "Schimb valutar, moneda principală, limba, blockies identicon"
   },
   "getEther": {
-    "message": "Obțineți Ether"
+    "message": "Obțineți Affilcoin"
   },
   "getEtherFromFaucet": {
-    "message": "Obțineți Ether de la un robinet pentru $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Obțineți Affilcoin de la un robinet pentru $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Obțineți ajutor."
@@ -550,7 +550,7 @@
     "message": "Conectați un portofel hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selectați un portofel hardware pe care doriți să îl folosiți cu MetaMask"
+    "message": "Selectați un portofel hardware pe care doriți să îl folosiți cu Affilcoin"
   },
   "havingTroubleConnecting": {
     "message": "Aveți probleme cu conectarea?"
@@ -582,7 +582,7 @@
     "message": "Importare cont"
   },
   "importAccountMsg": {
-    "message": "Conturile importate nu vor fi asociate cu seedphrase-ul contului dumneavoastră MetaMask creat inițial. Aflați mai multe despre conturile importate"
+    "message": "Conturile importate nu vor fi asociate cu seedphrase-ul contului dumneavoastră Affilcoin creat inițial. Aflați mai multe despre conturile importate"
   },
   "importAccountSeedPhrase": {
     "message": "Importați un cont cu fraza seed"
@@ -625,7 +625,7 @@
     "message": "Adresa cunoscută din contract."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nu este rețea ETH, setați pe minuscule"
+    "message": "Nu este rețea AC, setați pe minuscule"
   },
   "invalidInput": {
     "message": "Intrare nevalidă."
@@ -687,7 +687,7 @@
     "message": "Deconectați-vă"
   },
   "mainnet": {
-    "message": "Rețeaua Ethereum principală"
+    "message": "Rețeaua Affilcoin principală"
   },
   "memorizePhrase": {
     "message": "Memorați această expresie."
@@ -701,14 +701,14 @@
   "message": {
     "message": "Mesaj"
   },
-  "metamaskDescription": {
-    "message": "Vă conectăm la Ethereum și la Internetul descentralizat."
+  "affilcoinDescription": {
+    "message": "Vă conectăm la Affilcoin și la Internetul descentralizat."
   },
-  "metamaskSeedWords": {
-    "message": "Cuvinte Seed MetaMask"
+  "affilcoinSeedWords": {
+    "message": "Cuvinte Seed Affilcoin"
   },
-  "metamaskVersion": {
-    "message": "Versiune MetaMask"
+  "affilcoinVersion": {
+    "message": "Versiune Affilcoin"
   },
   "missingYourTokens": {
     "message": "Nu vă vedeți token-urile?"
@@ -723,20 +723,20 @@
     "message": "Conturi My Wallet"
   },
   "myWalletAccountsDescription": {
-    "message": "Toate conturile dvs. create pe MetaMask vor fi adăugate automat la această secțiune."
+    "message": "Toate conturile dvs. create pe Affilcoin vor fi adăugate automat la această secțiune."
   },
   "mustSelectOne": {
     "message": "Trebuie să selectați cel puțin 1 simbol."
   },
   "needEtherInWallet": {
-    "message": "Pentru a interacționa cu aplicațiile descentralizate prin intermediul MetaMask, trebuie să aveți Ether în portofel."
+    "message": "Pentru a interacționa cu aplicațiile descentralizate prin intermediul Affilcoin, trebuie să aveți Affilcoin în portofel."
   },
   "needImportFile": {
     "message": "Trebuie să selectați un fișier pentru importare.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nu se pot trimite sume negative de ETH."
+    "message": "Nu se pot trimite sume negative de AC."
   },
   "networkName": {
     "message": "Numele rețelei"
@@ -772,8 +772,8 @@
   "newNetwork": {
     "message": "Rețea nouă"
   },
-  "newToMetaMask": {
-    "message": "Nefamiliarizat cu MetaMask?"
+  "newToAffilcoin": {
+    "message": "Nefamiliarizat cu Affilcoin?"
   },
   "noAlreadyHaveSeed": {
     "message": "Nu, am deja o expresie sursă"
@@ -782,10 +782,10 @@
     "message": "Protejați-vă cheile!"
   },
   "protectYourKeysMessage1": {
-    "message": "Aveți grijă cu expresia dvs. sursă – au existat raportări despre site-uri web care încearcă să imite MetaMask. MetaMask nu vă va cere niciodată expresia sursă!"
+    "message": "Aveți grijă cu expresia dvs. sursă – au existat raportări despre site-uri web care încearcă să imite Affilcoin. Affilcoin nu vă va cere niciodată expresia sursă!"
   },
   "protectYourKeysMessage2": {
-    "message": "Aveți grijă de fraza dvs. Dacă vedeți ceva care este în neregulă sau aveți dubii cu privire la un site, trimiteți un mesaj la support@metamask.io"
+    "message": "Aveți grijă de fraza dvs. Dacă vedeți ceva care este în neregulă sau aveți dubii cu privire la un site, trimiteți un mesaj la support@affilcoin.com"
   },
   "rpcUrl": {
     "message": "URL RPC nou"
@@ -842,7 +842,7 @@
     "message": "Participați la MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Alăturați-vă MetaMetrics pentru a ne ajuta să îmbunătățim MetaMask."
+    "message": "Alăturați-vă MetaMetrics pentru a ne ajuta să îmbunătățim Affilcoin."
   },
   "password": {
     "message": "Parolă"
@@ -873,7 +873,7 @@
     "message": "Moneda principală"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Selectați nativ pentru a prioritiza valorile afișate în moneda nativă a lanțului (ex. ETH). Selectați Fiat pentru a prioritiza valorile afișate în moneda selectată fiat."
+    "message": "Selectați nativ pentru a prioritiza valorile afișate în moneda nativă a lanțului (ex. AC). Selectați Fiat pentru a prioritiza valorile afișate în moneda selectată fiat."
   },
   "privacyMsg": {
     "message": "Politica de Confidențialitate"
@@ -984,8 +984,8 @@
   "rinkeby": {
     "message": "Rețea test Rinkeby"
   },
-  "ropsten": {
-    "message": "Rețea de testare Ropsten"
+  "testnet": {
+    "message": "Rețea de testare Testnet"
   },
   "goerli": {
     "message": "Rețea de test Goerli"
@@ -1021,7 +1021,7 @@
     "message": "Expresia dvs. secretă de rezervă înlesnește crearea unei copii de rezervă a contului dvs. și restabilirea acestuia."
   },
   "secretBackupPhraseWarning": {
-    "message": "ATENȚIE: Nu dezvăluiți niciodată expresia dvs. de rezervă. Oricine are această expresie vă poate lua Ether-ul pentru totdeauna."
+    "message": "ATENȚIE: Nu dezvăluiți niciodată expresia dvs. de rezervă. Oricine are această expresie vă poate lua Affilcoin-ul pentru totdeauna."
   },
   "secretPhrase": {
     "message": "Introduceți aici expresia dvs. secretă din 12 cuvinte pentru a restabili seiful."
@@ -1057,7 +1057,7 @@
     "message": "Suma trimisă"
   },
   "sendETH": {
-    "message": "Trimitere ETH"
+    "message": "Trimitere AC"
   },
   "sendTokens": {
     "message": "Trimiteți indicative"
@@ -1078,7 +1078,7 @@
     "message": "Selectați un cont"
   },
   "selectAnAccountHelp": {
-    "message": "Selectați contul de vizualizat în MetaMask"
+    "message": "Selectați contul de vizualizat în Affilcoin"
   },
   "selectAHigherGasFee": {
     "message": "Selectați o taxă gas mai mare pentru a accelera procesarea tranzacției.*"
@@ -1168,7 +1168,7 @@
     "message": "3. Începeți să folosiți dApps și altele!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Folosiți-vă contul hardware la fel ca pe orice cont Ethereum. Conectați-vă la dApps, trimiteți Eth, cumpărați și stocați tokenuri ERC20 și tokenuri non-fungibile precum CryptoKitties."
+    "message": "Folosiți-vă contul hardware la fel ca pe orice cont Affilcoin. Conectați-vă la dApps, trimiteți Eth, cumpărați și stocați tokenuri ERC20 și tokenuri non-fungibile precum CryptoKitties."
   },
   "storePhrase": {
     "message": "Păstrați această expresie într-un program de gestionare a parolelor cum ar fi 1Password."
@@ -1195,19 +1195,19 @@
     "message": "Sincronizați cu mobilul"
   },
   "syncWithMobileDesc": {
-    "message": "Vă puteți sincroniza conturile și informațiile cu dispozitivul dvs. mobil. Deschideți aplicația mobilă MetaMask, mergeți la „Setări” și atingeți „Sincronizare de la extensia de browser”"
+    "message": "Vă puteți sincroniza conturile și informațiile cu dispozitivul dvs. mobil. Deschideți aplicația mobilă Affilcoin, mergeți la „Setări” și atingeți „Sincronizare de la extensia de browser”"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Dacă deschideți aplicația pentru mobil MetaMask pentru prima oară, urmați pașii afișați pe telefonul dvs."
+    "message": "Dacă deschideți aplicația pentru mobil Affilcoin pentru prima oară, urmați pașii afișați pe telefonul dvs."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scanați acest cod folosind aplicația dvs. mobilă MetaMask"
+    "message": "Scanați acest cod folosind aplicația dvs. mobilă Affilcoin"
   },
   "syncWithMobileBeCareful": {
     "message": "Asigurați-vă că nimeni altcineva nu poate vedea ecranul dvs. când scanați acest cod"
   },
   "syncWithMobileComplete": {
-    "message": "Datele dvs. au fost sincronizate cu succes. Bucurați-vă de aplicația mobilă MetaMask!"
+    "message": "Datele dvs. au fost sincronizate cu succes. Bucurați-vă de aplicația mobilă Affilcoin!"
   },
   "terms": {
     "message": "Termeni și condiții"
@@ -1225,7 +1225,7 @@
     "message": "Către"
   },
   "toETHviaShapeShift": {
-    "message": "$1 în ETH prin ShapeShift",
+    "message": "$1 în AC prin ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
@@ -1296,7 +1296,7 @@
     "message": "Încearcă din nou"
   },
   "typePassword": {
-    "message": "Scrieți parola dvs. pentru MetaMask"
+    "message": "Scrieți parola dvs. pentru Affilcoin"
   },
   "unapproved": {
     "message": "Neaprobat"
@@ -1365,7 +1365,7 @@
     "message": "Bine ai revenit!"
   },
   "welcome": {
-    "message": "Bun venit la MetaMask"
+    "message": "Bun venit la Affilcoin"
   },
   "writePhrase": {
     "message": "Scrieți această expresie pe o bucată de hârtie și păstrați-o într-un loc sigur. Dacă vreți și mai multă securitate, notați-o pe mai multe bucăți de hârtie și păstrați-le în 2 - 3 locuri diferite."

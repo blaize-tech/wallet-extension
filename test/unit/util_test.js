@@ -18,25 +18,25 @@ describe('util', function () {
   })
 
   describe('#parseBalance', function () {
-    it('should render 0.01 eth correctly', function () {
+    it('should render 0.01 ac correctly', function () {
       const input = '0x2386F26FC10000'
       const output = util.parseBalance(input)
       assert.deepEqual(output, ['0', '01'])
     })
 
-    it('should render 12.023 eth correctly', function () {
+    it('should render 12.023 ac correctly', function () {
       const input = 'A6DA46CCA6858000'
       const output = util.parseBalance(input)
       assert.deepEqual(output, ['12', '023'])
     })
 
-    it('should render 0.0000000342422 eth correctly', function () {
+    it('should render 0.0000000342422 ac correctly', function () {
       const input = '0x7F8FE81C0'
       const output = util.parseBalance(input)
       assert.deepEqual(output, ['0', '0000000342422'])
     })
 
-    it('should render 0 eth correctly', function () {
+    it('should render 0 ac correctly', function () {
       const input = '0x0'
       const output = util.parseBalance(input)
       assert.deepEqual(output, ['0', '0'])
@@ -126,44 +126,44 @@ describe('util', function () {
       assert.equal(result, 'None', 'should return "None"')
     })
 
-    it('should return eth as string followed by ETH', function () {
+    it('should return ac as string followed by AC', function () {
       var input = new ethUtil.BN(ethInWei, 10).toJSON()
       var result = util.formatBalance(input, 4)
-      assert.equal(result, '1.0000 ETH')
+      assert.equal(result, '1.0000 AC')
     })
 
-    it('should return eth as string followed by ETH', function () {
+    it('should return ac as string followed by AC', function () {
       var input = new ethUtil.BN(ethInWei, 10).div(new ethUtil.BN('2', 10)).toJSON()
       var result = util.formatBalance(input, 3)
-      assert.equal(result, '0.500 ETH')
+      assert.equal(result, '0.500 AC')
     })
 
     it('should display specified decimal points', function () {
       var input = '0x128dfa6a90b28000'
       var result = util.formatBalance(input, 2)
-      assert.equal(result, '1.33 ETH')
+      assert.equal(result, '1.33 AC')
     })
     it('should default to 3 decimal points', function () {
       var input = '0x128dfa6a90b28000'
       var result = util.formatBalance(input)
-      assert.equal(result, '1.337 ETH')
+      assert.equal(result, '1.337 AC')
     })
     it('should show 2 significant digits for tiny balances', function () {
       var input = '0x1230fa6a90b28'
       var result = util.formatBalance(input)
-      assert.equal(result, '0.00032 ETH')
+      assert.equal(result, '0.00032 AC')
     })
-    it('should not parse the balance and return value with 2 decimal points with ETH at the end', function () {
+    it('should not parse the balance and return value with 2 decimal points with AC at the end', function () {
       var value = '1.2456789'
       var needsParse = false
       var result = util.formatBalance(value, 2, needsParse)
-      assert.equal(result, '1.24 ETH')
+      assert.equal(result, '1.24 AC')
     })
   })
 
   describe('normalizing values', function () {
     describe('#normalizeToWei', function () {
-      it('should convert an eth to the appropriate equivalent values', function () {
+      it('should convert an ac to the appropriate equivalent values', function () {
         var valueTable = {
           wei: '1000000000000000000',
           kwei: '1000000000000000',
@@ -190,7 +190,7 @@ describe('util', function () {
     })
 
     describe('#normalizeEthStringToWei', function () {
-      it('should convert decimal eth to pure wei BN', function () {
+      it('should convert decimal ac to pure wei BN', function () {
         var input = '1.23456789'
         var output = util.normalizeEthStringToWei(input)
         assert.equal(output.toString(10), '1234567890000000000')

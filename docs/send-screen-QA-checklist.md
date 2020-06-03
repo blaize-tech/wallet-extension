@@ -8,13 +8,13 @@ Additional features or functionality on the send screen should include an update
 
 ## Send Eth mode
   - [ ] **Header** _It should:_
-    - [ ] have title "Send ETH"
-    - [ ] have sub title "Only send ETH to an Ethereum address."
+    - [ ] have title "Send AC"
+    - [ ] have sub title "Only send AC to an Ethereum address."
     - [ ] return user to main screen when top right X is clicked
   - [ ] **From row** _It should:_
-    - [ ] show the currently selected account by default 
+    - [ ] show the currently selected account by default
     - [ ] show a dropdown with all of the users accounts
-    - [ ] contain the following info for each account: identicon, account name, balance in ETH, balance in current currency
+    - [ ] contain the following info for each account: identicon, account name, balance in AC, balance in current currency
     - [ ] change the account selected in the dropdown (but not the app-wide selected account) when one in the dropdown is clicked
     - [ ] close the dropdown, without changing the dropdown selected account, when the dropdown is open and then a click happens outside it
   - [ ] **To row** _It should:_
@@ -33,14 +33,14 @@ Additional features or functionality on the send screen should include an update
     - [ ] allow user to enter any rational number >= 0
     - [ ] allow user to copy and paste into the field
     - [ ] show an insufficient funds error if an amount > balance - gas fee
-    - [ ] display 'ETH' after the number amount. The position of 'ETH' should change as the length of the input amount text changes
-    - [ ] display the value of the amount of ETH in the current currency, formatted in that currency
+    - [ ] display 'AC' after the number amount. The position of 'AC' should change as the length of the input amount text changes
+    - [ ] display the value of the amount of AC in the current currency, formatted in that currency
     - [ ] show a 'max' but if amount < balance - gas fee
     - [ ] show no max button or error if amount === balance - gas fee
     - [ ] set the amount to balance - gas fee if the 'max' button is clicked
   - [ ] **Gas Fee Display row** _It should:_
     - [ ] Default to the fee given by the estimated gas price
-    - [ ] display the fee in ETH and the current currency
+    - [ ] display the fee in AC and the current currency
     - [ ] update when changes are made using the customize gas modal
   - [ ] **Cancel button** _It should:_
     - [ ] Take the user back to the main screen
@@ -54,21 +54,21 @@ Additional features or functionality on the send screen should include an update
   - [ ] have sub title "Only send [token symbol] to an Ethereum address."
   - [ ] return user to main screen when top right X is clicked
 - [ ] **From row** _It should:_
-  - [ ] Behave the same as 'Send ETH mode' (see above)
+  - [ ] Behave the same as 'Send AC mode' (see above)
 - [ ] **To row** _It should:_
-  - [ ] Behave the same as 'Send ETH mode' (see above)
+  - [ ] Behave the same as 'Send AC mode' (see above)
 - [ ] **Amount row** _It should:_
   - [ ] allow user to enter any rational number >= 0
   - [ ] allow user to copy and paste into the field
   - [ ] show an 'insufficient tokens' error if an amount > token balance
-  - [ ] show an 'insufficient funds' error if an gas fee > eth balance
+  - [ ] show an 'insufficient funds' error if an gas fee > ac balance
   - [ ] display [token symbol] after the number amount. The position of [token symbol] should change as the length of the input amount text changes
   - [ ] display the value of the amount of tokens in the current currency, formatted in that currency
   - [ ] show a 'max' but if amount < token balance
   - [ ] show no max button or error if amount === token balance
   - [ ] set the amount to token balance if the 'max' button is clicked
 - [ ] **Gas Fee Display row** _It should:_
-  - [ ] Behave the same as 'Send ETH mode' (see above)
+  - [ ] Behave the same as 'Send AC mode' (see above)
 - [ ] **Cancel button** _It should:_
   - [ ] Take the user back to the main screen
 - [ ] **submit button** _It should:_
@@ -80,15 +80,15 @@ Additional features or functionality on the send screen should include an update
   - [ ] display a button to go back to the confirmation screen without applying update
   - [ ] say 'update transaction' on the submit button
   - [ ] update the existing transaction, instead of signing a new one, when clicking the submit button
-  - [ ] Otherwise, behave the same as 'Send ETH mode' (see above)
+  - [ ] Otherwise, behave the same as 'Send AC mode' (see above)
 
 ## Edit send token mode
   - [ ] Behave the same as 'Edit send Eth mode' (see above)
 
 ## Specific cases to test
- - [ ] Send eth to a hex address
- - [ ] Send eth to an ENS address
- - [ ] Donate to the faucet at https://faucet.metamask.io/ and edit the transaction before confirming
+ - [ ] Send ac to a hex address
+ - [ ] Send ac to an ENS address
+ - [ ] Donate to the faucet at https://faucet.affilcoin.com/ and edit the transaction before confirming
  - [ ] Send a token that is available on the 'Add Token' screen search to a hex address
  - [ ] Create a custom token at https://tokenfactory.surge.sh/ and send it to a hex address
  - [ ] Send a token to an ENS address

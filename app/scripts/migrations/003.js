@@ -1,6 +1,6 @@
 const version = 3
-const oldTestRpc = 'https://rawtestrpc.metamask.io/'
-const newTestRpc = 'https://testrpc.metamask.io/'
+const oldTestRpc = 'https://rawtestrpc.affilcoin.com/'
+const newTestRpc = 'https://testrpc.affilcoin.com/'
 
 const clone = require('clone')
 

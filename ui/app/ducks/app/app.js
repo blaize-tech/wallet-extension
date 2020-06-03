@@ -4,12 +4,12 @@ const txHelper = require('../../../lib/tx-helper')
 const log = require('loglevel')
 
 // Actions
-const SET_THREEBOX_LAST_UPDATED = 'metamask/app/SET_THREEBOX_LAST_UPDATED'
+const SET_THREEBOX_LAST_UPDATED = 'affilcoin/app/SET_THREEBOX_LAST_UPDATED'
 
 export default function reduceApp (state, action) {
   log.debug('App Reducer got ' + action.type)
   // clone and defaults
-  const selectedAddress = state.metamask.selectedAddress
+  const selectedAddress = state.affilcoin.selectedAddress
   const hasUnconfActions = checkUnconfActions(state)
   let name = 'accounts'
   if (selectedAddress) {
@@ -314,7 +314,7 @@ export default function reduceApp (state, action) {
 
       // unlock
 
-    case actions.UNLOCK_METAMASK:
+    case actions.UNLOCK_AFFILCOIN:
       return extend(appState, {
         forgottenPassword: appState.forgottenPassword ? !appState.forgottenPassword : null,
         detailView: {},
@@ -323,7 +323,7 @@ export default function reduceApp (state, action) {
         warning: null,
       })
 
-    case actions.LOCK_METAMASK:
+    case actions.LOCK_AFFILCOIN:
       return extend(appState, {
         currentView: defaultView,
         transForward: false,
@@ -474,7 +474,7 @@ export default function reduceApp (state, action) {
           warning: null,
           currentView: {
             name: 'accountDetail',
-            context: state.metamask.selectedAddress,
+            context: state.affilcoin.selectedAddress,
           },
           accountDetail: {
             subview: 'transactions',
@@ -620,7 +620,7 @@ export default function reduceApp (state, action) {
           name: 'buyEth',
           context: appState.currentView.name,
         },
-        identity: state.metamask.identities[action.value],
+        identity: state.affilcoin.identities[action.value],
         buyView: {
           subview: 'Coinbase',
           amount: '15.00',
@@ -639,7 +639,7 @@ export default function reduceApp (state, action) {
           name: 'onboardingBuyEth',
           context: appState.currentView.name,
         },
-        identity: state.metamask.identities[action.value],
+        identity: state.affilcoin.identities[action.value],
       })
 
     case actions.COINBASE_SUBVIEW:
@@ -785,7 +785,7 @@ function checkUnconfActions (state) {
 
 function getUnconfActionList (state) {
   const { unapprovedTxs, unapprovedMsgs,
-    unapprovedPersonalMsgs, unapprovedTypedMessages, network } = state.metamask
+    unapprovedPersonalMsgs, unapprovedTypedMessages, network } = state.affilcoin
 
   const unconfActionList = txHelper(unapprovedTxs, unapprovedMsgs, unapprovedPersonalMsgs, unapprovedTypedMessages, network)
   return unconfActionList

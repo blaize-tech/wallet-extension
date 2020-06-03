@@ -1,8 +1,8 @@
 {
-  "metamask": {
+  "affilcoin": {
     "isInitialized": true,
     "isUnlocked": true,
-    "rpcTarget": "https://rawtestrpc.metamask.io/",
+    "rpcTarget": "https://rawtestrpc.affilcoin.com/",
     "identities": {
       "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825": {
         "address": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -19,7 +19,7 @@
     "coinOptions": {},
     "provider": {
       "type": "mainnet",
-      "rpcTarget": "https://mainnet.infura.io/metamask"
+      "rpcTarget": "https://mainnet.infura.io/affilcoin"
     },
     "network": "1",
     "accounts": {
@@ -36,7 +36,7 @@
         "id": 3516145537630216,
         "time": 1512615655535,
         "status": "submitted",
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "txParams": {
           "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
           "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -54,7 +54,7 @@
             "id": 3516145537630216,
             "time": 1512615655535,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "txParams": {
               "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
               "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -192,7 +192,7 @@
         "id": 3516145537630211,
         "time": 1512613432658,
         "status": "confirmed",
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "txParams": {
           "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
           "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -210,7 +210,7 @@
             "id": 3516145537630211,
             "time": 1512613432658,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "txParams": {
               "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
               "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -356,7 +356,7 @@
         "id": 3516145537630210,
         "time": 1512612826136,
         "status": "confirmed",
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "txParams": {
           "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
           "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -374,7 +374,7 @@
             "id": 3516145537630210,
             "time": 1512612826136,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "txParams": {
               "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
               "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -520,7 +520,7 @@
         "id": 3516145537630209,
         "time": 1512612809252,
         "status": "failed",
-        "metamaskNetworkId": "1",
+        "affilcoinNetworkId": "1",
         "txParams": {
           "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
           "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -538,7 +538,7 @@
             "id": 3516145537630209,
             "time": 1512612809252,
             "status": "unapproved",
-            "metamaskNetworkId": "1",
+            "affilcoinNetworkId": "1",
             "txParams": {
               "from": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
               "to": "0xfdea65c8e26263f6d9a1b5de9555d2931a33b825",
@@ -701,10 +701,7 @@
     "conversionDate": 1512615622,
     "infuraNetworkStatus": {
       "mainnet": "ok",
-      "ropsten": "ok",
-      "kovan": "ok",
-      "rinkeby": "ok",
-      "goerli": "ok"
+      "testnet": "ok"
     },
     "shapeShiftTxList": []
   },

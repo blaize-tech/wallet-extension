@@ -15,8 +15,8 @@ const Web3 = require('web3')
 const SINGLE_CALL_BALANCES_ABI = require('single-call-balance-checker-abi')
 
 const { bnToHex } = require('./util')
-const { MAINNET_CODE, RINKEBY_CODE, ROPSTEN_CODE, KOVAN_CODE } = require('../controllers/network/enums')
-const { SINGLE_CALL_BALANCES_ADDRESS, SINGLE_CALL_BALANCES_ADDRESS_RINKEBY, SINGLE_CALL_BALANCES_ADDRESS_ROPSTEN, SINGLE_CALL_BALANCES_ADDRESS_KOVAN } = require('../controllers/network/contract-addresses')
+const { MAINNET_CODE, TESTNET_CODE } = require('../controllers/network/enums')
+const { SINGLE_CALL_BALANCES_ADDRESS, SINGLE_CALL_BALANCES_ADDRESS_TESTNET } = require('../controllers/network/contract-addresses')
 
 
 class AccountTracker {
@@ -170,7 +170,7 @@ class AccountTracker {
   }
 
   /**
-   * balanceChecker is deployed on main eth (test)nets and requires a single call
+   * balanceChecker is deployed on main ac (test)nets and requires a single call
    * for all other networks, calls this._updateAccount for each account in this.store
    *
    * @returns {Promise} after all account balances updated
@@ -186,16 +186,8 @@ class AccountTracker {
         await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS)
         break
 
-      case RINKEBY_CODE:
-        await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS_RINKEBY)
-        break
-
-      case ROPSTEN_CODE:
-        await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS_ROPSTEN)
-        break
-
-      case KOVAN_CODE:
-        await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS_KOVAN)
+      case TESTNET_CODE:
+        await this._updateAccountsViaBalanceChecker(addresses, SINGLE_CALL_BALANCES_ADDRESS_TESTNET)
         break
 
       default:
@@ -236,7 +228,7 @@ class AccountTracker {
 
     ethContract.balances(addresses, ethBalance, (error, result) => {
       if (error) {
-        log.warn(`MetaMask - Account Tracker single call balance fetch failed`, error)
+        log.warn(`Affilcoin - Account Tracker single call balance fetch failed`, error)
         return Promise.all(addresses.map(this._updateAccount.bind(this)))
       }
       addresses.forEach((address, index) => {

@@ -110,9 +110,9 @@ describe('send selectors', () => {
       )
     })
 
-    it('should return the eth conversion rate if no token is selected', () => {
+    it('should return the ac conversion rate if no token is selected', () => {
       const editedMockState = {
-        metamask: Object.assign({}, mockState.metamask, { selectedTokenAddress: null }),
+        affilcoin: Object.assign({}, mockState.affilcoin, { selectedTokenAddress: null }),
       }
       assert.equal(
         getAmountConversionRate(editedMockState),
@@ -131,7 +131,7 @@ describe('send selectors', () => {
   })
 
   describe('getConversionRate()', () => {
-    it('should return the eth conversion rate', () => {
+    it('should return the ac conversion rate', () => {
       assert.deepEqual(
         getConversionRate(mockState),
         1200.88200327
@@ -167,7 +167,7 @@ describe('send selectors', () => {
     it('should return the ticker symbol of the selected network', () => {
       assert.equal(
         getNativeCurrency(mockState),
-        'ETH'
+        'AC'
       )
     })
   })
@@ -290,7 +290,7 @@ describe('send selectors', () => {
         symbol: 'JKL',
       }
       const editedMockState = {
-        metamask: Object.assign({}, mockState.metamask, {
+        affilcoin: Object.assign({}, mockState.affilcoin, {
           selectedTokenAddress: null,
           send: {
             token: mockSendToken,
@@ -313,9 +313,9 @@ describe('send selectors', () => {
     })
 
     it('should return null if no token is selected', () => {
-      const modifiedMetamaskState = Object.assign({}, mockState.metamask, { selectedTokenAddress: false })
+      const modifiedAffilcoinState = Object.assign({}, mockState.affilcoin, { selectedTokenAddress: false })
       assert.equal(
-        getSelectedTokenContract(Object.assign({}, mockState, { metamask: modifiedMetamaskState })),
+        getSelectedTokenContract(Object.assign({}, mockState, { affilcoin: modifiedAffilcoinState })),
         null
       )
     })
@@ -397,7 +397,7 @@ describe('send selectors', () => {
 
     it('should get the selected account balance if the send.from does not exist', () => {
       const editedMockState = {
-        metamask: Object.assign({}, mockState.metamask, {
+        affilcoin: Object.assign({}, mockState.affilcoin, {
           send: {
             from: null,
           },
@@ -423,7 +423,7 @@ describe('send selectors', () => {
 
     it('should return the current account with send ether info if send.from does not exist', () => {
       const editedMockState = {
-        metamask: Object.assign({}, mockState.metamask, {
+        affilcoin: Object.assign({}, mockState.affilcoin, {
           send: {
             from: null,
           },
@@ -531,13 +531,13 @@ describe('send selectors', () => {
             time: 1487363153561,
             status: 'unapproved',
             gasMultiplier: 1,
-            metamaskNetworkId: '3',
+            affilcoinNetworkId: '3',
             txParams: {
               from: '0xc5b8dbac4c1d3f152cdeb400e2313f309c410acb',
               to: '0x18a3462427bcc9133bb46e88bcbe39cd7ef0e761',
               value: '0xde0b6b3a7640000',
-              metamaskId: 4768706228115573,
-              metamaskNetworkId: '3',
+              affilcoinId: 4768706228115573,
+              affilcoinNetworkId: '3',
               gas: '0x5209',
             },
             gasLimitSpecified: false,
@@ -576,8 +576,8 @@ describe('send selectors', () => {
     })
 
     it('should return all transactions if no token is selected', () => {
-      const modifiedMetamaskState = Object.assign({}, mockState.metamask, { selectedTokenAddress: false })
-      const modifiedState = Object.assign({}, mockState, { metamask: modifiedMetamaskState })
+      const modifiedAffilcoinState = Object.assign({}, mockState.affilcoin, { selectedTokenAddress: false })
+      const modifiedState = Object.assign({}, mockState, { affilcoin: modifiedAffilcoinState })
       assert.deepEqual(
         transactionsSelector(modifiedState),
         [
@@ -626,8 +626,8 @@ describe('send selectors', () => {
     })
 
     it('should return shapeshift transactions if current network is 1', () => {
-      const modifiedMetamaskState = Object.assign({}, mockState.metamask, { selectedTokenAddress: false, network: '1' })
-      const modifiedState = Object.assign({}, mockState, { metamask: modifiedMetamaskState })
+      const modifiedAffilcoinState = Object.assign({}, mockState.affilcoin, { selectedTokenAddress: false, network: '1' })
+      const modifiedState = Object.assign({}, mockState, { affilcoin: modifiedAffilcoinState })
       assert.deepEqual(
         transactionsSelector(modifiedState),
         [

@@ -179,7 +179,7 @@ SignatureRequest.prototype.renderBalance = function () {
 
     h('div.request-signature__balance-text', `${this.context.t('balance')}:`),
 
-    h('div.request-signature__balance-value', `${balanceInEther} ETH`),
+    h('div.request-signature__balance-value', `${balanceInEther} AC`),
 
   ])
 }
@@ -261,7 +261,7 @@ SignatureRequest.prototype.renderBody = function () {
       h('span.request-signature__help-link', {
         onClick: () => {
           global.platform.openWindow({
-            url: 'https://metamask.zendesk.com/hc/en-us/articles/360015488751',
+            url: 'https://affilcoin.zendesk.com/hc/en-us/articles/360015488751',
           })
         },
       }, this.context.t('learnMore'))]

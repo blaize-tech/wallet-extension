@@ -3,7 +3,7 @@
     "message": "Режим конфіденційності тепер увімкнено за замовчуванням"
   },
   "chartOnlyAvailableEth": {
-    "message": "Таблиця доступна тільки в мережах Ethereum."
+    "message": "Таблиця доступна тільки в мережах Affilcoin."
   },
   "confirmClear": {
     "message": "Ви впевнені, що хочете очистити затверджені веб-сайти?"
@@ -87,17 +87,17 @@
     "message": "Додати рекомендовані токени"
   },
   "addAcquiredTokens": {
-    "message": "Додайте токени, отримані за допомогою MetaMask"
+    "message": "Додайте токени, отримані за допомогою Affilcoin"
   },
   "amount": {
     "message": "Кількість"
   },
   "appDescription": {
-    "message": "Гаманець Ethereum у вашому браузері",
+    "message": "Гаманець Affilcoin у вашому браузері",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Affilcoin",
     "description": "The name of the application"
   },
   "approve": {
@@ -125,7 +125,7 @@
     "message": "Таймер автоматичного виходу (хвилин)"
   },
   "autoLogoutTimeLimitDescription": {
-    "message": "Встановіть час відсутності активності у хвилинах після якого MetaMask буде здійснювати автоматичний вихід"
+    "message": "Встановіть час відсутності активності у хвилинах після якого Affilcoin буде здійснювати автоматичний вихід"
   },
   "average": {
     "message": "У середньому"
@@ -140,7 +140,7 @@
     "message": "Створіть резервну копію вашого Секретного кода відновлення, щоб ваш гаманець та ваші кошти залишались у безпеці."
   },
   "backupApprovalInfo": {
-    "message": "Цей секретний код буде потрібен, щоб відновити ваш гаманець у разі втрати вашого пристрою, забуття паролю, потреби у перевстановленні MetaMask або виникнення бажання отримати доступ до вашого гаманця з іншого пристрою."
+    "message": "Цей секретний код буде потрібен, щоб відновити ваш гаманець у разі втрати вашого пристрою, забуття паролю, потреби у перевстановленні Affilcoin або виникнення бажання отримати доступ до вашого гаманця з іншого пристрою."
   },
   "backupNow": {
     "message": "Створити резервну копію зараз"
@@ -175,13 +175,13 @@
     "message": "Ваш браузер не підтримується..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask розроблено й створено в Каліфорнії."
+    "message": "Affilcoin розроблено й створено в Каліфорнії."
   },
   "buyWithWyre": {
-    "message": "Купити ETH через Wyre"
+    "message": "Купити AC через Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre дає змогу використовувати кредитну картку для внесення валюти ETH безпосередньо у свій гаманець MetaMask."
+    "message": "Wyre дає змогу використовувати кредитну картку для внесення валюти AC безпосередньо у свій гаманець Affilcoin."
   },
   "buyCoinSwitch": {
     "message": "Купувати на CoinSwitch"
@@ -229,7 +229,7 @@
     "message": "Близько"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Щоб підключитися до апаратного гаманця, розширення MetaMask потрібно використовувати в Google Chrome."
+    "message": "Щоб підключитися до апаратного гаманця, розширення Affilcoin потрібно використовувати в Google Chrome."
   },
   "confirm": {
     "message": "Підтвердити"
@@ -262,10 +262,10 @@
     "message": "Підключення до тестової мережі Kovan"
   },
   "connectingToMainnet": {
-    "message": "З'єднуємось з Головною мережею Ethereum"
+    "message": "З'єднуємось з Головною мережею Affilcoin"
   },
-  "connectingToRopsten": {
-    "message": "Під'єднуємось до Тестової мережі Ropsten"
+  "connectingToTestnet": {
+    "message": "Під'єднуємось до Тестової мережі Testnet"
   },
   "connectingToRinkeby": {
     "message": "Під'єднуємось до тестової мережі Rinkeby"
@@ -352,7 +352,7 @@
     "message": "Знаків після коми"
   },
   "defaultNetwork": {
-    "message": "Мережа для транзакцій з Ether за замовчуванням - Main Net."
+    "message": "Мережа для транзакцій з Affilcoin за замовчуванням - Main Net."
   },
   "delete": {
     "message": "Видалити"
@@ -364,7 +364,7 @@
     "message": "Депозит"
   },
   "depositEther": {
-    "message": "Депонувати Ether"
+    "message": "Депонувати Affilcoin"
   },
   "details": {
     "message": "Деталі"
@@ -418,16 +418,16 @@
     "message": "Ніколи не передавайте цю фразу нікому."
   },
   "endOfFlowMessage5": {
-    "message": "Остерігайтесь фішингу! MetaMask ніколи не запитуватиме вашої початкової фрази."
+    "message": "Остерігайтесь фішингу! Affilcoin ніколи не запитуватиме вашої початкової фрази."
   },
   "endOfFlowMessage6": {
     "message": "Якщо вам потрібно знову зробити резервну копію вашої початкової фрази, ви можете знайти її у Налаштування -> Безпека."
   },
   "endOfFlowMessage7": {
-    "message": "Якщо у вас коли-небудь виникатимуть питання або ви побачите щось фішингове, пишіть на support@metamask.io."
+    "message": "Якщо у вас коли-небудь виникатимуть питання або ви побачите щось фішингове, пишіть на support@affilcoin.com."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask не вдалося відновити вашу мнемонічну фразу. Докладніше."
+    "message": "Affilcoin не вдалося відновити вашу мнемонічну фразу. Докладніше."
   },
   "endOfFlowMessage9": {
     "message": "Дізнатись більше."
@@ -439,7 +439,7 @@
     "message": "Помилка у реєстрації ENS ім'я"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Ім'я ENS не знайдено у даній мережі. Спробуйте перейти у Main Ethereum Network."
+    "message": "Ім'я ENS не знайдено у даній мережі. Спробуйте перейти у Main Affilcoin Network."
   },
   "enterAnAlias": {
     "message": "Введіть псевдонім"
@@ -451,7 +451,7 @@
     "message": "Введіть пароль, щоб продовжити"
   },
   "ethereumPublicAddress": {
-    "message": "Публічна адреса Ethereum"
+    "message": "Публічна адреса Affilcoin"
   },
   "etherscanView": {
     "message": "Переглянути обліковий запис на Etherscan"
@@ -489,7 +489,7 @@
     "message": "Від"
   },
   "fromShapeShift": {
-    "message": "Від Ethereum"
+    "message": "Від Affilcoin"
   },
   "functionType": {
     "message": "Тип функції"
@@ -516,7 +516,7 @@
     "message": "Ціна газу дуже низька"
   },
   "gasPriceInfoModalContent": {
-    "message": "Ціна на пальне визначає кількість Ether, яку ви готові заплатити за кожну одиницю пального."
+    "message": "Ціна на пальне визначає кількість Affilcoin, яку ви готові заплатити за кожну одиницю пального."
   },
   "gasPriceNoDenom": {
     "message": "Ціна Газу"
@@ -534,8 +534,8 @@
     "message": "Отримати Ефір"
   },
   "getEtherFromFaucet": {
-    "message": "Отримайте Ether з крану за $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Отримайте Affilcoin з крану за $1",
+    "description": "Displays network name for Affilcoin faucet"
   },
   "getHelp": {
     "message": "Отримати допомогу."
@@ -560,7 +560,7 @@
     "message": "Під'єднати апаратний гаманець"
   },
   "hardwareWalletsMsg": {
-    "message": "Оберіть апаратний гаманець, який ви хочете використовувати з MetaMask"
+    "message": "Оберіть апаратний гаманець, який ви хочете використовувати з Affilcoin"
   },
   "havingTroubleConnecting": {
     "message": "Проблеми при підключенні?"
@@ -592,7 +592,7 @@
     "message": "Імпортувати обліковий запис"
   },
   "importAccountMsg": {
-    "message": "Імпортовані облікові записи не будуть пов'язані з вашою первісно створеною початковою фразою облікового запису MetaMask. Дізнайтесь більше про імпортовані облікові записи"
+    "message": "Імпортовані облікові записи не будуть пов'язані з вашою первісно створеною початковою фразою облікового запису Affilcoin. Дізнайтесь більше про імпортовані облікові записи"
   },
   "importAccountSeedPhrase": {
     "message": "Імпортувати обліковий запис з початковою фразою"
@@ -635,7 +635,7 @@
     "message": "Відома контрактна адреса."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Не є мережею ETH, налаштуйте нижній регістр"
+    "message": "Не є мережею AC, налаштуйте нижній регістр"
   },
   "invalidInput": {
     "message": "Неприпустимий ввід."
@@ -700,7 +700,7 @@
     "message": "Вийти"
   },
   "mainnet": {
-    "message": "Головна Мережа Ethereum"
+    "message": "Головна Мережа Affilcoin"
   },
   "memorizePhrase": {
     "message": "Запам'ятайте цю фразу."
@@ -714,14 +714,14 @@
   "message": {
     "message": "Повідомлення"
   },
-  "metamaskDescription": {
-    "message": "Під'єднуємо вас до Ethereum та децентралізованої мережі."
+  "affilcoinDescription": {
+    "message": "Під'єднуємо вас до Affilcoin та децентралізованої мережі."
   },
-  "metamaskSeedWords": {
-    "message": "Початкові слова MetaMask"
+  "affilcoinSeedWords": {
+    "message": "Початкові слова Affilcoin"
   },
-  "metamaskVersion": {
-    "message": "Версія MetaMask"
+  "affilcoinVersion": {
+    "message": "Версія Affilcoin"
   },
   "missingYourTokens": {
     "message": "Не бачите ваших токенів?"
@@ -736,20 +736,20 @@
     "message": "Облікові записи мого гаманця"
   },
   "myWalletAccountsDescription": {
-    "message": "Усі ваші створені облікові записи MetaMask буде автоматично додано в цей розділ."
+    "message": "Усі ваші створені облікові записи Affilcoin буде автоматично додано в цей розділ."
   },
   "mustSelectOne": {
     "message": "Слід вибрати хоча б 1 токен."
   },
   "needEtherInWallet": {
-    "message": "Щоб взаємодіяти з децентралізованими застосунками використовуючи MetaMask, вам буде потрібен Ether у вашому гаманці."
+    "message": "Щоб взаємодіяти з децентралізованими застосунками використовуючи Affilcoin, вам буде потрібен Affilcoin у вашому гаманці."
   },
   "needImportFile": {
     "message": "Потрібно вибрати файл для імпорту.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Не можливо наділсати від'ємну кількість ETH."
+    "message": "Не можливо наділсати від'ємну кількість AC."
   },
   "networkName": {
     "message": "Ім’я мережі"
@@ -785,8 +785,8 @@
   "newNetwork": {
     "message": "Нова мережа"
   },
-  "newToMetaMask": {
-    "message": "Вперше в MetaMask?"
+  "newToAffilcoin": {
+    "message": "Вперше в Affilcoin?"
   },
   "noAlreadyHaveSeed": {
     "message": "Ні, я вже маю початкову фразу"
@@ -795,10 +795,10 @@
     "message": "Захистіть свої ключі!"
   },
   "protectYourKeysMessage1": {
-    "message": "Будьте обережними з вашою початковою фразою - надходила інформація про сайти, які намагались імітувати MetaMask. MetaMask ніколи не запитує вашої початкової фрази!"
+    "message": "Будьте обережними з вашою початковою фразою - надходила інформація про сайти, які намагались імітувати Affilcoin. Affilcoin ніколи не запитує вашої початкової фрази!"
   },
   "protectYourKeysMessage2": {
-    "message": "Тримайте свою фразу у безпеці. Якщо ви бачите щось фішингове або ви не впевнені щодо сайту, напишіть нам на support@metamask.io"
+    "message": "Тримайте свою фразу у безпеці. Якщо ви бачите щось фішингове або ви не впевнені щодо сайту, напишіть нам на support@affilcoin.com"
   },
   "rpcUrl": {
     "message": "Новий RPC URL"
@@ -855,7 +855,7 @@
     "message": "Взяти участь у MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Беріть участь у програмі MetaMetrics, щоб допомогти нам покращити MetaMask"
+    "message": "Беріть участь у програмі MetaMetrics, щоб допомогти нам покращити Affilcoin"
   },
   "password": {
     "message": "Пароль"
@@ -886,7 +886,7 @@
     "message": "Первісна валюта"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Оберіть \"рідна\", щоб пріоритезувати показ сум у рідних валютах мережі (напр.ETH). \nОберіть \"фіатна\", щоб пріоритезувати показ сум у ваших обраних фіатних валютах."
+    "message": "Оберіть \"рідна\", щоб пріоритезувати показ сум у рідних валютах мережі (напр.AC). \nОберіть \"фіатна\", щоб пріоритезувати показ сум у ваших обраних фіатних валютах."
   },
   "privacyMsg": {
     "message": "Політика конфіденційності"
@@ -997,8 +997,8 @@
   "rinkeby": {
     "message": "Тестова мережа Rinkeby"
   },
-  "ropsten": {
-    "message": "Тестова мережа Ropsten"
+  "testnet": {
+    "message": "Тестова мережа Testnet"
   },
   "goerli": {
     "message": "Тестова мережа Goerli "
@@ -1034,7 +1034,7 @@
     "message": "Ваша секретна резервна фраза дозволяє легко створити резервну копію та відновити обліковий запис."
   },
   "secretBackupPhraseWarning": {
-    "message": "ЗАСТЕРЕЖЕННЯ: Ніколи не розголошуйте вашу резервну фразу. Будь-хто з цією фразою зможе забрати ваш Ether назавжди."
+    "message": "ЗАСТЕРЕЖЕННЯ: Ніколи не розголошуйте вашу резервну фразу. Будь-хто з цією фразою зможе забрати ваш Affilcoin назавжди."
   },
   "secretPhrase": {
     "message": "Введіть секретну фразу з дванадцяти слів, щоб відновити своє сховище."
@@ -1070,7 +1070,7 @@
     "message": "Надіслати суму"
   },
   "sendETH": {
-    "message": "Надіслати ETH"
+    "message": "Надіслати AC"
   },
   "sendTokens": {
     "message": "Надіслати токени"
@@ -1091,7 +1091,7 @@
     "message": "Виберіть обліковий запис"
   },
   "selectAnAccountHelp": {
-    "message": "Оберіть обліковий запис для перегляду в MetaMask"
+    "message": "Оберіть обліковий запис для перегляду в Affilcoin"
   },
   "selectAHigherGasFee": {
     "message": "Оберіть вищу вартість пального, щоб пришвидшити обробку вашої транзакції.*"
@@ -1181,7 +1181,7 @@
     "message": "3. Почніть користуватись dApps та більше!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Використовуйте ваш апаратний обліковий запис, як би ви використовували будь-який обліковий запис Ethereum. Увійдіть в dApps, надсилайте Eth, купуйте та зберігайте токени ERC20 та токени, які не є взаємозамінними, такі як CryptoKitties."
+    "message": "Використовуйте ваш апаратний обліковий запис, як би ви використовували будь-який обліковий запис Affilcoin. Увійдіть в dApps, надсилайте Eth, купуйте та зберігайте токени ERC20 та токени, які не є взаємозамінними, такі як CryptoKitties."
   },
   "storePhrase": {
     "message": "Зберігайте цю фразу у менеджері паролів, як 1Password."
@@ -1208,19 +1208,19 @@
     "message": "Синхронізувати з мобільним"
   },
   "syncWithMobileDesc": {
-    "message": "Ви можете синхронізувати ваші облікові записи та інформацію з вашим мобільним пристроєм. Відкрийте мобільний застосунок MetaMask, перейдіть до \"Налаштування\" та клацніть на \"Синхронізувати з розширення браузера\""
+    "message": "Ви можете синхронізувати ваші облікові записи та інформацію з вашим мобільним пристроєм. Відкрийте мобільний застосунок Affilcoin, перейдіть до \"Налаштування\" та клацніть на \"Синхронізувати з розширення браузера\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Якщо ви відкрили мобільний застосунок MetaMask вперше, просто слідуйте крокам у вашому телефоні."
+    "message": "Якщо ви відкрили мобільний застосунок Affilcoin вперше, просто слідуйте крокам у вашому телефоні."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Відскануйте цей код за допомогою мобільної програми MetaMask"
+    "message": "Відскануйте цей код за допомогою мобільної програми Affilcoin"
   },
   "syncWithMobileBeCareful": {
     "message": "Переконайтесь, що ніхто не дивиться на ваш екран, коли скануєте цей код"
   },
   "syncWithMobileComplete": {
-    "message": "Ваші дані були успішно синхронізовані. Насолоджуйтесь мобільним застосунком MetaMask!"
+    "message": "Ваші дані були успішно синхронізовані. Насолоджуйтесь мобільним застосунком Affilcoin!"
   },
   "terms": {
     "message": "Умови використання"
@@ -1238,7 +1238,7 @@
     "message": "Кому"
   },
   "toETHviaShapeShift": {
-    "message": "$1 в ETH через ShapeShift",
+    "message": "$1 в AC через ShapeShift",
     "description": "system will fill in deposit type in start of message"
   },
   "token": {
@@ -1315,7 +1315,7 @@
     "message": "Повторити"
   },
   "typePassword": {
-    "message": "Введіть ваш пароль MetaMask"
+    "message": "Введіть ваш пароль Affilcoin"
   },
   "unapproved": {
     "message": "Не затверджено"
@@ -1384,7 +1384,7 @@
     "message": "З поверненням!"
   },
   "welcome": {
-    "message": "Ласкаво просимо до MetaMask"
+    "message": "Ласкаво просимо до Affilcoin"
   },
   "writePhrase": {
     "message": "Запишіть цю фразу на аркуші паперу й покладіть у надійне місце. Для більшої надійності запишіть її на кількох аркушах паперу й зберігайте кожен в 2–3 різних місцях."

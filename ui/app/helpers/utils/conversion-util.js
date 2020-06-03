@@ -1,13 +1,13 @@
 /* Currency Conversion Utility
-* This utility function can be used for converting currency related values within metamask.
+* This utility function can be used for converting currency related values within affilcoin.
 * The caller should be able to pass it a value, along with information about the value's
 * numeric base, denomination and currency, and the desired numeric base, denomination and
 * currency. It should return a single value.
 *
 * @param {(number | string | BN)} value The value to convert.
 * @param {Object} [options] Options to specify details of the conversion
-* @param {string} [options.fromCurrency = 'ETH' | 'USD'] The currency of the passed value
-* @param {string} [options.toCurrency = 'ETH' | 'USD'] The desired currency of the result
+* @param {string} [options.fromCurrency = 'AC' | 'USD'] The currency of the passed value
+* @param {string} [options.toCurrency = 'AC' | 'USD'] The desired currency of the result
 * @param {string} [options.fromNumericBase = 'hex' | 'dec' | 'BN'] The numeric basic of the passed value.
 * @param {string} [options.toNumericBase = 'hex' | 'dec' | 'BN'] The desired numeric basic of the result.
 * @param {string} [options.fromDenomination = 'WEI'] The denomination of the passed value
@@ -46,12 +46,12 @@ const toBigNumber = {
 const toNormalizedDenomination = {
   WEI: bigNumber => bigNumber.div(BIG_NUMBER_WEI_MULTIPLIER),
   GWEI: bigNumber => bigNumber.div(BIG_NUMBER_GWEI_MULTIPLIER),
-  ETH: bigNumber => bigNumber.div(BIG_NUMBER_ETH_MULTIPLIER),
+  AC: bigNumber => bigNumber.div(BIG_NUMBER_ETH_MULTIPLIER),
 }
 const toSpecifiedDenomination = {
   WEI: bigNumber => bigNumber.times(BIG_NUMBER_WEI_MULTIPLIER).round(),
   GWEI: bigNumber => bigNumber.times(BIG_NUMBER_GWEI_MULTIPLIER).round(9),
-  ETH: bigNumber => bigNumber.times(BIG_NUMBER_ETH_MULTIPLIER).round(9),
+  AC: bigNumber => bigNumber.times(BIG_NUMBER_ETH_MULTIPLIER).round(9),
 }
 const baseChange = {
   hex: n => n.toString(16),

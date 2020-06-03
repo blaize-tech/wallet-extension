@@ -187,7 +187,7 @@ class PreferencesController {
    * @param {Function} - end
    */
   async requestWatchAsset (req, res, next, end) {
-    if (req.method === 'metamask_watchAsset' || req.method === 'wallet_watchAsset') {
+    if (req.method === 'affilcoin_watchAsset' || req.method === 'wallet_watchAsset') {
       const { type, options } = req.params
       switch (type) {
         case 'ERC20':
@@ -522,7 +522,7 @@ class PreferencesController {
    * @returns {Promise<array>} Promise resolving to updated frequentRpcList.
    *
    */
-  addToFrequentRpcList (url, chainId, ticker = 'ETH', nickname = '', rpcPrefs = {}) {
+  addToFrequentRpcList (url, chainId, ticker = 'AC', nickname = '', rpcPrefs = {}) {
     const rpcList = this.getFrequentRpcListDetail()
     const index = rpcList.findIndex((element) => { return element.rpcUrl === url })
     if (index !== -1) {
